@@ -15,7 +15,11 @@
       "Bash(cp sql/boss_config.sql sql/boss_config.sql.bak)",
       "Bash(python merge_reward.py)",
       "Bash(python verify_reward.py)",
-      "Bash(grep -c \"\\\\`spawn_count\\\\`,\\\\`special_abilities\\\\`,\\\\`reward_config\\\\`,\\\\`custom_class\\\\`\\) VALUES\" sql/boss_config.sql)"
+      "Bash(grep -c \"\\\\`spawn_count\\\\`,\\\\`special_abilities\\\\`,\\\\`reward_config\\\\`,\\\\`custom_class\\\\`\\) VALUES\" sql/boss_config.sql)",
+      "Bash(rtk ls *)",
+      "Bash(unzip -l server.jar)",
+      "Bash(chmod +x run.sh)",
+      "Bash(bash -n run.sh)"
     ]
   },
   "enableAllProjectMcpServers": true,
