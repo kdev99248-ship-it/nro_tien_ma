@@ -1,0 +1,6481 @@
+{
+  "tien_thien": [
+    {
+      "id": 1101,
+      "name": "Trấn Tĩnh Như Sơn",
+      "description": "Tâm tình không dễ dàng sinh ra to lớn biến hóa",
+      "stats": [],
+      "effects": [
+        1
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1102,
+      "name": "Hồi Hương Đậu",
+      "description": "May mắn +20, tuổi thọ hạn mức cao nhất -10",
+      "stats": [
+        {
+          "id": 32,
+          "value": 20.0
+        },
+        {
+          "id": 30,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1103,
+      "name": "Thọ Tinh Hậu Đại",
+      "description": "Tuổi thọ hạn mức cao nhất +50",
+      "stats": [
+        {
+          "id": 30,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1104,
+      "name": "Thiên Đố Anh Tài",
+      "description": "Ngộ tính +30, thu hoạch được tu vi +20%, tuổi thọ hạn mức cao nhất -20, khỏe mạnh hạn mức cao nhất -20",
+      "stats": [
+        {
+          "id": 9,
+          "value": 30.0
+        },
+        {
+          "id": 10,
+          "value": 20.0
+        },
+        {
+          "id": 30,
+          "value": -20.0
+        },
+        {
+          "id": 23,
+          "value": -20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1105,
+      "name": "Thiên Sát Cô Tinh",
+      "description": "Lực công kích +8, hiểu ý +20, mị lực -300",
+      "stats": [
+        {
+          "id": 4,
+          "value": 8.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        },
+        {
+          "id": 7,
+          "value": -300.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1106,
+      "name": "Chiến Đấu Cuồng Nhân",
+      "description": "Lực công kích +2, ma đạo +50, mị lực -100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1201,
+      "name": "Trư Đột",
+      "description": "Lực công kích +6, lực phòng ngự -4",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 11,
+          "value": -4.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1202,
+      "name": "Mộc Tượng",
+      "description": "Lực công kích -1, ngộ tính +20",
+      "stats": [
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 9,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1203,
+      "name": "Sát Trư Giả",
+      "description": "Lực công kích +2, hiểu ý +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 41,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1204,
+      "name": "Cuồng Vọng Tự Đại",
+      "description": "Lực công kích +6, lực phòng ngự -2, mị lực -100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 11,
+          "value": -2.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1301,
+      "name": "Ngã Hành Ngã Tố",
+      "description": "Ma đạo +50, tâm tình dễ dàng biến tốt",
+      "stats": [
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [
+        2
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1302,
+      "name": "Vi Nhân Chính Phái",
+      "description": "Chính đạo +50, mị lực +100",
+      "stats": [
+        {
+          "id": 20,
+          "value": 50.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1303,
+      "name": "Thiên Sinh Ma Thai",
+      "description": "Lực công kích +6, hiểu ý +20, ma đạo +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1304,
+      "name": "Thiên Sinh Đạo Tử",
+      "description": "Lực phòng ngự +6, may mắn +10, mị lực +100, chính đạo +100",
+      "stats": [
+        {
+          "id": 11,
+          "value": 6.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1305,
+      "name": "Lãnh Huyết",
+      "description": "Lực công kích +6, hiểu ý +20, mị lực -100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1401,
+      "name": "Kiếm Ma Chuyển Thế",
+      "description": "Kiếm pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 54,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1402,
+      "name": "Đao Ma Chuyển Thế",
+      "description": "Đao pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 46,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1403,
+      "name": "Thương Ma Chuyển Thế",
+      "description": "Thương pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 48,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1404,
+      "name": "Quyền Ma Chuyển Thế",
+      "description": "Quyền pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 19,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1405,
+      "name": "Chỉ Ma Chuyển Thế",
+      "description": "Chỉ pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 17,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1406,
+      "name": "Chưởng Ma Chuyển Thế",
+      "description": "Chưởng pháp tư chất +25, lực công kích +1, ma đạo +50",
+      "stats": [
+        {
+          "id": 40,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1407,
+      "name": "Kiếm Tiên Chuyển Thế",
+      "description": "Kiếm pháp tư chất +25, lực công kích +1, chính đạo +50",
+      "stats": [
+        {
+          "id": 54,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1408,
+      "name": "Đao Tiên Chuyển Thế",
+      "description": "Đao pháp tư chất +25, lực công kích +1, chính đạo +50",
+      "stats": [
+        {
+          "id": 46,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1409,
+      "name": "Thương Tiên Chuyển Thế",
+      "description": "Thương pháp tư chất +25, lực công kích +1, chính đạo +50 - ID =1410 Quyền Tiên Chuyển Thế : Quyền pháp tư chất +25, lực công kích +1, chính đạo +50",
+      "stats": [
+        {
+          "id": 48,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1411,
+      "name": "Chỉ Tiên Chuyển Thế",
+      "description": "Chỉ pháp tư chất +25, lực công kích +1, chính đạo +50",
+      "stats": [
+        {
+          "id": 17,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1412,
+      "name": "Chưởng Tiên Chuyển Thế",
+      "description": "Chưởng pháp tư chất +25, lực công kích +1, chính đạo +50",
+      "stats": [
+        {
+          "id": 40,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1413,
+      "name": "Đao Kiếm Hiệp Khách",
+      "description": "Đao, kiếm pháp tư chất +15",
+      "stats": [
+        {
+          "id": 54,
+          "value": 15.0
+        },
+        {
+          "id": 46,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1414,
+      "name": "Trạc Nhất Chỉ",
+      "description": "Thương, chỉ pháp tư chất +15",
+      "stats": [
+        {
+          "id": 17,
+          "value": 15.0
+        },
+        {
+          "id": 48,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1415,
+      "name": "Quyền Chưởng Liễu Đắc",
+      "description": "Quyền, chưởng pháp tư chất +15",
+      "stats": [
+        {
+          "id": 40,
+          "value": 15.0
+        },
+        {
+          "id": 19,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1416,
+      "name": "Ngự Vật Như Thần",
+      "description": "Kiếm, thương, đao pháp tư chất +15, lực công kích +3, chính đạo +100",
+      "stats": [
+        {
+          "id": 46,
+          "value": 15.0
+        },
+        {
+          "id": 54,
+          "value": 15.0
+        },
+        {
+          "id": 48,
+          "value": 15.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1417,
+      "name": "Nhục Thể Ma Thai",
+      "description": "Quyền, chỉ, chưởng pháp tư chất +15, lực phòng ngự +3, ma đạo +100",
+      "stats": [
+        {
+          "id": 40,
+          "value": 15.0
+        },
+        {
+          "id": 19,
+          "value": 15.0
+        },
+        {
+          "id": 17,
+          "value": 15.0
+        },
+        {
+          "id": 11,
+          "value": 3.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1418,
+      "name": "Võ Pháp Linh Đồng",
+      "description": "Tất cả công pháp tư chất +18, lực công kích +5",
+      "stats": [
+        {
+          "id": 2,
+          "value": 18.0
+        },
+        {
+          "id": 4,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1419,
+      "name": "Thủ Sao Bản Lật",
+      "description": "Chưởng pháp tư chất +15, chỉ tư chất -10",
+      "stats": [
+        {
+          "id": 40,
+          "value": 15.0
+        },
+        {
+          "id": 17,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1420,
+      "name": "Pha Thiện Đạn Cung",
+      "description": "Chỉ pháp tư chất +10",
+      "stats": [
+        {
+          "id": 17,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1421,
+      "name": "Hảo Đả Sa Bao",
+      "description": "Quyền pháp tư chất +10",
+      "stats": [
+        {
+          "id": 19,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1422,
+      "name": "Hảo Sử Biển Đam",
+      "description": "Thương pháp tư chất +10",
+      "stats": [
+        {
+          "id": 48,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1423,
+      "name": "Phách Sài Hảo Thủ",
+      "description": "Đao pháp tư chất +10",
+      "stats": [
+        {
+          "id": 46,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1424,
+      "name": "Hảo Ngoạn Oa Sạn",
+      "description": "Kiếm pháp tư chất +10",
+      "stats": [
+        {
+          "id": 54,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1425,
+      "name": "Thường Sơn Nhân",
+      "description": "Thương pháp tư chất +10, chính đạo +10",
+      "stats": [
+        {
+          "id": 48,
+          "value": 10.0
+        },
+        {
+          "id": 20,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1426,
+      "name": "Vũ Khí Đại Sư",
+      "description": "Kiếm, đao, thương pháp tư chất +20, kiếm, đao, thương pháp thuần thục tốc độ tăng lên +30%",
+      "stats": [
+        {
+          "id": 48,
+          "value": 20.0
+        },
+        {
+          "id": 54,
+          "value": 20.0
+        },
+        {
+          "id": 46,
+          "value": 20.0
+        },
+        {
+          "id": 49,
+          "value": 30.0
+        },
+        {
+          "id": 55,
+          "value": 30.0
+        },
+        {
+          "id": 47,
+          "value": 30.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1427,
+      "name": "Khai Sơn Song Tuyệt",
+      "description": "Quyền, chưởng pháp tư chất +30, lực phòng ngự +5",
+      "stats": [
+        {
+          "id": 40,
+          "value": 30.0
+        },
+        {
+          "id": 19,
+          "value": 30.0
+        },
+        {
+          "id": 11,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1428,
+      "name": "Bạch Hồng Quán Nhật",
+      "description": "Thương, chỉ pháp tư chất +30, hiểu ý +20",
+      "stats": [
+        {
+          "id": 17,
+          "value": 30.0
+        },
+        {
+          "id": 48,
+          "value": 30.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1429,
+      "name": "Kiếm Si",
+      "description": "Kiếm pháp tư chất +30, kiếm pháp thuần thục tốc độ tăng lên +50%",
+      "stats": [
+        {
+          "id": 54,
+          "value": 30.0
+        },
+        {
+          "id": 55,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1430,
+      "name": "Lang Hài",
+      "description": "Lực công kích +5, quyền pháp tư chất +10, mị lực -100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 19,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1431,
+      "name": "Kiếm Thần Chi Tử",
+      "description": "Lực công kích +2, kiếm pháp tư chất +5, ngộ tính +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 54,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1432,
+      "name": "Đao Thần Chi Tử",
+      "description": "Lực công kích +2, đao pháp tư chất +5, ngộ tính +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 46,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1433,
+      "name": "Thương Thần Chi Tử",
+      "description": "Lực công kích +2, thương pháp tư chất +5, ngộ tính +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 2.0
+        },
+        {
+          "id": 48,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1434,
+      "name": "Tà Ma Khí Tử",
+      "description": "Tất cả công pháp tư chất +10, mị lực +100, chính đạo +100",
+      "stats": [
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1435,
+      "name": "Chính Phái Dư Nghiệt",
+      "description": "Tất cả công pháp tư chất +10, mị lực +100, ma đạo +100",
+      "stats": [
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1501,
+      "name": "Lôi Linh Thể",
+      "description": "Lôi Linh cây +25",
+      "stats": [
+        {
+          "id": 31,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1502,
+      "name": "Thổ Linh Thể",
+      "description": "Thổ linh căn +25 - ID =1503 Hỏa Linh Thể : Hỏa Linh Căn +25",
+      "stats": [],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1504,
+      "name": "Thủy Linh Thể",
+      "description": "Thủy linh căn +25",
+      "stats": [
+        {
+          "id": 57,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1505,
+      "name": "Phong Linh Thể",
+      "description": "Phong Linh cây +25",
+      "stats": [
+        {
+          "id": 58,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1506,
+      "name": "Mộc Linh Thể",
+      "description": "Mộc linh căn +25",
+      "stats": [
+        {
+          "id": 59,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1507,
+      "name": "Lôi Kích Bất Tử",
+      "description": "Lôi Linh cây +20",
+      "stats": [
+        {
+          "id": 31,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1508,
+      "name": "Thiêu Thán Giả",
+      "description": "Hỏa Linh Căn +20",
+      "stats": [
+        {
+          "id": 18,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1509,
+      "name": "Lãng Lý Bạch Điều",
+      "description": "Thủy linh căn +20",
+      "stats": [
+        {
+          "id": 57,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1510,
+      "name": "Đôi Thổ Thành Sơn",
+      "description": "Thổ linh căn +20",
+      "stats": [
+        {
+          "id": 13,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1511,
+      "name": "Thực Thụ Thành Lâm",
+      "description": "Mộc linh căn +20",
+      "stats": [
+        {
+          "id": 59,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1512,
+      "name": "Thảo Thượng Phi",
+      "description": "Phong Linh cây +20",
+      "stats": [
+        {
+          "id": 58,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1513,
+      "name": "Vô Cụ Lôi Giả",
+      "description": "Lôi Linh cây +5",
+      "stats": [
+        {
+          "id": 31,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1514,
+      "name": "Ấu Niên Ngoạn Hỏa",
+      "description": "Hỏa Linh Căn +5",
+      "stats": [
+        {
+          "id": 18,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1515,
+      "name": "Thiện Thủy Chi Nhân",
+      "description": "Thủy linh căn +5",
+      "stats": [
+        {
+          "id": 57,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1516,
+      "name": "Cổn Thổ Ngoan Đồng",
+      "description": "Thổ linh căn +5",
+      "stats": [
+        {
+          "id": 13,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1517,
+      "name": "Hỉ Hảo Mộc Thực",
+      "description": "Mộc linh căn +5",
+      "stats": [
+        {
+          "id": 59,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1518,
+      "name": "Ái Phóng Phong Tranh",
+      "description": "Phong Linh cây +5",
+      "stats": [
+        {
+          "id": 58,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1519,
+      "name": "Phong Lôi Đạo Thai",
+      "description": "Phong Linh cây +25, Lôi Linh cây +25, chính đạo +100, lực công kích +3",
+      "stats": [
+        {
+          "id": 58,
+          "value": 25.0
+        },
+        {
+          "id": 31,
+          "value": 25.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1520,
+      "name": "Thổ Mộc Đạo Thai",
+      "description": "Thổ linh căn +25, mộc linh căn +25, chính đạo +100, lực công kích +3",
+      "stats": [
+        {
+          "id": 13,
+          "value": 25.0
+        },
+        {
+          "id": 59,
+          "value": 25.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1521,
+      "name": "Phong Hỏa Ma Thai",
+      "description": "Phong Linh cây +25, Hỏa Linh Căn +25, ma đạo +100, lực công kích +3",
+      "stats": [
+        {
+          "id": 58,
+          "value": 25.0
+        },
+        {
+          "id": 18,
+          "value": 25.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1522,
+      "name": "Thổ Thủy Ma Thai",
+      "description": "Thổ linh căn +25, Thủy linh căn +25, ma đạo +100, lực công kích +3",
+      "stats": [
+        {
+          "id": 13,
+          "value": 25.0
+        },
+        {
+          "id": 57,
+          "value": 25.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1523,
+      "name": "Thiên Tam Tài",
+      "description": "Phong Linh cây +25, Lôi Linh cây +25, Hỏa Linh Căn +25, lực công kích +3",
+      "stats": [
+        {
+          "id": 58,
+          "value": 25.0
+        },
+        {
+          "id": 31,
+          "value": 25.0
+        },
+        {
+          "id": 18,
+          "value": 25.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1524,
+      "name": "Địa Tam Tài",
+      "description": "Thổ linh căn +25, mộc linh căn +25, Thủy linh căn +25, lực phòng ngự +3",
+      "stats": [
+        {
+          "id": 13,
+          "value": 25.0
+        },
+        {
+          "id": 59,
+          "value": 25.0
+        },
+        {
+          "id": 57,
+          "value": 25.0
+        },
+        {
+          "id": 11,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1525,
+      "name": "Lục Căn Bất Tịnh",
+      "description": "Tất cả linh căn tư chất +20, niệm lực -80, tinh lực hạn mức cao nhất -20, lực công kích +3",
+      "stats": [
+        {
+          "id": 3,
+          "value": 20.0
+        },
+        {
+          "id": 33,
+          "value": -80.0
+        },
+        {
+          "id": 52,
+          "value": -20.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1526,
+      "name": "Lục Căn Thanh Tịnh",
+      "description": "Tất cả linh căn tư chất -10, tất cả công pháp tư chất +10, niệm lực +200, tinh lực hạn mức cao nhất +10",
+      "stats": [
+        {
+          "id": 3,
+          "value": -10.0
+        },
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 33,
+          "value": 200.0
+        },
+        {
+          "id": 52,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1527,
+      "name": "Nguyên Tố Chi Lực",
+      "description": "Tất cả linh căn tư chất +20, tất cả công pháp tư chất -5",
+      "stats": [
+        {
+          "id": 3,
+          "value": 20.0
+        },
+        {
+          "id": 2,
+          "value": -5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1528,
+      "name": "Thủy Hương Hài Tử",
+      "description": "Thủy linh căn +10, mị lực +50",
+      "stats": [
+        {
+          "id": 57,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1529,
+      "name": "Sâm Lâm Hài Tử",
+      "description": "Mộc linh căn +10, mị lực +50",
+      "stats": [
+        {
+          "id": 59,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1530,
+      "name": "Chích Viêm Hài Tử",
+      "description": "Hỏa Linh Căn +10, mị lực +50",
+      "stats": [
+        {
+          "id": 18,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1531,
+      "name": "Sơn Khâu Hài Tử",
+      "description": "Thổ linh căn +10, mị lực +50",
+      "stats": [
+        {
+          "id": 13,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1532,
+      "name": "Truy Phong Hài Tử",
+      "description": "Phong Linh cây +10, mị lực +50",
+      "stats": [
+        {
+          "id": 58,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1533,
+      "name": "Lôi Đình Hài Tử",
+      "description": "Lôi Linh cây +10, mị lực +50",
+      "stats": [
+        {
+          "id": 31,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1601,
+      "name": "Tiểu Đan Đồng",
+      "description": "Luyện đan tư chất +12",
+      "stats": [
+        {
+          "id": 1,
+          "value": 12.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1602,
+      "name": "Luyện Đan Cuồng Nhân",
+      "description": "Luyện đan tư chất +20, ma đạo +20",
+      "stats": [
+        {
+          "id": 1,
+          "value": 20.0
+        },
+        {
+          "id": 14,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1603,
+      "name": "Luyện Đan Cuồng Ma",
+      "description": "Luyện đan tư chất +25, ma đạo +50",
+      "stats": [
+        {
+          "id": 1,
+          "value": 25.0
+        },
+        {
+          "id": 14,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1604,
+      "name": "Đan Tiên Chuyển Thế",
+      "description": "Luyện đan tư chất +25, chính đạo +100",
+      "stats": [
+        {
+          "id": 1,
+          "value": 25.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1605,
+      "name": "Quỷ Họa Phù",
+      "description": "Phong thuỷ +10, tinh lực +10",
+      "stats": [
+        {
+          "id": 16,
+          "value": 10.0
+        },
+        {
+          "id": 51,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1606,
+      "name": "Thiển Thức Quái Tượng",
+      "description": "Phong thuỷ +10, may mắn +10",
+      "stats": [
+        {
+          "id": 16,
+          "value": 10.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1607,
+      "name": "Khám Dư Sư",
+      "description": "Phong thuỷ +25",
+      "stats": [
+        {
+          "id": 16,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1608,
+      "name": "Phá Thiên Cơ",
+      "description": "Phong thuỷ +40, khỏe mạnh -20",
+      "stats": [
+        {
+          "id": 16,
+          "value": 40.0
+        },
+        {
+          "id": 22,
+          "value": -20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1609,
+      "name": "Thiết Tượng Nhi Tử",
+      "description": "Luyện khí tư chất +15, mị lực -50",
+      "stats": [
+        {
+          "id": 43,
+          "value": 15.0
+        },
+        {
+          "id": 7,
+          "value": -50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1610,
+      "name": "Đa Tài Đa Nghệ",
+      "description": "Luyện đan, luyện khí tư chất +15",
+      "stats": [
+        {
+          "id": 43,
+          "value": 15.0
+        }
+      ],
+      "effects": [
+        3
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1611,
+      "name": "Dược Linh Thể",
+      "description": "Luyện đan tư chất +30",
+      "stats": [
+        {
+          "id": 1,
+          "value": 30.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1701,
+      "name": "Đồ Đần",
+      "description": "Ngộ tính biến thành 20, tuổi thọ +30, may mắn +30, một ít công pháp chỉ có đồ đần có thể tu luyện",
+      "stats": [
+        {
+          "id": 9,
+          "value": "=20"
+        },
+        {
+          "id": 29,
+          "value": 30.0
+        },
+        {
+          "id": 32,
+          "value": 30.0
+        }
+      ],
+      "effects": [
+        4
+      ],
+      "rarity": 4
+    },
+    {
+      "id": 1702,
+      "name": "Tuyệt Thế Thông Tuệ",
+      "description": "Ngộ tính biến thành 150, tâm tình hạn mức cao nhất -30, mị lực -100",
+      "stats": [
+        {
+          "id": 9,
+          "value": "=150"
+        },
+        {
+          "id": 35,
+          "value": -30.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1703,
+      "name": "Thông Minh Tạ Đỉnh",
+      "description": "Ngộ tính +50, mị lực -300",
+      "stats": [
+        {
+          "id": 9,
+          "value": 50.0
+        },
+        {
+          "id": 7,
+          "value": -300.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1704,
+      "name": "Hàm Nhân",
+      "description": "Ngộ tính -10, mị lực +200",
+      "stats": [
+        {
+          "id": 9,
+          "value": -10.0
+        },
+        {
+          "id": 7,
+          "value": 200.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1705,
+      "name": "Nạo Tử",
+      "description": "Ngộ tính -10, tâm tình khôi phục tương đối nhanh",
+      "stats": [
+        {
+          "id": 9,
+          "value": -10.0
+        }
+      ],
+      "effects": [
+        5
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1706,
+      "name": "Trí Kế Quá Nhân",
+      "description": "Ngộ tính +10, may mắn -10, mị lực +100",
+      "stats": [
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 32,
+          "value": -10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1707,
+      "name": "Đại Trí Nhược Ngu",
+      "description": "Ngộ tính +50, mỗi tháng mất đi linh thạch 0.5%",
+      "stats": [
+        {
+          "id": 9,
+          "value": 50.0
+        }
+      ],
+      "effects": [
+        6
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1708,
+      "name": "Thiên Sinh Tuệ Căn",
+      "description": "Tất cả linh căn tư chất +5, ngộ tính +10",
+      "stats": [
+        {
+          "id": 3,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1709,
+      "name": "Thiên Tư Căn Cốt",
+      "description": "Tất cả công pháp tư chất +5, ngộ tính +10",
+      "stats": [
+        {
+          "id": 2,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1710,
+      "name": "Vũ Văn Lộng Mặc",
+      "description": "Tất cả công pháp tư chất -5, ngộ tính +25",
+      "stats": [
+        {
+          "id": 2,
+          "value": -5.0
+        },
+        {
+          "id": 9,
+          "value": 25.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1711,
+      "name": "Thư Hương Môn Đệ",
+      "description": "Tất cả công pháp tư chất -3, ngộ tính +20",
+      "stats": [
+        {
+          "id": 2,
+          "value": -3.0
+        },
+        {
+          "id": 9,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1712,
+      "name": "Vũ Đao Lộng Thương",
+      "description": "Tất cả công pháp tư chất +3, ngộ tính -5 - ID =1713 Võ Đạo Thế Gia : Tất cả công pháp tư chất +3, ngộ tính -5",
+      "stats": [
+        {
+          "id": 2,
+          "value": 3.0
+        },
+        {
+          "id": 9,
+          "value": -5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1714,
+      "name": "Nhạc Thiên Nhất Phái",
+      "description": "May mắn +30, mị lực +200, cước lực +100, tâm tình khôi phục đặc biệt nhanh",
+      "stats": [
+        {
+          "id": 32,
+          "value": 30.0
+        },
+        {
+          "id": 7,
+          "value": 200.0
+        },
+        {
+          "id": 27,
+          "value": 100.0
+        }
+      ],
+      "effects": [
+        7
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 1715,
+      "name": "Cật Khổ Nại Lao",
+      "description": "Ngộ tính -5, tâm tình cùng tinh lực tiêu hao tốc độ giảm xuống 30%",
+      "stats": [
+        {
+          "id": 9,
+          "value": -5.0
+        }
+      ],
+      "effects": [
+        8
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1716,
+      "name": "Tinh Lực Vượng Thịnh",
+      "description": "Tinh lực +20, tinh lực tiêu hao tốc độ giảm xuống 30%",
+      "stats": [
+        {
+          "id": 51,
+          "value": 20.0
+        }
+      ],
+      "effects": [
+        9
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 1717,
+      "name": "Nhị Tuyền Ánh Nguyệt",
+      "description": "Ngộ tính +20, tuổi thọ -20",
+      "stats": [
+        {
+          "id": 9,
+          "value": 20.0
+        },
+        {
+          "id": 29,
+          "value": -20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1718,
+      "name": "Ma Phách Chi Tôn",
+      "description": "Lực công kích +5, ngộ tính +15, ma đạo giá trị +300, bắt đầu thu hoạch được một bản màu cam Trúc Cơ kỳ tâm pháp",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 15.0
+        },
+        {
+          "id": 15,
+          "value": 300.0
+        }
+      ],
+      "effects": [
+        10
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 1719,
+      "name": "Anh Hùng Truyền Thừa",
+      "description": "Lực phòng ngự +5, ngộ tính +15, chính đạo giá trị +300, bắt đầu thu hoạch được một bản màu cam Trúc Cơ kỳ tâm pháp",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 9,
+          "value": 15.0
+        },
+        {
+          "id": 21,
+          "value": 300.0
+        }
+      ],
+      "effects": [
+        10
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 1720,
+      "name": "Quỷ Cốc Ngoại Môn",
+      "description": "Lực công kích +10, ngộ tính +30, danh vọng +150, mị lực +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 30.0
+        },
+        {
+          "id": 44,
+          "value": 150.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1801,
+      "name": "Khẩu Hàm Ngọc Hồ",
+      "description": "Cùng Cửu Vĩ yêu Hồ tộc có bất thế kỳ duyên",
+      "stats": [],
+      "effects": [
+        11
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1802,
+      "name": "Biến Thể Lân Phiến",
+      "description": "Cùng Hiên Viên tộc có bất thế kỳ duyên",
+      "stats": [],
+      "effects": [
+        12
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1803,
+      "name": "Thủ Chưởng Kỳ Hậu",
+      "description": "Cùng có Hùng thị có bất thế kỳ duyên",
+      "stats": [],
+      "effects": [
+        13
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1901,
+      "name": "Gia Truyện Pháp Bảo",
+      "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái pháp bảo màu xanh lam",
+      "stats": [],
+      "effects": [
+        14
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1902,
+      "name": "Oạt Nê Sở Đắc",
+      "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái pháp bảo màu tím",
+      "stats": [],
+      "effects": [
+        15
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1903,
+      "name": "Gia Truyền Võ Kỹ",
+      "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái màu lam võ kỹ",
+      "stats": [],
+      "effects": [
+        16
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1904,
+      "name": "Thần Tiên Đệ Tử",
+      "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái Trúc Cơ kỳ tử sắc thân pháp",
+      "stats": [],
+      "effects": [
+        17
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1905,
+      "name": "Gia Đạo Phú Dụ",
+      "description": "Bắt đầu có 1000 Cái linh thạch",
+      "stats": [],
+      "effects": [
+        18
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1906,
+      "name": "Động Trung Kỳ Ngộ",
+      "description": "Bắt đầu có 3000 Cái linh thạch",
+      "stats": [],
+      "effects": [
+        19
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1907,
+      "name": "Khoáng Thế Kỳ Ngộ",
+      "description": "Bắt đầu có đột phá đến nhất phẩm Kim Đan cảnh giới vật liệu",
+      "stats": [],
+      "effects": [
+        20
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1908,
+      "name": "Tuyệt Thế Kỳ Ngộ",
+      "description": "Bắt đầu có đột phá đến thiên đạo Nguyên Anh cảnh giới vật liệu",
+      "stats": [],
+      "effects": [
+        21
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1909,
+      "name": "Hôn Ước Tại Thân",
+      "description": "Bắt đầu có một viên màu lam phẩm chất trữ vật giới chỉ",
+      "stats": [],
+      "effects": [
+        22
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1910,
+      "name": "Tiên Tử Sở Tặng",
+      "description": "Bắt đầu có một viên tử sắc phẩm chất trữ vật giới chỉ",
+      "stats": [],
+      "effects": [
+        23
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 1911,
+      "name": "Phú Khả Nhị Đại",
+      "description": "Xuất sinh mang theo 2000 Linh thạch, một viên phi kiếm tọa kỵ",
+      "stats": [],
+      "effects": [
+        24,
+        25
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 2001,
+      "name": "Thiên Mệnh Chi Tử",
+      "description": "May mắn +50, cước lực +100, mị lực +200",
+      "stats": [
+        {
+          "id": 32,
+          "value": 50.0
+        },
+        {
+          "id": 27,
+          "value": 100.0
+        },
+        {
+          "id": 7,
+          "value": 200.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2002,
+      "name": "Võ Thánh Chuyển Thế",
+      "description": "Lực công kích +10, lực phòng ngự +3, ngộ tính +20, danh vọng +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 11,
+          "value": 3.0
+        },
+        {
+          "id": 9,
+          "value": 20.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2003,
+      "name": "Nhân Tộc Thánh Thể",
+      "description": "Lực công kích +8, ngộ tính +10, may mắn +10, thể lực hạn mức cao nhất +100, mị lực +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 8.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 26,
+          "value": 100.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2004,
+      "name": "Sát Thần Khí Đồ",
+      "description": "Lực công kích +8, tất cả công pháp tư chất +15, ngộ tính -10, ma đạo +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 8.0
+        },
+        {
+          "id": 2,
+          "value": 15.0
+        },
+        {
+          "id": 9,
+          "value": -10.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2005,
+      "name": "Lục Đạo Tu Ma Giả",
+      "description": "Lực công kích +5, tất cả công pháp tư chất +6, tất cả linh căn tư chất +6, ngộ tính +10, danh vọng +50, ma đạo +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": 6.0
+        },
+        {
+          "id": 3,
+          "value": 6.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 44,
+          "value": 50.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2006,
+      "name": "Cản Thi Đạo Đồng",
+      "description": "Lực phòng ngự +5, quyền, chưởng, chỉ pháp tư chất +20, mị lực - 100, danh vọng +100, ma đạo +80",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 17,
+          "value": 20.0
+        },
+        {
+          "id": 19,
+          "value": 20.0
+        },
+        {
+          "id": 40,
+          "value": 20.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 14,
+          "value": 80.0
+        }
+      ],
+      "effects": [
+        26
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 2007,
+      "name": "Hoàng Triêu Di Cô",
+      "description": "May mắn +20, mị lực +100, bắt đầu linh thạch +1000, bắt đầu thu hoạch được ngẫu nhiên màu lam trúc cơ cảnh tâm pháp",
+      "stats": [
+        {
+          "id": 32,
+          "value": 20.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 53,
+          "value": 1000.0
+        }
+      ],
+      "effects": [
+        27
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 2008,
+      "name": "Bắc Vực Ma Anh",
+      "description": "Lực công kích +5, quyền, chưởng, chỉ pháp tư chất +10, Phong Linh cây +20, danh vọng +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 17,
+          "value": 10.0
+        },
+        {
+          "id": 19,
+          "value": 10.0
+        },
+        {
+          "id": 40,
+          "value": 10.0
+        },
+        {
+          "id": 58,
+          "value": 20.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2009,
+      "name": "Long Môn Cẩm Lý",
+      "description": "May mắn +40, mị lực +50, danh vọng +500, lực phòng ngự +10, chính đạo +50, bắt đầu bị ngẫu nhiên tông môn truy sát",
+      "stats": [
+        {
+          "id": 32,
+          "value": 40.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        },
+        {
+          "id": 44,
+          "value": 500.0
+        },
+        {
+          "id": 11,
+          "value": 10.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [
+        28
+      ],
+      "rarity": 5
+    },
+    {
+      "id": 2010,
+      "name": "Hồng Hộc Sĩ Tộc",
+      "description": "Lực công kích +5, tất cả công pháp tư chất +10, tinh lực hạn mức cao nhất +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 52,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2101,
+      "name": "Đan Tâm Linh Đồng",
+      "description": "Luyện đan tư chất +20, ngộ tính +10, danh vọng +100, chính đạo +50",
+      "stats": [
+        {
+          "id": 1,
+          "value": 20.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2102,
+      "name": "Linh Bảo Thượng Đồ",
+      "description": "Luyện khí tư chất +20, ngộ tính +10, danh vọng +100, chính đạo +50",
+      "stats": [
+        {
+          "id": 43,
+          "value": 20.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2103,
+      "name": "Thần Phù Họa Thủ",
+      "description": "Ngộ tính +10, vẽ bùa +60, danh vọng +100, tuổi thọ -10",
+      "stats": [
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 56,
+          "value": 60.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 29,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2104,
+      "name": "Vọng Khí Nhân",
+      "description": "Ngộ tính +10, phong thuỷ +50, may mắn -10, danh vọng +100",
+      "stats": [
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 16,
+          "value": 50.0
+        },
+        {
+          "id": 32,
+          "value": -10.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2105,
+      "name": "Tam Thanh Đạo Đồng",
+      "description": "Ngộ tính +40, tuổi thọ +10, chính đạo +50, tâm tình hạn mức cao nhất +20",
+      "stats": [
+        {
+          "id": 9,
+          "value": 40.0
+        },
+        {
+          "id": 29,
+          "value": 10.0
+        },
+        {
+          "id": 20,
+          "value": 50.0
+        },
+        {
+          "id": 35,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2106,
+      "name": "Thiên Mệnh Chi Tôn",
+      "description": "May mắn +30, mị lực +200",
+      "stats": [
+        {
+          "id": 32,
+          "value": 30.0
+        },
+        {
+          "id": 7,
+          "value": 200.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2107,
+      "name": "Trường Phát Cập Yêu",
+      "description": "Lực phòng ngự +5, may mắn +5, mị lực +100",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 32,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2108,
+      "name": "Truy Phong Kiếm Giả",
+      "description": "Lực công kích +5, kiếm pháp tư chất +15, Phong Linh cây +15",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 54,
+          "value": 15.0
+        },
+        {
+          "id": 58,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2109,
+      "name": "Hàng Long Võ Giả",
+      "description": "Lực công kích +5, thương pháp tư chất +15, Lôi Linh cây +15",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 48,
+          "value": 15.0
+        },
+        {
+          "id": 31,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2110,
+      "name": "Ma Đao Nan Dân",
+      "description": "Lực công kích +5, đao pháp tư chất +15, Hỏa Linh Căn +15",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 46,
+          "value": 15.0
+        },
+        {
+          "id": 18,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2111,
+      "name": "Bất Động Minh Vương",
+      "description": "Lực phòng ngự +5, quyền, chưởng, chỉ pháp tư chất +14",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 17,
+          "value": 14.0
+        },
+        {
+          "id": 19,
+          "value": 14.0
+        },
+        {
+          "id": 40,
+          "value": 14.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2112,
+      "name": "Thần Tượng Môn Đồ",
+      "description": "Luyện khí tư chất +35, tùy thân mang theo một kiện dung hợp khí linh pháp bảo.",
+      "stats": [
+        {
+          "id": 43,
+          "value": 35.0
+        }
+      ],
+      "effects": [
+        29
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 2113,
+      "name": "Vẫn Tinh Hàng Thế",
+      "description": "Luyện khí tư chất +30, may mắn +20, tuổi thọ -20",
+      "stats": [
+        {
+          "id": 43,
+          "value": 30.0
+        },
+        {
+          "id": 32,
+          "value": 20.0
+        },
+        {
+          "id": 29,
+          "value": -20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2114,
+      "name": "Tiểu Năng Chuyển Thế",
+      "description": "Ngộ tính +5, xuất sinh mang theo một viên ngẫu nhiên linh khí ( Đột phá tới trúc cơ cảnh vật liệu ).",
+      "stats": [
+        {
+          "id": 9,
+          "value": 5.0
+        }
+      ],
+      "effects": [
+        30
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 2115,
+      "name": "Trung Năng Chuyển Thế",
+      "description": "Ngộ tính +10, xuất sinh mang theo một viên ngẫu nhiên linh châu ( Đột phá đến Kim Đan cảnh vật liệu ).",
+      "stats": [
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [
+        31
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 2116,
+      "name": "Đại Năng Chuyển Thế",
+      "description": "Ngộ tính +15, xuất sinh mang theo một viên thượng hạng thiên tài địa bảo ( Đột phá tới Nguyên Anh cảnh vật liệu ). - ID =2201 Cửu Thiên Lôi Kiếp Thể : Lực công kích +5, Lôi Linh cây +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 9,
+          "value": 15.0
+        },
+        {
+          "id": 31,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2202,
+      "name": "Tử Cực Thực Lôi Thể",
+      "description": "Lực phòng ngự +5, Lôi Linh cây +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 31,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2203,
+      "name": "Nguyên Dương Hỏa Phần Thể",
+      "description": "Lực công kích +5, Hỏa Linh Căn +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 18,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2204,
+      "name": "Minh Âm Ất Hỏa Thể",
+      "description": "Lực phòng ngự +5, Hỏa Linh Căn +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 18,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2205,
+      "name": "Hãn Lưu Thủy Linh Thể",
+      "description": "Lực công kích +5, Thủy linh căn +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 57,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2206,
+      "name": "U Tứ Nhược Thủy Thể",
+      "description": "Lực phòng ngự +5, Thủy linh căn +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 57,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2207,
+      "name": "Bắc Vực Phong Thần Thể",
+      "description": "Lực công kích +5, Phong Linh cây +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 58,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2208,
+      "name": "Thu Nguyên Bi Phong Thể",
+      "description": "Lực phòng ngự +5, Phong Linh cây +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 58,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2209,
+      "name": "Hậu Hoàng Thổ Nguyên Thể",
+      "description": "Lực công kích +5, thổ linh căn +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 13,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2210,
+      "name": "Địch Trần Linh Thổ Thể",
+      "description": "Lực phòng ngự +5, thổ linh căn +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 13,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2211,
+      "name": "Sâm La Mộc Tuyệt Thể",
+      "description": "Lực công kích +5, mộc linh căn +20, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 59,
+          "value": 20.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2212,
+      "name": "Cổ Đằng Bách Mộc Thể",
+      "description": "Lực phòng ngự +5, mộc linh căn +35, cái khác linh căn tư chất -10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 59,
+          "value": 35.0
+        },
+        {
+          "id": 39,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2301,
+      "name": "Xuyên Việt Giả",
+      "description": "Ngộ tính +20, tuổi thọ +10, may mắn +10, danh vọng +100",
+      "stats": [
+        {
+          "id": 9,
+          "value": 20.0
+        },
+        {
+          "id": 29,
+          "value": 10.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2401,
+      "name": "Trường Sinh Thể",
+      "description": "Thủy linh căn +15, mộc linh căn +15, tuổi thọ +10",
+      "stats": [
+        {
+          "id": 57,
+          "value": 15.0
+        },
+        {
+          "id": 59,
+          "value": 15.0
+        },
+        {
+          "id": 29,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2402,
+      "name": "Lạc Vũ Thể",
+      "description": "Thủy linh căn +15, Phong Linh cây +15, danh vọng +100",
+      "stats": [
+        {
+          "id": 57,
+          "value": 15.0
+        },
+        {
+          "id": 58,
+          "value": 15.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2403,
+      "name": "Phần Diễm Thể",
+      "description": "Lực công kích +5, Hỏa Linh Căn +10, Phong Linh cây +10, tuổi thọ - 10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 18,
+          "value": 10.0
+        },
+        {
+          "id": 58,
+          "value": 10.0
+        }
+      ],
+      "effects": [
+        32
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 2404,
+      "name": "Bạo Viêm Thể",
+      "description": "Lực công kích +5, Hỏa Linh Căn +10, Lôi Linh cây +10, mị lực -100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 18,
+          "value": 10.0
+        },
+        {
+          "id": 31,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2405,
+      "name": "Minh Vương Thể",
+      "description": "Công kích -1, lực phòng ngự +5, thổ linh căn +10, mộc linh căn +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 13,
+          "value": 10.0
+        },
+        {
+          "id": 59,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2406,
+      "name": "Môn Phái Khí Đồ",
+      "description": "Ma đạo +20, ngộ tính +20, tuổi thọ +50, bắt đầu tu luyện có một loại công pháp, cũng bị nắm giữ nên công pháp môn phái truy sát.",
+      "stats": [
+        {
+          "id": 14,
+          "value": 20.0
+        },
+        {
+          "id": 9,
+          "value": 20.0
+        },
+        {
+          "id": 29,
+          "value": 50.0
+        }
+      ],
+      "effects": [
+        33,
+        34
+      ],
+      "rarity": 4
+    },
+    {
+      "id": 2407,
+      "name": "Ái Thư Như Mệnh",
+      "description": "Bắt đầu thu hoạch được một bản màu lam tâm pháp bí tịch, ngộ tính +30, tuổi thọ -30",
+      "stats": [
+        {
+          "id": 9,
+          "value": 30.0
+        },
+        {
+          "id": 29,
+          "value": -30.0
+        }
+      ],
+      "effects": [
+        35
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 2408,
+      "name": "Cổ Thụ Linh Khu",
+      "description": "Lực phòng ngự +4, hộ tâm +10, mộc linh căn +10, tuổi thọ +5, mị lực -100",
+      "stats": [
+        {
+          "id": 11,
+          "value": 4.0
+        },
+        {
+          "id": 24,
+          "value": 10.0
+        },
+        {
+          "id": 59,
+          "value": 10.0
+        },
+        {
+          "id": 29,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2409,
+      "name": "Long Chi Huyết Mạch",
+      "description": "Lực công kích +6, may mắn +10, tuổi thọ +10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 29,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2410,
+      "name": "Phượng Chi Huyết Mạch",
+      "description": "Lực công kích +6, may mắn +10, mị lực +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2411,
+      "name": "Hổ Chi Huyết Mạch",
+      "description": "Lực công kích +6, hiểu ý +20",
+      "stats": [
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 2412,
+      "name": "Tượng Chi Huyết Mạch",
+      "description": "Lực phòng ngự +5, thể lực hạn mức cao nhất +100, may mắn +10",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 26,
+          "value": 100.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2413,
+      "name": "Trường Thọ Khu",
+      "description": "Tuổi thọ +20, khỏe mạnh +10, mị lực +100, chính đạo +100",
+      "stats": [
+        {
+          "id": 29,
+          "value": 20.0
+        },
+        {
+          "id": 22,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2414,
+      "name": "Long Thần Hộ Thể",
+      "description": "Lực phòng ngự +5, thương pháp tư chất +5, mị lực +50",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 48,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2415,
+      "name": "Phượng Hoàng Linh Thể",
+      "description": "Kiếm pháp tư chất +14, Hỏa Linh Căn +14, mị lực +150",
+      "stats": [
+        {
+          "id": 54,
+          "value": 14.0
+        },
+        {
+          "id": 18,
+          "value": 14.0
+        },
+        {
+          "id": 7,
+          "value": 150.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2416,
+      "name": "Ngu Công Di Sơn",
+      "description": "Thể lực hạn mức cao nhất +80, tinh lực hạn mức cao nhất +10, niệm lực hạn mức cao nhất +50",
+      "stats": [
+        {
+          "id": 26,
+          "value": 80.0
+        },
+        {
+          "id": 52,
+          "value": 10.0
+        },
+        {
+          "id": 34,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2417,
+      "name": "Hậu Nghệ Xạ Nhật",
+      "description": "Lực công kích +5, công kích khoảng cách +20, hiểu ý +20",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 42,
+          "value": 20.0
+        },
+        {
+          "id": 41,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2418,
+      "name": "Tinh Vệ Lấp Biển",
+      "description": "Thổ linh căn +20, Thủy linh căn +5, di tốc +20",
+      "stats": [
+        {
+          "id": 13,
+          "value": 20.0
+        },
+        {
+          "id": 57,
+          "value": 5.0
+        },
+        {
+          "id": 36,
+          "value": 20.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2419,
+      "name": "Toản Mộc Thủ Hỏa",
+      "description": "Hỏa Linh Căn +20, mộc linh căn +5, lực phòng ngự +5",
+      "stats": [
+        {
+          "id": 18,
+          "value": 20.0
+        },
+        {
+          "id": 59,
+          "value": 5.0
+        },
+        {
+          "id": 11,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2420,
+      "name": "Khoa Phụ Truy Nhật",
+      "description": "Niệm lực +50, cước lực +150, ngộ tính +10",
+      "stats": [
+        {
+          "id": 33,
+          "value": 50.0
+        },
+        {
+          "id": 27,
+          "value": 150.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2421,
+      "name": "Hình Thiên Vũ Cán Thích",
+      "description": "Lực công kích +10, lực phòng ngự -3, thể lực hạn mức cao nhất +100",
+      "stats": [
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 11,
+          "value": -3.0
+        },
+        {
+          "id": 26,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2422,
+      "name": "Tứ Diện Thụ Địch",
+      "description": "Mị lực -300, lực công kích +10, may mắn +10, thể lực hạn mức cao nhất +50",
+      "stats": [
+        {
+          "id": 7,
+          "value": -300.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 32,
+          "value": 10.0
+        },
+        {
+          "id": 26,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2423,
+      "name": "Đả Hổ Võ Giả",
+      "description": "Lực phòng ngự +5, Hỏa Linh Căn +15, quyền pháp tư chất +15",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 18,
+          "value": 15.0
+        },
+        {
+          "id": 19,
+          "value": 15.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2424,
+      "name": "Tam Hoa Bất Diệt",
+      "description": "Lửa, thổ, Lôi Linh cây +20, lực công kích +6, chính đạo +100",
+      "stats": [
+        {
+          "id": 31,
+          "value": 20.0
+        },
+        {
+          "id": 18,
+          "value": 20.0
+        },
+        {
+          "id": 13,
+          "value": 20.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2425,
+      "name": "Kiến Mộc Linh Thai",
+      "description": "Mộc linh căn +25, linh lực hạn mức cao nhất +50, mị lực +150, lực phòng ngự +5",
+      "stats": [
+        {
+          "id": 59,
+          "value": 25.0
+        },
+        {
+          "id": 38,
+          "value": 50.0
+        },
+        {
+          "id": 7,
+          "value": 150.0
+        },
+        {
+          "id": 11,
+          "value": 5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2426,
+      "name": "Quỷ Cốc Nội Môn",
+      "description": "Lực công kích +12, ngộ tính +30, xuất sinh mang theo một bản màu cam trúc cơ cảnh thân pháp",
+      "stats": [
+        {
+          "id": 4,
+          "value": 12.0
+        },
+        {
+          "id": 9,
+          "value": 30.0
+        }
+      ],
+      "effects": [
+        36
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 2501,
+      "name": "Phiên Phiên Lương Nhân",
+      "description": "Phòng ngự +2, mị lực +50, danh vọng +50",
+      "stats": [
+        {
+          "id": 11,
+          "value": 2.0
+        },
+        {
+          "id": 7,
+          "value": 50.0
+        },
+        {
+          "id": 44,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2502,
+      "name": "Y Mệ Phiêu Phiêu",
+      "description": "Phong Linh cây +5, mị lực +100, danh vọng +50",
+      "stats": [
+        {
+          "id": 58,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 44,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2503,
+      "name": "Đan Thân Quý Tộc",
+      "description": "Mị lực +100, danh vọng +150",
+      "stats": [
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 44,
+          "value": 150.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2504,
+      "name": "Hống Thanh Như Lôi",
+      "description": "Lực công kích +5, mị lực -50, danh vọng +50",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": -50.0
+        },
+        {
+          "id": 44,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2601,
+      "name": "Tả Phiết Tử",
+      "description": "Ngộ tính +15, danh vọng -50",
+      "stats": [
+        {
+          "id": 9,
+          "value": 15.0
+        },
+        {
+          "id": 44,
+          "value": -50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2602,
+      "name": "Vân Du Thiên Hạ",
+      "description": "Mị lực +150, danh vọng +100",
+      "stats": [
+        {
+          "id": 7,
+          "value": 150.0
+        },
+        {
+          "id": 44,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2603,
+      "name": "Thiên Mệnh Giả Tằng Tôn",
+      "description": "May mắn -5, mị lực +150",
+      "stats": [
+        {
+          "id": 32,
+          "value": -5.0
+        },
+        {
+          "id": 7,
+          "value": 150.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 2604,
+      "name": "Hạo Nhiên Chính Khí",
+      "description": "Danh vọng +100, mị lực +100, chính đạo +100",
+      "stats": [
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 20,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 2605,
+      "name": "Tà Khí Ngoại Lộ",
+      "description": "Danh vọng +100, mị lực +100, ma đạo +100",
+      "stats": [
+        {
+          "id": 44,
+          "value": 100.0
+        },
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 14,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 5
+    },
+    {
+      "id": 1001,
+      "name": "Ngạo Cốt Tranh Tranh",
+      "description": "Lực phòng ngự +5, thể lực +130",
+      "stats": [
+        {
+          "id": 11,
+          "value": 5.0
+        },
+        {
+          "id": 25,
+          "value": 130.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1002,
+      "name": "Thiên Sinh Linh Thể",
+      "description": "Linh lực +100",
+      "stats": [
+        {
+          "id": 37,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1003,
+      "name": "Ưng Nhãn",
+      "description": "Hiểu ý +30",
+      "stats": [
+        {
+          "id": 41,
+          "value": 30.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    },
+    {
+      "id": 1004,
+      "name": "Tật Phong Tấn Lôi",
+      "description": "Tốc độ di chuyển +20, cước lực +100, thân pháp thuần thục tốc độ tăng lên +50%",
+      "stats": [
+        {
+          "id": 36,
+          "value": 20.0
+        },
+        {
+          "id": 27,
+          "value": 100.0
+        },
+        {
+          "id": 6,
+          "value": 50.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1005,
+      "name": "Tiếu Diện Nhân",
+      "description": "Mị lực +100, chính đạo giá trị +100",
+      "stats": [
+        {
+          "id": 7,
+          "value": 100.0
+        },
+        {
+          "id": 21,
+          "value": 100.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1006,
+      "name": "Khuynh Quốc Khuynh Thành",
+      "description": "Mị lực khóa chặt vì 900",
+      "stats": [
+        {
+          "id": 7,
+          "value": "=900"
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 2708,
+      "name": "Thương Nghiệp Kỳ Tài",
+      "description": "Tại thành trấn trong phường thị mua đạo cụ tiêu hao linh thạch giảm xuống 10%",
+      "stats": [],
+      "effects": [
+        37
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 2709,
+      "name": "Lão Gian Cự Hoạt",
+      "description": "Tại thành trấn trong phường thị mua đạo cụ tiêu hao linh thạch giảm xuống 20%, mị lực -100",
+      "stats": [
+        {
+          "id": 7,
+          "value": -100.0
+        }
+      ],
+      "effects": [
+        38
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 2801,
+      "name": "Nhất Nặc Thiên Kim",
+      "description": "Ngươi có một cái đối ngươi phi thường trung trinh đạo lữ.",
+      "stats": [],
+      "effects": [
+        39
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 2802,
+      "name": "Bạch Hạc Nhập Mộng",
+      "description": "Ngươi có một cái giáo sư ngươi kỹ nghệ sư phó.",
+      "stats": [],
+      "effects": [
+        40
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 2803,
+      "name": "Long Tổ Linh Tức",
+      "description": "Công kích +5, tốc độ di chuyển +10, thương pháp tư chất +5\\n Thân có một tia long tổ khí tức, trong lúc giơ tay nhấc chân hình như có long ngâm \\n Đột phá lúc, nhất định thu hoạch được theo đuôi hệ liệt nghịch thiên cải mệnh ( Cần đạo tâm có được này hệ liệt nghịch thiên cải mệnh )\\n Bắt đầu lúc Bát Hoang sẽ xảy ra thành đặc thù tông môn —— Ngự Long sơn trang",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 36,
+          "value": 10.0
+        }
+      ],
+      "effects": [
+        41,
+        42,
+        43
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 1912,
+      "name": "Duy Kiếm Làm Bạn",
+      "description": "Lực công kích +5, kiếm thuộc tính tư chất +25, linh căn thuộc tính -8, tinh lực hạn mức cao nhất -10",
+      "stats": [
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 54,
+          "value": 25.0
+        },
+        {
+          "id": 45,
+          "value": -8.0
+        },
+        {
+          "id": 52,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1913,
+      "name": "Xích Cước Thiếu Niên",
+      "description": "Cước trình +100, tốc độ +20, tinh lực hạn mức cao nhất -10",
+      "stats": [
+        {
+          "id": 28,
+          "value": 100.0
+        },
+        {
+          "id": 50,
+          "value": 20.0
+        },
+        {
+          "id": 52,
+          "value": -10.0
+        }
+      ],
+      "effects": [],
+      "rarity": 4
+    },
+    {
+      "id": 1914,
+      "name": "Thủy Hỏa Giao Dung",
+      "description": "Nước, Hỏa Linh Căn +15, công pháp tư chất -5",
+      "stats": [
+        {
+          "id": 18,
+          "value": 15.0
+        },
+        {
+          "id": 57,
+          "value": 15.0
+        },
+        {
+          "id": 8,
+          "value": -5.0
+        }
+      ],
+      "effects": [],
+      "rarity": 3
+    },
+    {
+      "id": 1915,
+      "name": "Gia Đồ Tứ Bích",
+      "description": "Thổ thuộc tính +8",
+      "stats": [
+        {
+          "id": 12,
+          "value": 8.0
+        }
+      ],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 1916,
+      "name": "Tạc Bích Thâu Quang",
+      "description": "Tuổi thọ -10, phòng ngự +6",
+      "stats": [
+        {
+          "id": 29,
+          "value": -10.0
+        },
+        {
+          "id": 11,
+          "value": 6.0
+        }
+      ],
+      "effects": [],
+      "rarity": 2
+    }
+  ],
+  "nghich_thien": [
+    {
+      "id": 700001,
+      "name": "Yêu Thuật Nhập Môn",
+      "description": "Công kích của ngươi rót vào yêu pháp chi thuật, tại công kích thường có &700001_bxgl&% Xác suất đem mục tiêu biến hình thành một con vô hại gà con, tiếp tục &700001_cxsj& Giây.( Có thể thăng cấp là yêu thuật tiến giai, đối đại yêu thú cùng tu tiên giả vô hiệu )",
+      "stats": [],
+      "effects": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700002,
+      "name": "Yêu Thuật Tiến Giai",
+      "description": "Công kích của ngươi rót vào cường đại yêu thuật, tại công kích thường có &700002_bxgl&% Xác suất đem mục tiêu biến hình thành phẫn nộ gà con ( Không phân địch ta công kích phụ cận đơn vị ), tiếp tục &700002_cxsj& Giây.( Lựa chọn sau thay thế yêu thuật nhập môn, có thể thăng cấp là yêu thuật tinh thông, đối đại yêu thú cùng tu tiên giả vô hiệu )",
+      "stats": [],
+      "effects": [
+        48,
+        49,
+        50,
+        51,
+        47
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700003,
+      "name": "Yêu Thuật Tinh Thông",
+      "description": "Công kích của ngươi rót vào đáng sợ yêu thuật chi lực, tại công kích thường có &700003_bxgl&% Xác suất đem mục tiêu cùng với địch nhân ở chung quanh toàn bộ biến hình thành phẫn nộ gà con ( Không phân địch ta công kích phụ cận đơn vị ), tiếp tục &700003_cxsj& Giây.( Lựa chọn sau thay thế yêu thuật tiến giai, đối đại yêu thú cùng tu tiên giả vô hiệu )",
+      "stats": [],
+      "effects": [
+        52,
+        53,
+        54,
+        47
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700004,
+      "name": "Cúc Hoa Năng",
+      "description": "Cái mông của ngươi nóng đến bốc khói, nhưng là ngươi biến nhanh, trong chiến đấu tốc độ di chuyển tăng lên &700004_tsys&%, nhận đến từ mặt sau tổn thương cũng tăng lên &700004_bmsh&%.( Có thể thăng cấp vì hoa cúc đỏ )",
+      "stats": [],
+      "effects": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700005,
+      "name": "Cúc Hoa Hồng",
+      "description": "Cái mông của ngươi đã nóng đến đỏ lên, trong chiến đấu tốc độ di chuyển tăng lên &700005_tsys&%, nhận đến từ mặt sau tổn thương tăng lên &700005_bmsh&%, còn có &700005_phgl&% Xác suất hướng tổn thương nơi phát ra phun ra một đạo báo thù ( Có hương vị ) Hỏa diễm.( Lựa chọn sau thay thế hoa cúc bỏng, có thể thăng cấp vì hoa cúc tàn )",
+      "stats": [],
+      "effects": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700006,
+      "name": "Cúc Hoa Tàn",
+      "description": "Cái mông của ngươi đã đã mất đi tri giác, ngược lại trở nên đao thương bất nhập, nóng lạnh bất xâm, trong chiến đấu tốc độ di chuyển tăng lên &700006_tsys&%, nhận đến từ mặt sau tổn thương &700006_bmsh&%, còn có &700006_phgl& % Xác suất hướng tổn thương nơi phát ra phun ra một đạo càng thô càng dài báo thù hỏa diễm.( Lựa chọn sau thay thế hoa cúc đỏ )",
+      "stats": [],
+      "effects": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700007,
+      "name": "Tiểu Cân Thí Trùng",
+      "description": "Ngươi thu được một con kỳ quái theo đuôi.( Có thể thăng cấp vì bên trong theo đuôi )",
+      "stats": [],
+      "effects": [
+        70
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700008,
+      "name": "Trung Cân Thí Trùng",
+      "description": "Ngươi theo đuôi giống như biến lớn.( Lựa chọn sau thay thế nhỏ theo đuôi, có thể thăng cấp vì lớn theo đuôi )",
+      "stats": [],
+      "effects": [
+        71,
+        72
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700009,
+      "name": "Đại Cân Thí Trùng",
+      "description": "Ngươi theo đuôi giống như trở nên lớn hơn.( Lựa chọn sau thay thế bên trong theo đuôi )",
+      "stats": [],
+      "effects": [
+        73
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700010,
+      "name": "Tiểu Bảo Đích Thuẫn",
+      "description": "Linh lực của ngươi ngưng luyện thành một viên tấm thuẫn, có thể giúp ngươi ngăn cản công kích của địch nhân đường đạn. Tại chỗ trên có địch nhân sử dụng kỹ năng lúc, tấm thuẫn sẽ đối phát xạ hỏa diễm, tạo thành uy lực &700010_sxwl& Tổn thương, tấm thuẫn mỗi &700010_sxcd& Giây nhiều nhất phát xạ một lần hỏa diễm ( Có thể thăng cấp vì bên trong bảo thuẫn )",
+      "stats": [],
+      "effects": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700011,
+      "name": "Trung Bảo Đích Thuẫn",
+      "description": "Cái thuẫn của ngươi mỗi ngăn cản &700011_ddcs& Lần tổn thương, sẽ phát ra một đạo sóng chấn động, đối địch nhân ở chung quanh tạo thành uy lực &700011_shwl& $s_tu$ Tổn thương, cùng làm địch nhân tốc độ di chuyển &700011_jdys&%, tiếp tục &700011_jssj& Giây. Tấm thuẫn phát xạ hỏa diễm lúc, sẽ ngoài định mức lựa chọn &700011_sxsl& Cái ngẫu nhiên mục tiêu phát xạ hỏa diễm. ( Lựa chọn sau thay thế Tiểu Bảo thuẫn, có thể thăng cấp vì đại bảo thuẫn )",
+      "stats": [],
+      "effects": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700012,
+      "name": "Đại Bảo Đích Thuẫn",
+      "description": "Cái thuẫn của ngươi phát ra sóng chấn động càng lớn, có thể đem địch nhân đánh lui, cùng làm tạo thành tổn thương &700012_jdsh&%, tiếp tục &700012_jdsj& Giây. Tấm thuẫn phát xạ hỏa diễm lúc, sẽ ngoài định mức lựa chọn &700012_sxsl|-700011_sxsl|f2& Cái ngẫu nhiên mục tiêu phát xạ hỏa diễm.( Lựa chọn sau thay thế bên trong bảo thuẫn )",
+      "stats": [],
+      "effects": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700013,
+      "name": "Tiểu Lý Phi Kiếm",
+      "description": "Linh lực của ngươi ngưng luyện thành một viên phi kiếm, tại ngươi phát động công kích lúc, sẽ tự động công kích địch quân mục tiêu, đối tạo thành uy lực &700013_fjwl& $s_jian$ Tổn thương.( Có thể thăng cấp vì bên trong Lý Phi kiếm )",
+      "stats": [],
+      "effects": [
+        91,
+        92,
+        93,
+        94
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700014,
+      "name": "Trung Lý Phi Kiếm",
+      "description": "Phi kiếm của ngươi tại tạo thành tổn thương lúc lại ngẫu nhiên thực hiện một loại trở xuống hiệu quả: Trúng độc, choáng váng, giảm tốc, thiêu đốt, đóng băng, tê liệt, hút máu, đánh lui, linh lực tổn thất, quấn quanh, trầm mặc. ( Lựa chọn sau thay thế Tiểu Lý phi kiếm, có thể thăng cấp vì lớn Lý Phi kiếm ) - ID = 700015 Đại Lý Phi Kiếm: Phi kiếm mỗi công kích &700015_fjcs& Lần, sẽ phóng thích một lần vạn kiếm ra khỏi vỏ, hướng bốn phía tề xạ đại lượng phi kiếm, đối với địch nhân tạo thành tổn thương cùng ngẫu nhiên hiệu quả.( Lựa chọn sau thay thế bên trong Lý Phi kiếm )",
+      "stats": [],
+      "effects": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "rarity": 4
+    },
+    {
+      "id": 700016,
+      "name": "Hỏa Lực Tứ Xạ",
+      "description": "Ngươi tại công kích lúc, có &700016_fsgl&% Xác suất hướng ngẫu nhiên một địch nhân bắn ra một viên hỏa cầu, tạo thành uy lực &700016_hqwl& $s_huo$ Tổn thương.",
+      "stats": [],
+      "effects": [
+        110,
+        111,
+        112
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700017,
+      "name": "Thủy Lực Tứ Xạ",
+      "description": "Ngươi tại công kích lúc, có &700017_fsgl&% Xác suất hướng ngẫu nhiên một địch nhân tiếp tục phát xạ cột nước &700017_szsj& Giây, tạo thành uy lực &700017_szwl&/ Giây $s_shui$ Tổn thương.",
+      "stats": [],
+      "effects": [
+        110,
+        113,
+        114
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700018,
+      "name": "Hàm Trư Thủ",
+      "description": "Ngươi hướng cảnh giới không cao ngươi tu tiên giả ăn cắp đạo cụ lúc, tất nhiên sẽ thành công, cũng tất nhiên sẽ bị phát hiện.",
+      "stats": [],
+      "effects": [
+        115,
+        116,
+        117
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700019,
+      "name": "Mị Cốt",
+      "description": "Cái khác tu tiên giả lại càng dễ thích ngươi.",
+      "stats": [],
+      "effects": [
+        118
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700020,
+      "name": "Cước Để Mạt Du",
+      "description": "Ngươi chạy trốn tất nhiên sẽ thành công.",
+      "stats": [],
+      "effects": [
+        119
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700021,
+      "name": "Bào Đắc Ngận Soái",
+      "description": "Ngươi chạy trốn tư thế rất đẹp trai, làm ngươi chạy trốn thành công, sẽ để cho đối phương đối ngươi sinh ra rất lớn hảo cảm.",
+      "stats": [],
+      "effects": [
+        120,
+        121,
+        122
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700022,
+      "name": "Quỷ Tu Nhập Môn",
+      "description": "Ngươi giết chết địch nhân lúc, có &700022_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$( Có thể thăng cấp vì quỷ tu tiến giai, trên trận nhiều nhất tồn tại &700022_zhsx& Cái ).",
+      "stats": [],
+      "effects": [
+        123,
+        124,
+        125
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700023,
+      "name": "Quỷ Tu Tiến Giai",
+      "description": "Ngươi giết chết địch nhân lúc, có &700023_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$ Hoặc $s_wangling2$( Lựa chọn sau thay thế quỷ tu nhập môn, có thể thăng cấp vì quỷ tu tinh thông, trên trận nhiều nhất tồn tại &700023_zhsx& Cái ).",
+      "stats": [],
+      "effects": [
+        123,
+        126,
+        127,
+        128
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700024,
+      "name": "Quỷ Tu Tinh Thông",
+      "description": "Ngươi giết chết địch nhân lúc, có &700024_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$ Hoặc $s_wangling2$ Hoặc $s_wangling3$( Lựa chọn sau thay thế quỷ tu tiến giai, trên trận nhiều nhất tồn tại &700024_zhsx& Cái ).",
+      "stats": [],
+      "effects": [
+        123,
+        129,
+        130
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700025,
+      "name": "Hoàng Cân Thiên Sư",
+      "description": "Trong chiến đấu lần đầu sử dụng thần thông lúc, sẽ triệu hồi ra một cái cự đại $s_huangjilishi$ Vì ngươi chiến đấu.",
+      "stats": [],
+      "effects": [
+        131,
+        132
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700026,
+      "name": "Võ Thần Tàn Quyết",
+      "description": "Khi tiến vào lúc chiến đấu, ngươi thể lực chỉ lưu lại 10 điểm cũng đem còn thừa thể lực toàn bộ chuyển hóa thành hộ thuẫn ( Hộ thuẫn chí ít có &700026_zxhd&%), tại kết thúc chiến đấu lúc, sẽ đem chưa tiêu hao tổn hộ thuẫn chuyển đổi về thể lực.",
+      "stats": [],
+      "effects": [
+        133,
+        134,
+        135,
+        136
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700027,
+      "name": "Thanh Đế Di Lục",
+      "description": "Chiến đấu bên trong, làm ngươi tiến vào sắp chết trạng thái lúc, sẽ huyễn hóa thành &700027_hysl& Chỉ $s_huayao$, tại chiến đấu kết thúc lúc, có bất kỳ một con $s_huayao$ Sống sót, ngươi sẽ phục sinh. Mỗi &700027_lqsj& Giây nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700028,
+      "name": "Huyết Ma Đại Pháp",
+      "description": "Ngươi đối phạm vi &700028_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc, nhưng hút máu &700028_xxbl&%.( Có thể thăng cấp vì Huyết Sát đại pháp )",
+      "stats": [],
+      "effects": [
+        143,
+        144
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700029,
+      "name": "Phong Ma Chiến Ý",
+      "description": "Làm ngươi thể lực thấp hơn &700029_xllj&% Lúc, ngươi sẽ biến thành chiến đấu điên dại ( Nhận tổn thương &700029_jdsh&%, tạo thành tổn thương &700029_tssh&%, nhưng là sẽ điên cuồng truy tung địch nhân, không bị khống chế ).",
+      "stats": [],
+      "effects": [
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700030,
+      "name": "Nhục Bác Chi Giao",
+      "description": "Ngươi cùng tu tiên giả luận bàn chiến thắng về sau, thu hoạch được hảo cảm tăng lên rất nhiều.",
+      "stats": [],
+      "effects": [
+        150,
+        151
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700031,
+      "name": "Sát Khí",
+      "description": "Ngươi cùng cái khác tu tiên giả giao lưu lúc, có xác suất sẽ bị đối phương chán ghét; Ngươi bị quái vật tập kích xác suất giảm xuống.",
+      "stats": [],
+      "effects": [
+        152,
+        153
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700032,
+      "name": "Song Tu Đại Pháp",
+      "description": "Ngươi cùng tu tiên giả song tu lúc thu hoạch được kinh nghiệm đề cao &700032_tgjy&%, lại song tu sau đối phương sẽ hướng ngươi đưa tặng một kiện đạo cụ.",
+      "stats": [],
+      "effects": [
+        154,
+        155
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700033,
+      "name": "Tiên Thụ Hậu Công",
+      "description": "Chiến đấu bên trong, ngươi mỗi tích lũy nhận &700033_ljsh&% Tổn thương, tại bổn tràng chiến đấu bên trong có thể tăng lên tự thân &700033_tssh& % Tổn thương, cao nhất có thể tăng lên &700033_tssh|x100|f0&% Tổn thương.",
+      "stats": [],
+      "effects": [
+        137,
+        156,
+        157,
+        158
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700034,
+      "name": "Đồ Thủ Chuyên Tinh",
+      "description": "Sử dụng quyền / Chưởng / Chỉ công pháp thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế, sẽ không tự động tạo ra đặc thù đơn vị )",
+      "stats": [],
+      "effects": [
+        159,
+        160
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700035,
+      "name": "Binh Nhận Chuyên Tinh",
+      "description": "Sử dụng đao / Kiếm / Thương công pháp thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế, sẽ không tự động tạo ra đặc thù đơn vị )",
+      "stats": [],
+      "effects": [
+        161,
+        160
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700036,
+      "name": "Phong Lôi Kình Thiên",
+      "description": "Sử dụng gió / Lôi thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế, sẽ không tự động tạo ra đặc thù đơn vị )",
+      "stats": [],
+      "effects": [
+        162,
+        160
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700037,
+      "name": "Địa Hỏa Minh Di",
+      "description": "Sử dụng thổ / Hỏa thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế, sẽ không tự động tạo ra đặc thù đơn vị )",
+      "stats": [],
+      "effects": [
+        163,
+        160
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700038,
+      "name": "Thủy Mộc Trường Sinh",
+      "description": "Sử dụng nước / Mộc thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế, sẽ không tự động tạo ra đặc thù đơn vị )",
+      "stats": [],
+      "effects": [
+        164,
+        160
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700039,
+      "name": "Hồng Trần Kiếm Hạp",
+      "description": "Chiến đấu bên trong, làm ngươi tạo thành &700039_xqcs& Lần tổn thương sau, lần tiếp theo thi triển thần thông lúc, có thể triệu hoán ra hồng trần hộp kiếm, phát xạ &700039_jjsl& Đạo kiếm ảnh, tự động công kích trên trận địch nhân, tiếp tục &700039_jjsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì hồng trần Kiếm Hồn )",
+      "stats": [],
+      "effects": [
+        137,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700040,
+      "name": "Quy Nhất Quyết",
+      "description": "Chiến đấu bên trong, làm ngươi nhận lấy &700040_xqcs& Lần tổn thương sau, lần tiếp theo thi triển thần thông lúc, nhưng tạo ra một cái vòng bảo hộ, làm tự thân nhận tổn thương &700040_jdsh&%, tiếp tục &700040_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì quy nhất chân quyết )",
+      "stats": [],
+      "effects": [
+        137,
+        172,
+        166,
+        173,
+        174,
+        175,
+        176
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700041,
+      "name": "Tinh Diệu Trần Hoàn",
+      "description": "Chiến đấu bên trong, làm ngươi đánh chết &700041_xqsl& Địch nhân sau, lần tiếp theo thi triển thần thông lúc, nhưng sinh ra tinh diệu chi quang, làm phạm vi &700041_shfw& Bên trong địch nhân đâm mù, cũng nhận $s_lei$ Tổn thương, tiếp tục &700041_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì tinh diệu cửu tiêu )",
+      "stats": [],
+      "effects": [
+        137,
+        177,
+        166,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700042,
+      "name": "Đố Hỏa Trung Thiêu",
+      "description": "Ngươi đối có đạo lữ có lẽ có thê tử / Trượng phu tu tiên giả tạo thành tổn thương &700042_tssh&%.",
+      "stats": [],
+      "effects": [
+        183
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700043,
+      "name": "Linh Quả Quỹ Tặng",
+      "description": "Ngươi hàng năm đều sẽ thu được một lần linh quả quà tặng.",
+      "stats": [],
+      "effects": [
+        184
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700044,
+      "name": "Lão Nhi Di Kiên",
+      "description": "Ngươi mỗi một tuổi tuổi tác, nhưng vì ngươi tăng lên &700044_tsfy& điểm phòng ngự. - ID = 700045 Vật Tận Kỳ Dụng: Ngươi mỗi lần tiêu hao linh thạch lúc, nhưng từ linh thạch bên trên hấp thụ một chút linh khí đến đề thăng tự thân tu vi.",
+      "stats": [],
+      "effects": [
+        185,
+        186,
+        187
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700046,
+      "name": "Tật Tốc Đại Tạ",
+      "description": "Chiến đấu bên trong, mỗi khi ngươi sử dụng đan dược sau, có &700046_dlgl&% Xác suất tại &700046_zdys& Giây bên trong đem nên đan dược bài xuất bên ngoài cơ thể, nhặt sau nhưng tăng thêm vào trước mắt đan dược trang bị trong rãnh.",
+      "stats": [],
+      "effects": [
+        137,
+        188,
+        189,
+        190
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700047,
+      "name": "Thông Thiên Chi Nhãn",
+      "description": "Cùng cái khác tu tiên giả chiến đấu hoặc luận bàn lúc, có &700047_xxgl&% Xác suất tập được đối phương một cái kỹ năng.( Mỗi &700047_nzcd& Tháng nhiều nhất phát động một lần )",
+      "stats": [],
+      "effects": [
+        191,
+        192
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700048,
+      "name": "Sát Ngôn Quan Sắc",
+      "description": "Cùng cái khác tu tiên giả trò chuyện hoặc luận đạo lúc, nhưng dự báo đối phương kỳ vọng trả lời.",
+      "stats": [],
+      "effects": [
+        193,
+        194
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700049,
+      "name": "Thiên Địa Tinh Hoa",
+      "description": "Mỗi lần tại đại địa đồ bên trong lúc tu luyện, nhưng hồi phục bộ phận thể lực, linh lực, niệm lực.",
+      "stats": [],
+      "effects": [
+        195,
+        196,
+        197,
+        198
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700050,
+      "name": "Song Linh Cộng Sinh",
+      "description": "Tại ngươi phóng ra tuyệt kỹ cùng thần thông lúc, có &700050_sfgl&% Xác suất ngoài định mức phóng ra một lần, ngoài định mức phóng ra kỹ năng, tạo thành tổn thương vì &700050_shbs&%, cần tiêu hao linh lực.( Có thể thăng cấp vì ba linh cộng sinh, đối nghịch tục thi pháp loại, chuyển vị loại hoặc là biến thân loại kỹ năng vô hiệu )",
+      "stats": [],
+      "effects": [
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700051,
+      "name": "Linh Điệp Hóa Kiển",
+      "description": "Trong quá trình chiến đấu, mỗi lần bạo kích đều có xác suất tạo ra một con linh bướm ( Nhan sắc tùy tiện rồi ) Tại nhân vật chung quanh bay múa, hồ điệp tiếp tục 10s, biến mất lúc vì nhân vật khôi phục 5% Lớn nhất HP. Nhân vật trong chiến đấu tử vong lúc, biến thành một con kén. Mỗi cái hồ điệp vì kén cung cấp nhân vật 5% Lớn nhất HP cùng phòng ngự, tiếp tục 5 Giây sau nhân vật phục sinh, khôi phục nhân vật tương ứng tỉ lệ lượng máu. Này hiệu quả mỗi lần chiến đấu chỉ có một lần hiệu quả.( Tức hóa kén hiệu quả về sau quả biến mất )",
+      "stats": [],
+      "effects": [
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 7000531,
+      "name": "Ma Linh Chi Lực",
+      "description": "Trên đầu của ngươi mọc ra một cái tiểu ma cô yêu.( Nhân vật hình tượng sẽ sinh ra cải biến ) Ngẫu nhiên thu hoạch được hai cái hậu thiên khí vận bên trong một cái.1. Rơi phấn cây nấm: Mị lực -500, miễn tổn thương +5%.2. Hoa mai cây nấm: Mị lực -500, linh lực hạn mức cao nhất +10%.",
+      "stats": [],
+      "effects": [
+        213
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700052,
+      "name": "Bạn Sinh Ma Linh",
+      "description": "Mị lực &7000531_mlxj&, mỗi tháng hồi phục thể lực &7000531_hftl&%, tiếp tục 6 Tháng.",
+      "stats": [],
+      "effects": [
+        214,
+        215,
+        216
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700053,
+      "name": "Ma Linh Tiên Lực",
+      "description": "Làm ngươi trong chiến đấu sắp chết lúc, sẽ biến thân thành một con thuốc linh, cũng hồi phục &700053_hftl&% Thể lực, tiếp tục &700053_cxsj& Giây.",
+      "stats": [],
+      "effects": [
+        217,
+        218,
+        219,
+        220
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700054,
+      "name": "Ma Linh Thần Lực",
+      "description": "Trong chiến đấu mỗi gian phòng cách &700054_zxjg& Giây đến &700054_zdjg& Giây nhưng tại phụ cận sinh trưởng ra một cái có thể ăn dùng tiểu ma cô. Làm ngươi trong chiến đấu sắp chết lúc, sẽ biến thân thành một con thuốc linh, cũng hồi phục &700054_hftl&% Thể lực, tiếp tục &700054_cxsj& Giây.",
+      "stats": [],
+      "effects": [
+        221,
+        218,
+        222,
+        223
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700055,
+      "name": "Huyết Sát Đại Pháp",
+      "description": "Ngươi đối phạm vi &700055_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc, nhưng hút máu &700055_xxbl&%.( Lựa chọn sau thay thế Huyết Ma đại pháp, có thể thăng cấp vì máu yểm đại pháp )",
+      "stats": [],
+      "effects": [
+        224,
+        225,
+        226
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700056,
+      "name": "Huyết Yểm Đại Pháp",
+      "description": "Ngươi đối phạm vi &700056_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc, nhưng hút máu &700056_xxbl&%.( Lựa chọn sau thay thế Huyết Sát đại pháp )",
+      "stats": [],
+      "effects": [
+        227,
+        228
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700057,
+      "name": "Hồng Trần Kiếm Hồn",
+      "description": "Chiến đấu bên trong, làm ngươi tạo thành &700057_xqcs& Lần tổn thương sau, lần tiếp theo thi triển thần thông lúc, có thể triệu hoán ra hồng trần hộp kiếm, phát xạ &700057_jjsl& Đạo kiếm ảnh, tự động công kích trên trận địch nhân, tiếp tục &700057_jjsj& Giây.( Lựa chọn sau thay thế hồng trần hộp kiếm, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        137,
+        229,
+        166,
+        167,
+        230,
+        169,
+        231,
+        232
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700058,
+      "name": "Quy Nhất Chân Quyết",
+      "description": "Chiến đấu bên trong, làm ngươi nhận lấy &700058_xqcs& Lần tổn thương sau, lần tiếp theo thi triển thần thông lúc, nhưng tạo ra một cái vòng bảo hộ, làm tự thân nhận tổn thương &700058_jdsh&%, tiếp tục &700058_cxsj& Giây. ( Lựa chọn sau thay thế quy nhất quyết, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        137,
+        233,
+        166,
+        173,
+        234,
+        235,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700059,
+      "name": "Tinh Diệu Cửu Tiêu",
+      "description": "Chiến đấu bên trong, làm ngươi đánh chết &700059_xqsl& Địch nhân sau, lần tiếp theo thi triển thần thông lúc, nhưng sinh ra tinh diệu chi quang, làm phạm vi &700059_shfw& Bên trong địch nhân đâm mù, cũng nhận $s_lei$ Tổn thương, tiếp tục &700059_cxsj& Giây.( Lựa chọn sau thay thế tinh diệu cõi trần, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        137,
+        236,
+        166,
+        178,
+        237,
+        180,
+        238,
+        232
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700060,
+      "name": "Tam Linh Cộng Sinh",
+      "description": "Tại ngươi phóng ra tuyệt kỹ cùng thần thông lúc, có &700060_sfgl&% Xác suất ngoài định mức phóng ra hai lần, ngoài định mức phóng ra kỹ năng, tạo thành tổn thương vì &700060_shbs&%, cần tiêu hao linh lực.( Lựa chọn sau thay thế song linh cộng sinh, có thể thăng cấp vì tứ linh cộng sinh, đối nghịch tục thi pháp loại, chuyển vị loại hoặc là biến thân loại kỹ năng vô hiệu )",
+      "stats": [],
+      "effects": [
+        199,
+        239,
+        201,
+        240,
+        241,
+        242,
+        204,
+        205
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700061,
+      "name": "Tứ Linh Cộng Sinh",
+      "description": "Tại ngươi phóng ra tuyệt kỹ cùng thần thông lúc, có &700061_sfgl&% Xác suất ngoài định mức phóng ra ba lần, ngoài định mức phóng ra kỹ năng, tạo thành tổn thương vì &700061_shbs&%, cần tiêu hao linh lực.( Lựa chọn sau thay thế ba linh cộng sinh, đối nghịch tục thi pháp loại, chuyển vị loại hoặc là biến thân loại kỹ năng vô hiệu )",
+      "stats": [],
+      "effects": [
+        199,
+        243,
+        201,
+        244,
+        245,
+        204,
+        205
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700062,
+      "name": "Tốc Độc Bí Pháp",
+      "description": "Học tập bí tịch lúc, cần tiêu hao số trời &700062_jsts& Trời.",
+      "stats": [],
+      "effects": [
+        246,
+        247
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700063,
+      "name": "Toản Nghiên Bí Thuật",
+      "description": "Học tập bí tịch lúc, cần tiêu hao linh thạch &700063_jsls& %.",
+      "stats": [],
+      "effects": [
+        246,
+        248
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700064,
+      "name": "Khổ Trung Tầm Nhạc",
+      "description": "Học tập bí tịch lúc, tiêu hao tâm tình &700064_jsxq&%.",
+      "stats": [],
+      "effects": [
+        246,
+        249
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700065,
+      "name": "Linh Quang Nhất Thiểm",
+      "description": "Học tập bí tịch lúc, nhưng ngoài định mức thu hoạch được &700065_tsjy&% Kinh nghiệm.",
+      "stats": [],
+      "effects": [
+        246,
+        250
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700066,
+      "name": "Nhược Hữu Đạo Tâm",
+      "description": "Thu hoạch được &700066_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        251
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700067,
+      "name": "Tự Hữu Đạo Tâm",
+      "description": "Thu hoạch được &700067_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        252
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700068,
+      "name": "Lược Hữu Đạo Tâm",
+      "description": "Thu hoạch được &700068_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        253
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700069,
+      "name": "Tiểu Hữu Đạo Tâm",
+      "description": "Thu hoạch được &700069_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        254
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700070,
+      "name": "Cảm Thụ Đạo Tâm",
+      "description": "Thu hoạch được &700070_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        255
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700071,
+      "name": "Lĩnh Ngộ Đạo Tâm",
+      "description": "Thu hoạch được &700071_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        256
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700072,
+      "name": "Thông Hiểu Đạo Tâm",
+      "description": "Thu hoạch được &700072_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        257
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700073,
+      "name": "Tâm Hữu Đạo Tâm",
+      "description": "Thu hoạch được &700073_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        258
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700074,
+      "name": "Truyện Thừa Đạo Tâm",
+      "description": "Thu hoạch được &700074_tsdd& đạo điểm.",
+      "stats": [],
+      "effects": [
+        259
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700075,
+      "name": "Khai Tâm Quả",
+      "description": "Tâm tình hạn mức cao nhất tăng lên &700075_tsxq& điểm.",
+      "stats": [],
+      "effects": [
+        260
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700076,
+      "name": "Cường Kiện Thể Phách",
+      "description": "Khỏe mạnh hạn mức cao nhất tăng lên &700076_tsjk& điểm. - ID = 700077 Sinh Long Hoạt Hổ: Tinh lực hạn mức cao nhất tăng lên &700077_tsjl& điểm.",
+      "stats": [],
+      "effects": [
+        261
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700078,
+      "name": "Cơ Linh Quỷ",
+      "description": "Ngộ tính tăng lên &700078_tswx& điểm.",
+      "stats": [],
+      "effects": [
+        262
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700079,
+      "name": "Hạnh Vận Tinh",
+      "description": "May mắn tăng lên &700079_tsxy& điểm.",
+      "stats": [],
+      "effects": [
+        263
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700080,
+      "name": "Thuẫn Linh Nhập Môn",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, có thể đạt được một cái &700080_tshd&% Thể lực hộ thuẫn.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì Thuẫn Linh tiến giai )",
+      "stats": [],
+      "effects": [
+        264,
+        265,
+        266
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700081,
+      "name": "Thuẫn Linh Tiến Giai",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, có thể đạt được một cái &700081_tshd&% Thể lực hộ thuẫn, đồng thời tại &700081_fssj& Giây bên trong, có thể đối địch nhân tạo thành &700081_fsbl&% Phản tổn thương tổn thương.( Lựa chọn sau thay thế Thuẫn Linh nhập môn, có thể thăng cấp vì Thuẫn Linh tinh thông, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        267,
+        268,
+        269,
+        270,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700082,
+      "name": "Thuẫn Linh Tinh Thông",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, có thể đạt được một cái &700082_tshd&% Thể lực hộ thuẫn, đồng thời tại &700082_fssj& Giây bên trong, có thể đối địch nhân tạo thành &700082_fsbl&% Phản tổn thương tổn thương. Đương hộ thuẫn trị giá là 0 Lúc lại phát sinh bạo tạc, đối phạm vi &700082_bzfw& Bên trong địch nhân tạo thành uy lực &700082_bzwl& $s_quan$ Tổn thương.( Lựa chọn sau thay thế Thuẫn Linh tiến giai, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        271,
+        272,
+        273,
+        274,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700083,
+      "name": "Tiềm Năng Nhập Môn",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức trả lời &700083_hfxl&% Thể lực, đồng thời tốc độ di chuyển tăng lên &700083_tsys&%, tiếp tục &700083_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì tiềm năng tiến giai )",
+      "stats": [],
+      "effects": [
+        264,
+        275,
+        276,
+        277,
+        278
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700084,
+      "name": "Tiềm Năng Tiến Giai",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức trả lời &700084_hfxl&% Thể lực, đồng thời tốc độ di chuyển tăng lên &700084_tsys&%, tạo thành tổn thương tăng lên &700084_tssh&%, tiếp tục &700084_cxsj& Giây.( Lựa chọn sau thay thế tiềm năng nhập môn, có thể thăng cấp vì tiềm năng tinh thông, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        279,
+        280,
+        281,
+        282,
+        283,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700085,
+      "name": "Tiềm Năng Tinh Thông",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức trả lời &700085_hfxl&% Thể lực, đồng thời tốc độ di chuyển tăng lên &700085_tsys&%, tạo thành tổn thương tăng lên &700085_tssh&%, tất cả kỹ năng thời gian cooldown &700085_jdcd&%, tiếp tục &700085_cxsj& Giây.( Lựa chọn sau thay thế tiềm năng tiến giai, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        284,
+        285,
+        286,
+        287,
+        288,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700086,
+      "name": "Kim Thiền Vô Ảnh",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức chui xuống đất, lại mỗi giây hồi phục &700086_hfxl&% Thể lực, tiếp tục &700086_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì Kim Thiền giả ảnh )",
+      "stats": [],
+      "effects": [
+        264,
+        289,
+        290,
+        291,
+        292
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700087,
+      "name": "Kim Thiền Giả Ảnh",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức chui xuống đất, lại mỗi giây hồi phục &700087_hfxl&% Thể lực, tiếp tục &700087_cxsj& Giây, độn địa lúc lại tại nguyên chỗ triệu hoán một cái huyễn ảnh ( Tạo thành &700087_hysh& Tổn thương, tiếp tục &700087_hysj& Giây ).( Lựa chọn sau thay thế Kim Thiền vô ảnh, có thể thăng cấp vì Kim Thiền huyết ảnh, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        289,
+        293,
+        294,
+        295,
+        296,
+        297,
+        232
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700088,
+      "name": "Kim Thiền Huyết Ảnh",
+      "description": "Trong chiến đấu sắp gặp tử vong lúc, lập tức chui xuống đất, lại mỗi giây hồi phục &700088_hfxl&% Thể lực, tiếp tục &700088_cxsj& Giây, độn địa lúc lại tại nguyên chỗ triệu hoán một cái huyễn ảnh ( Tạo thành &700088_hysh& Tổn thương, tiếp tục &700088_hysj& Giây, tử vong lúc lại phát sinh bạo tạc, đối phạm vi &700088_bzfw& Địch nhân tạo thành uy lực &700088_bzwl& $s_shui$ Tổn thương ).( Lựa chọn sau thay thế Kim Thiền giả ảnh, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        264,
+        289,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        232
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700089,
+      "name": "Linh Năng Chi Vũ",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực thấp hơn &700089_ljll&% Lúc, lập tức trả lời &700089_hfll&% Linh lực.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần, có thể thăng cấp vì linh năng chi suối )",
+      "stats": [],
+      "effects": [
+        137,
+        304,
+        305,
+        306
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700090,
+      "name": "Linh Năng Chi Tuyền",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực thấp hơn &700090_ljll&% Lúc, lập tức trả lời &700090_hfll&% Linh lực, cũng đổi mới tất cả kỹ năng thời gian cooldown.( Lựa chọn sau thay thế linh năng chi vũ, có thể thăng cấp vì linh năng thủy triều, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        137,
+        307,
+        308,
+        309,
+        310,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700091,
+      "name": "Linh Năng Chi Triều",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực thấp hơn &700091_ljll&% Lúc, lập tức trả lời &700091_hfll&% Linh lực, cũng đổi mới tất cả kỹ năng thời gian cooldown, ở sau đó &700091_cxsj& Giây bên trong, tất cả kỹ năng thời gian cooldown &700091_jscd&%.( Lựa chọn sau thay thế linh năng chi suối, mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        137,
+        311,
+        312,
+        313,
+        314,
+        315,
+        232
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700092,
+      "name": "Huyết Linh Nhập Môn",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực không đủ lúc, nhưng tiêu hao thể lực đến phóng ra kỹ năng, tiêu hao trị số vì linh lực &700092_xhtl& Lần.( Có thể thăng cấp vì Huyết Linh tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        316,
+        317,
+        318
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700093,
+      "name": "Huyết Linh Tiến Giai",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực không đủ lúc, nhưng tiêu hao thể lực đến phóng ra kỹ năng, tiêu hao trị số vì linh lực &700093_xhtl& Lần, thông qua tiêu hao thể lực phóng ra kỹ năng, tổn thương có thể tăng lên &700093_tssh&%.( Lựa chọn sau thay thế Huyết Linh nhập môn, có thể thăng cấp vì Huyết Linh tinh thông )",
+      "stats": [],
+      "effects": [
+        137,
+        316,
+        317,
+        319,
+        320,
+        321,
+        322
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700094,
+      "name": "Huyết Linh Tinh Thông",
+      "description": "Chiến đấu bên trong, làm ngươi linh lực không đủ lúc, nhưng tiêu hao thể lực đến phóng ra kỹ năng, tiêu hao trị số vì linh lực &700094_xhtl& Lần, thông qua tiêu hao thể lực phóng ra kỹ năng, tổn thương có thể tăng lên &700094_tssh&%, thời gian cooldown &700094_jscd&%.( Lựa chọn sau thay thế Huyết Linh tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        316,
+        317,
+        323,
+        320,
+        324,
+        325
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700095,
+      "name": "Linh Lực Chi Chủng",
+      "description": "Linh lực hạn mức cao nhất tăng lên &700095_tsll&%.",
+      "stats": [],
+      "effects": [
+        326
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700096,
+      "name": "Linh Lực Chi Nha",
+      "description": "Linh lực hạn mức cao nhất tăng lên &700096_tsll&%.",
+      "stats": [],
+      "effects": [
+        327
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700097,
+      "name": "Linh Lực Chi Thụ",
+      "description": "Linh lực hạn mức cao nhất tăng lên &700097_tsll&%.",
+      "stats": [],
+      "effects": [
+        328
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700098,
+      "name": "Thể Lực Chi Chủng",
+      "description": "Thể lực hạn mức cao nhất tăng lên &700098_tstl&%.",
+      "stats": [],
+      "effects": [
+        329
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700099,
+      "name": "Thể Lực Chi Nha",
+      "description": "Thể lực hạn mức cao nhất tăng lên &700099_tstl&%.",
+      "stats": [],
+      "effects": [
+        330
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700100,
+      "name": "Thể Lực Chi Thụ",
+      "description": "Thể lực hạn mức cao nhất tăng lên &700100_tstl&%.",
+      "stats": [],
+      "effects": [
+        331
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700101,
+      "name": "Kiếm Linh Nhập Môn",
+      "description": "Chiến đấu bên trong, nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700101_gjfw& Bên trong địch nhân, tạo thành uy lực vì &700101_shwl& Năng khiếu linh căn thuộc tính tổn thương, cũng hấp thụ địch nhân &700101_zjgj& Lực công kích, ma kiếm mỗi lần công kích cần tiêu hao &700101_xhll& điểm linh lực, đương linh lực không đủ lúc, ma kiếm không cách nào hành động.( Có thể thăng cấp làm kiếm linh tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700102,
+      "name": "Kiếm Linh Tiến Giai",
+      "description": "Chiến đấu bên trong, nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700102_gjfw& Bên trong địch nhân, tạo thành uy lực vì &700102_shwl& Năng khiếu linh căn thuộc tính tổn thương, cũng hấp thụ địch nhân &700102_zjgj& Lực công kích, ma kiếm mỗi lần công kích cần tiêu hao &700102_xhll& điểm linh lực, đương linh lực không đủ lúc, ma kiếm không cách nào hành động. Mỗi khi ngươi sử dụng kỹ năng tiêu hao 1 điểm linh lực, nhưng tại &700102_cxsj& Giây bên trong tăng lên &700102_tswl& điểm MP kiếm tổn thương uy lực. ( Lựa chọn sau thay thế kiếm linh nhập môn, có thể thăng cấp làm kiếm linh tinh thông )",
+      "stats": [],
+      "effects": [
+        137,
+        338,
+        339,
+        340,
+        341,
+        336,
+        342,
+        343,
+        344
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700103,
+      "name": "Kiếm Linh Tinh Thông",
+      "description": "Chiến đấu bên trong, nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700103_gjfw& Bên trong địch nhân, tạo thành uy lực vì &700103_shwl& Năng khiếu linh căn thuộc tính tổn thương, cũng hấp thụ địch nhân &700103_zjgj& Lực công kích, ma kiếm mỗi lần công kích cần tiêu hao &700103_xhll& điểm linh lực, đương linh lực không đủ lúc, ma kiếm không cách nào hành động. Mỗi khi ngươi sử dụng kỹ năng tiêu hao 1 điểm linh lực, nhưng tại &700103_cxsj& Giây bên trong tăng lên &700103_tswl& điểm MP kiếm tổn thương uy lực. Lại ma kiếm tạo thành tổn thương lúc, nhưng hấp thụ linh lực &700103_xlbl&%.( Lựa chọn sau thay thế kiếm linh tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        345,
+        346,
+        347,
+        348,
+        336,
+        342,
+        349,
+        350
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700104,
+      "name": "Huyết Tế Nhập Môn",
+      "description": "Chiến đấu bên trong, có thể đốt đốt thể lực ngưng tụ một con huyết trảo, huyết trảo tại &700104_njsj& Giây sau có thể tụ thành, cũng sẽ tại ngươi lần sau lúc công kích thả ra, va chạm đến địch nhân sau nổ tung, đối phạm vi &700104_bzfw& Bên trong địch nhân tạo thành uy lực &700104_bzsh& Năng khiếu công pháp tổn thương, cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700104_tlsx&, nhiều nhất có thể tăng lên &700104_tlsx|x700104_tlcs|f2&. Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700104_xhtl& Một ít thể lực, đương thể lực thấp hơn &700104_ljtl&% Lúc không ngưng tụ.( Có thể thăng cấp vì huyết tế tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700105,
+      "name": "Huyết Tế Tiến Giai",
+      "description": "Chiến đấu bên trong, có thể đốt đốt thể lực ngưng tụ một con huyết trảo, huyết trảo tại &700105_njsj& Giây sau có thể tụ thành, cũng sẽ tại ngươi lần sau lúc công kích thả ra, va chạm đến địch nhân sau nổ tung, đối phạm vi &700105_bzfw& Bên trong địch nhân tạo thành uy lực &700105_bzsh& Năng khiếu công pháp tổn thương, cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700105_tlsx&, nhiều nhất có thể tăng lên &700105_tlsx|x700105_tlcs|f2&, huyết trảo bộc phát sau sẽ trên mặt đất lưu lại một cái tiếp tục &700105_xzsj& Giây huyết trận, tiếp tục đối với địch nhân tạo thành tổn thương. Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700105_xhtl& Một ít thể lực, đương thể lực thấp hơn &700105_ljtl&% Lúc không ngưng tụ.( Lựa chọn sau thay thế huyết tế nhập môn, có thể thăng cấp vì huyết tế tinh thông )",
+      "stats": [],
+      "effects": [
+        137,
+        351,
+        359,
+        353,
+        354,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700106,
+      "name": "Huyết Tế Tinh Thông",
+      "description": "Chiến đấu bên trong, có thể đốt đốt thể lực ngưng tụ một con huyết trảo, huyết trảo tại &700106_njsj& Giây sau có thể tụ thành, cũng sẽ tại ngươi lần sau lúc công kích thả ra, va chạm đến địch nhân sau nổ tung, đối phạm vi &700106_bzfw& Bên trong địch nhân tạo thành uy lực &700106_bzsh& Năng khiếu công pháp tổn thương, cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700106_tlsx&, nhiều nhất có thể tăng lên &700106_tlsx|x700106_tlcs|f2&, huyết trảo bộc phát sau sẽ trên mặt đất lưu lại một cái tiếp tục &700106_xzsj& Giây huyết trận, tiếp tục đối với địch nhân tạo thành tổn thương cùng đối tự thân tiến hành hồi phục ( Mỗi giây hồi phục &700106_hftl& Một ít thể lực ). Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700106_xhtl& Một ít thể lực, đương thể lực thấp hơn &700106_ljtl&% Lúc không ngưng tụ.( Lựa chọn sau thay thế huyết tế tiến giai )",
+      "stats": [],
+      "effects": [
+        137,
+        351,
+        367,
+        353,
+        354,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700107,
+      "name": "Thị Linh",
+      "description": "Trong chiến đấu mỗi đánh giết một địch nhân lúc, có &700107_dlgl&% Xác suất rơi xuống một cái linh phách, nhặt linh phách nhưng hồi phục &700107_hfll&% Linh lực.( Có thể thăng cấp vì săn linh )",
+      "stats": [],
+      "effects": [
+        374,
+        375,
+        376
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700108,
+      "name": "Liệp Linh",
+      "description": "Trong chiến đấu mỗi đánh giết một địch nhân lúc, có &700108_dlgl&% Xác suất rơi xuống một cái linh phách, nhặt linh phách nhưng hồi phục &700107_hfll&% Linh lực, cũng giảm bớt &700108_jscd& Giây tuyệt kỹ thời gian cooldown.( Lựa chọn sau thay thế xem linh )",
+      "stats": [],
+      "effects": [
+        374,
+        377,
+        378,
+        379
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700109,
+      "name": "Thị Tinh",
+      "description": "Trong chiến đấu mỗi đánh giết một địch nhân lúc, có &700109_dlgl&% Xác suất rơi xuống một cái tinh phách, nhặt tinh phách nhưng hồi phục &700109_hftl&% Thể lực.( Có thể thăng cấp vì săn tinh )",
+      "stats": [],
+      "effects": [
+        374,
+        380,
+        381
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700110,
+      "name": "Liệp Tinh",
+      "description": "Trong chiến đấu mỗi đánh giết một địch nhân lúc, có &700110_dlgl&% Xác suất rơi xuống một cái tinh phách, nhặt tinh phách nhưng hồi phục &700109_hftl&% Thể lực, cũng tại &700110_cxsj& Giây bên trong tăng lên &700110_tsys& điểm tốc độ di chuyển.( Lựa chọn sau thay thế xem tinh )",
+      "stats": [],
+      "effects": [
+        374,
+        382,
+        383,
+        384
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700111,
+      "name": "Linh Pháp Nhập Môn",
+      "description": "Linh kỹ tầm bắn tăng lên &700111_tscs&%.( Có thể thăng cấp vì linh pháp tiến giai )",
+      "stats": [],
+      "effects": [
+        385
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700112,
+      "name": "Linh Pháp Tiến Giai",
+      "description": "Linh kỹ tầm bắn tăng lên &700112_tscs&%.( Lựa chọn sau thay thế linh pháp nhập môn, có thể thăng cấp vì linh pháp tinh thông )",
+      "stats": [],
+      "effects": [
+        386,
+        387
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700113,
+      "name": "Linh Pháp Tinh Thông",
+      "description": "Linh kỹ tầm bắn tăng lên &700113_tscs&%.( Lựa chọn sau thay thế linh pháp tiến giai )",
+      "stats": [],
+      "effects": [
+        388
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700114,
+      "name": "Vũ Pháp Nhập Môn",
+      "description": "Võ kỹ thời gian cooldown &700114_jscd&%.( Có thể thăng cấp vì võ pháp tiến giai )",
+      "stats": [],
+      "effects": [
+        389
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700115,
+      "name": "Vũ Pháp Tiến Giai",
+      "description": "Võ kỹ thời gian cooldown &700115_jscd&%.( Lựa chọn sau thay thế võ pháp nhập môn, có thể thăng cấp vì võ pháp tinh thông )",
+      "stats": [],
+      "effects": [
+        390,
+        391
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700116,
+      "name": "Vũ Pháp Tinh Thông",
+      "description": "Võ kỹ thời gian cooldown &700116_jscd&%.( Lựa chọn sau thay thế võ pháp tiến giai )",
+      "stats": [],
+      "effects": [
+        392
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700117,
+      "name": "Lý Tứ Lai Dã!",
+      "description": "Làm ngươi trong chiến đấu thể lực thấp hơn &700117_ljtl&% Lúc, có nhất định xác suất sẽ có được người thần bí Lý Tứ xuất thủ tương trợ.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        393,
+        394
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700118,
+      "name": "Kê Trung Bá Vương",
+      "description": "Làm ngươi trong chiến đấu thể lực thấp hơn &700118_ljtl&% Lúc, có nhất định xác suất sẽ có được gà vương xuất thủ tương trợ.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần )",
+      "stats": [],
+      "effects": [
+        395,
+        396
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700119,
+      "name": "Lôi Lực Tứ Xạ",
+      "description": "Ngươi tại sử dụng tuyệt kỹ lúc, có &700119_lqgl&% Xác suất triệu hoán &700119_lqsl& Khỏa lôi cầu vờn quanh tự thân, tiếp tục &700119_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        397,
+        398,
+        399
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700121,
+      "name": "Phong Lực Tứ Xạ",
+      "description": "Mỗi lần sử dụng phải khóa có &700121_cfgl&% Xác suất tạo ra một cái dẫn dắt quang hoàn, đem phạm vi &700121_qyfw& Bên trong địch nhân hướng tự thân dẫn dắt, tiếp tục &700121_cxsj& Giây.",
+      "stats": [],
+      "effects": [
+        400,
+        401,
+        402
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700123,
+      "name": "Mộc Lực Tứ Xạ",
+      "description": "Trong chiến đấu mỗi &700123_zhjg& Giây nhưng tại tự thân phụ cận triệu hoán &700123_dwsl& Chỉ tiểu hoa yêu ( Tiếp tục &700123_cxsj& Giây ).",
+      "stats": [],
+      "effects": [
+        403
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700126,
+      "name": "Tiểu Cùng Thí Long",
+      "description": "Ngươi theo đuôi giống như bay lên! Nó sẽ trong chiến đấu trợ giúp ngươi công kích địch nhân. Nó phi thường dính người, nếu như ngươi sử dụng đột tiến hoặc lấp lóe loại kỹ năng đột nhiên chuyển vị sau, nó lại bởi vì đuổi không kịp ngươi mà trở nên táo bạo, tăng lên trên diện rộng tần suất công kích cùng tổn thương, tiếp tục &700126_cxsj& Giây, nhiều lần phát động lúc tiếp tục thời gian nhưng tính gộp lại.( Lựa chọn sau thay thế lớn theo đuôi )",
+      "stats": [],
+      "effects": [
+        404,
+        405,
+        406,
+        407,
+        408,
+        409
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700130,
+      "name": "Huyễn Linh Oa",
+      "description": "Luyện đan xác suất thành công tăng lên, đồng thời có thể sử dụng Huyễn Linh nồi luyện chế đan dược! Trong chiến đấu tốc độ di chuyển &700130_jdys&%, nhận đến từ mặt sau tổn thương &700130_jssh&%, mỗi &700130_sjjg& Giây có thể hướng trên trận một cái không có nồi phe mình triệu hoán đơn vị phân một cái nồi, bị phân đến nồi triệu hoán vật nhận đến từ mặt sau tổn thương &700130_jssh&%, cũng căn cứ hình thể, thu hoạch được tổn thương tăng lên ( Cỡ nhỏ đơn vị tăng lên &700130_xgsh& %, cỡ trung đơn vị tăng lên &700130_zgsh&%, cỡ lớn đơn vị tăng lên &700130_dgsh&%), tự thân cũng sẽ ở sau đó &700130_cxsj& Giây bên trong thu hoạch được này tổn thương tăng lên hiệu quả.",
+      "stats": [],
+      "effects": [
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700131,
+      "name": "Chấn Phấn Cổ Vũ",
+      "description": "Trong chiến đấu mỗi &700131_csjg& Giây ở đây thân trên lực tối cao vị trí của địch nhân chỗ xuất hiện một mặt tiếp tục &700131_cxsj& Giây trống trận, trống trận mỗi giây sẽ đối địch nhân ở chung quanh tạo thành 7 Lần tổn thương, mỗi lần tổn thương uy lực vì &700131_shwl&, đồng thời làm phạm vi bên trong địch nhân tạo thành tổn thương &700131_jdsh&%.",
+      "stats": [],
+      "effects": [
+        420,
+        421,
+        422,
+        423
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700132,
+      "name": "Hóa Vật",
+      "description": "Mỗi trang bị một cái pháp bảo có thể tăng lên &700132_tssx&% Cơ bản nhất lực",
+      "stats": [],
+      "effects": [
+        424
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700133,
+      "name": "Tùy Tâm Nhi Ngự",
+      "description": "Sử dụng khí linh bản mệnh kỹ năng không cần đạt thành thi triển điều kiện.",
+      "stats": [],
+      "effects": [
+        425
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700134,
+      "name": "Luyện Khí Học Đồ",
+      "description": "Luyện khí tư chất tăng lên &700134_lqzz& điểm, niệm lực hạn mức cao nhất tăng lên &700134_tsnl& điểm.",
+      "stats": [],
+      "effects": [
+        426,
+        427
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700135,
+      "name": "Luyện Khí Tượng Nhân",
+      "description": "Luyện khí tư chất tăng lên &700135_lqzz& điểm, niệm lực hạn mức cao nhất tăng lên &700135_tsnl& điểm.",
+      "stats": [],
+      "effects": [
+        428,
+        429
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700136,
+      "name": "Luyện Khí Tông Sư",
+      "description": "Luyện khí tư chất tăng lên &700136_lqzz& điểm, niệm lực hạn mức cao nhất tăng lên &700136_tsnl& điểm.",
+      "stats": [],
+      "effects": [
+        430,
+        431
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700137,
+      "name": "Thiên Địa Đồng Thọ",
+      "description": "Sắp gặp tử vong lúc, thu hoạch được vô địch trạng thái tiếp tục &700137_wdsj& Giây, cũng đối toàn trường tất cả địch nhân tạo thành nên địch nhân cơ bản nhất lực &700137_blsh&% Tổn thương. Mỗi cuộc chiến đấu nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        432,
+        433,
+        434
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700138,
+      "name": "Cách Sơn Đả Ngưu",
+      "description": "Mỗi sử dụng &700138_txcs& Lần thể tu kỹ năng, phát động một đạo thẳng tắp cương kình, đối trúng đích địch nhân tạo thành toàn công pháp tư chất tổng cộng &700138_zzxs&% Trực tiếp tổn thương.",
+      "stats": [],
+      "effects": [
+        435,
+        436,
+        437
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700139,
+      "name": "Đoạt Mệnh Chân Khí",
+      "description": "Mỗi sử dụng &700139_lxcs& Lần Linh tu kỹ năng, phát động ba đạo truy tung linh khí, đối trúng đích địch nhân tạo thành linh pháp tư chất tổng cộng &700139_zzxs&% Trực tiếp tổn thương.",
+      "stats": [],
+      "effects": [
+        438,
+        439,
+        440
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700140,
+      "name": "Thiên Đồng Chi Nhận",
+      "description": "Công kích tạo thành thấp nhất tổn thương thay đổi vì &700140_zdsh&. Này tổn thương theo cảnh giới tăng lên.",
+      "stats": [],
+      "effects": [
+        441
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700141,
+      "name": "Tham Ma Thể",
+      "description": "Mỗi nhận &700141_gjcs& Lần công kích, miễn dịch lần tiếp theo nhận tổn thương",
+      "stats": [],
+      "effects": [
+        442,
+        443
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700142,
+      "name": "Phệ Ma Thể",
+      "description": "Mỗi nhận &700142_gjcs& Lần công kích, miễn dịch lần tiếp theo nhận tổn thương",
+      "stats": [],
+      "effects": [
+        444,
+        443
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700143,
+      "name": "Quỷ Ảnh Mê Tung",
+      "description": "Tốc độ di chuyển đề cao &700143_ysts&%",
+      "stats": [],
+      "effects": [
+        445
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700144,
+      "name": "Đạp Tuyết Vô Ngân",
+      "description": "Tốc độ di chuyển đề cao &700144_ysts&%, lại mỗi &700144_jgsj& Giây miễn dịch một lần tổn thương",
+      "stats": [],
+      "effects": [
+        446,
+        447
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700145,
+      "name": "Lấy Võ Nhập Đạo",
+      "description": "Mỗi lần luận bàn thu hoạch được tâm đắc gia tăng &700145_xdzj&%",
+      "stats": [],
+      "effects": [
+        448
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700146,
+      "name": "Thần Du Thư Hải",
+      "description": "Tại học tập bí tịch lúc, có &700146_tjjj&% Xác suất làm bí tịch vì người chơi trước mắt cảnh giới, &700146_lqsj& Tháng bên trong nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        449,
+        450,
+        451
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700147,
+      "name": "Quỷ Thần Tích Dịch",
+      "description": "Làm đào mộ có &700147_cfgl&% Xác suất làm giảm bớt tuổi thọ giảm xuống &700147_jssm&%",
+      "stats": [],
+      "effects": [
+        452
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700148,
+      "name": "Yết Bảng Hiệp Khách",
+      "description": "Mỗi lần hoàn thành nhiệm vụ thu hoạch được ban thưởng gia tăng &700148_jlzj&%",
+      "stats": [],
+      "effects": [
+        453
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700149,
+      "name": "Yết Bảng Hào Kiệt",
+      "description": "Mỗi lần hoàn thành nhiệm vụ thu hoạch được ban thưởng gia tăng &700149_jlzj&%",
+      "stats": [],
+      "effects": [
+        454
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700150,
+      "name": "Hồng Vận Đương Đầu",
+      "description": "May mắn gia tăng &700150_xyzj&, thu hoạch được mặt trái khí vận tiếp tục thời gian giảm xuống &700150_fmqy&%.",
+      "stats": [],
+      "effects": [
+        455,
+        456
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700151,
+      "name": "Hồng Phúc Tề Thiên",
+      "description": "May mắn gia tăng &700151_xyzj&, thu hoạch được mặt trái khí vận tiếp tục thời gian giảm xuống &700151_fmqy&%.",
+      "stats": [],
+      "effects": [
+        457,
+        458
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700152,
+      "name": "Xuyên Vân Điện Thiểm",
+      "description": "Mỗi &700152_ydsd& điểm tốc độ di chuyển, đề cao &700152_shts&% Tổn thương. Nhiều nhất gia tăng &700152_shts|x700152_zdcs|f2&%",
+      "stats": [],
+      "effects": [
+        459,
+        460
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700153,
+      "name": "Tái Vật Vô Cương",
+      "description": "Mỗi &700153_jgsj& Giây cấp cho tự thân một cái chở vật trạng thái. Này trạng thái dưới bị thương tổn sẽ bị hấp thu.&700153_ddsj& Giây sau trạng thái kết thúc lúc nhận tổn thương sẽ bộc phát cho tự thân phạm vi &700153_shfw& Mã tất cả đơn vị.",
+      "stats": [],
+      "effects": [
+        461
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700154,
+      "name": "Liệt Hỏa Liệu Nguyên",
+      "description": "Thần thông kỹ năng uy lực tăng lên &700154_stsh&%, nhưng thần thông tiêu hao linh lực đồng thời ngoài định mức tiêu hao &700154_xhsm&% Lớn nhất HP.",
+      "stats": [],
+      "effects": [
+        462,
+        463
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700155,
+      "name": "Hổ Phách Long Hồn",
+      "description": "Tuyệt kỹ mỗi lần trúng đích địch nhân lúc, sẽ có &700155_cfgl& % Xác suất kèm theo. Long ngâm, tạo thành tự thân võ pháp tư chất tổng cộng &700155_wfxs&% Tổn thương. Hổ khiếu, tạo thành tự thân toàn linh căn tổng cộng &700155_lgxs&% Tổn thương. Mỗi &700155_lqsj& Giây bên trong nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        464,
+        465,
+        466,
+        467
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700156,
+      "name": "Ngưng Nguyên Tịch Diệt",
+      "description": "Nhận đơn lần tổn thương vượt qua lớn nhất HP &700156_sdbl&% Lúc, khóa chặt tổn thương là lớn nhất HP &700156_sdbl&% Cũng đóng băng tất cả địch nhân &700156_bdsj& Giây. Mỗi &700156_lqsj& Giây bên trong nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        468,
+        469
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700157,
+      "name": "Bài Sơn Đảo Hải",
+      "description": "Mỗi tạo thành &700157_shcs& Lần tổn thương sau, tiếp xuống &700157_bjsj& Giây nhất định bạo kích. Thời gian cooldown &700157_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        470,
+        471
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700158,
+      "name": "Sát Tâm Sậu Khởi",
+      "description": "Mỗi tạo thành &700158_shcs& Lần tổn thương sau, tiếp xuống &700158_bjsj& Giây nhất định bạo kích, lại bạo kích bội suất +&700158_bjbl&%, cuối cùng bạo kích bội suất nhỏ nhất vì &700158_zdbl& Lần. Làm lạnh &700158_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        472,
+        473,
+        474,
+        475
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700159,
+      "name": "Lô Hỏa Thuần Thanh",
+      "description": "Võ kỹ / Linh kỹ, tổn thương đề cao &700159_zjsh&%",
+      "stats": [],
+      "effects": [
+        476,
+        477
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700160,
+      "name": "Thiên Ngoại Hữu Thiên",
+      "description": "Mỗi lần sử dụng hoặc kích hoạt thần thông sau thu hoạch được một tầng thiên ngoài có trời hiệu quả, mỗi tầng hiệu quả có thể đề cao tự thân tổn thương &700160_shts&%, đồng thời tự thân nhận tổn thương &700160_jsbl&%, lớn nhất nhưng điệp gia &700160_djcs& Tầng.",
+      "stats": [],
+      "effects": [
+        478,
+        479,
+        480,
+        481
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700161,
+      "name": "Linh Hồn Cộng Minh",
+      "description": "Mỗi cái phe bạn triệu hoán vật sẽ cung cấp tự thân &700161_shts&% Tổn thương, nhiều nhất tăng lên &700161_shts|x700161_djcs|f2&%. Đương tự thân nhận trí mạng thương hại lúc, sẽ từ một cái triệu hoán vật thay thế tử vong cũng hồi phục tự thân cơ bản nhất lực &700161_tlhf&%, thay thế tử vong hiệu quả mỗi &700161_lqsj& Giây nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        482,
+        483,
+        484,
+        485
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700162,
+      "name": "Nhiếp Thần Hàn Quang",
+      "description": "Mỗi lần phóng thích thần thông lúc, làm toàn trường địch nhân bị thương tổn đề cao &700162_shts&% Cũng mê muội, tiếp tục &700162_cxsj& Giây. Nên hiệu quả thời gian cooldown &700162_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        486,
+        487,
+        488
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700163,
+      "name": "Hàn Linh Băng Mạch",
+      "description": "Tính gộp lại nhận lớn nhất HP &700163_ljsh&% Tổn thương sau, sẽ tại tự thân phạm vi &700163_sjwz& Mã ngẫu nhiên vị trí xuất hiện một cái &700163_ghfw& Mã lớn nhỏ khí tường lồng ánh sáng, đang giận trong tường tự thân bị thương tổn giảm bớt &700163_shjm&%, tạo thành tổn thương tăng lên &700163_shts&%, tiếp tục &700163_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        489,
+        490,
+        491,
+        492,
+        493
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700164,
+      "name": "Đại Mạc Cuồng Đao",
+      "description": "Tiến vào phó bản &700164_cfyc& Giây sau có xác suất phóng thích. Bão cát tiếp tục &700164_cxsj& Giây, tiếp tục thời gian bên trong toàn trường tất cả địch nhân mỗi giây nhận lớn nhất HP &700164_mmsh&% Tổn thương ( Đối BOSS Cùng tu tiên giả chỉ có &700164_dysh&% Tổn thương ), cũng giảm tốc &700164_jsbl&%( Một trận chiến đấu nhiều nhất chỉ có thể phát động 1 Lần )",
+      "stats": [],
+      "effects": [
+        494,
+        495,
+        496
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700165,
+      "name": "Chiến Ý Bạo Trướng:",
+      "description": "",
+      "stats": [],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 700166,
+      "name": "Vạn Pháp Giai Phá:",
+      "description": "",
+      "stats": [],
+      "effects": [],
+      "rarity": 1
+    },
+    {
+      "id": 700167,
+      "name": "Quy Kính Phân Nguyên",
+      "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động, hi sinh tự thân &700167_xhlt&% Trước mắt HP, đối tất cả phe bạn thực hiện một cái hộ thuẫn, hộ thuẫn giá trị tương đương chỗ hy sinh tính mạng giá trị lượng, hộ thuẫn không bị đánh vỡ trước không bị khống chế kỹ năng ảnh hưởng. Tiếp tục &700167_chsj& Giây, làm lạnh &700167_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        497,
+        498,
+        499,
+        500,
+        501,
+        502
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700168,
+      "name": "Thấu Thể Hóa Kình",
+      "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động, đương trong đội ngũ có thể lực thấp hơn &700168_tlbl&% Tu tiên giả đồng đội lúc, tiêu hao &700168_xhtl&% Trước mắt HP, làm tất cả địch quân nhân vật tạo thành tổn thương giảm xuống &700168_shjd&%, bị thương tổn đề cao &700168_shzj&%. Tiếp tục &700168_chxj& Giây, thời gian cooldown &700168_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        497,
+        503,
+        504,
+        505,
+        506,
+        507
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700169,
+      "name": "Kim Châm Thứ Huyệt",
+      "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động, giảm xuống &700169_shjd&% Tự thân tạo thành tổn thương, toàn trường tất cả quân đội bạn tạo thành tổn thương đề cao &700169_shzj&%. Tiếp tục &700169_cxsj& Giây, thời gian cooldown &700169_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        497,
+        508,
+        509,
+        510
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700174,
+      "name": "Hậu Đức Tái Vật",
+      "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động, làm tự thân bị thương tổn giảm xuống &700174_shjd&%, lại tất cả phe bạn tu tiên giả bị thương tổn &700174_shfd&% Sẽ từ tự thân thay gánh chịu, tiếp tục &700174_cxsj& Giây. Thời gian cooldown &700174_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        497,
+        511,
+        512,
+        513
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700175,
+      "name": "Huyền Hồ Tế Thế",
+      "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động, tiếp tục thời gian bên trong giảm xuống &700175_shjd& % Tự thân tạo thành tổn thương, lại sử dụng hồi phục đan dược lúc toàn trường tất cả phe bạn tu tiên giả đều sẽ đạt được nên hiệu quả của đan dược. Tiếp tục &700175_cxsj& Giây, làm lạnh &700175_lqsj& Giây.",
+      "stats": [],
+      "effects": [
+        497,
+        514,
+        515,
+        516
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700176,
+      "name": "Viêm Hỏa Cương Liệp",
+      "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Khởi động sau triệu hoán một cái tiếp tục &700176_zwsj& Giây lợn rừng ổ, lợn rừng ổ tiếp tục triệu hoán tiếp tục &700176_yzsj& Giây lợn rừng gia nhập chiến đấu, cũng có xác suất nhỏ triệu hồi ra một con giống cái đương Khang, kỹ năng thời gian cooldown &700176_jncd& Giây.( Giống cái đương Khang sẽ ôm lấy ngẫu nhiên một tu tiên giả, cũng trở lại lợn rừng ổ, sau đem tu tiên giả ném ra, tạo thành đại lượng tổn thương, này kỹ năng nhưng đánh đoạn thân pháp )",
+      "stats": [],
+      "effects": [
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700177,
+      "name": "Thanh Khâu Chi Chủ",
+      "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Khởi động sau triệu hoán một cái tiếp tục &700177_hysj& Giây mị hoặc hồ yêu, hồ yêu sẽ đối với địch nhân phát xạ mị hoặc chi hôn, bị hôn bên trong địch nhân sẽ biến thành ếch xanh nhỏ, tốc độ di chuyển &700177_mhjs&%, hiệu quả tiếp tục &700177_mhsj& Giây. Kỹ năng thời gian cooldown &700177_jncd& Giây",
+      "stats": [],
+      "effects": [
+        525,
+        526,
+        527,
+        528,
+        529
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700178,
+      "name": "Phù Sinh Phao Ảnh",
+      "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Tại chỗ bên trên trong địch nhân tồn tại tùy ý một tu tiên giả lúc, mỗi &700178_ppcd& Giây tại ngẫu nhiên vị trí tạo ra &700178_ppsl& Cái bong bóng từ trên trời giáng xuống, đương tu tiên giả đụng phải bong bóng lúc sẽ bị bong bóng bao khỏa &700178_ppsj& Giây. Kỹ năng tiếp tục &700178_pysj& Giây, thời gian cooldown &700178_jncd& Giây.",
+      "stats": [],
+      "effects": [
+        530,
+        531,
+        532,
+        533
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700179,
+      "name": "Truy Ảnh Kỳ Hoàn",
+      "description": "Chiến đấu bên trong có xác suất phát động, khởi động sau &700179_xdsj& Giây bên trong, tự thân mỗi di động &700179_xdjl& Khoảng cách đem kế tiếp nổ trứng, trên trận nhiều nhất đồng thời tồn tại &700179_zdsl& Cái nổ trứng. Nổ trứng sẽ tại địch nhân đụng phải lúc bạo tạc, đối với địch nhân tạo thành uy lực &700179_bzwl& Tổn thương. Kỹ năng thời gian cooldown &700179_jncd& Giây.",
+      "stats": [],
+      "effects": [
+        534,
+        535,
+        536,
+        537,
+        538
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700180,
+      "name": "Thiên Lôi Cuồn Cuộn",
+      "description": "Đương tiến vào chiến đấu sau có xác suất làm trong tràng hạ xuống tiếp tục &700180_bysj& Giây mưa to. Tại mưa to tiếp tục thời gian bên trong, khiến trên trận tất cả địch nhân tốc độ di chuyển &700180_byjs&%; Mỗi &700180_llcd& Giây sẽ tại trước mắt thể lực nhiều nhất phe bạn đơn vị ( Bao quát người chơi nhân vật ) Vị trí hạ xuống sét, đối nên đơn vị tạo thành uy lực &700180_yswl& Tổn thương, cũng đồng thời đối lấy làm trung tâm bán kính &700180_llfw& Phạm vi bên trong tất cả địch nhân tạo thành uy lực &700180_llwl& Tổn thương; Hiệu quả thời gian cooldown &700180_jncd& Giây.",
+      "stats": [],
+      "effects": [
+        539,
+        540,
+        541,
+        542
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700181,
+      "name": "Phong Khởi Linh Động",
+      "description": "Chiến đấu bên trong có xác suất phát động, tại chỗ trên có tu tiên giả đồng đội bị đánh bại sau, có xác suất sẽ xuất hiện chữa bệnh đội tới cứu người, được cứu người sẽ tại &700181_fcsj& Giây sau quay về chiến trường, hồi phục &700181_ylhf&% Thể lực.",
+      "stats": [],
+      "effects": [
+        534,
+        543,
+        544,
+        545,
+        546
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700182,
+      "name": "Thiên Nhân Hợp Nhất",
+      "description": "Mỗi một lần sử dụng linh kỹ / Võ kỹ, sẽ thu hoạch được một tầng thiên người ấn, thiên nhân ấn nhiều nhất có thể điệp gia &700182_xgcs& Lần. Lần tiếp theo tuyệt kỹ kỹ năng lúc, tiêu hao tất cả thiên nhân ấn, mỗi tầng tăng lên tuyệt kỹ tổn thương &700182_jjsh&%.",
+      "stats": [],
+      "effects": [
+        547,
+        548,
+        549,
+        550,
+        551
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700183,
+      "name": "Thiên Cương Bộ Pháp",
+      "description": "Mỗi lần sử dụng thân pháp kỹ năng sau &700183_cxsj& Giây bên trong, đều sẽ làm tự thân nhận tổn thương &700183_shjd&%.",
+      "stats": [],
+      "effects": [
+        552,
+        553
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700184,
+      "name": "Chấn Thiên Nộ Khiếu",
+      "description": "Mỗi nhận &700184_cfbl&% Lớn nhất HP tổn thương lúc, hét lớn một tiếng, làm toàn trường đơn vị sinh ra sợ hãi tạo thành tổn thương &700184_shjd& %, nhiều nhất &700184_shjd|x700184_djcs|f2&%, mỗi tầng phân biệt tiếp tục &700184_cxsj& Giây.",
+      "stats": [],
+      "effects": [
+        554,
+        555,
+        556,
+        557,
+        558
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700185,
+      "name": "Tụ Lôi Tiêm Kích",
+      "description": "Mỗi &700185_jgsj& Giây vì tự thân điệp gia một tầng tụ lôi, nhiều nhất nhưng điệp gia &700185_djcs& Tầng, đương tự thân bị thương tổn lúc, sẽ tiêu hao một tầng tụ lôi, cũng hướng &700185_jnfw& Phạm vi bên trong tất cả địch nhân phát ra lôi điện, tạo thành uy lực &700185_jnwl& Tổn thương.",
+      "stats": [],
+      "effects": [
+        559,
+        560,
+        561,
+        562,
+        563,
+        564
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700186,
+      "name": "Số Mệnh Chi Dẫn",
+      "description": "Mỗi &700186_lqsj& Giây mở ra một lần kết nối, mở ra lúc kết nối trên trận HP nhiều nhất địch nhân, người chơi nhận tổn thương &700186_ftsh&% Sẽ bị giảm miễn cũng truyền đến mục tiêu trên thân. Tiếp tục &700186_cxsj& Giây.",
+      "stats": [],
+      "effects": [
+        565,
+        566,
+        567
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700187,
+      "name": "Phong Thiên Ý Chí",
+      "description": "Không cách nào thiên đạo đột phá, nhưng là sau khi đột phá có thể lựa chọn nghịch thiên cải mệnh đều là cao cấp nhất.",
+      "stats": [],
+      "effects": [
+        568,
+        569
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700188,
+      "name": "Tiềm Long Thức Tỉnh",
+      "description": "Này khí vận gia trì hạ, bên người cùng cái rắm rồng nhưng tại Thanh Lân trong ao tiến hành biến hóa.",
+      "stats": [],
+      "effects": [
+        570,
+        571
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700191,
+      "name": "Thất Tinh Kiếm Bộc",
+      "description": "Sử dụng tuyệt kỹ lúc, có thể triệu hoán ra &700191_fjsl& Thanh phi kiếm, cũng hướng địch nhân tiếp tục phát xạ kiếm khí, tạo thành uy lực &700191_fjwl& Tổn thương, chỉ cần lần này sử dụng tuyệt kỹ đang kéo dài tạo thành tổn thương, phi kiếm cũng sẽ không biến mất, phi kiếm ít nhất có thể cầm tục &700191_cxsj& Giây, nhiều nhất có thể cầm tục &700191_cxsj|+700191_zdsj|f0& Giây. Mỗi &700191_fjcd& Giây nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700193,
+      "name": "Minh Hà Chi Chủ",
+      "description": "Sử dụng thần thông lúc, như trên trận không có tự thân chỗ triệu hoán châu 蟞 Ngư vương, thì khấu trừ trên trận tất cả tự thân triệu hoán vật &700193_blsh&% Trước mắt thể lực triệu hoán châu 蟞 Ngư vương, cũng căn cứ tất cả khấu trừ triệu hoán vật thể lực tổng cộng &700193_tlbl& Lần tăng lên châu 蟞 Ngư vương cơ bản nhất lực. Châu 蟞 Ngư vương ở đây bên trên lúc, mỗi &700193_xqjg& Giây sẽ hấp thụ trên trận tất cả tự thân triệu hoán vật &700193_xqsh& Một ít thể lực, cũng căn cứ hút lấy lấy thể lực &700193_hfbl&% Hồi phục châu 蟞 Ngư vương thể lực. Trên trận mỗi tồn tại một cái tự thân triệu hoán vật, đều sẽ làm châu 蟞 Ngư vương tổn thương tăng lên &700193_shts&%, cao nhất có thể tăng lên châu 蟞 Ngư vương &700193_shsx|x700193_shts|/100|f0&% Tổn thương.",
+      "stats": [],
+      "effects": [
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587
+      ],
+      "rarity": 3
+    },
+    {
+      "id": 700194,
+      "name": "Địa Yểm Quỷ Trảm",
+      "description": "Mỗi lần sử dụng võ kỹ lúc, có &700192_cfgl&% Xác suất hướng phía trước chém ra một đạo phạm vi lớn khí nhận, đối trúng đích địch nhân tạo thành uy lực &700192_zjwl& Tổn thương, làm lạnh &700192_lqsj& Giây",
+      "stats": [],
+      "effects": [
+        588,
+        589,
+        590,
+        591
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700195,
+      "name": "Thiên Vũ Phong Sát",
+      "description": "Mỗi lần sử dụng thần thông lúc, sẽ từ tự thân dưới chân tạo ra &700194_ddsl& Đạo gió lốc, đối trúng đích địch nhân tạo thành uy lực &700194_xfwl& Tổn thương, gió lốc sẽ tự động truy tung khoảng cách địch nhân gần nhất, tiếp tục &700194_cssj& Giây, làm lạnh &700194_lqsj& Giây",
+      "stats": [],
+      "effects": [
+        592,
+        593,
+        594,
+        595,
+        596,
+        597
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700196,
+      "name": "Vi Nhân Vi Kỉ",
+      "description": "Tự thân triệu hoán vật bị địch nhân lúc công kích, có &700195_fzgl&% Xác suất đối tổn thương nơi phát ra người tạo thành uy lực &700195_fzwl& Tổn thương, mỗi &700195_fzjg& Giây nhiều nhất phát động một lần",
+      "stats": [],
+      "effects": [
+        598,
+        599,
+        600
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700197,
+      "name": "Bắc Minh Phi Sương",
+      "description": "Tính gộp lại sử dụng &700196_jjcs& Lần tuyệt kỹ lúc, sẽ trong phòng rơi xuống đại lượng tảng băng, đối bính đụng vào địch nhân tạo thành uy lực &700196_bswl& Tổn thương cũng thực hiện đông kết hiệu quả, làm lạnh &700196_lqsj& Giây",
+      "stats": [],
+      "effects": [
+        601,
+        602,
+        603,
+        604
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700198,
+      "name": "Yên La Huyễn Chướng",
+      "description": "Tự thân triệu hoán vật mỗi lần đối với địch nhân tạo thành tổn thương lúc, sẽ làm địch nhân thu hoạch được độc tố, tiếp tục &700197_cxsj& Giây. Trên người địch nhân độc tố điệp gia đến &700197_djcs& Tầng sau sẽ dẫn bạo mục tiêu, đối mục tiêu tạo thành một lần uy lực &700197_bzwl& Phạm vi tổn thương, cùng làm nhận tổn thương tăng lên &700197_shts&%, tiếp tục &700197_shsj& Giây. Mỗi cái địch nhân &700197_lqsj& Giây bên trong nhiều nhất bị dẫn bạo một lần",
+      "stats": [],
+      "effects": [
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700199,
+      "name": "Thần Hỏa Thiên Tinh",
+      "description": "Tự thân đang kéo dài trong quá trình thi pháp, sẽ kéo dài hướng phía trước hình quạt phun ra đại lượng hỏa cầu, hỏa cầu trúng đích địch nhân sau sẽ tạo thành uy lực &700199_hqwl& Hỏa thuộc tính phạm vi tổn thương",
+      "stats": [],
+      "effects": [
+        611,
+        612,
+        613
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700200,
+      "name": "Thần Tiêu Tịnh Trần",
+      "description": "Sử dụng thần thông lúc, triệu hoán &700201_llsl& Đạo sấm sét ngẫu nhiên đối phụ cận địch nhân tiến hành đả kích, mỗi đạo kinh lôi sẽ đối với địch nhân tạo thành uy lực &700201_llwl& Tổn thương, làm lạnh &700201_lqsj& Giây",
+      "stats": [],
+      "effects": [
+        580,
+        614,
+        615,
+        616
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700201,
+      "name": "Hào Viêm Chước Nhật",
+      "description": "Tính gộp lại tạo thành &700211_sxcs& Lần tổn thương sau, lần công kích sau nhưng dẫn bạo mục tiêu cũng tạo thành &700211_bzwl& Uy lực tổn thương, cũng tại mục tiêu chỗ lưu lại một đoàn phạm vi &700211_lyfw& Liệt diễm, làm lạnh &700211_bzcd& Giây",
+      "stats": [],
+      "effects": [
+        617,
+        618,
+        619,
+        620
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700202,
+      "name": "Chưởng Nội Càn Khôn",
+      "description": "Sử dụng lĩnh vực kỹ năng lúc tiêu hao đạo lực &700198_xhjs&%",
+      "stats": [],
+      "effects": [
+        621
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700203,
+      "name": "Huyễn Linh Oa",
+      "description": "Có thể sử dụng Huyễn Linh nồi luyện chế đan dược, làm tự thân nhận đến từ mặt sau tổn thương &700203_shjd&%, mang theo tiến vào chiến đấu đan dược số lượng &700203_dysl&.( Lựa chọn sau thay thế Huyễn Linh nồi, có thể thăng cấp vì Thiên cấp Huyễn Linh nồi )",
+      "stats": [],
+      "effects": [
+        622,
+        623,
+        624,
+        625
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700204,
+      "name": "Thiên Cấp Huyễn Linh Oa",
+      "description": "Làm tự thân nhận đến từ mặt sau tổn thương -30%, mang theo tiến vào chiến đấu đan dược số lượng &700203_dysl&, đan dược thời gian cooldown &700204_nljs&%.( Lựa chọn sau thay thế Huyễn Linh nồi )",
+      "stats": [
+        {
+          "id": 5,
+          "value": -30.0
+        }
+      ],
+      "effects": [
+        626,
+        627
+      ],
+      "rarity": 2
+    },
+    {
+      "id": 700205,
+      "name": "Linh Đan Diệu Dược",
+      "description": "Đan dược hồi phục thể lực cùng linh lực hiệu quả tăng lên &700205_hftl&%.",
+      "stats": [],
+      "effects": [
+        628
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700206,
+      "name": "Đan Tinh Dược Tủy",
+      "description": "Đan dược cung cấp hiệu quả tiếp tục thời gian tăng lên &700206_zjsj&%.",
+      "stats": [],
+      "effects": [
+        629
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700207,
+      "name": "Dược Độc Đồng Nguyên",
+      "description": "Đan dược đối với địch nhân tạo thành tổn thương tăng lên 30%.",
+      "stats": [],
+      "effects": [
+        630
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700208,
+      "name": "Ngọc Dịch Quy Nguyên",
+      "description": "Mỗi lần sử dụng tuyệt kỹ lúc, làm tất cả đan dược thời gian cooldown &700208_lqjs& Giây, mỗi &700208_cfjg& Giây nhiều nhất phát động một lần.",
+      "stats": [],
+      "effects": [
+        631,
+        632,
+        633
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700209,
+      "name": "Huyền Hồ Ngự Yêu",
+      "description": "Trong chiến đấu, Luyện Yêu Hồ thời gian cooldown &7002091_lyhlq&%, ấm yêu chưa huyễn hóa chân thân lúc nhưng mỗi &7002092_mmhf& Giây hồi phục cơ bản nhất lực &7002092_hyhx&%.",
+      "stats": [],
+      "effects": [
+        634,
+        635,
+        636
+      ],
+      "rarity": 1
+    },
+    {
+      "id": 700210,
+      "name": "Tiêu Dao Du",
+      "description": "Cước lực của ngươi +500; Nếu ngươi không có tông môn, thì mỗi lần tại linh khí cao hơn 100 Ngăn chứa bên trên lúc tu luyện, có 50% Xác suất thu hoạch được một chút linh quả.",
+      "stats": [],
+      "effects": [
+        637,
+        638,
+        639
+      ],
+      "rarity": 1
+    }
+  ]
+}

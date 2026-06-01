@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__code-review-graph__semantic_search_nodes_tool",
+      "Bash(rtk grep *)",
+      "mcp__code-review-graph__query_graph_tool",
+      "Bash(rtk read *)",
+      "Bash(rtk wc *)",
+      "Bash(python3 *)",
+      "Bash(chmod +x /tmp/parse_boss.sh)",
+      "Bash(/tmp/parse_boss.sh)",
+      "Bash(grep -n \"INSERT INTO \\\\`boss_config\\\\`\" src/sql/tomahoc_db.sql)",
+      "Bash(awk 'NR>=832 && /;[[:space:]]*$/ {print NR\": \"substr\\($0,length\\($0\\)-30\\); exit}' src/sql/tomahoc_db.sql)",
+      "Bash(grep -c \"INSERT INTO \\\\`boss_config\\\\`\" sql/boss_config.sql)",
+      "Bash(cp sql/boss_config.sql sql/boss_config.sql.bak)",
+      "Bash(python merge_reward.py)",
+      "Bash(python verify_reward.py)",
+      "Bash(grep -c \"\\\\`spawn_count\\\\`,\\\\`special_abilities\\\\`,\\\\`reward_config\\\\`,\\\\`custom_class\\\\`\\) VALUES\" sql/boss_config.sql)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "code-review-graph"
+  ]
+}

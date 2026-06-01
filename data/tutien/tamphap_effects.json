@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "description": "Tăng tốc độ học pháp thuật và kỹ năng chiến đấu"
+  },
+  {
+    "id": 2,
+    "description": "Giảm tiêu hao linh lực khi thi triển chiêu thức"
+  },
+  {
+    "id": 3,
+    "description": "Tăng tốc hồi phục thể lực sau mỗi trận chiến"
+  },
+  {
+    "id": 4,
+    "description": "Có cơ hội kích hoạt chiêu thức bổ trợ bất ngờ"
+  },
+  {
+    "id": 5,
+    "description": "Tăng sức công phá trong khoảng cách cận chiến"
+  },
+  {
+    "id": 6,
+    "description": "Giảm 20% thời gian hồi chiêu của kỹ năng"
+  },
+  {
+    "id": 7,
+    "description": "Tăng phạm vi tấn công khi sử dụng vũ khí dài"
+  },
+  {
+    "id": 8,
+    "description": "Có cơ hội phát hiện điểm yếu của địch thủ"
+  },
+  {
+    "id": 9,
+    "description": "Tăng sức mạnh chiêu thức khi linh lực đạt tối đa"
+  },
+  {
+    "id": 10,
+    "description": "Giảm tổn thương nhận vào khi ở thế phòng thủ"
+  },
+  {
+    "id": 11,
+    "description": "Tăng tốc đột phá cảnh giới tu luyện"
+  },
+  {
+    "id": 12,
+    "description": "Tăng hiệu quả hấp thu linh khí thiên địa"
+  },
+  {
+    "id": 13,
+    "description": "Tự động hồi phục một phần linh lực theo thời gian"
+  },
+  {
+    "id": 14,
+    "description": "Tăng sức mạnh chiêu thức khi ý chí kiên định không dao động"
+  },
+  {
+    "id": 15,
+    "description": "Giảm thời gian luyện đan và luyện khí xuống đáng kể"
+  },
+  {
+    "id": 16,
+    "description": "Có cơ hội luyện được đan dược phẩm cao hơn một bậc"
+  },
+  {
+    "id": 17,
+    "description": "Tăng chất lượng và số lượng bùa chú khi vẽ"
+  },
+  {
+    "id": 18,
+    "description": "Tăng xác suất thành công khi luyện đan lên cao"
+  },
+  {
+    "id": 19,
+    "description": "Hồi phục thể lực nhanh hơn khi ở trong thiên nhiên"
+  },
+  {
+    "id": 20,
+    "description": "Tăng sức mạnh khi chiến đấu trên đất đai và rừng rậm"
+  },
+  {
+    "id": 21,
+    "description": "Tăng tốc độ di chuyển khi thân pháp được kích hoạt"
+  },
+  {
+    "id": 22,
+    "description": "Giảm sát thương nhận vào từ đòn tấn công phía sau"
+  },
+  {
+    "id": 23,
+    "description": "Tăng sức mạnh tấn công tầm xa khi thi triển pháp thuật"
+  },
+  {
+    "id": 24,
+    "description": "Cộng hưởng linh căn tăng mạnh khi sở hữu nhiều thuộc tính"
+  },
+  {
+    "id": 25,
+    "description": "Giảm ảnh hưởng tiêu cực từ ma đạo và tà khí"
+  },
+  {
+    "id": 26,
+    "description": "Tăng uy danh và danh vọng khi hành thiện giúp người"
+  },
+  {
+    "id": 27,
+    "description": "Tăng sức mạnh của tất cả kỹ năng tấn công"
+  },
+  {
+    "id": 28,
+    "description": "Cộng hưởng với tất cả linh căn khi tiến hành tu luyện"
+  },
+  {
+    "id": 29,
+    "description": "Có khả năng tiếp nhận cơ duyên và cơ hội hiếm gặp"
+  },
+  {
+    "id": 30,
+    "description": "Vượt qua giới hạn bình thường của cảnh giới hiện tại"
+  },
+  {
+    "id": 31,
+    "description": "Tăng cường sức mạnh nội tâm và khả năng chịu đựng"
+  },
+  {
+    "id": 32,
+    "description": "Ổn định trạng thái tinh thần khi đối mặt nguy hiểm"
+  },
+  {
+    "id": 33,
+    "description": "Tăng lực tấn công khi sử dụng pháp thuật lôi điện"
+  },
+  {
+    "id": 34,
+    "description": "Tăng khả năng phòng ngự khi ở trong trận địa đất"
+  },
+  {
+    "id": 35,
+    "description": "Linh căn nước tăng cường hiệu quả hồi phục cho bản thân"
+  },
+  {
+    "id": 36,
+    "description": "Linh căn gió tăng tốc độ di chuyển và phản xạ"
+  },
+  {
+    "id": 37,
+    "description": "Linh căn lửa tăng sức thiêu đốt của mọi chiêu thức"
+  },
+  {
+    "id": 38,
+    "description": "Tăng sức mạnh tấn công khi chiến đấu ban đêm hoặc trong bóng tối"
+  },
+  {
+    "id": 39,
+    "description": "Kéo dài tuổi thọ và duy trì trạng thái trẻ trung lâu hơn"
+  },
+  {
+    "id": 40,
+    "description": "Tăng uy lực pháp thuật khi cả hai chính đạo và linh lực ở mức cao"
+  }
+]

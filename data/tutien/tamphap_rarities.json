@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Phàm",
+    "stat_slots": 1,
+    "effect_slots": 0
+  },
+  {
+    "id": 2,
+    "name": "Linh",
+    "stat_slots": 2,
+    "effect_slots": 1
+  },
+  {
+    "id": 3,
+    "name": "Tiên",
+    "stat_slots": 3,
+    "effect_slots": 2
+  },
+  {
+    "id": 4,
+    "name": "Thần",
+    "stat_slots": 4,
+    "effect_slots": 3
+  },
+  {
+    "id": 5,
+    "name": "Thần Thoại",
+    "stat_slots": 5,
+    "effect_slots": 4
+  }
+]

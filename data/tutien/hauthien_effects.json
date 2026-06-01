@@ -1,0 +1,2046 @@
+[
+  {
+    "id": 1,
+    "description": "Nhục thể nhận trọng thương mà vỡ vụn"
+  },
+  {
+    "id": 2,
+    "description": "còn sót lại một tia nguyên hồn"
+  },
+  {
+    "id": 3,
+    "description": "cần dùng tam dương sinh xương đan mới có thể tái tạo nhục thân"
+  },
+  {
+    "id": 4,
+    "description": "nếu không nguyên hồn sẽ tiêu tán"
+  },
+  {
+    "id": 5,
+    "description": "cần dùng năm bảo Đại Hoàn đan mới có thể tái tạo nhục thân"
+  },
+  {
+    "id": 6,
+    "description": "cần dùng bảy cực Cố Hồn Đan mới có thể tái tạo nhục thân"
+  },
+  {
+    "id": 7,
+    "description": "cần dùng cửu chuyển hoàn hồn đan mới có thể tái tạo nhục thân"
+  },
+  {
+    "id": 8,
+    "description": "Ngay tại tái tạo nhục thân bên trong"
+  },
+  {
+    "id": 9,
+    "description": "Cước lực khóa chặt vì 300 Lại không cách nào sử dụng truyền tống hiệu quả"
+  },
+  {
+    "id": 10,
+    "description": "Giảm xuống người chơi 30% Lớn nhất điểm linh lực hạn mức cao nhất"
+  },
+  {
+    "id": 11,
+    "description": "Lớn nhất niệm lực hạn mức cao nhất giảm xuống 50%"
+  },
+  {
+    "id": 12,
+    "description": "Người chơi phòng ngự giảm xuống 30%"
+  },
+  {
+    "id": 13,
+    "description": "Người chơi tất cả linh căn giảm xuống 30%"
+  },
+  {
+    "id": 14,
+    "description": "trước mắt trạng thái không cách nào tiến hành đột phá"
+  },
+  {
+    "id": 15,
+    "description": "tất cả công pháp và linh căn tư chất"
+  },
+  {
+    "id": 16,
+    "description": "Cấm chỉ rời đi tông môn"
+  },
+  {
+    "id": 17,
+    "description": "đơn vị ẩn tàng"
+  },
+  {
+    "id": 18,
+    "description": "không cách nào bị cái khác đơn vị chọn trúng"
+  },
+  {
+    "id": 19,
+    "description": "Mỗi tháng kết thúc cố định đơn vị đến tăng thêm khí vận lúc địa điểm"
+  },
+  {
+    "id": 20,
+    "description": "Đình chỉ AI Vận chuyển"
+  },
+  {
+    "id": 21,
+    "description": "Bị khốn tại yêu thú sào huyệt"
+  },
+  {
+    "id": 22,
+    "description": "tips_119"
+  },
+  {
+    "id": 23,
+    "description": "tu vi đình trệ"
+  },
+  {
+    "id": 24,
+    "description": "cần đột phá bình cảnh mới có thể đi vào luyện khí trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 25,
+    "description": "cần đột phá bình cảnh mới có thể đi vào luyện khí hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 26,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Trúc Cơ trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 27,
+    "description": "cần đột phá bình cảnh mới có thể đi vào trúc cơ hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 28,
+    "description": "cần đột phá bình cảnh mới có thể đi vào kết tinh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 29,
+    "description": "cần đột phá bình cảnh mới có thể đi vào kết tinh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 30,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Kim Đan trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 31,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Kim Đan hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 32,
+    "description": "cần đột phá bình cảnh mới có thể đi vào cỗ linh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 33,
+    "description": "cần đột phá bình cảnh mới có thể đi vào cỗ linh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 34,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Nguyên Anh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 35,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Nguyên Anh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 36,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Hóa Thần trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 37,
+    "description": "cần đột phá bình cảnh mới có thể đi vào Hóa Thần hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 38,
+    "description": "cần đột phá bình cảnh mới có thể đi vào ngộ đạo trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 39,
+    "description": "cần đột phá bình cảnh mới có thể đi vào ngộ đạo hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 40,
+    "description": "cần đột phá bình cảnh mới có thể đi vào vũ hóa trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 41,
+    "description": "cần đột phá bình cảnh mới có thể đi vào vũ hóa hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 42,
+    "description": "cần đột phá bình cảnh mới có thể đi vào thành tiên trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 43,
+    "description": "cần đột phá bình cảnh mới có thể đi vào thành tiên hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ"
+  },
+  {
+    "id": 44,
+    "description": "tips_140"
+  },
+  {
+    "id": 45,
+    "description": "Tại mở ra bản mệnh khí linh khế ước lúc"
+  },
+  {
+    "id": 46,
+    "description": "tổn thất bộ phận mệnh hồn. Cơ bản nhất lực cùng linh lực giảm xuống 20%"
+  },
+  {
+    "id": 47,
+    "description": "lại không cách nào khóa lại bản mệnh khí linh"
+  },
+  {
+    "id": 48,
+    "description": "Chấp hành tông môn nhiệm vụ thất bại"
+  },
+  {
+    "id": 49,
+    "description": "bị trưởng lão trừng phạt cấm đoán"
+  },
+  {
+    "id": 50,
+    "description": "không cách nào rời đi tông môn"
+  },
+  {
+    "id": 51,
+    "description": "tips_143"
+  },
+  {
+    "id": 52,
+    "description": "tips_144"
+  },
+  {
+    "id": 53,
+    "description": "mỗi tháng thể lực"
+  },
+  {
+    "id": 54,
+    "description": "mỗi tháng tinh lực"
+  },
+  {
+    "id": 55,
+    "description": "Gia tăng 10% Công kích"
+  },
+  {
+    "id": 56,
+    "description": "Gia tăng 10% Lớn nhất linh lực"
+  },
+  {
+    "id": 57,
+    "description": "Gia tăng 10% Phòng ngự"
+  },
+  {
+    "id": 58,
+    "description": "Gia tăng 10% Cơ bản nhất lực"
+  },
+  {
+    "id": 59,
+    "description": "Gia tăng 10% Đao tư chất 5006= Đạp gió thân thể. Tác dụng: Gia tăng 10% Tốc độ di chuyển"
+  },
+  {
+    "id": 60,
+    "description": "Gia tăng 10 Điểm vật lý miễn tổn thương"
+  },
+  {
+    "id": 61,
+    "description": "Giảm bớt 20 Điểm Hỏa Linh Căn"
+  },
+  {
+    "id": 62,
+    "description": "gia tăng 20 Lướt nước linh căn"
+  },
+  {
+    "id": 63,
+    "description": "Giảm bớt 30 Điểm phòng ngự"
+  },
+  {
+    "id": 64,
+    "description": "gia tăng 30 Điểm công kích"
+  },
+  {
+    "id": 65,
+    "description": "Toàn linh căn giảm bớt 10 Điểm"
+  },
+  {
+    "id": 66,
+    "description": "Thể lực hạn mức cao nhất tạm thời giảm bớt 30%"
+  },
+  {
+    "id": 67,
+    "description": "Ngươi luôn luôn cảm giác có người theo ngươi"
+  },
+  {
+    "id": 68,
+    "description": "Tất cả hồ yêu phảng phất đều tại dùng cừu thị ánh mắt nhìn xem ngươi"
+  },
+  {
+    "id": 69,
+    "description": "May mắn +10. Tiếp tục 12 Tháng"
+  },
+  {
+    "id": 70,
+    "description": "tiếp tục 6 tháng"
+  },
+  {
+    "id": 71,
+    "description": "tiếp tục 12 tháng"
+  },
+  {
+    "id": 72,
+    "description": "mỗi tháng tâm tình"
+  },
+  {
+    "id": 73,
+    "description": "tiếp tục 6 nguyệt"
+  },
+  {
+    "id": 74,
+    "description": "May mắn +10. Tiếp tục 6 Tháng"
+  },
+  {
+    "id": 75,
+    "description": "May mắn +20. Tiếp tục 6 Tháng"
+  },
+  {
+    "id": 76,
+    "description": "thể lực"
+  },
+  {
+    "id": 77,
+    "description": "linh lực"
+  },
+  {
+    "id": 78,
+    "description": "ngẫu nhiên thu hoạch được dược liệu. may mắn"
+  },
+  {
+    "id": 79,
+    "description": "ngẫu nhiên công pháp"
+  },
+  {
+    "id": 80,
+    "description": "đan dược"
+  },
+  {
+    "id": 81,
+    "description": "pháp bảo. may mắn"
+  },
+  {
+    "id": 82,
+    "description": "Có được hỗn độn chi lực thân thể"
+  },
+  {
+    "id": 83,
+    "description": "có thể cảm giác được viễn cổ Hỗn Độn khí tức"
+  },
+  {
+    "id": 84,
+    "description": "nhưng là mỗi tháng sẽ tổn thất 3 Tuổi thọ mệnh"
+  },
+  {
+    "id": 85,
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát"
+  },
+  {
+    "id": 86,
+    "description": "dẫn đến mang theo người đấu khí bị hao tổn"
+  },
+  {
+    "id": 87,
+    "description": "trước mắt mang theo 1 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 88,
+    "description": "giảm xuống 10% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 89,
+    "description": "trước mắt mang theo 2 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 90,
+    "description": "giảm xuống 20% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 91,
+    "description": "trước mắt mang theo 3 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 92,
+    "description": "giảm xuống 30% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 93,
+    "description": "trước mắt mang theo 4 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 94,
+    "description": "giảm xuống 40% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 95,
+    "description": "trước mắt mang theo 5 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 96,
+    "description": "giảm xuống 50% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 97,
+    "description": "trước mắt mang theo 6 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 98,
+    "description": "giảm xuống 60% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 99,
+    "description": "trước mắt mang theo 7 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 100,
+    "description": "giảm xuống 70% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 101,
+    "description": "trước mắt mang theo 8 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 102,
+    "description": "giảm xuống 80% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 103,
+    "description": "trước mắt mang theo 9 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 104,
+    "description": "giảm xuống 90% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 105,
+    "description": "trước mắt mang theo 10 Cái đấu khí Tiên tinh"
+  },
+  {
+    "id": 106,
+    "description": "giảm xuống 100% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 107,
+    "description": "Đem thể nội Hỏa Linh Căn toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 108,
+    "description": "tiến hành luyện hóa thành châu"
+  },
+  {
+    "id": 109,
+    "description": "bức ra linh căn sau"
+  },
+  {
+    "id": 110,
+    "description": "niệm lực phân biệt giảm xuống 15%"
+  },
+  {
+    "id": 111,
+    "description": "Đem thể nội Thủy linh căn toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 112,
+    "description": "Đem thể nội Lôi Linh cây toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 113,
+    "description": "Đem thể nội Phong Linh cây toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 114,
+    "description": "Đem thể nội thổ linh căn toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 115,
+    "description": "Đem thể nội mộc linh căn toàn bộ bức ra bên ngoài cơ thể"
+  },
+  {
+    "id": 116,
+    "description": "Mỗi tháng giảm bớt 10 Điểm tâm tình"
+  },
+  {
+    "id": 117,
+    "description": "Giảm xuống 50% Hiểu ý"
+  },
+  {
+    "id": 118,
+    "description": "Giảm xuống 50% Hộ tâm"
+  },
+  {
+    "id": 119,
+    "description": "Mỗi tháng giảm bớt 10 Điểm khỏe mạnh"
+  },
+  {
+    "id": 120,
+    "description": "Giảm xuống 10% Công kích"
+  },
+  {
+    "id": 121,
+    "description": "Mỗi tháng giảm bớt 10 Điểm tinh lực"
+  },
+  {
+    "id": 122,
+    "description": "Giảm xuống 10% Phòng ngự"
+  },
+  {
+    "id": 123,
+    "description": "Cái khác nhân vật đối ngươi độ thân mật không cách nào tăng lên"
+  },
+  {
+    "id": 124,
+    "description": "Tâm tình hạn mức cao nhất giảm xuống 50%"
+  },
+  {
+    "id": 125,
+    "description": "Không thể tiến hành tu luyện"
+  },
+  {
+    "id": 126,
+    "description": "Không thể sử dụng đan dược"
+  },
+  {
+    "id": 127,
+    "description": "Mỗi tháng có xác suất ngẫu nhiên mất đi bộ phận đạo cụ"
+  },
+  {
+    "id": 128,
+    "description": "Giảm xuống 50% May mắn"
+  },
+  {
+    "id": 129,
+    "description": "Không thể cùng cái khác nhân vật tiến hành trò chuyện"
+  },
+  {
+    "id": 130,
+    "description": "Không thể chủ động tiến vào chiến đấu"
+  },
+  {
+    "id": 131,
+    "description": "Không thể ngồi cưỡi tọa kỵ"
+  },
+  {
+    "id": 132,
+    "description": "Giảm xuống 50% Ngộ tính"
+  },
+  {
+    "id": 133,
+    "description": "mị lực &7000531_mlxj&"
+  },
+  {
+    "id": 134,
+    "description": "mỗi tháng hồi phục thể lực &7000531_hftl&%"
+  },
+  {
+    "id": 135,
+    "description": "Mỗi tháng khôi phục thể lực 200"
+  },
+  {
+    "id": 136,
+    "description": "Mỗi tháng khôi phục linh lực 200"
+  },
+  {
+    "id": 137,
+    "description": "Mỗi tháng khôi phục niệm lực 100"
+  },
+  {
+    "id": 138,
+    "description": "mỗi tháng khôi phục tinh lực 10"
+  },
+  {
+    "id": 139,
+    "description": "mỗi tháng khôi phục tâm tình 5"
+  },
+  {
+    "id": 140,
+    "description": "Mỗi tháng khôi phục thể lực 1000"
+  },
+  {
+    "id": 141,
+    "description": "Mỗi tháng khôi phục linh lực 500"
+  },
+  {
+    "id": 142,
+    "description": "Mỗi tháng khôi phục niệm lực 250"
+  },
+  {
+    "id": 143,
+    "description": "mỗi tháng khôi phục tinh lực 20"
+  },
+  {
+    "id": 144,
+    "description": "mỗi tháng khôi phục tâm tình 10"
+  },
+  {
+    "id": 145,
+    "description": "Mỗi tháng khôi phục thể lực 4000"
+  },
+  {
+    "id": 146,
+    "description": "Mỗi tháng khôi phục linh lực 1600"
+  },
+  {
+    "id": 147,
+    "description": "Mỗi tháng khôi phục niệm lực 800"
+  },
+  {
+    "id": 148,
+    "description": "mỗi tháng khôi phục tinh lực 30"
+  },
+  {
+    "id": 149,
+    "description": "mỗi tháng khôi phục tâm tình 15"
+  },
+  {
+    "id": 150,
+    "description": "Mỗi tháng khôi phục thể lực 14000"
+  },
+  {
+    "id": 151,
+    "description": "Mỗi tháng khôi phục linh lực 2400"
+  },
+  {
+    "id": 152,
+    "description": "Mỗi tháng khôi phục niệm lực 1200"
+  },
+  {
+    "id": 153,
+    "description": "mỗi tháng khôi phục tinh lực 40"
+  },
+  {
+    "id": 154,
+    "description": "mỗi tháng khôi phục tâm tình 20"
+  },
+  {
+    "id": 155,
+    "description": "Mỗi tháng khôi phục thể lực 50000"
+  },
+  {
+    "id": 156,
+    "description": "Mỗi tháng khôi phục linh lực 6000"
+  },
+  {
+    "id": 157,
+    "description": "Mỗi tháng khôi phục niệm lực 3000"
+  },
+  {
+    "id": 158,
+    "description": "mỗi tháng khôi phục tinh lực 50"
+  },
+  {
+    "id": 159,
+    "description": "mỗi tháng khôi phục tâm tình 25"
+  },
+  {
+    "id": 160,
+    "description": "Không cách nào tu luyện"
+  },
+  {
+    "id": 161,
+    "description": "lại công kích"
+  },
+  {
+    "id": 162,
+    "description": "phòng ngự"
+  },
+  {
+    "id": 163,
+    "description": "niệm lực giảm xuống 10%"
+  },
+  {
+    "id": 164,
+    "description": "Có thể vượt qua bộ phận không cách nào thông qua địa hình"
+  },
+  {
+    "id": 165,
+    "description": "chẳng biết tại sao"
+  },
+  {
+    "id": 166,
+    "description": "ngươi luôn cảm thấy có người ở bên người nói nhỏ"
+  },
+  {
+    "id": 167,
+    "description": "gặp oán hận"
+  },
+  {
+    "id": 168,
+    "description": "giảm xuống 15% Lực công kích"
+  },
+  {
+    "id": 169,
+    "description": "Gia tăng 20% Công kích cùng phòng ngự"
+  },
+  {
+    "id": 170,
+    "description": "Gia tăng 20% Tốc độ tu luyện"
+  },
+  {
+    "id": 171,
+    "description": "Gia tăng 15% May mắn"
+  },
+  {
+    "id": 172,
+    "description": "Gia tăng 20% Hộ tâm"
+  },
+  {
+    "id": 173,
+    "description": "Giảm xuống 20% May mắn"
+  },
+  {
+    "id": 174,
+    "description": "Mua sắm 8 Gãy ưu đãi"
+  },
+  {
+    "id": 175,
+    "description": "Ngươi trộm đi trong tiệm bảo vật sự tình truyền khắp phố lớn ngõ nhỏ"
+  },
+  {
+    "id": 176,
+    "description": "rất khó mua được đồ vật"
+  },
+  {
+    "id": 177,
+    "description": "sẽ còn bị thu nhiều lấy 25% Giá cao 9107= Người đưa đò kêu gọi. Tác dụng: Gia tăng tất cả linh căn 20 Điểm"
+  },
+  {
+    "id": 178,
+    "description": "giảm xuống linh căn kháng tính 10 Điểm"
+  },
+  {
+    "id": 179,
+    "description": "Mỗi tháng khôi phục 20 Điểm tâm tình"
+  },
+  {
+    "id": 180,
+    "description": "Gia tăng 25 Điểm may mắn"
+  },
+  {
+    "id": 181,
+    "description": "Gia tăng 100 Bạo kích bội số"
+  },
+  {
+    "id": 182,
+    "description": "Giảm bớt 10% Công kích"
+  },
+  {
+    "id": 183,
+    "description": "Gia tăng 20 Điểm may mắn"
+  },
+  {
+    "id": 184,
+    "description": "Mỗi tháng giảm bớt 10% Hiện hữu thể lực"
+  },
+  {
+    "id": 185,
+    "description": "Gia tăng 10% Hộ tâm"
+  },
+  {
+    "id": 186,
+    "description": "Giảm bớt 15% Thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 187,
+    "description": "Gia tăng 10 Điểm may mắn"
+  },
+  {
+    "id": 188,
+    "description": "lại mỗi tháng khôi phục 10% Thể lực cùng khỏe mạnh"
+  },
+  {
+    "id": 189,
+    "description": "Gia tăng 5 Điểm may mắn cùng 10% Hộ tâm"
+  },
+  {
+    "id": 190,
+    "description": "Gia tăng 5 Điểm may mắn"
+  },
+  {
+    "id": 191,
+    "description": "Gia tăng 10% Linh căn kháng tính"
+  },
+  {
+    "id": 192,
+    "description": "Gia tăng 10% Tu luyện hiệu suất"
+  },
+  {
+    "id": 193,
+    "description": "Gia tăng 200 Cước lực cùng 20 Điểm di tốc"
+  },
+  {
+    "id": 194,
+    "description": "Gia tăng 200 Cước lực"
+  },
+  {
+    "id": 195,
+    "description": "Giảm bớt 10 Điểm may mắn"
+  },
+  {
+    "id": 196,
+    "description": "tips_9128"
+  },
+  {
+    "id": 197,
+    "description": "tips_9129"
+  },
+  {
+    "id": 198,
+    "description": "tips_9130"
+  },
+  {
+    "id": 199,
+    "description": "tips_9131"
+  },
+  {
+    "id": 200,
+    "description": "tips_9132"
+  },
+  {
+    "id": 201,
+    "description": "tips_9133"
+  },
+  {
+    "id": 202,
+    "description": "tips_9134"
+  },
+  {
+    "id": 203,
+    "description": "tips_9135"
+  },
+  {
+    "id": 204,
+    "description": "tips_9136"
+  },
+  {
+    "id": 205,
+    "description": "tips_9137"
+  },
+  {
+    "id": 206,
+    "description": "tips_9138"
+  },
+  {
+    "id": 207,
+    "description": "Gia tăng 10% Công kích cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 208,
+    "description": "Gia tăng 10% Phòng ngự cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 209,
+    "description": "Gia tăng 10% Hiểu ý cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 210,
+    "description": "Gia tăng 100 Bạo kích bội số cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 211,
+    "description": "Giảm bớt 10% Công kích cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 212,
+    "description": "Giảm bớt 10% Phòng ngự cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 213,
+    "description": "Giảm bớt 10% Hiểu ý cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 214,
+    "description": "Giảm bớt 100 Bạo kích bội số cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 215,
+    "description": "Giảm bớt 100 Điểm niệm lực hạn mức cao nhất"
+  },
+  {
+    "id": 216,
+    "description": "Giảm bớt 10% Thể lực hạn mức cao nhất cùng linh lực hạn mức cao nhất"
+  },
+  {
+    "id": 217,
+    "description": "tips_9149"
+  },
+  {
+    "id": 218,
+    "description": "Gia tăng 20 Điểm ngộ tính"
+  },
+  {
+    "id": 219,
+    "description": "Giảm xuống 10 Điểm ngộ tính"
+  },
+  {
+    "id": 220,
+    "description": "Gia tăng 20 Điểm ngộ tính cùng 10% Tu luyện hiệu suất"
+  },
+  {
+    "id": 221,
+    "description": "Gia tăng 5% Công kích"
+  },
+  {
+    "id": 222,
+    "description": "Gia tăng 5% Thể lực cùng 10% Hiểu ý"
+  },
+  {
+    "id": 223,
+    "description": "Giảm bớt 1 Điểm may mắn"
+  },
+  {
+    "id": 224,
+    "description": "Giảm bớt 500 Điểm niệm lực hạn mức cao nhất"
+  },
+  {
+    "id": 225,
+    "description": "Gia tăng thể lực hạn mức cao nhất 5%"
+  },
+  {
+    "id": 226,
+    "description": "Giảm xuống 5% Thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 227,
+    "description": "tips_9161 9162= Ngự Hoang Thần pháp. Tác dụng: Bát Hoang giới tự có thiên đạo pháp tắc ước thúc"
+  },
+  {
+    "id": 228,
+    "description": "âm dương điều hòa"
+  },
+  {
+    "id": 229,
+    "description": "hóa nguyên quy nhất. Nơi đây sơn hải bên trong yêu tà chi lực dị thường hung mãnh"
+  },
+  {
+    "id": 230,
+    "description": "cho nên thiên đạo đem cho tới đối kháng người lấy lực lượng pháp tắc gia trì"
+  },
+  {
+    "id": 231,
+    "description": "lấy đạt tới Lưỡng Nghi hòa hợp chi cảnh. Nên lực lượng pháp tắc sẽ thật to cường hóa tu tiên giả triệu hồi ra sinh vật"
+  },
+  {
+    "id": 232,
+    "description": "khiến cho có thể cùng hung ác yêu thú phân cao thấp.<g> Tự thân triệu hoán vật ( Bao quát pháp bảo ) Nhận đến tự đại yêu thú tổn thương"
+  },
+  {
+    "id": 233,
+    "description": "Gia tăng 10 Điểm ngộ tính"
+  },
+  {
+    "id": 234,
+    "description": "Gia tăng 5% Công kích cùng 10 Điểm ngộ tính"
+  },
+  {
+    "id": 235,
+    "description": "Gia tăng 5% Phòng ngự cùng 10 Điểm may mắn"
+  },
+  {
+    "id": 236,
+    "description": "Gia tăng 5 Điểm ngộ tính cùng 100 Cước lực"
+  },
+  {
+    "id": 237,
+    "description": "Công kích giảm bớt 5%"
+  },
+  {
+    "id": 238,
+    "description": "di tốc +20 điểm"
+  },
+  {
+    "id": 239,
+    "description": "Gia tăng công kích cùng phòng ngự 5%"
+  },
+  {
+    "id": 240,
+    "description": "Gia tăng công kích 10%"
+  },
+  {
+    "id": 241,
+    "description": "gia tăng 20 Điểm ngộ tính"
+  },
+  {
+    "id": 242,
+    "description": "Gia tăng phòng ngự 10%"
+  },
+  {
+    "id": 243,
+    "description": "Ngộ tính đề cao 40 Điểm"
+  },
+  {
+    "id": 244,
+    "description": "tốc độ tu luyện đề cao 50%"
+  },
+  {
+    "id": 245,
+    "description": "May mắn giảm bớt 20 Điểm"
+  },
+  {
+    "id": 246,
+    "description": "mị lực giảm bớt 500 Điểm"
+  },
+  {
+    "id": 247,
+    "description": "tips_9174"
+  },
+  {
+    "id": 248,
+    "description": "Hoa phong châu đệ nhất tông môn"
+  },
+  {
+    "id": 249,
+    "description": "Mây mạch châu đệ nhất tông môn"
+  },
+  {
+    "id": 250,
+    "description": "Mộ Tiên Châu đệ nhất tông môn"
+  },
+  {
+    "id": 251,
+    "description": "Xích U châu đệ nhất tông môn"
+  },
+  {
+    "id": 252,
+    "description": "Hoa phong châu mạnh nhất đệ tử"
+  },
+  {
+    "id": 253,
+    "description": "Mây mạch châu mạnh nhất đệ tử"
+  },
+  {
+    "id": 254,
+    "description": "Mộ Tiên Châu mạnh nhất đệ tử"
+  },
+  {
+    "id": 255,
+    "description": "Xích U châu mạnh nhất đệ tử"
+  },
+  {
+    "id": 256,
+    "description": "Người chết lâm chung oán niệm chỗ tụ"
+  },
+  {
+    "id": 257,
+    "description": "nhiều thì một năm"
+  },
+  {
+    "id": 258,
+    "description": "ít thì một tháng"
+  },
+  {
+    "id": 259,
+    "description": "người chết nhất định đoàn tụ nhục thân"
+  },
+  {
+    "id": 260,
+    "description": "tìm ngươi trả thù"
+  },
+  {
+    "id": 261,
+    "description": "tips_9184"
+  },
+  {
+    "id": 262,
+    "description": "tips_9185"
+  },
+  {
+    "id": 263,
+    "description": "Gia tăng gấp đôi bạo kích tổn thương"
+  },
+  {
+    "id": 264,
+    "description": "gia tăng 10% Lực công kích"
+  },
+  {
+    "id": 265,
+    "description": "Ngưu Lang Chức Nữ cùng khoản tín vật"
+  },
+  {
+    "id": 266,
+    "description": "tượng trưng cho ngươi cùng đối phương thâm hậu tình nghĩa. Đương đối phương tao ngộ cái khác tu tiên giả trí mạng uy hiếp lúc"
+  },
+  {
+    "id": 267,
+    "description": "cái này nút buộc đem sinh ra vượt qua không gian kỳ diệu phản ứng"
+  },
+  {
+    "id": 268,
+    "description": "có lẽ có thể đem ngươi đưa đến đối phương bên người"
+  },
+  {
+    "id": 269,
+    "description": "Thân Hoài Kim ô ngọc vũ"
+  },
+  {
+    "id": 270,
+    "description": "đi tới chỗ nào đều sẽ trở thành Bát Hoang giới đông đảo loài chim cực kỳ hâm mộ đối tượng"
+  },
+  {
+    "id": 271,
+    "description": "đương {#areaname2}"
+  },
+  {
+    "id": 272,
+    "description": "{#areaName3} Khu vực hành tẩu lúc"
+  },
+  {
+    "id": 273,
+    "description": "gặp được quái vật tập kích xác suất tăng lên 50%"
+  },
+  {
+    "id": 274,
+    "description": "đương {#areaname4}"
+  },
+  {
+    "id": 275,
+    "description": "{#areaName5} Khu vực hành tẩu lúc"
+  },
+  {
+    "id": 276,
+    "description": "đương {#areaname6}"
+  },
+  {
+    "id": 277,
+    "description": "{#areaName7} Khu vực hành tẩu lúc"
+  },
+  {
+    "id": 278,
+    "description": "đương {#areaname8}"
+  },
+  {
+    "id": 279,
+    "description": "{#areaName9} Khu vực hành tẩu lúc"
+  },
+  {
+    "id": 280,
+    "description": "Đương {#areaName10} Khu vực hành tẩu lúc"
+  },
+  {
+    "id": 281,
+    "description": "gặp được quái vật tập kích xác suất tăng lên 50% 6331021= Tránh yêu mùi thơm. Tác dụng: Đương {#areaName2}"
+  },
+  {
+    "id": 282,
+    "description": "gặp được quái vật tập kích xác suất giảm xuống 50%"
+  },
+  {
+    "id": 283,
+    "description": "Thu liễm tự thân khí tức"
+  },
+  {
+    "id": 284,
+    "description": "khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName1}"
+  },
+  {
+    "id": 285,
+    "description": "{#areaname2}"
+  },
+  {
+    "id": 286,
+    "description": "{#areaName3}</g> Khu vực thường có hiệu"
+  },
+  {
+    "id": 287,
+    "description": "khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName4}"
+  },
+  {
+    "id": 288,
+    "description": "{#areaName5}</g> Cùng trước đó khu vực thường có hiệu"
+  },
+  {
+    "id": 289,
+    "description": "khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName6}"
+  },
+  {
+    "id": 290,
+    "description": "{#areaName7}</g> Cùng trước đó khu vực thường có hiệu"
+  },
+  {
+    "id": 291,
+    "description": "khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName8}"
+  },
+  {
+    "id": 292,
+    "description": "{#areaName9}</g> Cùng trước đó khu vực thường có hiệu"
+  },
+  {
+    "id": 293,
+    "description": "khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{{#areaName10}<g> Cùng trước đó khu vực thường có hiệu"
+  },
+  {
+    "id": 294,
+    "description": "Chiến đấu bên trong sắp chết lúc lập tức trả lời toàn bộ thể lực linh lực cùng niệm lực"
+  },
+  {
+    "id": 295,
+    "description": "chỉ có thể phát động một lần"
+  },
+  {
+    "id": 296,
+    "description": "phát động sau khí vận biến mất"
+  },
+  {
+    "id": 297,
+    "description": "Chiến đấu bên trong sắp chết lúc có thể không địch 5 Giây"
+  },
+  {
+    "id": 298,
+    "description": "một trận chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 299,
+    "description": "tổng cộng nhưng phát động 3 Lần"
+  },
+  {
+    "id": 300,
+    "description": "số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/3)"
+  },
+  {
+    "id": 301,
+    "description": "Thể lực thấp hơn 20% Lúc phát động"
+  },
+  {
+    "id": 302,
+    "description": "triệu hoán 3 Cái khô lâu"
+  },
+  {
+    "id": 303,
+    "description": "trong đó một cái mang theo đặc kỹ cách mỗi 5 Giây hồi phục người chơi lớn nhất HP 5%. Một trận chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 304,
+    "description": "tổng cộng có thể phát động 3 Lần"
+  },
+  {
+    "id": 305,
+    "description": "Trong chiến đấu gặp được đại yêu thú cùng một chút khá mạnh lực địch nhân lúc 9 Giây sau đối tất cả địch nhân tạo thành tổn thương cũng tại về sau 5 Giây bên trong trầm mặc địch nhân cũng tạo thành tiểu ngạch tổn thương"
+  },
+  {
+    "id": 306,
+    "description": "tổng cộng nhưng phát động 9 Lần"
+  },
+  {
+    "id": 307,
+    "description": "số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/9)"
+  },
+  {
+    "id": 308,
+    "description": "triệu hoán 4 Cái Quỷ Tướng"
+  },
+  {
+    "id": 309,
+    "description": "Sử dụng thần thông về sau qua một đoạn thời gian"
+  },
+  {
+    "id": 310,
+    "description": "nhưng tại trên trận triệu hoán một đạo thiên kiếm đối tất cả địch nhân tạo thành cao tổn thương. Một trận chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 311,
+    "description": "tổng cộng có thể phát động 9 Lần"
+  },
+  {
+    "id": 312,
+    "description": "Một mặt tổn hại ngự quỷ cờ"
+  },
+  {
+    "id": 313,
+    "description": "nhưng vẫn là bảo lưu lại nó bộ phận lực lượng. Thể lực thấp hơn 20% Lúc phát động"
+  },
+  {
+    "id": 314,
+    "description": "triệu hoán 2 Cái Quỷ Tướng. Một trận chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 315,
+    "description": "tổng cộng có thể phát động 2 Lần"
+  },
+  {
+    "id": 316,
+    "description": "số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/2) 6120004= Tổn hại thiên kiếm thạch. Tác dụng: Một khối tổn hại thiên kiếm thạch"
+  },
+  {
+    "id": 317,
+    "description": "nhưng vẫn là bảo lưu lại nó bộ phận lực lượng. Sử dụng thần thông về sau qua một đoạn thời gian"
+  },
+  {
+    "id": 318,
+    "description": "nhưng tại trên trận triệu hoán một đạo thiên kiếm đối tất cả địch nhân tạo thành tổn thương. Một trận chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 319,
+    "description": "có thể chống cự Bàn Long sơn bên trong hàn khí"
+  },
+  {
+    "id": 320,
+    "description": "tips_810101"
+  },
+  {
+    "id": 321,
+    "description": "tips_810102"
+  },
+  {
+    "id": 322,
+    "description": "mị lực +&810103_mlzj&"
+  },
+  {
+    "id": 323,
+    "description": "tips_810104"
+  },
+  {
+    "id": 324,
+    "description": "tips_811101"
+  },
+  {
+    "id": 325,
+    "description": "tips_811102"
+  },
+  {
+    "id": 326,
+    "description": "tips_811103"
+  },
+  {
+    "id": 327,
+    "description": "tips_811104"
+  },
+  {
+    "id": 328,
+    "description": "tips_811105"
+  },
+  {
+    "id": 329,
+    "description": "tips_811106"
+  },
+  {
+    "id": 330,
+    "description": "tips_811107"
+  },
+  {
+    "id": 331,
+    "description": "tips_811108"
+  },
+  {
+    "id": 332,
+    "description": "tips_811109"
+  },
+  {
+    "id": 333,
+    "description": "tips_811110"
+  },
+  {
+    "id": 334,
+    "description": "tips_811111"
+  },
+  {
+    "id": 335,
+    "description": "tips_811112"
+  },
+  {
+    "id": 336,
+    "description": "tips_811113"
+  },
+  {
+    "id": 337,
+    "description": "tips_811114"
+  },
+  {
+    "id": 338,
+    "description": "tips_811115"
+  },
+  {
+    "id": 339,
+    "description": "tips_811116"
+  },
+  {
+    "id": 340,
+    "description": "Không cách nào tiến hành tu luyện"
+  },
+  {
+    "id": 341,
+    "description": "song tu"
+  },
+  {
+    "id": 342,
+    "description": "thể lực hạn mức cao nhất - 10%"
+  },
+  {
+    "id": 343,
+    "description": "linh căn kháng tính"
+  },
+  {
+    "id": 344,
+    "description": "Tiểu sư muội đột phá lúc hiệu quả đặc biệt"
+  },
+  {
+    "id": 345,
+    "description": "ngươi cơ duyên phía dưới từ bên cạnh đạt được chỗ tốt"
+  },
+  {
+    "id": 346,
+    "description": "kết thành khí vận"
+  },
+  {
+    "id": 347,
+    "description": "tăng trưởng tinh thần. Thể lực"
+  },
+  {
+    "id": 348,
+    "description": "niệm lực hạn mức cao nhất các tăng 100 Điểm"
+  },
+  {
+    "id": 349,
+    "description": "Mua sắm thu hoạch được giảm còn 80% ưu đãi"
+  },
+  {
+    "id": 350,
+    "description": "Không nghĩ sư huynh bí dược lại có cường kiện thân thể chi công"
+  },
+  {
+    "id": 351,
+    "description": "thể nội khí tức lưu chuyển"
+  },
+  {
+    "id": 352,
+    "description": "hết sức thông thuận. thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 353,
+    "description": "linh đài đảo ngược"
+  },
+  {
+    "id": 354,
+    "description": "tận nghiêng phiền não"
+  },
+  {
+    "id": 355,
+    "description": "biển kính dòm tâm"
+  },
+  {
+    "id": 356,
+    "description": "hơi thở nghi trong vắt lo"
+  },
+  {
+    "id": 357,
+    "description": "tiến nhập nội thị cảnh giới"
+  },
+  {
+    "id": 358,
+    "description": "xem khắp nội phủ. ngộ tính"
+  },
+  {
+    "id": 359,
+    "description": "Ngươi đạt được môn nhân tôn kính"
+  },
+  {
+    "id": 360,
+    "description": "tinh thần đại chấn"
+  },
+  {
+    "id": 361,
+    "description": "giơ tay nhấc chân"
+  },
+  {
+    "id": 362,
+    "description": "đều là tự tin. tâm tình hạn mức cao nhất xách"
+  },
+  {
+    "id": 363,
+    "description": "mỗi tháng khôi phục tâm tình"
+  },
+  {
+    "id": 364,
+    "description": "Gia tăng thể lực 5% Thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 365,
+    "description": "5% Niệm lực hạn mức cao nhất 8805219= Thoải mái uống. Tác dụng: Gia tăng 10% Thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 366,
+    "description": "10% Niệm lực hạn mức cao nhất"
+  },
+  {
+    "id": 367,
+    "description": "Gia tăng 15% Thể lực hạn mức cao nhất"
+  },
+  {
+    "id": 368,
+    "description": "15% Niệm lực hạn mức cao nhất"
+  },
+  {
+    "id": 369,
+    "description": "tips_8805223"
+  },
+  {
+    "id": 370,
+    "description": "tips_8805224"
+  },
+  {
+    "id": 371,
+    "description": "tips_8805225"
+  },
+  {
+    "id": 372,
+    "description": "bị thương tổn"
+  },
+  {
+    "id": 373,
+    "description": "tạo thành tổn thương"
+  },
+  {
+    "id": 374,
+    "description": "Không cách nào đột phá"
+  },
+  {
+    "id": 375,
+    "description": "kỹ năng cd"
+  },
+  {
+    "id": 376,
+    "description": "võ kỹ / linh kỹ tầm bắn"
+  },
+  {
+    "id": 377,
+    "description": "sử dụng đan dược"
+  },
+  {
+    "id": 378,
+    "description": "pháp bảo niệm lực tiêu hao"
+  },
+  {
+    "id": 379,
+    "description": "nhận đến tự học tiên giả tổn thương"
+  },
+  {
+    "id": 380,
+    "description": "có xác suất không cách nào hành động"
+  },
+  {
+    "id": 381,
+    "description": "nhận tổn thương"
+  },
+  {
+    "id": 382,
+    "description": "Đạo tâm ở vào ban đầu lúc mới sinh trạng thái"
+  },
+  {
+    "id": 383,
+    "description": "đã có thể thu hoạch nghịch thiên cải mệnh"
+  },
+  {
+    "id": 384,
+    "description": "Đạo tâm ở vào đang phát triển ngưng tụ trạng thái"
+  },
+  {
+    "id": 385,
+    "description": "thu được đạo tâm sở thuộc hiệu quả đặc biệt"
+  },
+  {
+    "id": 386,
+    "description": "Đạo tâm ở vào viên mãn sau kết túy trạng thái"
+  },
+  {
+    "id": 387,
+    "description": "thu được cuối cùng cường đại hiệu quả đặc biệt"
+  },
+  {
+    "id": 388,
+    "description": "Đạo tâm ở vào dao động trạng thái"
+  },
+  {
+    "id": 389,
+    "description": "như lại tiếp tục gặp đả kích liền sẽ tiến vào sụp đổ sụp đổ"
+  },
+  {
+    "id": 390,
+    "description": "sinh ra nhất định mặt trái hiệu quả"
+  },
+  {
+    "id": 391,
+    "description": "Đạo tâm ở vào sụp đổ trạng thái"
+  },
+  {
+    "id": 392,
+    "description": "như lại tiếp tục gặp đả kích liền có vỡ vụn trừ khử phong hiểm"
+  },
+  {
+    "id": 393,
+    "description": "sinh ra nghiêm trọng mặt trái hiệu quả"
+  },
+  {
+    "id": 394,
+    "description": "Đạo tâm đã trừ khử"
+  },
+  {
+    "id": 395,
+    "description": "cận tồn một tia vết tích chứng minh nó đã từng tồn tại"
+  },
+  {
+    "id": 396,
+    "description": "sinh ra cực kì nghiêm trọng mặt trái hiệu quả"
+  },
+  {
+    "id": 397,
+    "description": "nhận nhục nhã"
+  },
+  {
+    "id": 398,
+    "description": "sinh hoạt tính tích cực bị đả kích"
+  },
+  {
+    "id": 399,
+    "description": "đối gặp trắc trở cùng khảo nghiệm cảm thấy chán ghét 9002003= Tín niệm gặp khó. Tác dụng: Nhận nhục nhã"
+  },
+  {
+    "id": 400,
+    "description": "tu đạo tín niệm sinh ra dao động"
+  },
+  {
+    "id": 401,
+    "description": "Tự thân tạo thành đao pháp tổn thương sẽ bị đao thứ nhất tu hóa giải"
+  },
+  {
+    "id": 402,
+    "description": "Tự thân tạo thành thương pháp tổn thương sẽ bị thương thứ nhất tu hóa giải"
+  },
+  {
+    "id": 403,
+    "description": "Tự thân tạo thành kiếm pháp tổn thương sẽ bị kiếm thứ nhất tu hóa giải"
+  },
+  {
+    "id": 404,
+    "description": "Tự thân tạo thành quyền pháp tổn thương sẽ bị quyền thứ nhất tu hóa giải"
+  },
+  {
+    "id": 405,
+    "description": "Tự thân tạo thành chưởng pháp tổn thương sẽ bị đệ nhất chưởng tu hóa giải"
+  },
+  {
+    "id": 406,
+    "description": "Tự thân tạo thành chỉ pháp tổn thương sẽ bị đệ nhất chỉ tu hóa giải"
+  },
+  {
+    "id": 407,
+    "description": "Tự thân tạo thành Hỏa thuộc tính tổn thương sẽ bị đệ nhất lửa tu hóa giải"
+  },
+  {
+    "id": 408,
+    "description": "Tự thân tạo thành Thủy thuộc tính tổn thương sẽ bị đệ nhất nước tu hóa giải"
+  },
+  {
+    "id": 409,
+    "description": "Tự thân tạo thành lôi thuộc tính tổn thương sẽ bị đệ nhất lôi tu hóa giải"
+  },
+  {
+    "id": 410,
+    "description": "Tự thân tạo thành Phong thuộc tính tổn thương sẽ bị đệ nhất gió tu hóa giải"
+  },
+  {
+    "id": 411,
+    "description": "Tự thân tạo thành Thổ thuộc tính tổn thương sẽ bị đệ nhất thổ tu hóa giải"
+  },
+  {
+    "id": 412,
+    "description": "Tự thân tạo thành Mộc thuộc tính tổn thương sẽ bị đệ nhất mộc tu hóa giải"
+  },
+  {
+    "id": 413,
+    "description": "tips_9100021"
+  },
+  {
+    "id": 414,
+    "description": "tips_9100022"
+  },
+  {
+    "id": 415,
+    "description": "tips_9100023"
+  },
+  {
+    "id": 416,
+    "description": "tips_9100024"
+  },
+  {
+    "id": 417,
+    "description": "tips_9100025"
+  },
+  {
+    "id": 418,
+    "description": "tips_9100026"
+  },
+  {
+    "id": 419,
+    "description": "tips_9100027"
+  },
+  {
+    "id": 420,
+    "description": "tips_9100028"
+  },
+  {
+    "id": 421,
+    "description": "tips_9100029"
+  },
+  {
+    "id": 422,
+    "description": "tips_9100030"
+  },
+  {
+    "id": 423,
+    "description": "tips_9100031"
+  },
+  {
+    "id": 424,
+    "description": "tips_9100032 [4 loại buff]"
+  },
+  {
+    "id": 425,
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc"
+  },
+  {
+    "id": 426,
+    "description": "giá cả"
+  },
+  {
+    "id": 427,
+    "description": "Mỗi cái đại quan có 15% Xác suất làm tượng thần ngoài định mức xuất hiện một lần"
+  },
+  {
+    "id": 428,
+    "description": "Mỗi cái đại quan có 30% Xác suất làm tượng thần ngoài định mức xuất hiện một lần"
+  },
+  {
+    "id": 429,
+    "description": "Mỗi cái đại quan có 45% Xác suất làm tượng thần ngoài định mức xuất hiện một lần 9014= Thánh Thú chi linh. Tác dụng: Mỗi cái đại quan có 60% Xác suất làm tượng thần ngoài định mức xuất hiện một lần"
+  },
+  {
+    "id": 430,
+    "description": "Mỗi cái đại quan có 75% Xác suất làm tượng thần ngoài định mức xuất hiện một lần"
+  },
+  {
+    "id": 431,
+    "description": "Mỗi cái đại quan có 90% Xác suất làm tượng thần ngoài định mức xuất hiện một lần"
+  },
+  {
+    "id": 432,
+    "description": "Mỗi cái quái vật tại tử vong lúc"
+  },
+  {
+    "id": 433,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Một ít thể lực linh quả"
+  },
+  {
+    "id": 434,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 800 Một ít thể lực linh quả"
+  },
+  {
+    "id": 435,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1200 Một ít thể lực linh quả"
+  },
+  {
+    "id": 436,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1600 Một ít thể lực linh quả"
+  },
+  {
+    "id": 437,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 2000 Một ít thể lực linh quả"
+  },
+  {
+    "id": 438,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 2400 Một ít thể lực linh quả"
+  },
+  {
+    "id": 439,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 200 Điểm linh lực linh quả"
+  },
+  {
+    "id": 440,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Điểm linh lực linh quả"
+  },
+  {
+    "id": 441,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 600 Điểm linh lực linh quả"
+  },
+  {
+    "id": 442,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 800 Điểm linh lực linh quả"
+  },
+  {
+    "id": 443,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1000 Điểm linh lực linh quả"
+  },
+  {
+    "id": 444,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1200 Điểm linh lực linh quả"
+  },
+  {
+    "id": 445,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 100 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 446,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 200 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 447,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 300 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 448,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 449,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 500 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 450,
+    "description": "có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 600 Điểm niệm lực linh quả"
+  },
+  {
+    "id": 451,
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc"
+  },
+  {
+    "id": 452,
+    "description": "đem hồi phục 250 Điểm thể lực"
+  },
+  {
+    "id": 453,
+    "description": "niệm lực"
+  },
+  {
+    "id": 454,
+    "description": "đem hồi phục 500 Điểm thể lực"
+  },
+  {
+    "id": 455,
+    "description": "đem hồi phục 750 Điểm thể lực"
+  },
+  {
+    "id": 456,
+    "description": "đem hồi phục 1000 Điểm thể lực"
+  },
+  {
+    "id": 457,
+    "description": "đem hồi phục 1250 Điểm thể lực"
+  },
+  {
+    "id": 458,
+    "description": "đem hồi phục 1500 Điểm thể lực"
+  },
+  {
+    "id": 459,
+    "description": "Mỗi lần tiến vào đại quan lúc"
+  },
+  {
+    "id": 460,
+    "description": "giảm xuống 50 Điểm công kích"
+  },
+  {
+    "id": 461,
+    "description": "mỗi thông quan một tầng"
+  },
+  {
+    "id": 462,
+    "description": "tăng lên 10 Điểm công kích"
+  },
+  {
+    "id": 463,
+    "description": "giảm xuống 75 Điểm công kích"
+  },
+  {
+    "id": 464,
+    "description": "tăng lên 15 Điểm công kích"
+  },
+  {
+    "id": 465,
+    "description": "giảm xuống 100 Điểm công kích"
+  },
+  {
+    "id": 466,
+    "description": "tăng lên 20 Điểm công kích"
+  },
+  {
+    "id": 467,
+    "description": "giảm xuống 125 Điểm công kích"
+  },
+  {
+    "id": 468,
+    "description": "tăng lên 25 Điểm công kích"
+  },
+  {
+    "id": 469,
+    "description": "giảm xuống 150 Điểm công kích"
+  },
+  {
+    "id": 470,
+    "description": "tăng lên 30 Điểm công kích"
+  },
+  {
+    "id": 471,
+    "description": "giảm xuống 200 Điểm công kích"
+  },
+  {
+    "id": 472,
+    "description": "tăng lên 40 Điểm công kích"
+  },
+  {
+    "id": 473,
+    "description": "Mỗi một tầng thông quan lúc"
+  },
+  {
+    "id": 474,
+    "description": "có 5% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 475,
+    "description": "có 7% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 476,
+    "description": "có 9% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 477,
+    "description": "có 11% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 478,
+    "description": "có 13% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 479,
+    "description": "có 15% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng"
+  },
+  {
+    "id": 480,
+    "description": "Mỗi lần sử dụng thân pháp lúc"
+  },
+  {
+    "id": 481,
+    "description": "có thể đạt được 200 Điểm hộ thuẫn"
+  },
+  {
+    "id": 482,
+    "description": "tiếp tục 5 giây"
+  },
+  {
+    "id": 483,
+    "description": "có thể đạt được 400 Điểm hộ thuẫn"
+  },
+  {
+    "id": 484,
+    "description": "có thể đạt được 600 Điểm hộ thuẫn"
+  },
+  {
+    "id": 485,
+    "description": "có thể đạt được 800 Điểm hộ thuẫn"
+  },
+  {
+    "id": 486,
+    "description": "có thể đạt được 1000 Điểm hộ thuẫn"
+  },
+  {
+    "id": 487,
+    "description": "có thể đạt được 1200 Điểm hộ thuẫn"
+  },
+  {
+    "id": 488,
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc"
+  },
+  {
+    "id": 489,
+    "description": "có 5% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí"
+  },
+  {
+    "id": 490,
+    "description": "có 7% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí"
+  },
+  {
+    "id": 491,
+    "description": "có 9% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí"
+  },
+  {
+    "id": 492,
+    "description": "có 11% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí"
+  },
+  {
+    "id": 493,
+    "description": "có 13% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí"
+  },
+  {
+    "id": 494,
+    "description": "có 15% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí [5 Loại BUFF]"
+  },
+  {
+    "id": 495,
+    "description": "Nhận người khác uy hiếp"
+  },
+  {
+    "id": 496,
+    "description": "lần này chiến đấu bên trong"
+  },
+  {
+    "id": 497,
+    "description": "tự thân tạo thành tổn thương giảm xuống 10%"
+  },
+  {
+    "id": 498,
+    "description": "tự thân nhận tổn thương gia tăng 10%"
+  },
+  {
+    "id": 499,
+    "description": "tự thân thể lực hạn mức cao nhất giảm bớt 10%"
+  },
+  {
+    "id": 500,
+    "description": "tự thân linh lực hạn mức cao nhất giảm bớt 10%"
+  },
+  {
+    "id": 501,
+    "description": "mỗi 5 Giây giảm bớt 2% Trước mắt thể lực"
+  },
+  {
+    "id": 502,
+    "description": "mỗi 5 Giây giảm bớt 4% Trước mắt linh lực"
+  },
+  {
+    "id": 503,
+    "description": "sử dụng đan dược khôi phục hiệu quả hạ xuống 20%. 8201= Công kích trợ trận. Tác dụng: Nhận người khác trợ trận"
+  },
+  {
+    "id": 504,
+    "description": "tự thân tạo thành tổn thương gia tăng 10%"
+  },
+  {
+    "id": 505,
+    "description": "Nhận người khác trợ trận"
+  },
+  {
+    "id": 506,
+    "description": "tự thân nhận tổn thương giảm xuống 10%"
+  },
+  {
+    "id": 507,
+    "description": "tự thân thể lực hạn mức cao nhất gia tăng 10%"
+  },
+  {
+    "id": 508,
+    "description": "tự thân linh lực hạn mức cao nhất gia tăng 10%"
+  },
+  {
+    "id": 509,
+    "description": "mỗi 5 Giây khôi phục 2% Cơ bản nhất lực"
+  },
+  {
+    "id": 510,
+    "description": "mỗi 5 Giây khôi phục 4% Lớn nhất linh lực"
+  },
+  {
+    "id": 511,
+    "description": "sử dụng đan dược khôi phục hiệu quả tăng lên 20%"
+  }
+]

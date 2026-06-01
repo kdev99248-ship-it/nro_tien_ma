@@ -1,0 +1,31 @@
+    private void toggleAutoOptimization() {
+        if (activeAutoOptimizeFuture != null) {
+            activeAutoOptimizeFuture.cancel(false);
+            activeAutoOptimizeFuture = null;
+        }
+
+        if (chkAutoOptimize.isSelected()) {
+            String selected = (String) cbOptimizeInterval.getSelectedItem();
+            int minutes = 10;
+            if (selected.contains("5"))
+                minutes = 5;
+            else if (selected.contains("30"))
+                minutes = 30;
+            else if (selected.contains("60"))
+                minutes = 60;
+
+            lblOptStatus.setText("Trạng thái: Đang chạy (" + minutes + "p/lần)");
+            lblOptStatus.setForeground(new Color(0, 153, 51));
+
+            activeAutoOptimizeFuture = scheduler.scheduleAtFixedRate(() -> {
+                log("AUTO-OPT: Bắt đầu chu trình tối ưu tự động...");
+                performRamCleanup();
+            }, minutes, minutes, java.util.concurrent.TimeUnit.MINUTES);
+
+            log("SYSTEM: Đã bật tự động tối ưu hóa (" + minutes + " phút/lần).");
+        } else {
+            lblOptStatus.setText("Trạng thái: Tắt");
+            lblOptStatus.setForeground(Color.RED);
+            log("SYSTEM: Đã tắt tự động tối ưu hóa.");
+        }
+    }

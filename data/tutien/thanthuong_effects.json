@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "description": "Tăng sức đốt cháy khi thi triển chiêu thức hỏa hệ"
+  },
+  {
+    "id": 2,
+    "description": "Hỏa linh căn cộng hưởng, toàn bộ công kích mang thêm hỏa tức"
+  },
+  {
+    "id": 3,
+    "description": "Bùng nổ linh khí hỏa hệ khi đột phá cảnh giới"
+  },
+  {
+    "id": 4,
+    "description": "Ngọn lửa nội tâm rực cháy, tăng tốc độ tu luyện đáng kể"
+  },
+  {
+    "id": 5,
+    "description": "Thủy khí linh hoạt, tự động hồi phục linh lực theo thời gian"
+  },
+  {
+    "id": 6,
+    "description": "Nước tịnh hóa cơ thể, loại bỏ trạng thái tiêu cực nhẹ"
+  },
+  {
+    "id": 7,
+    "description": "Thủy linh căn cộng hưởng, tăng hiệu quả đan dược hồi phục"
+  },
+  {
+    "id": 8,
+    "description": "Dòng chảy linh thủy nuôi dưỡng nguyên thần và thần thức"
+  },
+  {
+    "id": 9,
+    "description": "Phong tức tăng tốc, có cơ hội tránh né đòn tấn công"
+  },
+  {
+    "id": 10,
+    "description": "Gió linh tăng tốc phản xạ, giảm thời gian phản ứng trong chiến đấu"
+  },
+  {
+    "id": 11,
+    "description": "Phong linh căn cộng hưởng, di chuyển không để lại dấu vết"
+  },
+  {
+    "id": 12,
+    "description": "Cuồng phong nội tâm tăng tốc hấp thu linh khí thiên địa"
+  },
+  {
+    "id": 13,
+    "description": "Lôi điện kích phát, tấn công liên tiếp tăng sức sát thương"
+  },
+  {
+    "id": 14,
+    "description": "Lôi linh căn cộng hưởng, có cơ hội tê liệt địch thủ khi tấn công"
+  },
+  {
+    "id": 15,
+    "description": "Thần lôi nội tâm tăng cường tốc độ phản ứng thần kinh"
+  },
+  {
+    "id": 16,
+    "description": "Lôi điện tích tụ, mỗi lần né tránh tăng thêm sát thương lần sau"
+  },
+  {
+    "id": 17,
+    "description": "Sinh mộc chi khí tự hồi phục thể lực chậm theo thời gian"
+  },
+  {
+    "id": 18,
+    "description": "Mộc linh căn cộng hưởng, tăng hiệu quả linh dược thảo mộc"
+  },
+  {
+    "id": 19,
+    "description": "Hồn cây cổ thụ che chở, giảm tổn thương khi thể lực thấp"
+  },
+  {
+    "id": 20,
+    "description": "Sinh mộc nội khí nuôi dưỡng thọ mạng, kéo dài tuổi thọ"
+  },
+  {
+    "id": 21,
+    "description": "Thổ khí trấn định, tăng sức chịu đựng khi phòng ngự"
+  },
+  {
+    "id": 22,
+    "description": "Thổ linh căn cộng hưởng, tăng sức bền trong chiến đấu kéo dài"
+  },
+  {
+    "id": 23,
+    "description": "Đại địa chi lực hỗ trợ, giảm tiêu hao tinh lực khi di chuyển"
+  },
+  {
+    "id": 24,
+    "description": "Thổ hệ cộng hưởng, tăng sức phòng ngự khi đứng trên mặt đất"
+  }
+]

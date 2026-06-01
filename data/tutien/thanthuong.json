@@ -1,0 +1,3098 @@
+[
+  {
+    "id": 1,
+    "name": "Phàm Hỏa Linh",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 18,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 2,
+    "name": "Linh Hỏa Tinh",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 18,
+        "value": 40
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tiên Hỏa Linh Thần",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 18,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Thần Hỏa Linh Tâm",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 18,
+        "value": 250
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Thần Thoại Hỏa Linh Tôn",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 18,
+        "value": 600
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      1,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Phàm Hỏa Bạo",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 18,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 7,
+    "name": "Linh Hỏa Bạo Liệt",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 18,
+        "value": 40
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      2
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tiên Hỏa Bạo Phá",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 18,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 41,
+        "value": 60
+      }
+    ],
+    "effects": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Thần Hỏa Bạo Thần",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 18,
+        "value": 250
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 2,
+        "value": 120
+      }
+    ],
+    "effects": [
+      2,
+      4,
+      1
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Thần Thoại Hỏa Bạo Tôn",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 18,
+        "value": 600
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      2,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Phàm Hỏa Tốc",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 18,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 12,
+    "name": "Linh Hỏa Tốc Ảnh",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 18,
+        "value": 40
+      },
+      {
+        "id": 50,
+        "value": 12
+      }
+    ],
+    "effects": [
+      4
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tiên Hỏa Thần Tốc",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 18,
+        "value": 100
+      },
+      {
+        "id": 50,
+        "value": 30
+      },
+      {
+        "id": 36,
+        "value": 30
+      }
+    ],
+    "effects": [
+      4,
+      1
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Thần Hỏa Phi Tốc",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 18,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 36,
+        "value": 80
+      },
+      {
+        "id": 4,
+        "value": 250
+      }
+    ],
+    "effects": [
+      4,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Thần Thoại Hỏa Tốc Tôn",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 18,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 36,
+        "value": 200
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 6,
+        "value": 100
+      }
+    ],
+    "effects": [
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Phàm Hỏa Thể",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 18,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 17,
+    "name": "Linh Hỏa Kim Thể",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 18,
+        "value": 40
+      },
+      {
+        "id": 25,
+        "value": 300
+      }
+    ],
+    "effects": [
+      3
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tiên Hỏa Bất Hoại Thể",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 18,
+        "value": 100
+      },
+      {
+        "id": 25,
+        "value": 800
+      },
+      {
+        "id": 51,
+        "value": 480
+      }
+    ],
+    "effects": [
+      3,
+      1
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Thần Hỏa Thần Thể",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 18,
+        "value": 250
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 51,
+        "value": 1200
+      },
+      {
+        "id": 22,
+        "value": 330
+      }
+    ],
+    "effects": [
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Thần Thoại Hỏa Thể Tôn",
+    "element": "fire",
+    "element_id": 18,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 18,
+        "value": 600
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 4,
+        "value": 600
+      }
+    ],
+    "effects": [
+      3,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Phàm Thủy Linh",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 57,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 22,
+    "name": "Linh Thủy Tinh",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 57,
+        "value": 40
+      },
+      {
+        "id": 37,
+        "value": 180
+      }
+    ],
+    "effects": [
+      5
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tiên Thủy Linh Thần",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 57,
+        "value": 100
+      },
+      {
+        "id": 37,
+        "value": 480
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Thần Thủy Linh Tâm",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 57,
+        "value": 250
+      },
+      {
+        "id": 37,
+        "value": 1200
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      5,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Thần Thoại Thủy Linh Tôn",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 57,
+        "value": 600
+      },
+      {
+        "id": 37,
+        "value": 3000
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 33,
+        "value": 2000
+      }
+    ],
+    "effects": [
+      5,
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Phàm Thủy Trị",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 57,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 27,
+    "name": "Linh Thủy Trị Liệu",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 57,
+        "value": 40
+      },
+      {
+        "id": 22,
+        "value": 50
+      }
+    ],
+    "effects": [
+      6
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Tiên Thủy Trị Thần",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 57,
+        "value": 100
+      },
+      {
+        "id": 22,
+        "value": 130
+      },
+      {
+        "id": 23,
+        "value": 130
+      }
+    ],
+    "effects": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Thần Thủy Trị Liệu Thần",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 57,
+        "value": 250
+      },
+      {
+        "id": 22,
+        "value": 330
+      },
+      {
+        "id": 23,
+        "value": 330
+      },
+      {
+        "id": 25,
+        "value": 2000
+      }
+    ],
+    "effects": [
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Thần Thoại Thủy Trị Tôn",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 57,
+        "value": 600
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 23,
+        "value": 800
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      6,
+      7,
+      5,
+      8
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Phàm Thủy Tâm",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 57,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 32,
+    "name": "Linh Thủy Tĩnh Tâm",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 57,
+        "value": 40
+      },
+      {
+        "id": 33,
+        "value": 120
+      }
+    ],
+    "effects": [
+      8
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Tiên Thủy Tâm Thần",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 57,
+        "value": 100
+      },
+      {
+        "id": 33,
+        "value": 320
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      8,
+      5
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Thần Thủy Linh Tâm",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 57,
+        "value": 250
+      },
+      {
+        "id": 33,
+        "value": 800
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      8,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Thần Thoại Thủy Tâm Tôn",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 57,
+        "value": 600
+      },
+      {
+        "id": 33,
+        "value": 2000
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      8,
+      5,
+      7,
+      6
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Phàm Thủy Sinh",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 57,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 37,
+    "name": "Linh Thủy Sinh Cơ",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 57,
+        "value": 40
+      },
+      {
+        "id": 38,
+        "value": 180
+      }
+    ],
+    "effects": [
+      7
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Tiên Thủy Sinh Thần",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 57,
+        "value": 100
+      },
+      {
+        "id": 38,
+        "value": 480
+      },
+      {
+        "id": 25,
+        "value": 800
+      }
+    ],
+    "effects": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Thần Thủy Sinh Linh",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 57,
+        "value": 250
+      },
+      {
+        "id": 38,
+        "value": 1200
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 29,
+        "value": 8000
+      }
+    ],
+    "effects": [
+      7,
+      8,
+      5
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Thần Thoại Thủy Sinh Tôn",
+    "element": "water",
+    "element_id": 57,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 57,
+        "value": 600
+      },
+      {
+        "id": 38,
+        "value": 3000
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 29,
+        "value": 30000
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Phàm Phong Linh",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 58,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 42,
+    "name": "Linh Phong Tinh",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 58,
+        "value": 40
+      },
+      {
+        "id": 50,
+        "value": 12
+      }
+    ],
+    "effects": [
+      9
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Tiên Phong Linh Thần",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 58,
+        "value": 100
+      },
+      {
+        "id": 50,
+        "value": 30
+      },
+      {
+        "id": 36,
+        "value": 30
+      }
+    ],
+    "effects": [
+      9,
+      11
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Thần Phong Linh Tâm",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 58,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 36,
+        "value": 80
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      9,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Thần Thoại Phong Linh Tôn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 58,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 36,
+        "value": 200
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      9,
+      11,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Phàm Phong Kiếm",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 58,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 47,
+    "name": "Linh Phong Kiếm Khí",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 58,
+        "value": 40
+      },
+      {
+        "id": 54,
+        "value": 25
+      }
+    ],
+    "effects": [
+      10
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Tiên Phong Kiếm Thần",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 58,
+        "value": 100
+      },
+      {
+        "id": 54,
+        "value": 60
+      },
+      {
+        "id": 6,
+        "value": 25
+      }
+    ],
+    "effects": [
+      10,
+      9
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Thần Phong Kiếm Vương",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 58,
+        "value": 250
+      },
+      {
+        "id": 54,
+        "value": 150
+      },
+      {
+        "id": 6,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 250
+      }
+    ],
+    "effects": [
+      10,
+      9,
+      11
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Thần Thoại Phong Kiếm Tôn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 58,
+        "value": 600
+      },
+      {
+        "id": 54,
+        "value": 400
+      },
+      {
+        "id": 6,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      10,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Phàm Phong Nhãn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 58,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 52,
+    "name": "Linh Phong Thiên Nhãn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 58,
+        "value": 40
+      },
+      {
+        "id": 41,
+        "value": 25
+      }
+    ],
+    "effects": [
+      11
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Tiên Phong Thần Nhãn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 58,
+        "value": 100
+      },
+      {
+        "id": 41,
+        "value": 60
+      },
+      {
+        "id": 32,
+        "value": 60
+      }
+    ],
+    "effects": [
+      11,
+      10
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Thần Phong Nhãn Thông",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 58,
+        "value": 250
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 32,
+        "value": 150
+      },
+      {
+        "id": 9,
+        "value": 150
+      }
+    ],
+    "effects": [
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Thần Thoại Phong Nhãn Tôn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 58,
+        "value": 600
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 32,
+        "value": 400
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      11,
+      10,
+      9,
+      12
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Phàm Phong Thân",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 58,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 57,
+    "name": "Linh Phong Thân Pháp",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 58,
+        "value": 40
+      },
+      {
+        "id": 36,
+        "value": 12
+      }
+    ],
+    "effects": [
+      12
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Tiên Phong Thân Thần",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 58,
+        "value": 100
+      },
+      {
+        "id": 36,
+        "value": 30
+      },
+      {
+        "id": 50,
+        "value": 30
+      }
+    ],
+    "effects": [
+      12,
+      9
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Thần Phong Thân Ảnh",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 58,
+        "value": 250
+      },
+      {
+        "id": 36,
+        "value": 80
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 2,
+        "value": 120
+      }
+    ],
+    "effects": [
+      12,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Thần Thoại Phong Thân Tôn",
+    "element": "wind",
+    "element_id": 58,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 58,
+        "value": 600
+      },
+      {
+        "id": 36,
+        "value": 200
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 6,
+        "value": 100
+      }
+    ],
+    "effects": [
+      12,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Phàm Lôi Linh",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 31,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 62,
+    "name": "Linh Lôi Tinh",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 31,
+        "value": 40
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      13
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Tiên Lôi Linh Thần",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 31,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 50,
+        "value": 30
+      }
+    ],
+    "effects": [
+      13,
+      15
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Thần Lôi Linh Tâm",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 31,
+        "value": 250
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      13,
+      15,
+      14
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Thần Thoại Lôi Linh Tôn",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 31,
+        "value": 600
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      13,
+      15,
+      14,
+      16
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Phàm Lôi Kích",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 31,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 67,
+    "name": "Linh Lôi Kích",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 31,
+        "value": 40
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      14
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Tiên Lôi Thần Kích",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 31,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 41,
+        "value": 60
+      }
+    ],
+    "effects": [
+      14,
+      16
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Thần Lôi Kích Thần",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 31,
+        "value": 250
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      14,
+      16,
+      13
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Thần Thoại Lôi Kích Tôn",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 31,
+        "value": 600
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      14,
+      16,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Phàm Lôi Công",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 31,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 72,
+    "name": "Linh Lôi Thần Công",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 31,
+        "value": 40
+      },
+      {
+        "id": 2,
+        "value": 20
+      }
+    ],
+    "effects": [
+      15
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Tiên Lôi Vạn Công",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 31,
+        "value": 100
+      },
+      {
+        "id": 2,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 100
+      }
+    ],
+    "effects": [
+      15,
+      13
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Thần Lôi Vô Thượng Công",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 31,
+        "value": 250
+      },
+      {
+        "id": 2,
+        "value": 120
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 9,
+        "value": 150
+      }
+    ],
+    "effects": [
+      15,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Thần Thoại Lôi Công Tôn",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 31,
+        "value": 600
+      },
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      15,
+      13,
+      16,
+      14
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Phàm Lôi Thân",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 31,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 77,
+    "name": "Linh Lôi Thân",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 31,
+        "value": 40
+      },
+      {
+        "id": 50,
+        "value": 12
+      }
+    ],
+    "effects": [
+      16
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Tiên Lôi Thân Thần",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 31,
+        "value": 100
+      },
+      {
+        "id": 50,
+        "value": 30
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      16,
+      15
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Thần Lôi Thần Thân",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 31,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 25,
+        "value": 2000
+      }
+    ],
+    "effects": [
+      16,
+      15,
+      14
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Thần Thoại Lôi Thân Tôn",
+    "element": "lightning",
+    "element_id": 31,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 31,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 4,
+        "value": 600
+      }
+    ],
+    "effects": [
+      16,
+      15,
+      14,
+      13
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Phàm Mộc Linh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 59,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 82,
+    "name": "Linh Mộc Tinh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 59,
+        "value": 40
+      },
+      {
+        "id": 25,
+        "value": 300
+      }
+    ],
+    "effects": [
+      17
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Tiên Mộc Linh Thần",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 59,
+        "value": 100
+      },
+      {
+        "id": 25,
+        "value": 800
+      },
+      {
+        "id": 22,
+        "value": 130
+      }
+    ],
+    "effects": [
+      17,
+      19
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Thần Mộc Linh Tâm",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 59,
+        "value": 250
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 22,
+        "value": 330
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      17,
+      19,
+      18
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Thần Thoại Mộc Linh Tôn",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 59,
+        "value": 600
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 29,
+        "value": 30000
+      }
+    ],
+    "effects": [
+      17,
+      19,
+      18,
+      20
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Phàm Mộc Hoa",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 59,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 87,
+    "name": "Linh Mộc Hoa Sinh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 59,
+        "value": 40
+      },
+      {
+        "id": 29,
+        "value": 600
+      }
+    ],
+    "effects": [
+      20
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Tiên Mộc Hoa Thần",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 59,
+        "value": 100
+      },
+      {
+        "id": 29,
+        "value": 2000
+      },
+      {
+        "id": 22,
+        "value": 130
+      }
+    ],
+    "effects": [
+      20,
+      17
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Thần Mộc Hoa Vĩnh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 59,
+        "value": 250
+      },
+      {
+        "id": 29,
+        "value": 8000
+      },
+      {
+        "id": 22,
+        "value": 330
+      },
+      {
+        "id": 23,
+        "value": 330
+      }
+    ],
+    "effects": [
+      20,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Thần Thoại Mộc Hoa Tôn",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 59,
+        "value": 600
+      },
+      {
+        "id": 29,
+        "value": 30000
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 23,
+        "value": 800
+      },
+      {
+        "id": 25,
+        "value": 5000
+      }
+    ],
+    "effects": [
+      20,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Phàm Mộc Tâm",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 59,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 92,
+    "name": "Linh Mộc Tĩnh Tâm",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 59,
+        "value": 40
+      },
+      {
+        "id": 9,
+        "value": 25
+      }
+    ],
+    "effects": [
+      18
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Tiên Mộc Tâm Thần",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 59,
+        "value": 100
+      },
+      {
+        "id": 9,
+        "value": 60
+      },
+      {
+        "id": 32,
+        "value": 60
+      }
+    ],
+    "effects": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Thần Mộc Thiên Tâm",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 59,
+        "value": 250
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 32,
+        "value": 150
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Thần Thoại Mộc Tâm Tôn",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 59,
+        "value": 600
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 32,
+        "value": 400
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      }
+    ],
+    "effects": [
+      18,
+      19,
+      20,
+      17
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Phàm Mộc Sinh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 59,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 97,
+    "name": "Linh Mộc Sinh Cơ",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 59,
+        "value": 40
+      },
+      {
+        "id": 26,
+        "value": 300
+      }
+    ],
+    "effects": [
+      19
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Tiên Mộc Sinh Thần",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 59,
+        "value": 100
+      },
+      {
+        "id": 26,
+        "value": 800
+      },
+      {
+        "id": 10,
+        "value": 25
+      }
+    ],
+    "effects": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Thần Mộc Sinh Linh",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 59,
+        "value": 250
+      },
+      {
+        "id": 26,
+        "value": 2000
+      },
+      {
+        "id": 10,
+        "value": 50
+      },
+      {
+        "id": 51,
+        "value": 1200
+      }
+    ],
+    "effects": [
+      19,
+      20,
+      17
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Thần Thoại Mộc Sinh Tôn",
+    "element": "wood",
+    "element_id": 59,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 59,
+        "value": 600
+      },
+      {
+        "id": 26,
+        "value": 5000
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 29,
+        "value": 30000
+      }
+    ],
+    "effects": [
+      19,
+      20,
+      17,
+      18
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Phàm Thổ Linh",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 13,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 102,
+    "name": "Linh Thổ Tinh",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 13,
+        "value": 40
+      },
+      {
+        "id": 11,
+        "value": 40
+      }
+    ],
+    "effects": [
+      21
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Tiên Thổ Linh Thần",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 13,
+        "value": 100
+      },
+      {
+        "id": 11,
+        "value": 100
+      },
+      {
+        "id": 25,
+        "value": 800
+      }
+    ],
+    "effects": [
+      21,
+      24
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Thần Thổ Linh Tâm",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 13,
+        "value": 250
+      },
+      {
+        "id": 11,
+        "value": 250
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 51,
+        "value": 1200
+      }
+    ],
+    "effects": [
+      21,
+      24,
+      22
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Thần Thoại Thổ Linh Tôn",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 13,
+        "value": 600
+      },
+      {
+        "id": 11,
+        "value": 600
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      21,
+      24,
+      22,
+      23
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Phàm Thổ Bích",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 13,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 107,
+    "name": "Linh Thổ Sắt Bích",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 13,
+        "value": 40
+      },
+      {
+        "id": 11,
+        "value": 40
+      }
+    ],
+    "effects": [
+      22
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Tiên Thổ Thần Bích",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 13,
+        "value": 100
+      },
+      {
+        "id": 11,
+        "value": 100
+      },
+      {
+        "id": 25,
+        "value": 800
+      }
+    ],
+    "effects": [
+      22,
+      21
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Thần Thổ Bích Thiên",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 13,
+        "value": 250
+      },
+      {
+        "id": 11,
+        "value": 250
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 24,
+        "value": 150
+      }
+    ],
+    "effects": [
+      22,
+      21,
+      24
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Thần Thoại Thổ Bích Tôn",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 13,
+        "value": 600
+      },
+      {
+        "id": 11,
+        "value": 600
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 24,
+        "value": 400
+      },
+      {
+        "id": 51,
+        "value": 3000
+      }
+    ],
+    "effects": [
+      22,
+      21,
+      24,
+      23
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Phàm Thổ Trọng",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 13,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 112,
+    "name": "Linh Thổ Trọng Bích",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 13,
+        "value": 40
+      },
+      {
+        "id": 24,
+        "value": 25
+      }
+    ],
+    "effects": [
+      23
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Tiên Thổ Thần Trọng",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 13,
+        "value": 100
+      },
+      {
+        "id": 24,
+        "value": 60
+      },
+      {
+        "id": 11,
+        "value": 100
+      }
+    ],
+    "effects": [
+      23,
+      22
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Thần Thổ Thiên Trọng",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 13,
+        "value": 250
+      },
+      {
+        "id": 24,
+        "value": 150
+      },
+      {
+        "id": 11,
+        "value": 250
+      },
+      {
+        "id": 52,
+        "value": 1200
+      }
+    ],
+    "effects": [
+      23,
+      22,
+      21
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Thần Thoại Thổ Trọng Tôn",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 13,
+        "value": 600
+      },
+      {
+        "id": 24,
+        "value": 400
+      },
+      {
+        "id": 11,
+        "value": 600
+      },
+      {
+        "id": 52,
+        "value": 3000
+      },
+      {
+        "id": 25,
+        "value": 5000
+      }
+    ],
+    "effects": [
+      23,
+      22,
+      21,
+      24
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Phàm Thổ Thể",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 1,
+    "required_root": 0,
+    "stats": [
+      {
+        "id": 13,
+        "value": 15
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 117,
+    "name": "Linh Thổ Kim Thể",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 2,
+    "required_root": 30,
+    "stats": [
+      {
+        "id": 13,
+        "value": 40
+      },
+      {
+        "id": 51,
+        "value": 180
+      }
+    ],
+    "effects": [
+      24
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Tiên Thổ Thần Thể",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 3,
+    "required_root": 100,
+    "stats": [
+      {
+        "id": 13,
+        "value": 100
+      },
+      {
+        "id": 51,
+        "value": 480
+      },
+      {
+        "id": 52,
+        "value": 480
+      }
+    ],
+    "effects": [
+      24,
+      23
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Thần Thổ Bất Hoại Thể",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 4,
+    "required_root": 250,
+    "stats": [
+      {
+        "id": 13,
+        "value": 250
+      },
+      {
+        "id": 51,
+        "value": 1200
+      },
+      {
+        "id": 52,
+        "value": 1200
+      },
+      {
+        "id": 25,
+        "value": 2000
+      }
+    ],
+    "effects": [
+      24,
+      23,
+      21
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Thần Thoại Thổ Thể Tôn",
+    "element": "earth",
+    "element_id": 13,
+    "rarity": 5,
+    "required_root": 500,
+    "stats": [
+      {
+        "id": 13,
+        "value": 600
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 52,
+        "value": 3000
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 11,
+        "value": 600
+      }
+    ],
+    "effects": [
+      24,
+      23,
+      21,
+      22
+    ]
+  }
+]

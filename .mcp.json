@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "code-review-graph": {
+      "command": "python -m code_review_graph",
+      "args": [
+        "serve"
+      ],
+      "type": "stdio"
+    }
+  }
+}

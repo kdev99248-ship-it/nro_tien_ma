@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "slug": "fire",
+    "name": "Hỏa",
+    "root_attr_id": 18
+  },
+  {
+    "id": 2,
+    "slug": "water",
+    "name": "Thủy",
+    "root_attr_id": 57
+  },
+  {
+    "id": 3,
+    "slug": "wind",
+    "name": "Phong",
+    "root_attr_id": 58
+  },
+  {
+    "id": 4,
+    "slug": "lightning",
+    "name": "Lôi",
+    "root_attr_id": 31
+  },
+  {
+    "id": 5,
+    "slug": "wood",
+    "name": "Mộc",
+    "root_attr_id": 59
+  },
+  {
+    "id": 6,
+    "slug": "earth",
+    "name": "Thổ",
+    "root_attr_id": 13
+  }
+]

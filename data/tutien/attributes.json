@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "name": "Luyện Đan Tư Chất"
+  },
+  {
+    "id": 2,
+    "name": "Tất Cả Công Pháp Tư Chất"
+  },
+  {
+    "id": 3,
+    "name": "Tất Cả Linh Căn Tư Chất"
+  },
+  {
+    "id": 4,
+    "name": "Lực Công Kích"
+  },
+  {
+    "id": 5,
+    "name": "Làm Tự Thân Nhận Đến Từ Mặt Sau Tổn Thương"
+  },
+  {
+    "id": 6,
+    "name": "Thân Pháp Thuần Thục Tốc Độ Tăng Lên"
+  },
+  {
+    "id": 7,
+    "name": "Mị Lực"
+  },
+  {
+    "id": 8,
+    "name": "Công Pháp Tư Chất"
+  },
+  {
+    "id": 9,
+    "name": "Ngộ Tính"
+  },
+  {
+    "id": 10,
+    "name": "Thu Hoạch Được Tu Vi"
+  },
+  {
+    "id": 11,
+    "name": "Lực Phòng Ngự"
+  },
+  {
+    "id": 12,
+    "name": "Thổ Thuộc Tính"
+  },
+  {
+    "id": 13,
+    "name": "Thổ Linh Căn"
+  },
+  {
+    "id": 14,
+    "name": "Ma Đạo"
+  },
+  {
+    "id": 15,
+    "name": "Ma Đạo Giá Trị"
+  },
+  {
+    "id": 16,
+    "name": "Phong Thuỷ"
+  },
+  {
+    "id": 17,
+    "name": "Chỉ Pháp Tư Chất"
+  },
+  {
+    "id": 18,
+    "name": "Hỏa Linh Căn"
+  },
+  {
+    "id": 19,
+    "name": "Quyền Pháp Tư Chất"
+  },
+  {
+    "id": 20,
+    "name": "Chính Đạo"
+  },
+  {
+    "id": 21,
+    "name": "Chính Đạo Giá Trị"
+  },
+  {
+    "id": 22,
+    "name": "Khỏe Mạnh"
+  },
+  {
+    "id": 23,
+    "name": "Khỏe Mạnh Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 24,
+    "name": "Hộ Tâm"
+  },
+  {
+    "id": 25,
+    "name": "Thể Lực"
+  },
+  {
+    "id": 26,
+    "name": "Thể Lực Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 27,
+    "name": "Cước Lực"
+  },
+  {
+    "id": 28,
+    "name": "Cước Trình"
+  },
+  {
+    "id": 29,
+    "name": "Tuổi Thọ"
+  },
+  {
+    "id": 30,
+    "name": "Tuổi Thọ Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 31,
+    "name": "Lôi Linh Cây"
+  },
+  {
+    "id": 32,
+    "name": "May Mắn"
+  },
+  {
+    "id": 33,
+    "name": "Niệm Lực"
+  },
+  {
+    "id": 34,
+    "name": "Niệm Lực Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 35,
+    "name": "Tâm Tình Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 36,
+    "name": "Tốc Độ Di Chuyển"
+  },
+  {
+    "id": 37,
+    "name": "Linh Lực"
+  },
+  {
+    "id": 38,
+    "name": "Linh Lực Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 39,
+    "name": "Cái Khác Linh Căn Tư Chất"
+  },
+  {
+    "id": 40,
+    "name": "Chưởng Pháp Tư Chất"
+  },
+  {
+    "id": 41,
+    "name": "Hiểu Ý"
+  },
+  {
+    "id": 42,
+    "name": "Công Kích Khoảng Cách"
+  },
+  {
+    "id": 43,
+    "name": "Luyện Khí Tư Chất"
+  },
+  {
+    "id": 44,
+    "name": "Danh Vọng"
+  },
+  {
+    "id": 45,
+    "name": "Linh Căn Thuộc Tính"
+  },
+  {
+    "id": 46,
+    "name": "Đao Pháp Tư Chất"
+  },
+  {
+    "id": 47,
+    "name": "Đao Pháp Thuần Thục Tốc Độ Tăng Lên"
+  },
+  {
+    "id": 48,
+    "name": "Thương Pháp Tư Chất"
+  },
+  {
+    "id": 49,
+    "name": "Thương Pháp Thuần Thục Tốc Độ Tăng Lên"
+  },
+  {
+    "id": 50,
+    "name": "Tốc Độ"
+  },
+  {
+    "id": 51,
+    "name": "Tinh Lực"
+  },
+  {
+    "id": 52,
+    "name": "Tinh Lực Hạn Mức Cao Nhất"
+  },
+  {
+    "id": 53,
+    "name": "Bắt Đầu Linh Thạch"
+  },
+  {
+    "id": 54,
+    "name": "Kiếm Pháp Tư Chất"
+  },
+  {
+    "id": 55,
+    "name": "Kiếm Pháp Thuần Thục Tốc Độ Tăng Lên"
+  },
+  {
+    "id": 56,
+    "name": "Vẽ Bùa"
+  },
+  {
+    "id": 57,
+    "name": "Thủy Linh Căn"
+  },
+  {
+    "id": 58,
+    "name": "Phong Linh Cây"
+  },
+  {
+    "id": 59,
+    "name": "Mộc Linh Căn"
+  }
+]

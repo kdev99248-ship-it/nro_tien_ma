@@ -1,0 +1,5830 @@
+[
+  {
+    "id": 101,
+    "name": "Một tia nguyên hồn",
+    "description": "Nhục thể nhận trọng thương mà vỡ vụn, còn sót lại một tia nguyên hồn, cần dùng tam dương sinh xương đan mới có thể tái tạo nhục thân, nếu không nguyên hồn sẽ tiêu tán",
+    "stats": [],
+    "effects": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 1011,
+    "name": "Một tia nguyên hồn",
+    "description": "Nhục thể nhận trọng thương mà vỡ vụn, còn sót lại một tia nguyên hồn, cần dùng năm bảo Đại Hoàn đan mới có thể tái tạo nhục thân, nếu không nguyên hồn sẽ tiêu tán",
+    "stats": [],
+    "effects": [
+      1,
+      2,
+      5,
+      4
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 1012,
+    "name": "Một tia nguyên hồn",
+    "description": "Nhục thể nhận trọng thương mà vỡ vụn, còn sót lại một tia nguyên hồn, cần dùng bảy cực Cố Hồn Đan mới có thể tái tạo nhục thân, nếu không nguyên hồn sẽ tiêu tán",
+    "stats": [],
+    "effects": [
+      1,
+      2,
+      6,
+      4
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 1013,
+    "name": "Một tia nguyên hồn",
+    "description": "Nhục thể nhận trọng thương mà vỡ vụn, còn sót lại một tia nguyên hồn, cần dùng cửu chuyển hoàn hồn đan mới có thể tái tạo nhục thân, nếu không nguyên hồn sẽ tiêu tán",
+    "stats": [],
+    "effects": [
+      1,
+      2,
+      7,
+      4
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 102,
+    "name": "Tái tạo nhục thân",
+    "description": "Ngay tại tái tạo nhục thân bên trong",
+    "stats": [],
+    "effects": [
+      8
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 103,
+    "name": "Phụ trọng tiến lên",
+    "description": "Cước lực khóa chặt vì 300 Lại không cách nào sử dụng truyền tống hiệu quả",
+    "stats": [],
+    "effects": [
+      9
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 105,
+    "name": "Nội thương",
+    "description": "Giảm xuống người chơi 30% Lớn nhất điểm linh lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      10
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 106,
+    "name": "Nguyên Thần tan rã",
+    "description": "Lớn nhất niệm lực hạn mức cao nhất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      11
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 107,
+    "name": "Thi độc",
+    "description": "Người chơi phòng ngự giảm xuống 30%",
+    "stats": [],
+    "effects": [
+      12
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 108,
+    "name": "Âm độc",
+    "description": "Người chơi tất cả linh căn giảm xuống 30%",
+    "stats": [],
+    "effects": [
+      13
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 109,
+    "name": "Khí tức hỗn loạn",
+    "description": "Công kích -10%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [
+      {
+        "id": 4,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      14
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 110,
+    "name": "Cảnh giới bất ổn",
+    "description": "Tất cả công pháp tư chất -10%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [
+      {
+        "id": 2,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      14
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 111,
+    "name": "Kinh mạch bị ngăn trở",
+    "description": "Tất cả linh căn tư chất -10%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [
+      {
+        "id": 3,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      14
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 112,
+    "name": "Tâm thần rối loạn",
+    "description": "Tất cả công pháp và linh căn tư chất -15%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [],
+    "effects": [
+      14,
+      15
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 113,
+    "name": "Đạo căn bị ngăn trở",
+    "description": "Công kích -20%, tất cả công pháp và linh căn tư chất -20%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [
+      {
+        "id": 4,
+        "value": -20.0
+      }
+    ],
+    "effects": [
+      14,
+      15
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 114,
+    "name": "Bế môn hối lỗi",
+    "description": "Cấm chỉ rời đi tông môn",
+    "stats": [],
+    "effects": [
+      16
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 115,
+    "name": "Ẩn tàng đơn vị",
+    "description": "Đơn vị ẩn tàng, không cách nào bị cái khác đơn vị chọn trúng",
+    "stats": [],
+    "effects": [
+      17,
+      18
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 116,
+    "name": "Cố định đơn vị",
+    "description": "Mỗi tháng kết thúc cố định đơn vị đến tăng thêm khí vận lúc địa điểm",
+    "stats": [],
+    "effects": [
+      19
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 117,
+    "name": "Đình chỉ AI",
+    "description": "Đình chỉ AI Vận chuyển",
+    "stats": [],
+    "effects": [
+      20
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 118,
+    "name": "Lâm nguy",
+    "description": "Bị khốn tại yêu thú sào huyệt",
+    "stats": [],
+    "effects": [
+      21
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 119,
+    "name": "119",
+    "description": "tips_119",
+    "stats": [],
+    "effects": [
+      22
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 120,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào luyện khí trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      24
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 121,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào luyện khí hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      25
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 122,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Trúc Cơ trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      26
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 123,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào trúc cơ hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      27
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 124,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào kết tinh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      28
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 125,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào kết tinh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      29
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 126,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Kim Đan trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      30
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 127,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Kim Đan hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      31
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 128,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào cỗ linh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      32
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 129,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào cỗ linh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      33
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 130,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Nguyên Anh trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      34
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 131,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Nguyên Anh hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      35
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 132,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Hóa Thần trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      36
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 133,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào Hóa Thần hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      37
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 134,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào ngộ đạo trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      38
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 135,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào ngộ đạo hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      39
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 136,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào vũ hóa trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      40
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 137,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào vũ hóa hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      41
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 138,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào thành tiên trung kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      42
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 139,
+    "name": "Lâm vào bình cảnh",
+    "description": "Tu vi đình trệ, cần đột phá bình cảnh mới có thể đi vào thành tiên hậu kỳ. Đột phá bình cảnh phương pháp tại nghịch thiên cải mệnh giao diện ( Phím tắt: J) Bên trong nói rõ",
+    "stats": [],
+    "effects": [
+      23,
+      43
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 140,
+    "name": "140",
+    "description": "tips_140",
+    "stats": [],
+    "effects": [
+      44
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 141,
+    "name": "Mệnh hồn khuyết tổn",
+    "description": "Tại mở ra bản mệnh khí linh khế ước lúc, tổn thất bộ phận mệnh hồn. Cơ bản nhất lực cùng linh lực giảm xuống 20%, lại không cách nào khóa lại bản mệnh khí linh",
+    "stats": [],
+    "effects": [
+      45,
+      46,
+      47
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 142,
+    "name": "Cấm đoán",
+    "description": "Chấp hành tông môn nhiệm vụ thất bại, bị trưởng lão trừng phạt cấm đoán, không cách nào rời đi tông môn",
+    "stats": [],
+    "effects": [
+      48,
+      49,
+      50
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 143,
+    "name": "143",
+    "description": "tips_143",
+    "stats": [],
+    "effects": [
+      51
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 144,
+    "name": "144",
+    "description": "tips_144",
+    "stats": [],
+    "effects": [
+      52
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 501,
+    "name": "Đói khổ lạnh lẽo",
+    "description": "Mỗi tháng thể lực -200",
+    "stats": [],
+    "effects": [
+      53
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 502,
+    "name": "Miệng đắng lưỡi khô",
+    "description": "Mỗi tháng tinh lực -50",
+    "stats": [],
+    "effects": [
+      54
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 503,
+    "name": "Đầu váng mắt hoa",
+    "description": "Mỗi tháng thể lực -300, tinh lực -60",
+    "stats": [
+      {
+        "id": 51,
+        "value": -60.0
+      }
+    ],
+    "effects": [
+      53
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5001,
+    "name": "Võ Thần gia trì",
+    "description": "Gia tăng 10% Công kích",
+    "stats": [],
+    "effects": [
+      55
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5002,
+    "name": "Linh Châu Tử",
+    "description": "Gia tăng 10% Lớn nhất linh lực",
+    "stats": [],
+    "effects": [
+      56
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5003,
+    "name": "Chiến thần gia trì",
+    "description": "Gia tăng 10% Phòng ngự",
+    "stats": [],
+    "effects": [
+      57
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5004,
+    "name": "Luyện thể cao nhân",
+    "description": "Gia tăng 10% Cơ bản nhất lực",
+    "stats": [],
+    "effects": [
+      58
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5005,
+    "name": "Truyền thừa chi đao",
+    "description": "Gia tăng 10% Đao tư chất 5006= Đạp gió thân thể. Tác dụng: Gia tăng 10% Tốc độ di chuyển",
+    "stats": [],
+    "effects": [
+      59
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5007,
+    "name": "Chiến hồn gia trì",
+    "description": "Gia tăng 10 Điểm vật lý miễn tổn thương",
+    "stats": [],
+    "effects": [
+      60
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5008,
+    "name": "Thủy linh châu",
+    "description": "Giảm bớt 20 Điểm Hỏa Linh Căn, gia tăng 20 Lướt nước linh căn",
+    "stats": [],
+    "effects": [
+      61,
+      62
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5009,
+    "name": "Phá trận chi thế",
+    "description": "Giảm bớt 30 Điểm phòng ngự, gia tăng 30 Điểm công kích",
+    "stats": [],
+    "effects": [
+      63,
+      64
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5010,
+    "name": "Linh lực phong ấn",
+    "description": "Toàn linh căn giảm bớt 10 Điểm",
+    "stats": [],
+    "effects": [
+      65
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5011,
+    "name": "Trọng thương",
+    "description": "Thể lực hạn mức cao nhất tạm thời giảm bớt 30%",
+    "stats": [],
+    "effects": [
+      66
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5012,
+    "name": "Quyến rũ",
+    "description": "Mị lực +300",
+    "stats": [
+      {
+        "id": 7,
+        "value": 300.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 5013,
+    "name": "Hồ kiều",
+    "description": "Mị lực +200",
+    "stats": [
+      {
+        "id": 7,
+        "value": 200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 5014,
+    "name": "Hồ diễm",
+    "description": "Mị lực +100",
+    "stats": [
+      {
+        "id": 7,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 5015,
+    "name": "Hồ truy",
+    "description": "Ngươi luôn luôn cảm giác có người theo ngươi",
+    "stats": [],
+    "effects": [
+      67
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5016,
+    "name": "Hồ oán",
+    "description": "Tất cả hồ yêu phảng phất đều tại dùng cừu thị ánh mắt nhìn xem ngươi",
+    "stats": [],
+    "effects": [
+      68
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5017,
+    "name": "Cũng tang cầm tặc",
+    "description": "May mắn +10. Tiếp tục 12 Tháng",
+    "stats": [],
+    "effects": [
+      69
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5018,
+    "name": "Tội phạm hành vi",
+    "description": "May mắn -20, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -20.0
+      }
+    ],
+    "effects": [
+      70
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5019,
+    "name": "Ăn trộm chó trộm",
+    "description": "May mắn -10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5020,
+    "name": "Sợ mạnh lấn yếu",
+    "description": "May mắn -10, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      70
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5021,
+    "name": "Ỷ lại dũng khinh địch",
+    "description": "May mắn -15, mỗi tháng tâm tình -20, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -15.0
+      }
+    ],
+    "effects": [
+      70,
+      72
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5022,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi tháng tâm tình +20, tiếp tục 6 Tháng",
+    "stats": [],
+    "effects": [
+      70,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5023,
+    "name": "Cực độ bi thương",
+    "description": "Mỗi tháng tâm tình -20, tiếp tục 6 Nguyệt",
+    "stats": [],
+    "effects": [
+      73,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5024,
+    "name": "Cực kỳ bi thương",
+    "description": "Mỗi tháng tâm tình -50, tiếp tục 6 Nguyệt",
+    "stats": [],
+    "effects": [
+      73,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5025,
+    "name": "Lấy bạo chế bạo",
+    "description": "May mắn +10, mỗi tháng tâm tình +20, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      70,
+      72
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5026,
+    "name": "Người báo thù",
+    "description": "Mỗi tháng tâm tình +20, tiếp tục 6 Tháng",
+    "stats": [],
+    "effects": [
+      70,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5027,
+    "name": "Lấy huyết tẩy máu",
+    "description": "May mắn -20, mỗi tháng tâm tình +50, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -20.0
+      }
+    ],
+    "effects": [
+      71,
+      72
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5028,
+    "name": "Tâm ngoan thủ lạt",
+    "description": "May mắn -10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5029,
+    "name": "Giơ cao đánh khẽ",
+    "description": "May mắn +10. Tiếp tục 6 Tháng",
+    "stats": [],
+    "effects": [
+      74
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5030,
+    "name": "Chạy trối chết",
+    "description": "May mắn -30, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -30.0
+      }
+    ],
+    "effects": [
+      70
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5031,
+    "name": "Co được dãn được",
+    "description": "May mắn +20. Tiếp tục 6 Tháng",
+    "stats": [],
+    "effects": [
+      75
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5032,
+    "name": "Tay có thừa hương",
+    "description": "May mắn +20, mỗi tháng tâm tình +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": 20.0
+      }
+    ],
+    "effects": [
+      71,
+      72
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5033,
+    "name": "Lừa đảo",
+    "description": "May mắn -10, tiếp tục 6 Tháng",
+    "stats": [
+      {
+        "id": 32,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      70
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5034,
+    "name": "Tiên nhân che chở",
+    "description": "Thể lực, linh lực, niệm lực +10%, tất cả linh căn tư chất +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 33,
+        "value": 10.0
+      },
+      {
+        "id": 3,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      76,
+      77,
+      71
+    ],
+    "rarity": 5
+  },
+  {
+    "id": 5035,
+    "name": "Hung hãn",
+    "description": "Công kích +10%, thể lực hạn mức cao nhất -10%, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 4,
+        "value": 10.0
+      },
+      {
+        "id": 26,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 5
+  },
+  {
+    "id": 5036,
+    "name": "Kim cương thân thể",
+    "description": "Thể lực hạn mức cao nhất +10%, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 26,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5037,
+    "name": "Ngưng thần tĩnh khí",
+    "description": "Linh lực hạn mức cao nhất +10%, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 38,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5038,
+    "name": "Thanh Long che chở",
+    "description": "Công kích +10%, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 4,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5039,
+    "name": "Bạch Hổ che chở",
+    "description": "Hiểu ý +20, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 41,
+        "value": 20.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5040,
+    "name": "Chu Tước che chở",
+    "description": "Toàn linh căn +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 3,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5041,
+    "name": "Huyền Vũ che chở",
+    "description": "Phòng ngự +10%, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 11,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5042,
+    "name": "Nghèo mà chợt giàu",
+    "description": "Linh thạch +5000. May mắn +10, tiếp tục 12 Tháng",
+    "stats": [],
+    "effects": [
+      71
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 5043,
+    "name": "Rực rỡ muôn màu",
+    "description": "Ngẫu nhiên thu hoạch được dược liệu. May mắn +10, tiếp tục 12 Tháng",
+    "stats": [],
+    "effects": [
+      71,
+      78
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5044,
+    "name": "Trong mây cung khuyết",
+    "description": "Ngẫu nhiên công pháp, đan dược, pháp bảo. May mắn +10, tiếp tục 12 Tháng",
+    "stats": [],
+    "effects": [
+      79,
+      80,
+      71,
+      81
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5045,
+    "name": "Khu lôi chớp",
+    "description": "Lôi Linh cây +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 31,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5046,
+    "name": "Sét đánh người",
+    "description": "Lôi Linh cây -10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 31,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5047,
+    "name": "Kẻ phá trận",
+    "description": "Công kích +5%, toàn linh căn +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 4,
+        "value": 5.0
+      },
+      {
+        "id": 3,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 5
+  },
+  {
+    "id": 5048,
+    "name": "Kiếm khí tung hoành",
+    "description": "Kiếm pháp tư chất +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 54,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5049,
+    "name": "Tu La Tuyệt Đao",
+    "description": "Đao pháp tư chất +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 46,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5050,
+    "name": "Phiên vân phúc vũ thương",
+    "description": "Thương pháp tư chất +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 48,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5051,
+    "name": "Tuyết hầm Băng Thiên",
+    "description": "Thủy linh căn +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 57,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5052,
+    "name": "Băng Hồn Tuyết Phách",
+    "description": "Thủy linh căn +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 57,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5053,
+    "name": "Uẩn nghiễn tranh thổ",
+    "description": "Thổ linh căn +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 13,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5054,
+    "name": "Khẩn bụi Minh Thổ",
+    "description": "Thổ linh căn +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 13,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5055,
+    "name": "Thương dây leo cổ mộc",
+    "description": "Mộc linh căn +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 59,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5056,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Mộc linh căn +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 59,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5057,
+    "name": "Tinh Tinh Chi Hỏa",
+    "description": "Hỏa Linh Căn +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 18,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5058,
+    "name": "Tinh Hỏa Liêu Nguyên",
+    "description": "Hỏa Linh Căn +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 18,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5059,
+    "name": "Lôi Kinh Điện Nhiễu",
+    "description": "Lôi Linh cây +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 31,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5060,
+    "name": "Lôi giận điện giận",
+    "description": "Lôi Linh cây +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 31,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5061,
+    "name": "Gió nổi mây phun",
+    "description": "Phong Linh cây +5, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 58,
+        "value": 5.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5062,
+    "name": "Mây tản gió rít",
+    "description": "Phong Linh cây +10, tiếp tục 12 Tháng",
+    "stats": [
+      {
+        "id": 58,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      71
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5063,
+    "name": "Hỗn độn thân thể",
+    "description": "Có được hỗn độn chi lực thân thể, có thể cảm giác được viễn cổ Hỗn Độn khí tức, nhưng là mỗi tháng sẽ tổn thất 3 Tuổi thọ mệnh",
+    "stats": [],
+    "effects": [
+      82,
+      83,
+      84
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 5064,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 1 Cái đấu khí Tiên tinh, giảm xuống 10% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      87,
+      88
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5065,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 2 Cái đấu khí Tiên tinh, giảm xuống 20% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      89,
+      90
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5066,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 3 Cái đấu khí Tiên tinh, giảm xuống 30% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      91,
+      92
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5067,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 4 Cái đấu khí Tiên tinh, giảm xuống 40% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      93,
+      94
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5068,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 5 Cái đấu khí Tiên tinh, giảm xuống 50% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      95,
+      96
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5069,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 6 Cái đấu khí Tiên tinh, giảm xuống 60% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      97,
+      98
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5070,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 7 Cái đấu khí Tiên tinh, giảm xuống 70% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      99,
+      100
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5071,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 8 Cái đấu khí Tiên tinh, giảm xuống 80% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      101,
+      102
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5072,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 9 Cái đấu khí Tiên tinh, giảm xuống 90% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      103,
+      104
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5073,
+    "name": "Đấu khí tăng giảm",
+    "description": "Đấu khí Tiên tinh ở đây khu vực sẽ bị kích phát, dẫn đến mang theo người đấu khí bị hao tổn, trước mắt mang theo 10 Cái đấu khí Tiên tinh, giảm xuống 100% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      85,
+      86,
+      105,
+      106
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 5074,
+    "name": "Hỏa linh luyện hóa",
+    "description": "Đem thể nội Hỏa Linh Căn toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      107,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5075,
+    "name": "Thủy linh luyện hóa",
+    "description": "Đem thể nội Thủy linh căn toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      111,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5076,
+    "name": "Lôi Linh luyện hóa",
+    "description": "Đem thể nội Lôi Linh cây toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      112,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5077,
+    "name": "Phong Linh luyện hóa",
+    "description": "Đem thể nội Phong Linh cây toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      113,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5078,
+    "name": "Thổ Linh luyện hóa",
+    "description": "Đem thể nội thổ linh căn toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      114,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 5079,
+    "name": "Mộc linh luyện hóa",
+    "description": "Đem thể nội mộc linh căn toàn bộ bức ra bên ngoài cơ thể, tiến hành luyện hóa thành châu, bức ra linh căn sau, thể lực, linh lực, niệm lực phân biệt giảm xuống 15%",
+    "stats": [],
+    "effects": [
+      115,
+      108,
+      109,
+      76,
+      77,
+      110
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 7001,
+    "name": "Sầu mi khổ kiểm",
+    "description": "Mỗi tháng giảm bớt 10 Điểm tâm tình",
+    "stats": [],
+    "effects": [
+      116
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7002,
+    "name": "Ủ rũ",
+    "description": "Giảm xuống 50% Hiểu ý",
+    "stats": [],
+    "effects": [
+      117
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7003,
+    "name": "Thất hồn lạc phách",
+    "description": "Giảm xuống 50% Hộ tâm",
+    "stats": [],
+    "effects": [
+      118
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7004,
+    "name": "Ảm đạm hao tổn tinh thần",
+    "description": "Mỗi tháng giảm bớt 10 Điểm khỏe mạnh",
+    "stats": [],
+    "effects": [
+      119
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7005,
+    "name": "Lực bất tòng tâm",
+    "description": "Giảm xuống 10% Công kích",
+    "stats": [],
+    "effects": [
+      120
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7006,
+    "name": "Tâm lực lao lực quá độ",
+    "description": "Mỗi tháng giảm bớt 10 Điểm tinh lực",
+    "stats": [],
+    "effects": [
+      121
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7007,
+    "name": "Vẻ mặt hốt hoảng",
+    "description": "Giảm xuống 10% Phòng ngự",
+    "stats": [],
+    "effects": [
+      122
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7008,
+    "name": "Nghi thần nghi quỷ",
+    "description": "Cái khác nhân vật đối ngươi độ thân mật không cách nào tăng lên",
+    "stats": [],
+    "effects": [
+      123
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7009,
+    "name": "Tâm thần có chút không tập trung",
+    "description": "Tâm tình hạn mức cao nhất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      124
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7010,
+    "name": "Lo lắng",
+    "description": "Không thể tiến hành tu luyện",
+    "stats": [],
+    "effects": [
+      125
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7011,
+    "name": "Tâm phiền ý loạn",
+    "description": "Không thể sử dụng đan dược",
+    "stats": [],
+    "effects": [
+      126
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7012,
+    "name": "Ngỡ ngàng",
+    "description": "Mỗi tháng có xác suất ngẫu nhiên mất đi bộ phận đạo cụ",
+    "stats": [],
+    "effects": [
+      127
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7013,
+    "name": "Sầu não uất ức",
+    "description": "Giảm xuống 50% May mắn",
+    "stats": [],
+    "effects": [
+      128
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7014,
+    "name": "Tự bế",
+    "description": "Không thể cùng cái khác nhân vật tiến hành trò chuyện",
+    "stats": [],
+    "effects": [
+      129
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7015,
+    "name": "Ghét chiến tranh",
+    "description": "Không thể chủ động tiến vào chiến đấu",
+    "stats": [],
+    "effects": [
+      130
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7016,
+    "name": "Hoang mang lo sợ",
+    "description": "Không thể ngồi cưỡi tọa kỵ",
+    "stats": [],
+    "effects": [
+      131
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7017,
+    "name": "Ngơ ngơ ngác ngác",
+    "description": "Giảm xuống 50% Ngộ tính",
+    "stats": [],
+    "effects": [
+      132
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 7000531,
+    "name": "Ma linh chi lực",
+    "description": "Mị lực &7000531_mlxj&, mỗi tháng hồi phục thể lực &7000531_hftl&%, tiếp tục 6 Tháng",
+    "stats": [],
+    "effects": [
+      133,
+      134,
+      70
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 8001,
+    "name": "Lực lớn vô cùng",
+    "description": "Lực công kích +6",
+    "stats": [
+      {
+        "id": 4,
+        "value": 6.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8002,
+    "name": "Nhiệt huyết sôi trào",
+    "description": "Thể lực hạn mức cao nhất +100",
+    "stats": [
+      {
+        "id": 26,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 8003,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Linh lực hạn mức cao nhất +100",
+    "stats": [
+      {
+        "id": 38,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8004,
+    "name": "Đề thần tỉnh não",
+    "description": "Niệm lực hạn mức cao nhất +100",
+    "stats": [
+      {
+        "id": 34,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8005,
+    "name": "Cường thân kiện thể",
+    "description": "Lực phòng ngự +6",
+    "stats": [
+      {
+        "id": 11,
+        "value": 6.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8006,
+    "name": "Thần nguyên hóa sát",
+    "description": "Hiểu ý +20",
+    "stats": [
+      {
+        "id": 41,
+        "value": 20.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8007,
+    "name": "Cương cân thiết cốt",
+    "description": "Hộ tâm +20",
+    "stats": [
+      {
+        "id": 24,
+        "value": 20.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8008,
+    "name": "Không có chút rung động nào",
+    "description": "Mỗi tháng khôi phục thể lực 200",
+    "stats": [],
+    "effects": [
+      135
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8009,
+    "name": "Như nước chảy",
+    "description": "Mỗi tháng khôi phục linh lực 200",
+    "stats": [],
+    "effects": [
+      136
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8010,
+    "name": "Tĩnh lấy tu thân",
+    "description": "Mỗi tháng khôi phục niệm lực 100",
+    "stats": [],
+    "effects": [
+      137
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8011,
+    "name": "Tinh lực dồi dào",
+    "description": "Tinh lực hạn mức cao nhất +10, mỗi tháng khôi phục tinh lực 10",
+    "stats": [
+      {
+        "id": 52,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      138
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8012,
+    "name": "Người nhân Nhạc Sơn",
+    "description": "Tâm tình hạn mức cao nhất +10, mỗi tháng khôi phục tâm tình 5",
+    "stats": [
+      {
+        "id": 35,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      139
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8013,
+    "name": "Người nhẹ như yến",
+    "description": "Tốc độ di chuyển +15, cước lực +400",
+    "stats": [
+      {
+        "id": 36,
+        "value": 15.0
+      },
+      {
+        "id": 27,
+        "value": 400.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8021,
+    "name": "Lực lớn vô cùng",
+    "description": "Lực công kích +24",
+    "stats": [
+      {
+        "id": 4,
+        "value": 24.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8022,
+    "name": "Nhiệt huyết sôi trào",
+    "description": "Thể lực hạn mức cao nhất +500",
+    "stats": [
+      {
+        "id": 26,
+        "value": 500.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8023,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Linh lực hạn mức cao nhất +250",
+    "stats": [
+      {
+        "id": 38,
+        "value": 250.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8024,
+    "name": "Đề thần tỉnh não",
+    "description": "Niệm lực hạn mức cao nhất +250",
+    "stats": [
+      {
+        "id": 34,
+        "value": 250.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8025,
+    "name": "Cường thân kiện thể",
+    "description": "Lực phòng ngự +24",
+    "stats": [
+      {
+        "id": 11,
+        "value": 24.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 8026,
+    "name": "Thần nguyên hóa sát",
+    "description": "Hiểu ý +65",
+    "stats": [
+      {
+        "id": 41,
+        "value": 65.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 8027,
+    "name": "Cương cân thiết cốt",
+    "description": "Hộ tâm +65",
+    "stats": [
+      {
+        "id": 24,
+        "value": 65.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 8028,
+    "name": "Không có chút rung động nào",
+    "description": "Mỗi tháng khôi phục thể lực 1000",
+    "stats": [],
+    "effects": [
+      140
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8029,
+    "name": "Như nước chảy",
+    "description": "Mỗi tháng khôi phục linh lực 500",
+    "stats": [],
+    "effects": [
+      141
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8030,
+    "name": "Tĩnh lấy tu thân",
+    "description": "Mỗi tháng khôi phục niệm lực 250",
+    "stats": [],
+    "effects": [
+      142
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8031,
+    "name": "Tinh lực dồi dào",
+    "description": "Tinh lực hạn mức cao nhất +20, mỗi tháng khôi phục tinh lực 20",
+    "stats": [
+      {
+        "id": 52,
+        "value": 20.0
+      }
+    ],
+    "effects": [
+      143
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8032,
+    "name": "Người nhân Nhạc Sơn",
+    "description": "Tâm tình hạn mức cao nhất +20, mỗi tháng khôi phục tâm tình 10",
+    "stats": [
+      {
+        "id": 35,
+        "value": 20.0
+      }
+    ],
+    "effects": [
+      144
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8033,
+    "name": "Người nhẹ như yến",
+    "description": "Tốc độ di chuyển +25, cước lực +700",
+    "stats": [
+      {
+        "id": 36,
+        "value": 25.0
+      },
+      {
+        "id": 27,
+        "value": 700.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8041,
+    "name": "Lực lớn vô cùng",
+    "description": "Lực công kích +85",
+    "stats": [
+      {
+        "id": 4,
+        "value": 85.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 8042,
+    "name": "Nhiệt huyết sôi trào",
+    "description": "Thể lực hạn mức cao nhất +2000",
+    "stats": [
+      {
+        "id": 26,
+        "value": 2000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8043,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Linh lực hạn mức cao nhất +800 8044= Đề thần tỉnh não. Tác dụng: Niệm lực hạn mức cao nhất +800",
+    "stats": [],
+    "effects": [],
+    "rarity": 1
+  },
+  {
+    "id": 8045,
+    "name": "Cường thân kiện thể",
+    "description": "Lực phòng ngự +87",
+    "stats": [
+      {
+        "id": 11,
+        "value": 87.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 8046,
+    "name": "Thần nguyên hóa sát",
+    "description": "Hiểu ý +200",
+    "stats": [
+      {
+        "id": 41,
+        "value": 200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8047,
+    "name": "Cương cân thiết cốt",
+    "description": "Hộ tâm +200",
+    "stats": [
+      {
+        "id": 24,
+        "value": 200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8048,
+    "name": "Không có chút rung động nào",
+    "description": "Mỗi tháng khôi phục thể lực 4000",
+    "stats": [],
+    "effects": [
+      145
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8049,
+    "name": "Như nước chảy",
+    "description": "Mỗi tháng khôi phục linh lực 1600",
+    "stats": [],
+    "effects": [
+      146
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8050,
+    "name": "Tĩnh lấy tu thân",
+    "description": "Mỗi tháng khôi phục niệm lực 800",
+    "stats": [],
+    "effects": [
+      147
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8051,
+    "name": "Tinh lực dồi dào",
+    "description": "Tinh lực hạn mức cao nhất +30, mỗi tháng khôi phục tinh lực 30",
+    "stats": [
+      {
+        "id": 52,
+        "value": 30.0
+      }
+    ],
+    "effects": [
+      148
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8052,
+    "name": "Người nhân Nhạc Sơn",
+    "description": "Tâm tình hạn mức cao nhất +30, mỗi tháng khôi phục tâm tình 15",
+    "stats": [
+      {
+        "id": 35,
+        "value": 30.0
+      }
+    ],
+    "effects": [
+      149
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8053,
+    "name": "Người nhẹ như yến",
+    "description": "Tốc độ di chuyển +35, cước lực +1000",
+    "stats": [
+      {
+        "id": 36,
+        "value": 35.0
+      },
+      {
+        "id": 27,
+        "value": 1000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8061,
+    "name": "Lực lớn vô cùng",
+    "description": "Lực công kích +320",
+    "stats": [
+      {
+        "id": 4,
+        "value": 320.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8062,
+    "name": "Nhiệt huyết sôi trào",
+    "description": "Thể lực hạn mức cao nhất +7000",
+    "stats": [
+      {
+        "id": 26,
+        "value": 7000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8063,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Linh lực hạn mức cao nhất +1200",
+    "stats": [
+      {
+        "id": 38,
+        "value": 1200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8064,
+    "name": "Đề thần tỉnh não",
+    "description": "Niệm lực hạn mức cao nhất +1200",
+    "stats": [
+      {
+        "id": 34,
+        "value": 1200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8065,
+    "name": "Cường thân kiện thể",
+    "description": "Lực phòng ngự +317",
+    "stats": [
+      {
+        "id": 11,
+        "value": 317.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8066,
+    "name": "Thần nguyên hóa sát",
+    "description": "Hiểu ý +700",
+    "stats": [
+      {
+        "id": 41,
+        "value": 700.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8067,
+    "name": "Cương cân thiết cốt",
+    "description": "Hộ tâm +700",
+    "stats": [
+      {
+        "id": 24,
+        "value": 700.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8068,
+    "name": "Không có chút rung động nào",
+    "description": "Mỗi tháng khôi phục thể lực 14000",
+    "stats": [],
+    "effects": [
+      150
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8069,
+    "name": "Như nước chảy",
+    "description": "Mỗi tháng khôi phục linh lực 2400",
+    "stats": [],
+    "effects": [
+      151
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8070,
+    "name": "Tĩnh lấy tu thân",
+    "description": "Mỗi tháng khôi phục niệm lực 1200",
+    "stats": [],
+    "effects": [
+      152
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8071,
+    "name": "Tinh lực dồi dào",
+    "description": "Tinh lực hạn mức cao nhất +40, mỗi tháng khôi phục tinh lực 40",
+    "stats": [
+      {
+        "id": 52,
+        "value": 40.0
+      }
+    ],
+    "effects": [
+      153
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8072,
+    "name": "Người nhân Nhạc Sơn",
+    "description": "Tâm tình hạn mức cao nhất +40, mỗi tháng khôi phục tâm tình 20",
+    "stats": [
+      {
+        "id": 35,
+        "value": 40.0
+      }
+    ],
+    "effects": [
+      154
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8073,
+    "name": "Người nhẹ như yến",
+    "description": "Tốc độ di chuyển +45, cước lực +1250",
+    "stats": [
+      {
+        "id": 36,
+        "value": 45.0
+      },
+      {
+        "id": 27,
+        "value": 1250.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8081,
+    "name": "Lực lớn vô cùng",
+    "description": "Lực công kích +1150",
+    "stats": [
+      {
+        "id": 4,
+        "value": 1150.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8082,
+    "name": "Nhiệt huyết sôi trào",
+    "description": "Thể lực hạn mức cao nhất +25000",
+    "stats": [
+      {
+        "id": 26,
+        "value": 25000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8083,
+    "name": "Sâm La Vạn Tượng",
+    "description": "Linh lực hạn mức cao nhất +3000",
+    "stats": [
+      {
+        "id": 38,
+        "value": 3000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8084,
+    "name": "Đề thần tỉnh não",
+    "description": "Niệm lực hạn mức cao nhất +3000",
+    "stats": [
+      {
+        "id": 34,
+        "value": 3000.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8085,
+    "name": "Cường thân kiện thể",
+    "description": "Lực phòng ngự +1146",
+    "stats": [
+      {
+        "id": 11,
+        "value": 1146.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8086,
+    "name": "Thần nguyên hóa sát",
+    "description": "Hiểu ý +2200",
+    "stats": [
+      {
+        "id": 41,
+        "value": 2200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8087,
+    "name": "Cương cân thiết cốt",
+    "description": "Hộ tâm +2200",
+    "stats": [
+      {
+        "id": 24,
+        "value": 2200.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8088,
+    "name": "Không có chút rung động nào",
+    "description": "Mỗi tháng khôi phục thể lực 50000",
+    "stats": [],
+    "effects": [
+      155
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8089,
+    "name": "Như nước chảy",
+    "description": "Mỗi tháng khôi phục linh lực 6000",
+    "stats": [],
+    "effects": [
+      156
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8090,
+    "name": "Tĩnh lấy tu thân",
+    "description": "Mỗi tháng khôi phục niệm lực 3000",
+    "stats": [],
+    "effects": [
+      157
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8091,
+    "name": "Tinh lực dồi dào",
+    "description": "Tinh lực hạn mức cao nhất +50, mỗi tháng khôi phục tinh lực 50",
+    "stats": [
+      {
+        "id": 52,
+        "value": 50.0
+      }
+    ],
+    "effects": [
+      158
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8092,
+    "name": "Người nhân Nhạc Sơn",
+    "description": "Tâm tình hạn mức cao nhất +50, mỗi tháng khôi phục tâm tình 25",
+    "stats": [
+      {
+        "id": 35,
+        "value": 50.0
+      }
+    ],
+    "effects": [
+      159
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8093,
+    "name": "Người nhẹ như yến",
+    "description": "Tốc độ di chuyển +55, cước lực +1500",
+    "stats": [
+      {
+        "id": 36,
+        "value": 55.0
+      },
+      {
+        "id": 27,
+        "value": 1500.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8301,
+    "name": "Căn cơ bị hao tổn",
+    "description": "Không cách nào tu luyện, lại công kích, phòng ngự, thể lực, linh lực, niệm lực giảm xuống 10%",
+    "stats": [],
+    "effects": [
+      160,
+      161,
+      162,
+      76,
+      77,
+      163
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8501,
+    "name": "Không nhìn địa hình",
+    "description": "Có thể vượt qua bộ phận không cách nào thông qua địa hình",
+    "stats": [],
+    "effects": [
+      164
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9097,
+    "name": "Oan hồn quấn thân",
+    "description": "Chẳng biết tại sao, ngươi luôn cảm thấy có người ở bên người nói nhỏ",
+    "stats": [],
+    "effects": [
+      165,
+      166
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9098,
+    "name": "Oan hồn di hận",
+    "description": "Gặp oán hận, giảm xuống 15% Lực công kích",
+    "stats": [],
+    "effects": [
+      167,
+      168
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9099,
+    "name": "Phục Hi chiến múa",
+    "description": "Gia tăng 20% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      169
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9100,
+    "name": "Nguyệt nhánh",
+    "description": "Gia tăng 20% Tốc độ tu luyện",
+    "stats": [],
+    "effects": [
+      170
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9101,
+    "name": "Ma viên máu",
+    "description": "Gia tăng 20% Công kích cùng phòng ngự",
+    "stats": [],
+    "effects": [
+      169
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9102,
+    "name": "Mạc Tuyết quà tặng",
+    "description": "Gia tăng 15% May mắn",
+    "stats": [],
+    "effects": [
+      171
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9103,
+    "name": "Cảnh giác",
+    "description": "Gia tăng 20% Hộ tâm",
+    "stats": [],
+    "effects": [
+      172
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9104,
+    "name": "Thụ Yêu nguyền rủa",
+    "description": "Giảm xuống 20% May mắn",
+    "stats": [],
+    "effects": [
+      173
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9105,
+    "name": "Chủ cửa hàng áy náy",
+    "description": "Mua sắm 8 Gãy ưu đãi",
+    "stats": [],
+    "effects": [
+      174
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9106,
+    "name": "Phường thị sổ đen",
+    "description": "Ngươi trộm đi trong tiệm bảo vật sự tình truyền khắp phố lớn ngõ nhỏ, rất khó mua được đồ vật, sẽ còn bị thu nhiều lấy 25% Giá cao 9107= Người đưa đò kêu gọi. Tác dụng: Gia tăng tất cả linh căn 20 Điểm, giảm xuống linh căn kháng tính 10 Điểm",
+    "stats": [],
+    "effects": [
+      175,
+      176,
+      177,
+      178
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9108,
+    "name": "Nhiễm di khí tức",
+    "description": "Mỗi tháng khôi phục 20 Điểm tâm tình",
+    "stats": [],
+    "effects": [
+      179
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9109,
+    "name": "Hồ yêu chúc phúc",
+    "description": "Gia tăng 25 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      180
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9110,
+    "name": "Cuồng bạo",
+    "description": "Gia tăng 100 Bạo kích bội số",
+    "stats": [],
+    "effects": [
+      181
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9111,
+    "name": "Không sợ",
+    "description": "Gia tăng 10% Công kích",
+    "stats": [],
+    "effects": [
+      55
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9112,
+    "name": "Sợ hãi",
+    "description": "Giảm bớt 10% Công kích",
+    "stats": [],
+    "effects": [
+      182
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9113,
+    "name": "Lộc Thục ưu ái",
+    "description": "Gia tăng 20 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      183
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9114,
+    "name": "Ôn dịch",
+    "description": "Mỗi tháng giảm bớt 10% Hiện hữu thể lực",
+    "stats": [],
+    "effects": [
+      184
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9115,
+    "name": "Cẩn thận",
+    "description": "Gia tăng 10% Hộ tâm",
+    "stats": [],
+    "effects": [
+      185
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9116,
+    "name": "Sinh cơ bị quản chế",
+    "description": "Giảm bớt 15% Thể lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      186
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9117,
+    "name": "Thần sông chúc phúc",
+    "description": "Gia tăng 10 Điểm may mắn, lại mỗi tháng khôi phục 10% Thể lực cùng khỏe mạnh",
+    "stats": [],
+    "effects": [
+      187,
+      188
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9118,
+    "name": "Phẩm đức cao thượng",
+    "description": "Gia tăng 5 Điểm may mắn cùng 10% Hộ tâm",
+    "stats": [],
+    "effects": [
+      189
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9119,
+    "name": "Tế thần",
+    "description": "Gia tăng 5 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      190
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9120,
+    "name": "Tế thần",
+    "description": "Gia tăng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      187
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9121,
+    "name": "Quái điểu chi vũ",
+    "description": "Gia tăng 10% Linh căn kháng tính",
+    "stats": [],
+    "effects": [
+      191
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9122,
+    "name": "Nguyệt ngấn",
+    "description": "Gia tăng 10% Tu luyện hiệu suất",
+    "stats": [],
+    "effects": [
+      192
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9123,
+    "name": "Tính tính chi linh",
+    "description": "Gia tăng 200 Cước lực cùng 20 Điểm di tốc",
+    "stats": [],
+    "effects": [
+      193
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9124,
+    "name": "Tính tính chi khí",
+    "description": "Gia tăng 200 Cước lực",
+    "stats": [],
+    "effects": [
+      194
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9125,
+    "name": "Bên trên ký",
+    "description": "Gia tăng 20 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      183
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9126,
+    "name": "Trúng thăm",
+    "description": "Gia tăng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      187
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9127,
+    "name": "Hạ ký",
+    "description": "Giảm bớt 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      195
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9128,
+    "name": "Cứu trợ chim non",
+    "description": "tips_9128",
+    "stats": [],
+    "effects": [
+      196
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9129,
+    "name": "Đoàn tụ sum vầy",
+    "description": "tips_9129",
+    "stats": [],
+    "effects": [
+      197
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9130,
+    "name": "Vách đá hang động",
+    "description": "tips_9130",
+    "stats": [],
+    "effects": [
+      198
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9131,
+    "name": "Đan tu ban thưởng đan",
+    "description": "tips_9131",
+    "stats": [],
+    "effects": [
+      199
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9132,
+    "name": "Ngẫu nhiên gặp linh tuyền",
+    "description": "tips_9132",
+    "stats": [],
+    "effects": [
+      200
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9133,
+    "name": "Tiên nhân ban rượu",
+    "description": "tips_9133",
+    "stats": [],
+    "effects": [
+      201
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9134,
+    "name": "Dưới cây bị tập kích",
+    "description": "tips_9134",
+    "stats": [],
+    "effects": [
+      202
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9135,
+    "name": "Không biết tế đàn",
+    "description": "tips_9135",
+    "stats": [],
+    "effects": [
+      203
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9136,
+    "name": "Thân hữu không hợp",
+    "description": "tips_9136",
+    "stats": [],
+    "effects": [
+      204
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9137,
+    "name": "Linh thạch mất trộm",
+    "description": "tips_9137",
+    "stats": [],
+    "effects": [
+      205
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9138,
+    "name": "Đạo lữ bất trung",
+    "description": "tips_9138",
+    "stats": [],
+    "effects": [
+      206
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9139,
+    "name": "Tiên tửu",
+    "description": "Gia tăng 10% Công kích cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      207
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9140,
+    "name": "Tiên tửu",
+    "description": "Gia tăng 10% Phòng ngự cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      208
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9141,
+    "name": "Tiên tửu",
+    "description": "Gia tăng 10% Hiểu ý cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      209
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9142,
+    "name": "Tiên tửu",
+    "description": "Gia tăng 100 Bạo kích bội số cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      210
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9143,
+    "name": "Trừng phạt nho nhỏ",
+    "description": "Giảm bớt 10% Công kích cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      211
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9144,
+    "name": "Trừng phạt nho nhỏ",
+    "description": "Giảm bớt 10% Phòng ngự cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      212
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9145,
+    "name": "Trừng phạt nho nhỏ",
+    "description": "Giảm bớt 10% Hiểu ý cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      213
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9146,
+    "name": "Trừng phạt nho nhỏ",
+    "description": "Giảm bớt 100 Bạo kích bội số cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      214
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9147,
+    "name": "Ngàn vạn ma niệm",
+    "description": "Giảm bớt 100 Điểm niệm lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      215
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9148,
+    "name": "Vết thương nhỏ",
+    "description": "Giảm bớt 10% Thể lực hạn mức cao nhất cùng linh lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      216
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9149,
+    "name": "Linh tuyền bị hủy",
+    "description": "tips_9149",
+    "stats": [],
+    "effects": [
+      217
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9150,
+    "name": "Tư duy rõ ràng",
+    "description": "Gia tăng 20 Điểm ngộ tính",
+    "stats": [],
+    "effects": [
+      218
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9151,
+    "name": "Tư duy trì trệ",
+    "description": "Giảm xuống 10 Điểm ngộ tính",
+    "stats": [],
+    "effects": [
+      219
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9152,
+    "name": "Cảm ngộ",
+    "description": "Gia tăng 20 Điểm ngộ tính cùng 10% Tu luyện hiệu suất",
+    "stats": [],
+    "effects": [
+      220
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9153,
+    "name": "Nhỏ say",
+    "description": "Gia tăng 5% Công kích",
+    "stats": [],
+    "effects": [
+      221
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9154,
+    "name": "Hơi say rượu",
+    "description": "Gia tăng 5% Thể lực cùng 10% Hiểu ý",
+    "stats": [],
+    "effects": [
+      222
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9155,
+    "name": "Cỏ may mắn",
+    "description": "Gia tăng 20 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      183
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9156,
+    "name": "Vận rủi cỏ",
+    "description": "Giảm bớt 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      195
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9157,
+    "name": "Lòng tốt làm chuyện xấu",
+    "description": "Giảm bớt 1 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      223
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9158,
+    "name": "Di oán",
+    "description": "Giảm bớt 500 Điểm niệm lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      224
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9159,
+    "name": "Khí huyết sung mãn",
+    "description": "Gia tăng thể lực hạn mức cao nhất 5%",
+    "stats": [],
+    "effects": [
+      225
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9160,
+    "name": "Yêu khí nhập thể",
+    "description": "Giảm xuống 5% Thể lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      226
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9161,
+    "name": "9161",
+    "description": "tips_9161 9162= Ngự Hoang Thần pháp. Tác dụng: Bát Hoang giới tự có thiên đạo pháp tắc ước thúc, âm dương điều hòa, hóa nguyên quy nhất. Nơi đây sơn hải bên trong yêu tà chi lực dị thường hung mãnh, cho nên thiên đạo đem cho tới đối kháng người lấy lực lượng pháp tắc gia trì, lấy đạt tới Lưỡng Nghi hòa hợp chi cảnh. Nên lực lượng pháp tắc sẽ thật to cường hóa tu tiên giả triệu hồi ra sinh vật, khiến cho có thể cùng hung ác yêu thú phân cao thấp.<g> Tự thân triệu hoán vật ( Bao quát pháp bảo ) Nhận đến tự đại yêu thú tổn thương",
+    "stats": [],
+    "effects": [
+      227,
+      228,
+      229,
+      230,
+      231,
+      232
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 9163,
+    "name": "Ham học hỏi",
+    "description": "Gia tăng 10 Điểm ngộ tính",
+    "stats": [],
+    "effects": [
+      233
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9164,
+    "name": "Chớ biết",
+    "description": "Mỗi tháng tâm tình +10",
+    "stats": [],
+    "effects": [
+      72
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9165,
+    "name": "Tìm đạo",
+    "description": "Gia tăng 5% Công kích cùng 10 Điểm ngộ tính",
+    "stats": [],
+    "effects": [
+      234
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9166,
+    "name": "Chớ cầu",
+    "description": "Gia tăng 5% Phòng ngự cùng 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      235
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9167,
+    "name": "Nhân sinh vô thường",
+    "description": "Gia tăng 5 Điểm ngộ tính cùng 100 Cước lực",
+    "stats": [],
+    "effects": [
+      236
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9168,
+    "name": "Nhát gan",
+    "description": "Công kích giảm bớt 5%, mỗi tháng tâm tình -10, di tốc +20 Điểm",
+    "stats": [],
+    "effects": [
+      237,
+      238,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9169,
+    "name": "Nguyện biết tiền bối",
+    "description": "Gia tăng công kích cùng phòng ngự 5%",
+    "stats": [],
+    "effects": [
+      239
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9170,
+    "name": "Quân chớ ai",
+    "description": "Gia tăng công kích 10%, gia tăng 20 Điểm ngộ tính",
+    "stats": [],
+    "effects": [
+      240,
+      241
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9171,
+    "name": "Quân chớ biết",
+    "description": "Gia tăng phòng ngự 10%, gia tăng 20 Điểm ngộ tính, mỗi tháng tâm tình +10",
+    "stats": [],
+    "effects": [
+      242,
+      241,
+      72
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9172,
+    "name": "Thế cuộc mê nghĩ",
+    "description": "Ngộ tính đề cao 40 Điểm, tốc độ tu luyện đề cao 50%",
+    "stats": [],
+    "effects": [
+      243,
+      244
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9173,
+    "name": "Ấn đường biến thành màu đen",
+    "description": "May mắn giảm bớt 20 Điểm, mị lực giảm bớt 500 Điểm",
+    "stats": [],
+    "effects": [
+      245,
+      246
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9174,
+    "name": "9174",
+    "description": "tips_9174",
+    "stats": [],
+    "effects": [
+      247
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9175,
+    "name": "Thiên hạ đệ nhất tông",
+    "description": "Hoa phong châu đệ nhất tông môn",
+    "stats": [],
+    "effects": [
+      248
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9176,
+    "name": "Thiên hạ đệ nhất tông",
+    "description": "Mây mạch châu đệ nhất tông môn",
+    "stats": [],
+    "effects": [
+      249
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9177,
+    "name": "Thiên hạ đệ nhất tông",
+    "description": "Mộ Tiên Châu đệ nhất tông môn",
+    "stats": [],
+    "effects": [
+      250
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9178,
+    "name": "Thiên hạ đệ nhất tông",
+    "description": "Xích U châu đệ nhất tông môn",
+    "stats": [],
+    "effects": [
+      251
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9179,
+    "name": "Hoa phong châu mạnh nhất đệ tử",
+    "description": "Hoa phong châu mạnh nhất đệ tử",
+    "stats": [],
+    "effects": [
+      252
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9180,
+    "name": "Mây mạch châu mạnh nhất đệ tử",
+    "description": "Mây mạch châu mạnh nhất đệ tử",
+    "stats": [],
+    "effects": [
+      253
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9181,
+    "name": "Mộ Tiên Châu mạnh nhất đệ tử",
+    "description": "Mộ Tiên Châu mạnh nhất đệ tử",
+    "stats": [],
+    "effects": [
+      254
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9182,
+    "name": "Xích U châu mạnh nhất đệ tử",
+    "description": "Xích U châu mạnh nhất đệ tử",
+    "stats": [],
+    "effects": [
+      255
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9183,
+    "name": "Phản báo",
+    "description": "Người chết lâm chung oán niệm chỗ tụ, nhiều thì một năm, ít thì một tháng, người chết nhất định đoàn tụ nhục thân, tìm ngươi trả thù",
+    "stats": [],
+    "effects": [
+      256,
+      257,
+      258,
+      259,
+      260
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 9184,
+    "name": "9184",
+    "description": "tips_9184",
+    "stats": [],
+    "effects": [
+      261
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9185,
+    "name": "9185",
+    "description": "tips_9185",
+    "stats": [],
+    "effects": [
+      262
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 20001,
+    "name": "Sát phạt quả đoán",
+    "description": "Gia tăng gấp đôi bạo kích tổn thương, gia tăng 10% Lực công kích",
+    "stats": [],
+    "effects": [
+      263,
+      264
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 20002,
+    "name": "Vận rủi quấn thân",
+    "description": "Giảm bớt 10 Điểm may mắn",
+    "stats": [],
+    "effects": [
+      195
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 20003,
+    "name": "Liên tâm chi kết",
+    "description": "Ngưu Lang Chức Nữ cùng khoản tín vật, tượng trưng cho ngươi cùng đối phương thâm hậu tình nghĩa. Đương đối phương tao ngộ cái khác tu tiên giả trí mạng uy hiếp lúc, cái này nút buộc đem sinh ra vượt qua không gian kỳ diệu phản ứng, có lẽ có thể đem ngươi đưa đến đối phương bên người",
+    "stats": [],
+    "effects": [
+      265,
+      266,
+      267,
+      268
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 20004,
+    "name": "Liên tâm chi kết",
+    "description": "Ngưu Lang Chức Nữ cùng khoản tín vật, tượng trưng cho ngươi cùng đối phương thâm hậu tình nghĩa. Đương đối phương tao ngộ cái khác tu tiên giả trí mạng uy hiếp lúc, cái này nút buộc đem sinh ra vượt qua không gian kỳ diệu phản ứng, có lẽ có thể đem ngươi đưa đến đối phương bên người",
+    "stats": [],
+    "effects": [
+      265,
+      266,
+      267,
+      268
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 20005,
+    "name": "Kim Ô ngọc vũ",
+    "description": "Thân Hoài Kim ô ngọc vũ, đi tới chỗ nào đều sẽ trở thành Bát Hoang giới đông đảo loài chim cực kỳ hâm mộ đối tượng",
+    "stats": [],
+    "effects": [
+      269,
+      270
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331011,
+    "name": "Dẫn yêu mùi thơm",
+    "description": "Đương {#areaName2}, {#areaName3} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất tăng lên 50%",
+    "stats": [],
+    "effects": [
+      271,
+      272,
+      273
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331012,
+    "name": "Dẫn yêu mùi thơm",
+    "description": "Đương {#areaName4}, {#areaName5} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất tăng lên 50%",
+    "stats": [],
+    "effects": [
+      274,
+      275,
+      273
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331013,
+    "name": "Dẫn yêu mùi thơm",
+    "description": "Đương {#areaName6}, {#areaName7} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất tăng lên 50%",
+    "stats": [],
+    "effects": [
+      276,
+      277,
+      273
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331014,
+    "name": "Dẫn yêu mùi thơm",
+    "description": "Đương {#areaName8}, {#areaName9} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất tăng lên 50%",
+    "stats": [],
+    "effects": [
+      278,
+      279,
+      273
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331015,
+    "name": "Dẫn yêu mùi thơm",
+    "description": "Đương {#areaName10} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất tăng lên 50% 6331021= Tránh yêu mùi thơm. Tác dụng: Đương {#areaName2}, {#areaName3} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      280,
+      281,
+      272,
+      282
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6331022,
+    "name": "Tránh yêu mùi thơm",
+    "description": "Đương {#areaName4}, {#areaName5} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      274,
+      275,
+      282
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331023,
+    "name": "Tránh yêu mùi thơm",
+    "description": "Đương {#areaName6}, {#areaName7} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      276,
+      277,
+      282
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6331024,
+    "name": "Tránh yêu mùi thơm",
+    "description": "Đương {#areaName8}, {#areaName9} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      278,
+      279,
+      282
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6331025,
+    "name": "Tránh yêu mùi thơm",
+    "description": "Đương {#areaName10} Khu vực hành tẩu lúc, gặp được quái vật tập kích xác suất giảm xuống 50%",
+    "stats": [],
+    "effects": [
+      280,
+      282
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 63310411,
+    "name": "Thu liễm khí tức",
+    "description": "Thu liễm tự thân khí tức, khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName1}, {#areaName2}, {#areaName3}</g> Khu vực thường có hiệu",
+    "stats": [],
+    "effects": [
+      283,
+      284,
+      285,
+      286
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 63310421,
+    "name": "Thu liễm khí tức",
+    "description": "Thu liễm tự thân khí tức, khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName4}, {#areaName5}</g> Cùng trước đó khu vực thường có hiệu",
+    "stats": [],
+    "effects": [
+      283,
+      287,
+      288
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 63310431,
+    "name": "Thu liễm khí tức",
+    "description": "Thu liễm tự thân khí tức, khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName6}, {#areaName7}</g> Cùng trước đó khu vực thường có hiệu",
+    "stats": [],
+    "effects": [
+      283,
+      289,
+      290
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 63310441,
+    "name": "Thu liễm khí tức",
+    "description": "Thu liễm tự thân khí tức, khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{#areaName8}, {#areaName9}</g> Cùng trước đó khu vực thường có hiệu",
+    "stats": [],
+    "effects": [
+      283,
+      291,
+      292
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 63310451,
+    "name": "Thu liễm khí tức",
+    "description": "Thu liễm tự thân khí tức, khiến cho hắn tu tiên giả tìm tới tự mình tiến hành hỗ động tần suất giảm xuống. Tại <g>{{#areaName10}<g> Cùng trước đó khu vực thường có hiệu",
+    "stats": [],
+    "effects": [
+      283,
+      293
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 6104001,
+    "name": "Vênh váo trùng thiên",
+    "description": "May mắn +20",
+    "stats": [
+      {
+        "id": 32,
+        "value": 20.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 6114221,
+    "name": "Linh lung đèn hồn",
+    "description": "Chiến đấu bên trong sắp chết lúc lập tức trả lời toàn bộ thể lực linh lực cùng niệm lực, chỉ có thể phát động một lần, phát động sau khí vận biến mất",
+    "stats": [],
+    "effects": [
+      294,
+      295,
+      296
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6114191,
+    "name": "Chiêu Hồn Phiên",
+    "description": "Chiến đấu bên trong sắp chết lúc có thể không địch 5 Giây, một trận chiến đấu chỉ có thể phát động một lần, tổng cộng nhưng phát động 3 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/3)",
+    "stats": [],
+    "effects": [
+      297,
+      298,
+      299,
+      300
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6120411,
+    "name": "Ngự quỷ cờ",
+    "description": "Thể lực thấp hơn 20% Lúc phát động, triệu hoán 3 Cái khô lâu, trong đó một cái mang theo đặc kỹ cách mỗi 5 Giây hồi phục người chơi lớn nhất HP 5%. Một trận chiến đấu chỉ có thể phát động một lần, tổng cộng có thể phát động 3 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/3)",
+    "stats": [],
+    "effects": [
+      301,
+      302,
+      303,
+      304,
+      300
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 6121371,
+    "name": "Chín nói trấn linh chú",
+    "description": "Trong chiến đấu gặp được đại yêu thú cùng một chút khá mạnh lực địch nhân lúc 9 Giây sau đối tất cả địch nhân tạo thành tổn thương cũng tại về sau 5 Giây bên trong trầm mặc địch nhân cũng tạo thành tiểu ngạch tổn thương, một trận chiến đấu chỉ có thể phát động một lần, tổng cộng nhưng phát động 9 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/9)",
+    "stats": [],
+    "effects": [
+      305,
+      298,
+      306,
+      307
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6120001,
+    "name": "Ngự quỷ cờ",
+    "description": "Thể lực thấp hơn 20% Lúc phát động, triệu hoán 4 Cái Quỷ Tướng, trong đó một cái mang theo đặc kỹ cách mỗi 5 Giây hồi phục người chơi lớn nhất HP 5%. Một trận chiến đấu chỉ có thể phát động một lần, tổng cộng có thể phát động 3 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/3)",
+    "stats": [],
+    "effects": [
+      301,
+      308,
+      303,
+      304,
+      300
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 6120002,
+    "name": "Thiên kiếm thạch",
+    "description": "Sử dụng thần thông về sau qua một đoạn thời gian, nhưng tại trên trận triệu hoán một đạo thiên kiếm đối tất cả địch nhân tạo thành cao tổn thương. Một trận chiến đấu chỉ có thể phát động một lần, tổng cộng có thể phát động 9 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/9)",
+    "stats": [],
+    "effects": [
+      309,
+      310,
+      311,
+      307
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 6120003,
+    "name": "Tổn hại ngự quỷ cờ",
+    "description": "Một mặt tổn hại ngự quỷ cờ, nhưng vẫn là bảo lưu lại nó bộ phận lực lượng. Thể lực thấp hơn 20% Lúc phát động, triệu hoán 2 Cái Quỷ Tướng. Một trận chiến đấu chỉ có thể phát động một lần, tổng cộng có thể phát động 2 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/2) 6120004= Tổn hại thiên kiếm thạch. Tác dụng: Một khối tổn hại thiên kiếm thạch, nhưng vẫn là bảo lưu lại nó bộ phận lực lượng. Sử dụng thần thông về sau qua một đoạn thời gian, nhưng tại trên trận triệu hoán một đạo thiên kiếm đối tất cả địch nhân tạo thành tổn thương. Một trận chiến đấu chỉ có thể phát động một lần, tổng cộng có thể phát động 3 Lần, số lần sau khi dùng xong khí vận biến mất.( Đã sử dụng số lần: {luckUseCount}/3)",
+    "stats": [],
+    "effects": [
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      304,
+      300
+    ],
+    "rarity": 5
+  },
+  {
+    "id": 76211,
+    "name": "Chân dương hộ thể",
+    "description": "Lực phòng ngự +10, có thể chống cự Bàn Long sơn bên trong hàn khí",
+    "stats": [
+      {
+        "id": 11,
+        "value": 10.0
+      }
+    ],
+    "effects": [
+      319
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 810101,
+    "name": "810101",
+    "description": "tips_810101",
+    "stats": [],
+    "effects": [
+      320
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 810102,
+    "name": "810102",
+    "description": "tips_810102",
+    "stats": [],
+    "effects": [
+      321
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 810103,
+    "name": "Tiên tư",
+    "description": "Mị lực +&810103_mlzj&",
+    "stats": [],
+    "effects": [
+      322
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 810104,
+    "name": "810104",
+    "description": "tips_810104",
+    "stats": [],
+    "effects": [
+      323
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811101,
+    "name": "811101",
+    "description": "tips_811101",
+    "stats": [],
+    "effects": [
+      324
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811102,
+    "name": "811102",
+    "description": "tips_811102",
+    "stats": [],
+    "effects": [
+      325
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811103,
+    "name": "811103",
+    "description": "tips_811103",
+    "stats": [],
+    "effects": [
+      326
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811104,
+    "name": "811104",
+    "description": "tips_811104",
+    "stats": [],
+    "effects": [
+      327
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811105,
+    "name": "811105",
+    "description": "tips_811105",
+    "stats": [],
+    "effects": [
+      328
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811106,
+    "name": "811106",
+    "description": "tips_811106",
+    "stats": [],
+    "effects": [
+      329
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811107,
+    "name": "811107",
+    "description": "tips_811107",
+    "stats": [],
+    "effects": [
+      330
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811108,
+    "name": "811108",
+    "description": "tips_811108",
+    "stats": [],
+    "effects": [
+      331
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811109,
+    "name": "811109",
+    "description": "tips_811109",
+    "stats": [],
+    "effects": [
+      332
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811110,
+    "name": "811110",
+    "description": "tips_811110",
+    "stats": [],
+    "effects": [
+      333
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811111,
+    "name": "811111",
+    "description": "tips_811111",
+    "stats": [],
+    "effects": [
+      334
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811112,
+    "name": "811112",
+    "description": "tips_811112",
+    "stats": [],
+    "effects": [
+      335
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811113,
+    "name": "811113",
+    "description": "tips_811113",
+    "stats": [],
+    "effects": [
+      336
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811114,
+    "name": "811114",
+    "description": "tips_811114",
+    "stats": [],
+    "effects": [
+      337
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811115,
+    "name": "811115",
+    "description": "tips_811115",
+    "stats": [],
+    "effects": [
+      338
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 811116,
+    "name": "811116",
+    "description": "tips_811116",
+    "stats": [],
+    "effects": [
+      339
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8730221,
+    "name": "Sướng miệng nhẹ ăn",
+    "description": "Tinh lực hạn mức cao nhất +10, khỏe mạnh hạn mức cao nhất +10, cước lực +50",
+    "stats": [
+      {
+        "id": 52,
+        "value": 10.0
+      },
+      {
+        "id": 23,
+        "value": 10.0
+      },
+      {
+        "id": 27,
+        "value": 50.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8730222,
+    "name": "Ăn nhầm độc vật",
+    "description": "Tinh lực hạn mức cao nhất -10, khỏe mạnh hạn mức cao nhất -10, cước lực -50",
+    "stats": [
+      {
+        "id": 52,
+        "value": -10.0
+      },
+      {
+        "id": 23,
+        "value": -10.0
+      },
+      {
+        "id": 27,
+        "value": -50.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8800211,
+    "name": "Đau lưng",
+    "description": "Không cách nào tiến hành tu luyện, song tu",
+    "stats": [],
+    "effects": [
+      340,
+      341
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 8800311,
+    "name": "Ngự lực chi đạo",
+    "description": "Quyền pháp tư chất +100, chưởng pháp tư chất +100, chỉ pháp tư chất +100",
+    "stats": [
+      {
+        "id": 19,
+        "value": 100.0
+      },
+      {
+        "id": 40,
+        "value": 100.0
+      },
+      {
+        "id": 17,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8804211,
+    "name": "Đầy bụng hồ nghi",
+    "description": "May mắn +40, ngộ tính -20",
+    "stats": [
+      {
+        "id": 32,
+        "value": 40.0
+      },
+      {
+        "id": 9,
+        "value": -20.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8804311,
+    "name": "Trong mộng lôi kiếp",
+    "description": "Ngộ tính +30, thể lực hạn mức cao nhất - 10%, cước lực -100",
+    "stats": [
+      {
+        "id": 9,
+        "value": 30.0
+      },
+      {
+        "id": 27,
+        "value": -100.0
+      }
+    ],
+    "effects": [
+      342
+    ],
+    "rarity": 5
+  },
+  {
+    "id": 8805211,
+    "name": "Đan độc",
+    "description": "Linh lực hạn mức cao nhất -10%, linh căn kháng tính +10",
+    "stats": [
+      {
+        "id": 38,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      343
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8805212,
+    "name": "Khí tức hỗn loạn",
+    "description": "Công kích -10%, trước mắt trạng thái không cách nào tiến hành đột phá",
+    "stats": [
+      {
+        "id": 4,
+        "value": -10.0
+      }
+    ],
+    "effects": [
+      14
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8805213,
+    "name": "Cam Lâm Quảng Trạch",
+    "description": "Tiểu sư muội đột phá lúc hiệu quả đặc biệt, ngươi cơ duyên phía dưới từ bên cạnh đạt được chỗ tốt, kết thành khí vận, tăng trưởng tinh thần. Thể lực, linh lực, niệm lực hạn mức cao nhất các tăng 100 Điểm",
+    "stats": [],
+    "effects": [
+      344,
+      345,
+      346,
+      347,
+      77,
+      348
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8805214,
+    "name": "Tiểu sư muội chiếu cố",
+    "description": "Mua sắm thu hoạch được giảm còn 80% ưu đãi",
+    "stats": [],
+    "effects": [
+      349
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8805215,
+    "name": "Giải thoát dược hiệu",
+    "description": "Không nghĩ sư huynh bí dược lại có cường kiện thân thể chi công, thể nội khí tức lưu chuyển, hết sức thông thuận. Thể lực hạn mức cao nhất +100",
+    "stats": [],
+    "effects": [
+      350,
+      351,
+      352
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8805216,
+    "name": "Thương Minh Kính Tượng",
+    "description": "Linh đài đảo ngược, tận nghiêng phiền não, biển kính dòm tâm, hơi thở nghi trong vắt lo, tiến nhập nội thị cảnh giới, xem khắp nội phủ. Ngộ tính +25",
+    "stats": [],
+    "effects": [
+      353,
+      354,
+      355,
+      356,
+      357,
+      358
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8805217,
+    "name": "Tâm tình tỉnh lại",
+    "description": "Ngươi đạt được môn nhân tôn kính, tinh thần đại chấn, giơ tay nhấc chân, đều là tự tin. Tâm tình hạn mức cao nhất xách +10%, mỗi tháng khôi phục tâm tình +5",
+    "stats": [],
+    "effects": [
+      359,
+      360,
+      361,
+      362,
+      363
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8805218,
+    "name": "Uống rượu di tình",
+    "description": "Gia tăng thể lực 5% Thể lực hạn mức cao nhất, 5% Niệm lực hạn mức cao nhất 8805219= Thoải mái uống. Tác dụng: Gia tăng 10% Thể lực hạn mức cao nhất, 10% Niệm lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      364,
+      365,
+      366
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8805220,
+    "name": "Ngàn chén không say",
+    "description": "Gia tăng 15% Thể lực hạn mức cao nhất, 15% Niệm lực hạn mức cao nhất",
+    "stats": [],
+    "effects": [
+      367,
+      368
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 8805221,
+    "name": "Thần thú tinh thần",
+    "description": "Tinh lực hạn mức cao nhất +30, khỏe mạnh hạn mức cao nhất +30, cước lực +100",
+    "stats": [
+      {
+        "id": 52,
+        "value": 30.0
+      },
+      {
+        "id": 23,
+        "value": 30.0
+      },
+      {
+        "id": 27,
+        "value": 100.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8805222,
+    "name": "Thần thú phúc khí",
+    "description": "May mắn +60, ngộ tính +30",
+    "stats": [
+      {
+        "id": 32,
+        "value": 60.0
+      },
+      {
+        "id": 9,
+        "value": 30.0
+      }
+    ],
+    "effects": [],
+    "rarity": 5
+  },
+  {
+    "id": 8805223,
+    "name": "8805223",
+    "description": "tips_8805223",
+    "stats": [],
+    "effects": [
+      369
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8805224,
+    "name": "8805224",
+    "description": "tips_8805224",
+    "stats": [],
+    "effects": [
+      370
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 8805225,
+    "name": "8805225",
+    "description": "tips_8805225",
+    "stats": [],
+    "effects": [
+      371
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000001,
+    "name": "Thông dụng đạo tâm hiệu quả 2",
+    "description": "Bị thương tổn -10%",
+    "stats": [],
+    "effects": [
+      372
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000002,
+    "name": "Thông dụng đạo tâm hiệu quả 1",
+    "description": "Tạo thành tổn thương +5%",
+    "stats": [],
+    "effects": [
+      373
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000003,
+    "name": "Thông dụng đạo tâm hiệu quả -1",
+    "description": "Tạo thành tổn thương -10%",
+    "stats": [],
+    "effects": [
+      373
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000004,
+    "name": "Thông dụng đạo tâm hiệu quả -2",
+    "description": "Bị thương tổn +20%",
+    "stats": [],
+    "effects": [
+      372
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000005,
+    "name": "Đạo tâm trừ khử",
+    "description": "Không cách nào đột phá",
+    "stats": [],
+    "effects": [
+      374
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000101,
+    "name": "Vô danh",
+    "description": "Tự thân cùng tất cả phe mình triệu hoán vật tạo thành tổn thương +10%",
+    "stats": [],
+    "effects": [],
+    "rarity": 1
+  },
+  {
+    "id": 9000102,
+    "name": "Không thôi",
+    "description": "Tốc độ di chuyển +10%",
+    "stats": [
+      {
+        "id": 36,
+        "value": 10.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 9000103,
+    "name": "Làm thịt ngự",
+    "description": "Kỹ năng CD-10%",
+    "stats": [],
+    "effects": [
+      375
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000104,
+    "name": "Vạn Tượng",
+    "description": "Võ kỹ / Linh kỹ tầm bắn +20%",
+    "stats": [],
+    "effects": [
+      376
+    ],
+    "rarity": 1
+  },
+  {
+    "id": 9000105,
+    "name": "Theo trời",
+    "description": "Tốc độ di chuyển +10%",
+    "stats": [
+      {
+        "id": 36,
+        "value": 10.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 9000106,
+    "name": "Bên trên thiện",
+    "description": "Sử dụng đan dược, pháp bảo niệm lực tiêu hao -20%",
+    "stats": [],
+    "effects": [
+      377,
+      378
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000107,
+    "name": "Hóa ngại",
+    "description": "Nhận đến tự học tiên giả tổn thương -15%",
+    "stats": [],
+    "effects": [
+      379
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000108,
+    "name": "Kế minh",
+    "description": "Võ kỹ / Linh kỹ tầm bắn +20%",
+    "stats": [],
+    "effects": [
+      376
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000109,
+    "name": "Khô đốt",
+    "description": "Võ kỹ / Linh kỹ tầm bắn +20%",
+    "stats": [],
+    "effects": [
+      376
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000110,
+    "name": "Tu tỉnh",
+    "description": "Kỹ năng CD-10%",
+    "stats": [],
+    "effects": [
+      375
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000111,
+    "name": "Không có lỗi gì",
+    "description": "Nhận đến tự học tiên giả tổn thương -15%",
+    "stats": [],
+    "effects": [
+      379
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000112,
+    "name": "Quy Tàng",
+    "description": "Sử dụng đan dược, pháp bảo niệm lực tiêu hao -20%",
+    "stats": [],
+    "effects": [
+      377,
+      378
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000113,
+    "name": "Dừng hơn",
+    "description": "Sử dụng đan dược, pháp bảo niệm lực tiêu hao -20%",
+    "stats": [],
+    "effects": [
+      377,
+      378
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000114,
+    "name": "Vô định",
+    "description": "Kỹ năng CD-10%",
+    "stats": [],
+    "effects": [
+      375
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9000115,
+    "name": "Dài hằng",
+    "description": "Tốc độ di chuyển +10%",
+    "stats": [
+      {
+        "id": 36,
+        "value": 10.0
+      }
+    ],
+    "effects": [],
+    "rarity": 3
+  },
+  {
+    "id": 9000116,
+    "name": "Phúc sinh",
+    "description": "May mắn +40",
+    "stats": [
+      {
+        "id": 32,
+        "value": 40.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 9000117,
+    "name": "Trăm hiểu",
+    "description": "May mắn +40",
+    "stats": [
+      {
+        "id": 32,
+        "value": 40.0
+      }
+    ],
+    "effects": [],
+    "rarity": 4
+  },
+  {
+    "id": 9001001,
+    "name": "Lòng như tro nguội",
+    "description": "Tạo thành tổn thương -50%, bị thương tổn +100%",
+    "stats": [],
+    "effects": [
+      373,
+      372
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001002,
+    "name": "Nản lòng thoái chí",
+    "description": "Tinh lực hạn mức cao nhất -50%, có xác suất không cách nào hành động",
+    "stats": [
+      {
+        "id": 52,
+        "value": -50.0
+      }
+    ],
+    "effects": [
+      380
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 9001101,
+    "name": "Ý chí tinh thần sa sút",
+    "description": "Tạo thành tổn thương -10%",
+    "stats": [],
+    "effects": [
+      373
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001102,
+    "name": "Trăm mối lo",
+    "description": "Nhận tổn thương +20%",
+    "stats": [],
+    "effects": [
+      381
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001201,
+    "name": "Đạo tâm mới sinh",
+    "description": "Đạo tâm ở vào ban đầu lúc mới sinh trạng thái, đã có thể thu hoạch nghịch thiên cải mệnh",
+    "stats": [],
+    "effects": [
+      382,
+      383
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001202,
+    "name": "Đạo tâm ngưng tụ",
+    "description": "Đạo tâm ở vào đang phát triển ngưng tụ trạng thái, thu được đạo tâm sở thuộc hiệu quả đặc biệt",
+    "stats": [],
+    "effects": [
+      384,
+      385
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001203,
+    "name": "Đạo tâm kết túy",
+    "description": "Đạo tâm ở vào viên mãn sau kết túy trạng thái, thu được cuối cùng cường đại hiệu quả đặc biệt",
+    "stats": [],
+    "effects": [
+      386,
+      387
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001204,
+    "name": "Đạo tâm dao động",
+    "description": "Đạo tâm ở vào dao động trạng thái, như lại tiếp tục gặp đả kích liền sẽ tiến vào sụp đổ sụp đổ, sinh ra nhất định mặt trái hiệu quả",
+    "stats": [],
+    "effects": [
+      388,
+      389,
+      390
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9001205,
+    "name": "Đạo tâm sụp đổ",
+    "description": "Đạo tâm ở vào sụp đổ trạng thái, như lại tiếp tục gặp đả kích liền có vỡ vụn trừ khử phong hiểm, sinh ra nghiêm trọng mặt trái hiệu quả",
+    "stats": [],
+    "effects": [
+      391,
+      392,
+      393
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9001206,
+    "name": "Đạo tâm trừ khử",
+    "description": "Đạo tâm đã trừ khử, cận tồn một tia vết tích chứng minh nó đã từng tồn tại, sinh ra cực kì nghiêm trọng mặt trái hiệu quả",
+    "stats": [],
+    "effects": [
+      394,
+      395,
+      396
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9002001,
+    "name": "Tiêu cực tị thế",
+    "description": "Nhận nhục nhã, sinh hoạt tính tích cực bị đả kích",
+    "stats": [],
+    "effects": [
+      397,
+      398
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9002002,
+    "name": "Uể oải tinh thần sa sút",
+    "description": "Nhận nhục nhã, đối gặp trắc trở cùng khảo nghiệm cảm thấy chán ghét 9002003= Tín niệm gặp khó. Tác dụng: Nhận nhục nhã, tu đạo tín niệm sinh ra dao động",
+    "stats": [],
+    "effects": [
+      397,
+      399,
+      400
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9100001,
+    "name": "Đao pháp ngưng trệ",
+    "description": "Tự thân tạo thành đao pháp tổn thương sẽ bị đao thứ nhất tu hóa giải",
+    "stats": [],
+    "effects": [
+      401
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100002,
+    "name": "Thương pháp ngưng trệ",
+    "description": "Tự thân tạo thành thương pháp tổn thương sẽ bị thương thứ nhất tu hóa giải",
+    "stats": [],
+    "effects": [
+      402
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100003,
+    "name": "Kiếm pháp ngưng trệ",
+    "description": "Tự thân tạo thành kiếm pháp tổn thương sẽ bị kiếm thứ nhất tu hóa giải",
+    "stats": [],
+    "effects": [
+      403
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100004,
+    "name": "Quyền pháp ngưng trệ",
+    "description": "Tự thân tạo thành quyền pháp tổn thương sẽ bị quyền thứ nhất tu hóa giải",
+    "stats": [],
+    "effects": [
+      404
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100005,
+    "name": "Chưởng pháp ngưng trệ",
+    "description": "Tự thân tạo thành chưởng pháp tổn thương sẽ bị đệ nhất chưởng tu hóa giải",
+    "stats": [],
+    "effects": [
+      405
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100006,
+    "name": "Chỉ pháp ngưng trệ",
+    "description": "Tự thân tạo thành chỉ pháp tổn thương sẽ bị đệ nhất chỉ tu hóa giải",
+    "stats": [],
+    "effects": [
+      406
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100007,
+    "name": "Hỏa pháp ngưng trệ",
+    "description": "Tự thân tạo thành Hỏa thuộc tính tổn thương sẽ bị đệ nhất lửa tu hóa giải",
+    "stats": [],
+    "effects": [
+      407
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100008,
+    "name": "Thủy pháp ngưng trệ",
+    "description": "Tự thân tạo thành Thủy thuộc tính tổn thương sẽ bị đệ nhất nước tu hóa giải",
+    "stats": [],
+    "effects": [
+      408
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100009,
+    "name": "Lôi pháp ngưng trệ",
+    "description": "Tự thân tạo thành lôi thuộc tính tổn thương sẽ bị đệ nhất lôi tu hóa giải",
+    "stats": [],
+    "effects": [
+      409
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100010,
+    "name": "Gió pháp ngưng trệ",
+    "description": "Tự thân tạo thành Phong thuộc tính tổn thương sẽ bị đệ nhất gió tu hóa giải",
+    "stats": [],
+    "effects": [
+      410
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100011,
+    "name": "Phương pháp sản xuất thô sơ ngưng trệ",
+    "description": "Tự thân tạo thành Thổ thuộc tính tổn thương sẽ bị đệ nhất thổ tu hóa giải",
+    "stats": [],
+    "effects": [
+      411
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100012,
+    "name": "Mộc pháp ngưng trệ",
+    "description": "Tự thân tạo thành Mộc thuộc tính tổn thương sẽ bị đệ nhất mộc tu hóa giải",
+    "stats": [],
+    "effects": [
+      412
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100021,
+    "name": "9100021",
+    "description": "tips_9100021",
+    "stats": [],
+    "effects": [
+      413
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100022,
+    "name": "9100022",
+    "description": "tips_9100022",
+    "stats": [],
+    "effects": [
+      414
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100023,
+    "name": "9100023",
+    "description": "tips_9100023",
+    "stats": [],
+    "effects": [
+      415
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100024,
+    "name": "9100024",
+    "description": "tips_9100024",
+    "stats": [],
+    "effects": [
+      416
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100025,
+    "name": "9100025",
+    "description": "tips_9100025",
+    "stats": [],
+    "effects": [
+      417
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100026,
+    "name": "9100026",
+    "description": "tips_9100026",
+    "stats": [],
+    "effects": [
+      418
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100027,
+    "name": "9100027",
+    "description": "tips_9100027",
+    "stats": [],
+    "effects": [
+      419
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100028,
+    "name": "9100028",
+    "description": "tips_9100028",
+    "stats": [],
+    "effects": [
+      420
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100029,
+    "name": "9100029",
+    "description": "tips_9100029",
+    "stats": [],
+    "effects": [
+      421
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100030,
+    "name": "9100030",
+    "description": "tips_9100030",
+    "stats": [],
+    "effects": [
+      422
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100031,
+    "name": "9100031",
+    "description": "tips_9100031",
+    "stats": [],
+    "effects": [
+      423
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9100032,
+    "name": "9100032",
+    "description": "tips_9100032 [4 Loại BUFF]",
+    "stats": [],
+    "effects": [
+      424
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9001,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -10%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9002,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -20%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9003,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -30%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9004,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -40%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9005,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -50%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9006,
+    "name": "Tượng thần ân   điển",
+    "description": "Tại tượng thần bên trong hối đoái đạo cụ lúc, giá cả -60%",
+    "stats": [],
+    "effects": [
+      425,
+      426
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9011,
+    "name": "Thánh Thú chi     linh",
+    "description": "Mỗi cái đại quan có 15% Xác suất làm tượng thần ngoài định mức xuất hiện một lần",
+    "stats": [],
+    "effects": [
+      427
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9012,
+    "name": "Thánh Thú chi     linh",
+    "description": "Mỗi cái đại quan có 30% Xác suất làm tượng thần ngoài định mức xuất hiện một lần",
+    "stats": [],
+    "effects": [
+      428
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9013,
+    "name": "Thánh Thú chi     linh",
+    "description": "Mỗi cái đại quan có 45% Xác suất làm tượng thần ngoài định mức xuất hiện một lần 9014= Thánh Thú chi linh. Tác dụng: Mỗi cái đại quan có 60% Xác suất làm tượng thần ngoài định mức xuất hiện một lần",
+    "stats": [],
+    "effects": [
+      429
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9015,
+    "name": "Thánh Thú chi linh",
+    "description": "Mỗi cái đại quan có 75% Xác suất làm tượng thần ngoài định mức xuất hiện một lần",
+    "stats": [],
+    "effects": [
+      430
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9016,
+    "name": "Thánh Thú chi linh",
+    "description": "Mỗi cái đại quan có 90% Xác suất làm tượng thần ngoài định mức xuất hiện một lần",
+    "stats": [],
+    "effects": [
+      431
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9021,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      433
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9022,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 800 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      434
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9023,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1200 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      435
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9024,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1600 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      436
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9025,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 2000 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      437
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9026,
+    "name": "Tụ nguyên tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 2400 Một ít thể lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      438
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9031,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 200 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      439
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9032,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      440
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9033,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 600 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      441
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9034,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 800 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      442
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9035,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1000 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      443
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9036,
+    "name": "Tụ linh tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 1200 Điểm linh lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      444
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9041,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 100 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      445
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9042,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 200 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      446
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9043,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 300 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      447
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9044,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 400 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      448
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9045,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 500 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      449
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9046,
+    "name": "Tụ khí tinh hoa",
+    "description": "Mỗi cái quái vật tại tử vong lúc, có 2% Xác suất ngẫu nhiên rơi xuống một cái nhưng hồi phục 600 Điểm niệm lực linh quả",
+    "stats": [],
+    "effects": [
+      432,
+      450
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9051,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 250 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      452,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9052,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 500 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      454,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9053,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 750 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      455,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9054,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 1000 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      456,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9055,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 1250 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      457,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9056,
+    "name": "Thiên ân linh uẩn",
+    "description": "Mỗi lần thu hoạch được mới ban ân lúc, đem hồi phục 1500 Điểm thể lực, linh lực, niệm lực",
+    "stats": [],
+    "effects": [
+      451,
+      458,
+      77,
+      453
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9061,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 50 Điểm công kích, mỗi thông quan một tầng, tăng lên 10 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      460,
+      461,
+      462
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9062,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 75 Điểm công kích, mỗi thông quan một tầng, tăng lên 15 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      463,
+      461,
+      464
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9063,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 100 Điểm công kích, mỗi thông quan một tầng, tăng lên 20 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      465,
+      461,
+      466
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9064,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 125 Điểm công kích, mỗi thông quan một tầng, tăng lên 25 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      467,
+      461,
+      468
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9065,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 150 Điểm công kích, mỗi thông quan một tầng, tăng lên 30 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      469,
+      461,
+      470
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9066,
+    "name": "Hậu phát chế nhân",
+    "description": "Mỗi lần tiến vào đại quan lúc, giảm xuống 200 Điểm công kích, mỗi thông quan một tầng, tăng lên 40 Điểm công kích",
+    "stats": [],
+    "effects": [
+      459,
+      471,
+      461,
+      472
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9071,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 5% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      474
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9072,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 7% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      475
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9073,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 9% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      476
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9074,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 11% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      477
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9075,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 13% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      478
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9076,
+    "name": "Tìm trân kiếm bảo",
+    "description": "Mỗi một tầng thông quan lúc, có 15% Xác suất có thể ngoài định mức lựa chọn một lần thông quan ban thưởng",
+    "stats": [],
+    "effects": [
+      473,
+      479
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9081,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 200 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      481,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9082,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 400 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      483,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9083,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 600 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      484,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9084,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 800 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      485,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9085,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 1000 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      486,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9086,
+    "name": "Gió táp hộ thuẫn",
+    "description": "Mỗi lần sử dụng thân pháp lúc, có thể đạt được 1200 Điểm hộ thuẫn, tiếp tục 5 Giây",
+    "stats": [],
+    "effects": [
+      480,
+      487,
+      482
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 9091,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 5% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí",
+    "stats": [],
+    "effects": [
+      488,
+      489
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9092,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 7% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí",
+    "stats": [],
+    "effects": [
+      488,
+      490
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9093,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 9% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí",
+    "stats": [],
+    "effects": [
+      488,
+      491
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9094,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 11% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí",
+    "stats": [],
+    "effects": [
+      488,
+      492
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9095,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 13% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí",
+    "stats": [],
+    "effects": [
+      488,
+      493
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 9096,
+    "name": "Luyện hồn thợ săn",
+    "description": "Mỗi cái tinh anh quái vật tại tử vong lúc, có 15% Xác suất rơi xuống chính đạo chi khí hoặc ma đạo chi khí [5 Loại BUFF]",
+    "stats": [],
+    "effects": [
+      488,
+      494
+    ],
+    "rarity": 2
+  },
+  {
+    "id": 8101,
+    "name": "Công kích uy hiếp",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, tự thân tạo thành tổn thương giảm xuống 10%",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      497
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8102,
+    "name": "Phòng ngự uy hiếp",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, tự thân nhận tổn thương gia tăng 10%",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      498
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8103,
+    "name": "Thể lực uy hiếp",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, tự thân thể lực hạn mức cao nhất giảm bớt 10%",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      499
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8104,
+    "name": "Linh lực uy hiếp",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, tự thân linh lực hạn mức cao nhất giảm bớt 10%",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      500
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8105,
+    "name": "Thể lực xói mòn",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, mỗi 5 Giây giảm bớt 2% Trước mắt thể lực",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      501
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8106,
+    "name": "Linh lực xói mòn",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, mỗi 5 Giây giảm bớt 4% Trước mắt linh lực",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      502
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8107,
+    "name": "Niệm lực uy hiếp",
+    "description": "Nhận người khác uy hiếp, lần này chiến đấu bên trong, sử dụng đan dược khôi phục hiệu quả hạ xuống 20%. 8201= Công kích trợ trận. Tác dụng: Nhận người khác trợ trận, lần này chiến đấu bên trong, tự thân tạo thành tổn thương gia tăng 10%",
+    "stats": [],
+    "effects": [
+      495,
+      496,
+      503,
+      496,
+      504
+    ],
+    "rarity": 4
+  },
+  {
+    "id": 8202,
+    "name": "Phòng ngự trợ trận",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, tự thân nhận tổn thương giảm xuống 10%",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      506
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8203,
+    "name": "Thể lực trợ trận",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, tự thân thể lực hạn mức cao nhất gia tăng 10%",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      507
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8204,
+    "name": "Linh lực trợ trận",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, tự thân linh lực hạn mức cao nhất gia tăng 10%",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      508
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8205,
+    "name": "Thể lực bổ sung",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, mỗi 5 Giây khôi phục 2% Cơ bản nhất lực",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      509
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8206,
+    "name": "Linh lực bổ sung",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, mỗi 5 Giây khôi phục 4% Lớn nhất linh lực",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      510
+    ],
+    "rarity": 3
+  },
+  {
+    "id": 8207,
+    "name": "Niệm lực trợ trận",
+    "description": "Nhận người khác trợ trận, lần này chiến đấu bên trong, sử dụng đan dược khôi phục hiệu quả tăng lên 20%",
+    "stats": [],
+    "effects": [
+      505,
+      496,
+      511
+    ],
+    "rarity": 3
+  }
+]

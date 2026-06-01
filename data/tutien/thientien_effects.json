@@ -1,0 +1,2558 @@
+[
+  {
+    "id": 1,
+    "description": "Tâm tình không dễ dàng sinh ra to lớn biến hóa"
+  },
+  {
+    "id": 2,
+    "description": "tâm tình dễ dàng biến tốt"
+  },
+  {
+    "id": 3,
+    "description": "luyện đan"
+  },
+  {
+    "id": 4,
+    "description": "một ít công pháp chỉ có đồ đần có thể tu luyện"
+  },
+  {
+    "id": 5,
+    "description": "tâm tình khôi phục tương đối nhanh"
+  },
+  {
+    "id": 6,
+    "description": "mỗi tháng mất đi linh thạch 0.5%"
+  },
+  {
+    "id": 7,
+    "description": "tâm tình khôi phục đặc biệt nhanh"
+  },
+  {
+    "id": 8,
+    "description": "tâm tình cùng tinh lực tiêu hao tốc độ giảm xuống 30%"
+  },
+  {
+    "id": 9,
+    "description": "tinh lực tiêu hao tốc độ giảm xuống 30%"
+  },
+  {
+    "id": 10,
+    "description": "bắt đầu thu hoạch được một bản màu cam Trúc Cơ kỳ tâm pháp"
+  },
+  {
+    "id": 11,
+    "description": "Cùng Cửu Vĩ yêu Hồ tộc có bất thế kỳ duyên"
+  },
+  {
+    "id": 12,
+    "description": "Cùng Hiên Viên tộc có bất thế kỳ duyên"
+  },
+  {
+    "id": 13,
+    "description": "Cùng có Hùng thị có bất thế kỳ duyên"
+  },
+  {
+    "id": 14,
+    "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái pháp bảo màu xanh lam"
+  },
+  {
+    "id": 15,
+    "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái pháp bảo màu tím"
+  },
+  {
+    "id": 16,
+    "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái màu lam võ kỹ"
+  },
+  {
+    "id": 17,
+    "description": "Bắt đầu ngẫu nhiên thu hoạch được một cái Trúc Cơ kỳ tử sắc thân pháp"
+  },
+  {
+    "id": 18,
+    "description": "Bắt đầu có 1000 Cái linh thạch"
+  },
+  {
+    "id": 19,
+    "description": "Bắt đầu có 3000 Cái linh thạch"
+  },
+  {
+    "id": 20,
+    "description": "Bắt đầu có đột phá đến nhất phẩm Kim Đan cảnh giới vật liệu"
+  },
+  {
+    "id": 21,
+    "description": "Bắt đầu có đột phá đến thiên đạo Nguyên Anh cảnh giới vật liệu"
+  },
+  {
+    "id": 22,
+    "description": "Bắt đầu có một viên màu lam phẩm chất trữ vật giới chỉ"
+  },
+  {
+    "id": 23,
+    "description": "Bắt đầu có một viên tử sắc phẩm chất trữ vật giới chỉ"
+  },
+  {
+    "id": 24,
+    "description": "Xuất sinh mang theo 2000 Linh thạch"
+  },
+  {
+    "id": 25,
+    "description": "một viên phi kiếm tọa kỵ"
+  },
+  {
+    "id": 26,
+    "description": "mị lực - 100"
+  },
+  {
+    "id": 27,
+    "description": "bắt đầu thu hoạch được ngẫu nhiên màu lam trúc cơ cảnh tâm pháp"
+  },
+  {
+    "id": 28,
+    "description": "bắt đầu bị ngẫu nhiên tông môn truy sát"
+  },
+  {
+    "id": 29,
+    "description": "tùy thân mang theo một kiện dung hợp khí linh pháp bảo."
+  },
+  {
+    "id": 30,
+    "description": "xuất sinh mang theo một viên ngẫu nhiên linh khí ( Đột phá tới trúc cơ cảnh vật liệu )."
+  },
+  {
+    "id": 31,
+    "description": "xuất sinh mang theo một viên ngẫu nhiên linh châu ( Đột phá đến Kim Đan cảnh vật liệu )."
+  },
+  {
+    "id": 32,
+    "description": "tuổi thọ - 10"
+  },
+  {
+    "id": 33,
+    "description": "bắt đầu tu luyện có một loại công pháp"
+  },
+  {
+    "id": 34,
+    "description": "cũng bị nắm giữ nên công pháp môn phái truy sát."
+  },
+  {
+    "id": 35,
+    "description": "Bắt đầu thu hoạch được một bản màu lam tâm pháp bí tịch"
+  },
+  {
+    "id": 36,
+    "description": "xuất sinh mang theo một bản màu cam trúc cơ cảnh thân pháp"
+  },
+  {
+    "id": 37,
+    "description": "Tại thành trấn trong phường thị mua đạo cụ tiêu hao linh thạch giảm xuống 10%"
+  },
+  {
+    "id": 38,
+    "description": "Tại thành trấn trong phường thị mua đạo cụ tiêu hao linh thạch giảm xuống 20%"
+  },
+  {
+    "id": 39,
+    "description": "Ngươi có một cái đối ngươi phi thường trung trinh đạo lữ."
+  },
+  {
+    "id": 40,
+    "description": "Ngươi có một cái giáo sư ngươi kỹ nghệ sư phó."
+  },
+  {
+    "id": 41,
+    "description": "thương pháp tư chất +5\\n Thân có một tia long tổ khí tức"
+  },
+  {
+    "id": 42,
+    "description": "trong lúc giơ tay nhấc chân hình như có long ngâm \\n Đột phá lúc"
+  },
+  {
+    "id": 43,
+    "description": "nhất định thu hoạch được theo đuôi hệ liệt nghịch thiên cải mệnh ( Cần đạo tâm có được này hệ liệt nghịch thiên cải mệnh )\\n Bắt đầu lúc Bát Hoang sẽ xảy ra thành đặc thù tông môn —— Ngự Long sơn trang"
+  },
+  {
+    "id": 44,
+    "description": "Công kích của ngươi rót vào yêu pháp chi thuật"
+  },
+  {
+    "id": 45,
+    "description": "tại công kích thường có &700001_bxgl&% Xác suất đem mục tiêu biến hình thành một con vô hại gà con"
+  },
+  {
+    "id": 46,
+    "description": "tiếp tục &700001_cxsj& Giây.( Có thể thăng cấp là yêu thuật tiến giai"
+  },
+  {
+    "id": 47,
+    "description": "đối đại yêu thú cùng tu tiên giả vô hiệu )"
+  },
+  {
+    "id": 48,
+    "description": "Công kích của ngươi rót vào cường đại yêu thuật"
+  },
+  {
+    "id": 49,
+    "description": "tại công kích thường có &700002_bxgl&% Xác suất đem mục tiêu biến hình thành phẫn nộ gà con ( Không phân địch ta công kích phụ cận đơn vị )"
+  },
+  {
+    "id": 50,
+    "description": "tiếp tục &700002_cxsj& Giây.( Lựa chọn sau thay thế yêu thuật nhập môn"
+  },
+  {
+    "id": 51,
+    "description": "có thể thăng cấp là yêu thuật tinh thông"
+  },
+  {
+    "id": 52,
+    "description": "Công kích của ngươi rót vào đáng sợ yêu thuật chi lực"
+  },
+  {
+    "id": 53,
+    "description": "tại công kích thường có &700003_bxgl&% Xác suất đem mục tiêu cùng với địch nhân ở chung quanh toàn bộ biến hình thành phẫn nộ gà con ( Không phân địch ta công kích phụ cận đơn vị )"
+  },
+  {
+    "id": 54,
+    "description": "tiếp tục &700003_cxsj& Giây.( Lựa chọn sau thay thế yêu thuật tiến giai"
+  },
+  {
+    "id": 55,
+    "description": "Cái mông của ngươi nóng đến bốc khói"
+  },
+  {
+    "id": 56,
+    "description": "nhưng là ngươi biến nhanh"
+  },
+  {
+    "id": 57,
+    "description": "trong chiến đấu tốc độ di chuyển tăng lên &700004_tsys&%"
+  },
+  {
+    "id": 58,
+    "description": "nhận đến từ mặt sau tổn thương cũng tăng lên &700004_bmsh&%.( Có thể thăng cấp vì hoa cúc đỏ )"
+  },
+  {
+    "id": 59,
+    "description": "Cái mông của ngươi đã nóng đến đỏ lên"
+  },
+  {
+    "id": 60,
+    "description": "trong chiến đấu tốc độ di chuyển tăng lên &700005_tsys&%"
+  },
+  {
+    "id": 61,
+    "description": "nhận đến từ mặt sau tổn thương tăng lên &700005_bmsh&%"
+  },
+  {
+    "id": 62,
+    "description": "còn có &700005_phgl&% Xác suất hướng tổn thương nơi phát ra phun ra một đạo báo thù ( Có hương vị ) Hỏa diễm.( Lựa chọn sau thay thế hoa cúc bỏng"
+  },
+  {
+    "id": 63,
+    "description": "có thể thăng cấp vì hoa cúc tàn )"
+  },
+  {
+    "id": 64,
+    "description": "Cái mông của ngươi đã đã mất đi tri giác"
+  },
+  {
+    "id": 65,
+    "description": "ngược lại trở nên đao thương bất nhập"
+  },
+  {
+    "id": 66,
+    "description": "nóng lạnh bất xâm"
+  },
+  {
+    "id": 67,
+    "description": "trong chiến đấu tốc độ di chuyển tăng lên &700006_tsys&%"
+  },
+  {
+    "id": 68,
+    "description": "nhận đến từ mặt sau tổn thương &700006_bmsh&%"
+  },
+  {
+    "id": 69,
+    "description": "còn có &700006_phgl& % Xác suất hướng tổn thương nơi phát ra phun ra một đạo càng thô càng dài báo thù hỏa diễm.( Lựa chọn sau thay thế hoa cúc đỏ )"
+  },
+  {
+    "id": 70,
+    "description": "Ngươi thu được một con kỳ quái theo đuôi.( Có thể thăng cấp vì bên trong theo đuôi )"
+  },
+  {
+    "id": 71,
+    "description": "Ngươi theo đuôi giống như biến lớn.( Lựa chọn sau thay thế nhỏ theo đuôi"
+  },
+  {
+    "id": 72,
+    "description": "có thể thăng cấp vì lớn theo đuôi )"
+  },
+  {
+    "id": 73,
+    "description": "Ngươi theo đuôi giống như trở nên lớn hơn.( Lựa chọn sau thay thế bên trong theo đuôi )"
+  },
+  {
+    "id": 74,
+    "description": "Linh lực của ngươi ngưng luyện thành một viên tấm thuẫn"
+  },
+  {
+    "id": 75,
+    "description": "có thể giúp ngươi ngăn cản công kích của địch nhân đường đạn. Tại chỗ trên có địch nhân sử dụng kỹ năng lúc"
+  },
+  {
+    "id": 76,
+    "description": "tấm thuẫn sẽ đối phát xạ hỏa diễm"
+  },
+  {
+    "id": 77,
+    "description": "tạo thành uy lực &700010_sxwl& Tổn thương"
+  },
+  {
+    "id": 78,
+    "description": "tấm thuẫn mỗi &700010_sxcd& Giây nhiều nhất phát xạ một lần hỏa diễm ( Có thể thăng cấp vì bên trong bảo thuẫn )"
+  },
+  {
+    "id": 79,
+    "description": "Cái thuẫn của ngươi mỗi ngăn cản &700011_ddcs& Lần tổn thương"
+  },
+  {
+    "id": 80,
+    "description": "sẽ phát ra một đạo sóng chấn động"
+  },
+  {
+    "id": 81,
+    "description": "đối địch nhân ở chung quanh tạo thành uy lực &700011_shwl& $s_tu$ Tổn thương"
+  },
+  {
+    "id": 82,
+    "description": "cùng làm địch nhân tốc độ di chuyển &700011_jdys&%"
+  },
+  {
+    "id": 83,
+    "description": "tiếp tục &700011_jssj& Giây. Tấm thuẫn phát xạ hỏa diễm lúc"
+  },
+  {
+    "id": 84,
+    "description": "sẽ ngoài định mức lựa chọn &700011_sxsl& Cái ngẫu nhiên mục tiêu phát xạ hỏa diễm. ( Lựa chọn sau thay thế Tiểu Bảo thuẫn"
+  },
+  {
+    "id": 85,
+    "description": "có thể thăng cấp vì đại bảo thuẫn )"
+  },
+  {
+    "id": 86,
+    "description": "Cái thuẫn của ngươi phát ra sóng chấn động càng lớn"
+  },
+  {
+    "id": 87,
+    "description": "có thể đem địch nhân đánh lui"
+  },
+  {
+    "id": 88,
+    "description": "cùng làm tạo thành tổn thương &700012_jdsh&%"
+  },
+  {
+    "id": 89,
+    "description": "tiếp tục &700012_jdsj& Giây. Tấm thuẫn phát xạ hỏa diễm lúc"
+  },
+  {
+    "id": 90,
+    "description": "sẽ ngoài định mức lựa chọn &700012_sxsl|-700011_sxsl|f2& Cái ngẫu nhiên mục tiêu phát xạ hỏa diễm.( Lựa chọn sau thay thế bên trong bảo thuẫn )"
+  },
+  {
+    "id": 91,
+    "description": "Linh lực của ngươi ngưng luyện thành một viên phi kiếm"
+  },
+  {
+    "id": 92,
+    "description": "tại ngươi phát động công kích lúc"
+  },
+  {
+    "id": 93,
+    "description": "sẽ tự động công kích địch quân mục tiêu"
+  },
+  {
+    "id": 94,
+    "description": "đối tạo thành uy lực &700013_fjwl& $s_jian$ Tổn thương.( Có thể thăng cấp vì bên trong Lý Phi kiếm )"
+  },
+  {
+    "id": 95,
+    "description": "Phi kiếm của ngươi tại tạo thành tổn thương lúc lại ngẫu nhiên thực hiện một loại trở xuống hiệu quả: Trúng độc"
+  },
+  {
+    "id": 96,
+    "description": "choáng váng"
+  },
+  {
+    "id": 97,
+    "description": "giảm tốc"
+  },
+  {
+    "id": 98,
+    "description": "thiêu đốt"
+  },
+  {
+    "id": 99,
+    "description": "đóng băng"
+  },
+  {
+    "id": 100,
+    "description": "tê liệt"
+  },
+  {
+    "id": 101,
+    "description": "hút máu"
+  },
+  {
+    "id": 102,
+    "description": "đánh lui"
+  },
+  {
+    "id": 103,
+    "description": "linh lực tổn thất"
+  },
+  {
+    "id": 104,
+    "description": "quấn quanh"
+  },
+  {
+    "id": 105,
+    "description": "trầm mặc. ( Lựa chọn sau thay thế Tiểu Lý phi kiếm"
+  },
+  {
+    "id": 106,
+    "description": "có thể thăng cấp vì lớn Lý Phi kiếm ) - ID = 700015 Đại Lý Phi Kiếm: Phi kiếm mỗi công kích &700015_fjcs& Lần"
+  },
+  {
+    "id": 107,
+    "description": "sẽ phóng thích một lần vạn kiếm ra khỏi vỏ"
+  },
+  {
+    "id": 108,
+    "description": "hướng bốn phía tề xạ đại lượng phi kiếm"
+  },
+  {
+    "id": 109,
+    "description": "đối với địch nhân tạo thành tổn thương cùng ngẫu nhiên hiệu quả.( Lựa chọn sau thay thế bên trong Lý Phi kiếm )"
+  },
+  {
+    "id": 110,
+    "description": "Ngươi tại công kích lúc"
+  },
+  {
+    "id": 111,
+    "description": "có &700016_fsgl&% Xác suất hướng ngẫu nhiên một địch nhân bắn ra một viên hỏa cầu"
+  },
+  {
+    "id": 112,
+    "description": "tạo thành uy lực &700016_hqwl& $s_huo$ Tổn thương."
+  },
+  {
+    "id": 113,
+    "description": "có &700017_fsgl&% Xác suất hướng ngẫu nhiên một địch nhân tiếp tục phát xạ cột nước &700017_szsj& Giây"
+  },
+  {
+    "id": 114,
+    "description": "tạo thành uy lực &700017_szwl&/ Giây $s_shui$ Tổn thương."
+  },
+  {
+    "id": 115,
+    "description": "Ngươi hướng cảnh giới không cao ngươi tu tiên giả ăn cắp đạo cụ lúc"
+  },
+  {
+    "id": 116,
+    "description": "tất nhiên sẽ thành công"
+  },
+  {
+    "id": 117,
+    "description": "cũng tất nhiên sẽ bị phát hiện."
+  },
+  {
+    "id": 118,
+    "description": "Cái khác tu tiên giả lại càng dễ thích ngươi."
+  },
+  {
+    "id": 119,
+    "description": "Ngươi chạy trốn tất nhiên sẽ thành công."
+  },
+  {
+    "id": 120,
+    "description": "Ngươi chạy trốn tư thế rất đẹp trai"
+  },
+  {
+    "id": 121,
+    "description": "làm ngươi chạy trốn thành công"
+  },
+  {
+    "id": 122,
+    "description": "sẽ để cho đối phương đối ngươi sinh ra rất lớn hảo cảm."
+  },
+  {
+    "id": 123,
+    "description": "Ngươi giết chết địch nhân lúc"
+  },
+  {
+    "id": 124,
+    "description": "có &700022_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$( Có thể thăng cấp vì quỷ tu tiến giai"
+  },
+  {
+    "id": 125,
+    "description": "trên trận nhiều nhất tồn tại &700022_zhsx& Cái )."
+  },
+  {
+    "id": 126,
+    "description": "có &700023_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$ Hoặc $s_wangling2$( Lựa chọn sau thay thế quỷ tu nhập môn"
+  },
+  {
+    "id": 127,
+    "description": "có thể thăng cấp vì quỷ tu tinh thông"
+  },
+  {
+    "id": 128,
+    "description": "trên trận nhiều nhất tồn tại &700023_zhsx& Cái )."
+  },
+  {
+    "id": 129,
+    "description": "có &700024_zhgl&% Xác suất sẽ đem phục sinh thành ngươi $s_wangling1$ Hoặc $s_wangling2$ Hoặc $s_wangling3$( Lựa chọn sau thay thế quỷ tu tiến giai"
+  },
+  {
+    "id": 130,
+    "description": "trên trận nhiều nhất tồn tại &700024_zhsx& Cái )."
+  },
+  {
+    "id": 131,
+    "description": "Trong chiến đấu lần đầu sử dụng thần thông lúc"
+  },
+  {
+    "id": 132,
+    "description": "sẽ triệu hồi ra một cái cự đại $s_huangjilishi$ Vì ngươi chiến đấu."
+  },
+  {
+    "id": 133,
+    "description": "Khi tiến vào lúc chiến đấu"
+  },
+  {
+    "id": 134,
+    "description": "ngươi thể lực chỉ lưu lại 10 điểm cũng đem còn thừa thể lực toàn bộ chuyển hóa thành hộ thuẫn ( Hộ thuẫn chí ít có &700026_zxhd&%)"
+  },
+  {
+    "id": 135,
+    "description": "tại kết thúc chiến đấu lúc"
+  },
+  {
+    "id": 136,
+    "description": "sẽ đem chưa tiêu hao tổn hộ thuẫn chuyển đổi về thể lực."
+  },
+  {
+    "id": 137,
+    "description": "chiến đấu bên trong"
+  },
+  {
+    "id": 138,
+    "description": "làm ngươi tiến vào sắp chết trạng thái lúc"
+  },
+  {
+    "id": 139,
+    "description": "sẽ huyễn hóa thành &700027_hysl& Chỉ $s_huayao$"
+  },
+  {
+    "id": 140,
+    "description": "tại chiến đấu kết thúc lúc"
+  },
+  {
+    "id": 141,
+    "description": "có bất kỳ một con $s_huayao$ Sống sót"
+  },
+  {
+    "id": 142,
+    "description": "ngươi sẽ phục sinh. Mỗi &700027_lqsj& Giây nhiều nhất phát động một lần."
+  },
+  {
+    "id": 143,
+    "description": "Ngươi đối phạm vi &700028_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc"
+  },
+  {
+    "id": 144,
+    "description": "nhưng hút máu &700028_xxbl&%.( Có thể thăng cấp vì Huyết Sát đại pháp )"
+  },
+  {
+    "id": 145,
+    "description": "Làm ngươi thể lực thấp hơn &700029_xllj&% Lúc"
+  },
+  {
+    "id": 146,
+    "description": "ngươi sẽ biến thành chiến đấu điên dại ( Nhận tổn thương &700029_jdsh&%"
+  },
+  {
+    "id": 147,
+    "description": "tạo thành tổn thương &700029_tssh&%"
+  },
+  {
+    "id": 148,
+    "description": "nhưng là sẽ điên cuồng truy tung địch nhân"
+  },
+  {
+    "id": 149,
+    "description": "không bị khống chế )."
+  },
+  {
+    "id": 150,
+    "description": "Ngươi cùng tu tiên giả luận bàn chiến thắng về sau"
+  },
+  {
+    "id": 151,
+    "description": "thu hoạch được hảo cảm tăng lên rất nhiều."
+  },
+  {
+    "id": 152,
+    "description": "Ngươi cùng cái khác tu tiên giả giao lưu lúc"
+  },
+  {
+    "id": 153,
+    "description": "có xác suất sẽ bị đối phương chán ghét; Ngươi bị quái vật tập kích xác suất giảm xuống."
+  },
+  {
+    "id": 154,
+    "description": "Ngươi cùng tu tiên giả song tu lúc thu hoạch được kinh nghiệm đề cao &700032_tgjy&%"
+  },
+  {
+    "id": 155,
+    "description": "lại song tu sau đối phương sẽ hướng ngươi đưa tặng một kiện đạo cụ."
+  },
+  {
+    "id": 156,
+    "description": "ngươi mỗi tích lũy nhận &700033_ljsh&% Tổn thương"
+  },
+  {
+    "id": 157,
+    "description": "tại bổn tràng chiến đấu bên trong có thể tăng lên tự thân &700033_tssh& % Tổn thương"
+  },
+  {
+    "id": 158,
+    "description": "cao nhất có thể tăng lên &700033_tssh|x100|f0&% Tổn thương."
+  },
+  {
+    "id": 159,
+    "description": "Sử dụng quyền / Chưởng / Chỉ công pháp thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế"
+  },
+  {
+    "id": 160,
+    "description": "sẽ không tự động tạo ra đặc thù đơn vị )"
+  },
+  {
+    "id": 161,
+    "description": "Sử dụng đao / Kiếm / Thương công pháp thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế"
+  },
+  {
+    "id": 162,
+    "description": "Sử dụng gió / Lôi thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế"
+  },
+  {
+    "id": 163,
+    "description": "Sử dụng thổ / Hỏa thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế"
+  },
+  {
+    "id": 164,
+    "description": "Sử dụng nước / Mộc thuộc tính thần thông không cần đạt thành thi triển điều kiện.( Đối cần dẫn bạo trên trận đặc thù đơn vị thần thông chỉ giải trừ thi triển điều kiện hạn chế"
+  },
+  {
+    "id": 165,
+    "description": "làm ngươi tạo thành &700039_xqcs& Lần tổn thương sau"
+  },
+  {
+    "id": 166,
+    "description": "lần tiếp theo thi triển thần thông lúc"
+  },
+  {
+    "id": 167,
+    "description": "có thể triệu hoán ra hồng trần hộp kiếm"
+  },
+  {
+    "id": 168,
+    "description": "phát xạ &700039_jjsl& Đạo kiếm ảnh"
+  },
+  {
+    "id": 169,
+    "description": "tự động công kích trên trận địch nhân"
+  },
+  {
+    "id": 170,
+    "description": "tiếp tục &700039_jjsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 171,
+    "description": "có thể thăng cấp vì hồng trần Kiếm Hồn )"
+  },
+  {
+    "id": 172,
+    "description": "làm ngươi nhận lấy &700040_xqcs& Lần tổn thương sau"
+  },
+  {
+    "id": 173,
+    "description": "nhưng tạo ra một cái vòng bảo hộ"
+  },
+  {
+    "id": 174,
+    "description": "làm tự thân nhận tổn thương &700040_jdsh&%"
+  },
+  {
+    "id": 175,
+    "description": "tiếp tục &700040_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 176,
+    "description": "có thể thăng cấp vì quy nhất chân quyết )"
+  },
+  {
+    "id": 177,
+    "description": "làm ngươi đánh chết &700041_xqsl& Địch nhân sau"
+  },
+  {
+    "id": 178,
+    "description": "nhưng sinh ra tinh diệu chi quang"
+  },
+  {
+    "id": 179,
+    "description": "làm phạm vi &700041_shfw& Bên trong địch nhân đâm mù"
+  },
+  {
+    "id": 180,
+    "description": "cũng nhận $s_lei$ Tổn thương"
+  },
+  {
+    "id": 181,
+    "description": "tiếp tục &700041_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 182,
+    "description": "có thể thăng cấp vì tinh diệu cửu tiêu )"
+  },
+  {
+    "id": 183,
+    "description": "Ngươi đối có đạo lữ có lẽ có thê tử / Trượng phu tu tiên giả tạo thành tổn thương &700042_tssh&%."
+  },
+  {
+    "id": 184,
+    "description": "Ngươi hàng năm đều sẽ thu được một lần linh quả quà tặng."
+  },
+  {
+    "id": 185,
+    "description": "Ngươi mỗi một tuổi tuổi tác"
+  },
+  {
+    "id": 186,
+    "description": "nhưng vì ngươi tăng lên &700044_tsfy& điểm phòng ngự. - ID = 700045 Vật Tận Kỳ Dụng: Ngươi mỗi lần tiêu hao linh thạch lúc"
+  },
+  {
+    "id": 187,
+    "description": "nhưng từ linh thạch bên trên hấp thụ một chút linh khí đến đề thăng tự thân tu vi."
+  },
+  {
+    "id": 188,
+    "description": "mỗi khi ngươi sử dụng đan dược sau"
+  },
+  {
+    "id": 189,
+    "description": "có &700046_dlgl&% Xác suất tại &700046_zdys& Giây bên trong đem nên đan dược bài xuất bên ngoài cơ thể"
+  },
+  {
+    "id": 190,
+    "description": "nhặt sau nhưng tăng thêm vào trước mắt đan dược trang bị trong rãnh."
+  },
+  {
+    "id": 191,
+    "description": "Cùng cái khác tu tiên giả chiến đấu hoặc luận bàn lúc"
+  },
+  {
+    "id": 192,
+    "description": "có &700047_xxgl&% Xác suất tập được đối phương một cái kỹ năng.( Mỗi &700047_nzcd& Tháng nhiều nhất phát động một lần )"
+  },
+  {
+    "id": 193,
+    "description": "Cùng cái khác tu tiên giả trò chuyện hoặc luận đạo lúc"
+  },
+  {
+    "id": 194,
+    "description": "nhưng dự báo đối phương kỳ vọng trả lời."
+  },
+  {
+    "id": 195,
+    "description": "Mỗi lần tại đại địa đồ bên trong lúc tu luyện"
+  },
+  {
+    "id": 196,
+    "description": "nhưng hồi phục bộ phận thể lực"
+  },
+  {
+    "id": 197,
+    "description": "linh lực"
+  },
+  {
+    "id": 198,
+    "description": "niệm lực."
+  },
+  {
+    "id": 199,
+    "description": "Tại ngươi phóng ra tuyệt kỹ cùng thần thông lúc"
+  },
+  {
+    "id": 200,
+    "description": "có &700050_sfgl&% Xác suất ngoài định mức phóng ra một lần"
+  },
+  {
+    "id": 201,
+    "description": "ngoài định mức phóng ra kỹ năng"
+  },
+  {
+    "id": 202,
+    "description": "tạo thành tổn thương vì &700050_shbs&%"
+  },
+  {
+    "id": 203,
+    "description": "cần tiêu hao linh lực.( Có thể thăng cấp vì ba linh cộng sinh"
+  },
+  {
+    "id": 204,
+    "description": "đối nghịch tục thi pháp loại"
+  },
+  {
+    "id": 205,
+    "description": "chuyển vị loại hoặc là biến thân loại kỹ năng vô hiệu )"
+  },
+  {
+    "id": 206,
+    "description": "Trong quá trình chiến đấu"
+  },
+  {
+    "id": 207,
+    "description": "mỗi lần bạo kích đều có xác suất tạo ra một con linh bướm ( Nhan sắc tùy tiện rồi ) Tại nhân vật chung quanh bay múa"
+  },
+  {
+    "id": 208,
+    "description": "hồ điệp tiếp tục 10s"
+  },
+  {
+    "id": 209,
+    "description": "biến mất lúc vì nhân vật khôi phục 5% Lớn nhất HP. Nhân vật trong chiến đấu tử vong lúc"
+  },
+  {
+    "id": 210,
+    "description": "biến thành một con kén. Mỗi cái hồ điệp vì kén cung cấp nhân vật 5% Lớn nhất HP cùng phòng ngự"
+  },
+  {
+    "id": 211,
+    "description": "tiếp tục 5 Giây sau nhân vật phục sinh"
+  },
+  {
+    "id": 212,
+    "description": "khôi phục nhân vật tương ứng tỉ lệ lượng máu. Này hiệu quả mỗi lần chiến đấu chỉ có một lần hiệu quả.( Tức hóa kén hiệu quả về sau quả biến mất )"
+  },
+  {
+    "id": 213,
+    "description": "linh lực hạn mức cao nhất +10%."
+  },
+  {
+    "id": 214,
+    "description": "mị lực &7000531_mlxj&"
+  },
+  {
+    "id": 215,
+    "description": "mỗi tháng hồi phục thể lực &7000531_hftl&%"
+  },
+  {
+    "id": 216,
+    "description": "tiếp tục 6 Tháng."
+  },
+  {
+    "id": 217,
+    "description": "Làm ngươi trong chiến đấu sắp chết lúc"
+  },
+  {
+    "id": 218,
+    "description": "sẽ biến thân thành một con thuốc linh"
+  },
+  {
+    "id": 219,
+    "description": "cũng hồi phục &700053_hftl&% Thể lực"
+  },
+  {
+    "id": 220,
+    "description": "tiếp tục &700053_cxsj& Giây."
+  },
+  {
+    "id": 221,
+    "description": "Trong chiến đấu mỗi gian phòng cách &700054_zxjg& Giây đến &700054_zdjg& Giây nhưng tại phụ cận sinh trưởng ra một cái có thể ăn dùng tiểu ma cô. Làm ngươi trong chiến đấu sắp chết lúc"
+  },
+  {
+    "id": 222,
+    "description": "cũng hồi phục &700054_hftl&% Thể lực"
+  },
+  {
+    "id": 223,
+    "description": "tiếp tục &700054_cxsj& Giây."
+  },
+  {
+    "id": 224,
+    "description": "Ngươi đối phạm vi &700055_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc"
+  },
+  {
+    "id": 225,
+    "description": "nhưng hút máu &700055_xxbl&%.( Lựa chọn sau thay thế Huyết Ma đại pháp"
+  },
+  {
+    "id": 226,
+    "description": "có thể thăng cấp vì máu yểm đại pháp )"
+  },
+  {
+    "id": 227,
+    "description": "Ngươi đối phạm vi &700056_xxjl& Trong vòng địch nhân tạo thành tổn thương lúc"
+  },
+  {
+    "id": 228,
+    "description": "nhưng hút máu &700056_xxbl&%.( Lựa chọn sau thay thế Huyết Sát đại pháp )"
+  },
+  {
+    "id": 229,
+    "description": "làm ngươi tạo thành &700057_xqcs& Lần tổn thương sau"
+  },
+  {
+    "id": 230,
+    "description": "phát xạ &700057_jjsl& Đạo kiếm ảnh"
+  },
+  {
+    "id": 231,
+    "description": "tiếp tục &700057_jjsj& Giây.( Lựa chọn sau thay thế hồng trần hộp kiếm"
+  },
+  {
+    "id": 232,
+    "description": "mỗi cuộc chiến đấu chỉ có thể phát động một lần )"
+  },
+  {
+    "id": 233,
+    "description": "làm ngươi nhận lấy &700058_xqcs& Lần tổn thương sau"
+  },
+  {
+    "id": 234,
+    "description": "làm tự thân nhận tổn thương &700058_jdsh&%"
+  },
+  {
+    "id": 235,
+    "description": "tiếp tục &700058_cxsj& Giây. ( Lựa chọn sau thay thế quy nhất quyết"
+  },
+  {
+    "id": 236,
+    "description": "làm ngươi đánh chết &700059_xqsl& Địch nhân sau"
+  },
+  {
+    "id": 237,
+    "description": "làm phạm vi &700059_shfw& Bên trong địch nhân đâm mù"
+  },
+  {
+    "id": 238,
+    "description": "tiếp tục &700059_cxsj& Giây.( Lựa chọn sau thay thế tinh diệu cõi trần"
+  },
+  {
+    "id": 239,
+    "description": "có &700060_sfgl&% Xác suất ngoài định mức phóng ra hai lần"
+  },
+  {
+    "id": 240,
+    "description": "tạo thành tổn thương vì &700060_shbs&%"
+  },
+  {
+    "id": 241,
+    "description": "cần tiêu hao linh lực.( Lựa chọn sau thay thế song linh cộng sinh"
+  },
+  {
+    "id": 242,
+    "description": "có thể thăng cấp vì tứ linh cộng sinh"
+  },
+  {
+    "id": 243,
+    "description": "có &700061_sfgl&% Xác suất ngoài định mức phóng ra ba lần"
+  },
+  {
+    "id": 244,
+    "description": "tạo thành tổn thương vì &700061_shbs&%"
+  },
+  {
+    "id": 245,
+    "description": "cần tiêu hao linh lực.( Lựa chọn sau thay thế ba linh cộng sinh"
+  },
+  {
+    "id": 246,
+    "description": "Học tập bí tịch lúc"
+  },
+  {
+    "id": 247,
+    "description": "cần tiêu hao số trời &700062_jsts& Trời."
+  },
+  {
+    "id": 248,
+    "description": "cần tiêu hao linh thạch &700063_jsls& %."
+  },
+  {
+    "id": 249,
+    "description": "tiêu hao tâm tình &700064_jsxq&%."
+  },
+  {
+    "id": 250,
+    "description": "nhưng ngoài định mức thu hoạch được &700065_tsjy&% Kinh nghiệm."
+  },
+  {
+    "id": 251,
+    "description": "Thu hoạch được &700066_tsdd& đạo điểm."
+  },
+  {
+    "id": 252,
+    "description": "Thu hoạch được &700067_tsdd& đạo điểm."
+  },
+  {
+    "id": 253,
+    "description": "Thu hoạch được &700068_tsdd& đạo điểm."
+  },
+  {
+    "id": 254,
+    "description": "Thu hoạch được &700069_tsdd& đạo điểm."
+  },
+  {
+    "id": 255,
+    "description": "Thu hoạch được &700070_tsdd& đạo điểm."
+  },
+  {
+    "id": 256,
+    "description": "Thu hoạch được &700071_tsdd& đạo điểm."
+  },
+  {
+    "id": 257,
+    "description": "Thu hoạch được &700072_tsdd& đạo điểm."
+  },
+  {
+    "id": 258,
+    "description": "Thu hoạch được &700073_tsdd& đạo điểm."
+  },
+  {
+    "id": 259,
+    "description": "Thu hoạch được &700074_tsdd& đạo điểm."
+  },
+  {
+    "id": 260,
+    "description": "Tâm tình hạn mức cao nhất tăng lên &700075_tsxq& điểm."
+  },
+  {
+    "id": 261,
+    "description": "Khỏe mạnh hạn mức cao nhất tăng lên &700076_tsjk& điểm. - ID = 700077 Sinh Long Hoạt Hổ: Tinh lực hạn mức cao nhất tăng lên &700077_tsjl& điểm."
+  },
+  {
+    "id": 262,
+    "description": "Ngộ tính tăng lên &700078_tswx& điểm."
+  },
+  {
+    "id": 263,
+    "description": "May mắn tăng lên &700079_tsxy& điểm."
+  },
+  {
+    "id": 264,
+    "description": "Trong chiến đấu sắp gặp tử vong lúc"
+  },
+  {
+    "id": 265,
+    "description": "có thể đạt được một cái &700080_tshd&% Thể lực hộ thuẫn.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 266,
+    "description": "có thể thăng cấp vì Thuẫn Linh tiến giai )"
+  },
+  {
+    "id": 267,
+    "description": "có thể đạt được một cái &700081_tshd&% Thể lực hộ thuẫn"
+  },
+  {
+    "id": 268,
+    "description": "đồng thời tại &700081_fssj& Giây bên trong"
+  },
+  {
+    "id": 269,
+    "description": "có thể đối địch nhân tạo thành &700081_fsbl&% Phản tổn thương tổn thương.( Lựa chọn sau thay thế Thuẫn Linh nhập môn"
+  },
+  {
+    "id": 270,
+    "description": "có thể thăng cấp vì Thuẫn Linh tinh thông"
+  },
+  {
+    "id": 271,
+    "description": "có thể đạt được một cái &700082_tshd&% Thể lực hộ thuẫn"
+  },
+  {
+    "id": 272,
+    "description": "đồng thời tại &700082_fssj& Giây bên trong"
+  },
+  {
+    "id": 273,
+    "description": "có thể đối địch nhân tạo thành &700082_fsbl&% Phản tổn thương tổn thương. Đương hộ thuẫn trị giá là 0 Lúc lại phát sinh bạo tạc"
+  },
+  {
+    "id": 274,
+    "description": "đối phạm vi &700082_bzfw& Bên trong địch nhân tạo thành uy lực &700082_bzwl& $s_quan$ Tổn thương.( Lựa chọn sau thay thế Thuẫn Linh tiến giai"
+  },
+  {
+    "id": 275,
+    "description": "lập tức trả lời &700083_hfxl&% Thể lực"
+  },
+  {
+    "id": 276,
+    "description": "đồng thời tốc độ di chuyển tăng lên &700083_tsys&%"
+  },
+  {
+    "id": 277,
+    "description": "tiếp tục &700083_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 278,
+    "description": "có thể thăng cấp vì tiềm năng tiến giai )"
+  },
+  {
+    "id": 279,
+    "description": "lập tức trả lời &700084_hfxl&% Thể lực"
+  },
+  {
+    "id": 280,
+    "description": "đồng thời tốc độ di chuyển tăng lên &700084_tsys&%"
+  },
+  {
+    "id": 281,
+    "description": "tạo thành tổn thương tăng lên &700084_tssh&%"
+  },
+  {
+    "id": 282,
+    "description": "tiếp tục &700084_cxsj& Giây.( Lựa chọn sau thay thế tiềm năng nhập môn"
+  },
+  {
+    "id": 283,
+    "description": "có thể thăng cấp vì tiềm năng tinh thông"
+  },
+  {
+    "id": 284,
+    "description": "lập tức trả lời &700085_hfxl&% Thể lực"
+  },
+  {
+    "id": 285,
+    "description": "đồng thời tốc độ di chuyển tăng lên &700085_tsys&%"
+  },
+  {
+    "id": 286,
+    "description": "tạo thành tổn thương tăng lên &700085_tssh&%"
+  },
+  {
+    "id": 287,
+    "description": "tất cả kỹ năng thời gian cooldown &700085_jdcd&%"
+  },
+  {
+    "id": 288,
+    "description": "tiếp tục &700085_cxsj& Giây.( Lựa chọn sau thay thế tiềm năng tiến giai"
+  },
+  {
+    "id": 289,
+    "description": "lập tức chui xuống đất"
+  },
+  {
+    "id": 290,
+    "description": "lại mỗi giây hồi phục &700086_hfxl&% Thể lực"
+  },
+  {
+    "id": 291,
+    "description": "tiếp tục &700086_cxsj& Giây.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 292,
+    "description": "có thể thăng cấp vì Kim Thiền giả ảnh )"
+  },
+  {
+    "id": 293,
+    "description": "lại mỗi giây hồi phục &700087_hfxl&% Thể lực"
+  },
+  {
+    "id": 294,
+    "description": "tiếp tục &700087_cxsj& giây"
+  },
+  {
+    "id": 295,
+    "description": "độn địa lúc lại tại nguyên chỗ triệu hoán một cái huyễn ảnh ( Tạo thành &700087_hysh& Tổn thương"
+  },
+  {
+    "id": 296,
+    "description": "tiếp tục &700087_hysj& Giây ).( Lựa chọn sau thay thế Kim Thiền vô ảnh"
+  },
+  {
+    "id": 297,
+    "description": "có thể thăng cấp vì Kim Thiền huyết ảnh"
+  },
+  {
+    "id": 298,
+    "description": "lại mỗi giây hồi phục &700088_hfxl&% Thể lực"
+  },
+  {
+    "id": 299,
+    "description": "tiếp tục &700088_cxsj& giây"
+  },
+  {
+    "id": 300,
+    "description": "độn địa lúc lại tại nguyên chỗ triệu hoán một cái huyễn ảnh ( Tạo thành &700088_hysh& Tổn thương"
+  },
+  {
+    "id": 301,
+    "description": "tiếp tục &700088_hysj& giây"
+  },
+  {
+    "id": 302,
+    "description": "tử vong lúc lại phát sinh bạo tạc"
+  },
+  {
+    "id": 303,
+    "description": "đối phạm vi &700088_bzfw& Địch nhân tạo thành uy lực &700088_bzwl& $s_shui$ Tổn thương ).( Lựa chọn sau thay thế Kim Thiền giả ảnh"
+  },
+  {
+    "id": 304,
+    "description": "làm ngươi linh lực thấp hơn &700089_ljll&% Lúc"
+  },
+  {
+    "id": 305,
+    "description": "lập tức trả lời &700089_hfll&% Linh lực.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần"
+  },
+  {
+    "id": 306,
+    "description": "có thể thăng cấp vì linh năng chi suối )"
+  },
+  {
+    "id": 307,
+    "description": "làm ngươi linh lực thấp hơn &700090_ljll&% Lúc"
+  },
+  {
+    "id": 308,
+    "description": "lập tức trả lời &700090_hfll&% Linh lực"
+  },
+  {
+    "id": 309,
+    "description": "cũng đổi mới tất cả kỹ năng thời gian cooldown.( Lựa chọn sau thay thế linh năng chi vũ"
+  },
+  {
+    "id": 310,
+    "description": "có thể thăng cấp vì linh năng thủy triều"
+  },
+  {
+    "id": 311,
+    "description": "làm ngươi linh lực thấp hơn &700091_ljll&% Lúc"
+  },
+  {
+    "id": 312,
+    "description": "lập tức trả lời &700091_hfll&% Linh lực"
+  },
+  {
+    "id": 313,
+    "description": "cũng đổi mới tất cả kỹ năng thời gian cooldown"
+  },
+  {
+    "id": 314,
+    "description": "ở sau đó &700091_cxsj& Giây bên trong"
+  },
+  {
+    "id": 315,
+    "description": "tất cả kỹ năng thời gian cooldown &700091_jscd&%.( Lựa chọn sau thay thế linh năng chi suối"
+  },
+  {
+    "id": 316,
+    "description": "làm ngươi linh lực không đủ lúc"
+  },
+  {
+    "id": 317,
+    "description": "nhưng tiêu hao thể lực đến phóng ra kỹ năng"
+  },
+  {
+    "id": 318,
+    "description": "tiêu hao trị số vì linh lực &700092_xhtl& Lần.( Có thể thăng cấp vì Huyết Linh tiến giai )"
+  },
+  {
+    "id": 319,
+    "description": "tiêu hao trị số vì linh lực &700093_xhtl& Lần"
+  },
+  {
+    "id": 320,
+    "description": "thông qua tiêu hao thể lực phóng ra kỹ năng"
+  },
+  {
+    "id": 321,
+    "description": "tổn thương có thể tăng lên &700093_tssh&%.( Lựa chọn sau thay thế Huyết Linh nhập môn"
+  },
+  {
+    "id": 322,
+    "description": "có thể thăng cấp vì Huyết Linh tinh thông )"
+  },
+  {
+    "id": 323,
+    "description": "tiêu hao trị số vì linh lực &700094_xhtl& Lần"
+  },
+  {
+    "id": 324,
+    "description": "tổn thương có thể tăng lên &700094_tssh&%"
+  },
+  {
+    "id": 325,
+    "description": "thời gian cooldown &700094_jscd&%.( Lựa chọn sau thay thế Huyết Linh tiến giai )"
+  },
+  {
+    "id": 326,
+    "description": "Linh lực hạn mức cao nhất tăng lên &700095_tsll&%."
+  },
+  {
+    "id": 327,
+    "description": "Linh lực hạn mức cao nhất tăng lên &700096_tsll&%."
+  },
+  {
+    "id": 328,
+    "description": "Linh lực hạn mức cao nhất tăng lên &700097_tsll&%."
+  },
+  {
+    "id": 329,
+    "description": "Thể lực hạn mức cao nhất tăng lên &700098_tstl&%."
+  },
+  {
+    "id": 330,
+    "description": "Thể lực hạn mức cao nhất tăng lên &700099_tstl&%."
+  },
+  {
+    "id": 331,
+    "description": "Thể lực hạn mức cao nhất tăng lên &700100_tstl&%."
+  },
+  {
+    "id": 332,
+    "description": "nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700101_gjfw& Bên trong địch nhân"
+  },
+  {
+    "id": 333,
+    "description": "tạo thành uy lực vì &700101_shwl& Năng khiếu linh căn thuộc tính tổn thương"
+  },
+  {
+    "id": 334,
+    "description": "cũng hấp thụ địch nhân &700101_zjgj& Lực công kích"
+  },
+  {
+    "id": 335,
+    "description": "ma kiếm mỗi lần công kích cần tiêu hao &700101_xhll& điểm linh lực"
+  },
+  {
+    "id": 336,
+    "description": "đương linh lực không đủ lúc"
+  },
+  {
+    "id": 337,
+    "description": "ma kiếm không cách nào hành động.( Có thể thăng cấp làm kiếm linh tiến giai )"
+  },
+  {
+    "id": 338,
+    "description": "nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700102_gjfw& Bên trong địch nhân"
+  },
+  {
+    "id": 339,
+    "description": "tạo thành uy lực vì &700102_shwl& Năng khiếu linh căn thuộc tính tổn thương"
+  },
+  {
+    "id": 340,
+    "description": "cũng hấp thụ địch nhân &700102_zjgj& Lực công kích"
+  },
+  {
+    "id": 341,
+    "description": "ma kiếm mỗi lần công kích cần tiêu hao &700102_xhll& điểm linh lực"
+  },
+  {
+    "id": 342,
+    "description": "ma kiếm không cách nào hành động. Mỗi khi ngươi sử dụng kỹ năng tiêu hao 1 điểm linh lực"
+  },
+  {
+    "id": 343,
+    "description": "nhưng tại &700102_cxsj& Giây bên trong tăng lên &700102_tswl& điểm MP kiếm tổn thương uy lực. ( Lựa chọn sau thay thế kiếm linh nhập môn"
+  },
+  {
+    "id": 344,
+    "description": "có thể thăng cấp làm kiếm linh tinh thông )"
+  },
+  {
+    "id": 345,
+    "description": "nhưng phân tán linh lực thao túng một thanh ma kiếm tự động phạm vi công kích &700103_gjfw& Bên trong địch nhân"
+  },
+  {
+    "id": 346,
+    "description": "tạo thành uy lực vì &700103_shwl& Năng khiếu linh căn thuộc tính tổn thương"
+  },
+  {
+    "id": 347,
+    "description": "cũng hấp thụ địch nhân &700103_zjgj& Lực công kích"
+  },
+  {
+    "id": 348,
+    "description": "ma kiếm mỗi lần công kích cần tiêu hao &700103_xhll& điểm linh lực"
+  },
+  {
+    "id": 349,
+    "description": "nhưng tại &700103_cxsj& Giây bên trong tăng lên &700103_tswl& điểm MP kiếm tổn thương uy lực. Lại ma kiếm tạo thành tổn thương lúc"
+  },
+  {
+    "id": 350,
+    "description": "nhưng hấp thụ linh lực &700103_xlbl&%.( Lựa chọn sau thay thế kiếm linh tiến giai )"
+  },
+  {
+    "id": 351,
+    "description": "có thể đốt đốt thể lực ngưng tụ một con huyết trảo"
+  },
+  {
+    "id": 352,
+    "description": "huyết trảo tại &700104_njsj& Giây sau có thể tụ thành"
+  },
+  {
+    "id": 353,
+    "description": "cũng sẽ tại ngươi lần sau lúc công kích thả ra"
+  },
+  {
+    "id": 354,
+    "description": "va chạm đến địch nhân sau nổ tung"
+  },
+  {
+    "id": 355,
+    "description": "đối phạm vi &700104_bzfw& Bên trong địch nhân tạo thành uy lực &700104_bzsh& Năng khiếu công pháp tổn thương"
+  },
+  {
+    "id": 356,
+    "description": "cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700104_tlsx&"
+  },
+  {
+    "id": 357,
+    "description": "nhiều nhất có thể tăng lên &700104_tlsx|x700104_tlcs|f2&. Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700104_xhtl& Một ít thể lực"
+  },
+  {
+    "id": 358,
+    "description": "đương thể lực thấp hơn &700104_ljtl&% Lúc không ngưng tụ.( Có thể thăng cấp vì huyết tế tiến giai )"
+  },
+  {
+    "id": 359,
+    "description": "huyết trảo tại &700105_njsj& Giây sau có thể tụ thành"
+  },
+  {
+    "id": 360,
+    "description": "đối phạm vi &700105_bzfw& Bên trong địch nhân tạo thành uy lực &700105_bzsh& Năng khiếu công pháp tổn thương"
+  },
+  {
+    "id": 361,
+    "description": "cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700105_tlsx&"
+  },
+  {
+    "id": 362,
+    "description": "nhiều nhất có thể tăng lên &700105_tlsx|x700105_tlcs|f2&"
+  },
+  {
+    "id": 363,
+    "description": "huyết trảo bộc phát sau sẽ trên mặt đất lưu lại một cái tiếp tục &700105_xzsj& Giây huyết trận"
+  },
+  {
+    "id": 364,
+    "description": "tiếp tục đối với địch nhân tạo thành tổn thương. Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700105_xhtl& Một ít thể lực"
+  },
+  {
+    "id": 365,
+    "description": "đương thể lực thấp hơn &700105_ljtl&% Lúc không ngưng tụ.( Lựa chọn sau thay thế huyết tế nhập môn"
+  },
+  {
+    "id": 366,
+    "description": "có thể thăng cấp vì huyết tế tinh thông )"
+  },
+  {
+    "id": 367,
+    "description": "huyết trảo tại &700106_njsj& Giây sau có thể tụ thành"
+  },
+  {
+    "id": 368,
+    "description": "đối phạm vi &700106_bzfw& Bên trong địch nhân tạo thành uy lực &700106_bzsh& Năng khiếu công pháp tổn thương"
+  },
+  {
+    "id": 369,
+    "description": "cùng làm tự thân thể lực hạn mức cao nhất tăng lên &700106_tlsx&"
+  },
+  {
+    "id": 370,
+    "description": "nhiều nhất có thể tăng lên &700106_tlsx|x700106_tlcs|f2&"
+  },
+  {
+    "id": 371,
+    "description": "huyết trảo bộc phát sau sẽ trên mặt đất lưu lại một cái tiếp tục &700106_xzsj& Giây huyết trận"
+  },
+  {
+    "id": 372,
+    "description": "tiếp tục đối với địch nhân tạo thành tổn thương cùng đối tự thân tiến hành hồi phục ( Mỗi giây hồi phục &700106_hftl& Một ít thể lực ). Ngưng tụ huyết trảo mỗi giây cần tiêu hao &700106_xhtl& Một ít thể lực"
+  },
+  {
+    "id": 373,
+    "description": "đương thể lực thấp hơn &700106_ljtl&% Lúc không ngưng tụ.( Lựa chọn sau thay thế huyết tế tiến giai )"
+  },
+  {
+    "id": 374,
+    "description": "Trong chiến đấu mỗi đánh giết một địch nhân lúc"
+  },
+  {
+    "id": 375,
+    "description": "có &700107_dlgl&% Xác suất rơi xuống một cái linh phách"
+  },
+  {
+    "id": 376,
+    "description": "nhặt linh phách nhưng hồi phục &700107_hfll&% Linh lực.( Có thể thăng cấp vì săn linh )"
+  },
+  {
+    "id": 377,
+    "description": "có &700108_dlgl&% Xác suất rơi xuống một cái linh phách"
+  },
+  {
+    "id": 378,
+    "description": "nhặt linh phách nhưng hồi phục &700107_hfll&% Linh lực"
+  },
+  {
+    "id": 379,
+    "description": "cũng giảm bớt &700108_jscd& Giây tuyệt kỹ thời gian cooldown.( Lựa chọn sau thay thế xem linh )"
+  },
+  {
+    "id": 380,
+    "description": "có &700109_dlgl&% Xác suất rơi xuống một cái tinh phách"
+  },
+  {
+    "id": 381,
+    "description": "nhặt tinh phách nhưng hồi phục &700109_hftl&% Thể lực.( Có thể thăng cấp vì săn tinh )"
+  },
+  {
+    "id": 382,
+    "description": "có &700110_dlgl&% Xác suất rơi xuống một cái tinh phách"
+  },
+  {
+    "id": 383,
+    "description": "nhặt tinh phách nhưng hồi phục &700109_hftl&% Thể lực"
+  },
+  {
+    "id": 384,
+    "description": "cũng tại &700110_cxsj& Giây bên trong tăng lên &700110_tsys& điểm tốc độ di chuyển.( Lựa chọn sau thay thế xem tinh )"
+  },
+  {
+    "id": 385,
+    "description": "Linh kỹ tầm bắn tăng lên &700111_tscs&%.( Có thể thăng cấp vì linh pháp tiến giai )"
+  },
+  {
+    "id": 386,
+    "description": "Linh kỹ tầm bắn tăng lên &700112_tscs&%.( Lựa chọn sau thay thế linh pháp nhập môn"
+  },
+  {
+    "id": 387,
+    "description": "có thể thăng cấp vì linh pháp tinh thông )"
+  },
+  {
+    "id": 388,
+    "description": "Linh kỹ tầm bắn tăng lên &700113_tscs&%.( Lựa chọn sau thay thế linh pháp tiến giai )"
+  },
+  {
+    "id": 389,
+    "description": "Võ kỹ thời gian cooldown &700114_jscd&%.( Có thể thăng cấp vì võ pháp tiến giai )"
+  },
+  {
+    "id": 390,
+    "description": "Võ kỹ thời gian cooldown &700115_jscd&%.( Lựa chọn sau thay thế võ pháp nhập môn"
+  },
+  {
+    "id": 391,
+    "description": "có thể thăng cấp vì võ pháp tinh thông )"
+  },
+  {
+    "id": 392,
+    "description": "Võ kỹ thời gian cooldown &700116_jscd&%.( Lựa chọn sau thay thế võ pháp tiến giai )"
+  },
+  {
+    "id": 393,
+    "description": "Làm ngươi trong chiến đấu thể lực thấp hơn &700117_ljtl&% Lúc"
+  },
+  {
+    "id": 394,
+    "description": "có nhất định xác suất sẽ có được người thần bí Lý Tứ xuất thủ tương trợ.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần )"
+  },
+  {
+    "id": 395,
+    "description": "Làm ngươi trong chiến đấu thể lực thấp hơn &700118_ljtl&% Lúc"
+  },
+  {
+    "id": 396,
+    "description": "có nhất định xác suất sẽ có được gà vương xuất thủ tương trợ.( Mỗi cuộc chiến đấu chỉ có thể phát động một lần )"
+  },
+  {
+    "id": 397,
+    "description": "Ngươi tại sử dụng tuyệt kỹ lúc"
+  },
+  {
+    "id": 398,
+    "description": "có &700119_lqgl&% Xác suất triệu hoán &700119_lqsl& Khỏa lôi cầu vờn quanh tự thân"
+  },
+  {
+    "id": 399,
+    "description": "tiếp tục &700119_lqsj& Giây."
+  },
+  {
+    "id": 400,
+    "description": "Mỗi lần sử dụng phải khóa có &700121_cfgl&% Xác suất tạo ra một cái dẫn dắt quang hoàn"
+  },
+  {
+    "id": 401,
+    "description": "đem phạm vi &700121_qyfw& Bên trong địch nhân hướng tự thân dẫn dắt"
+  },
+  {
+    "id": 402,
+    "description": "tiếp tục &700121_cxsj& Giây."
+  },
+  {
+    "id": 403,
+    "description": "Trong chiến đấu mỗi &700123_zhjg& Giây nhưng tại tự thân phụ cận triệu hoán &700123_dwsl& Chỉ tiểu hoa yêu ( Tiếp tục &700123_cxsj& Giây )."
+  },
+  {
+    "id": 404,
+    "description": "Ngươi theo đuôi giống như bay lên! Nó sẽ trong chiến đấu trợ giúp ngươi công kích địch nhân. Nó phi thường dính người"
+  },
+  {
+    "id": 405,
+    "description": "nếu như ngươi sử dụng đột tiến hoặc lấp lóe loại kỹ năng đột nhiên chuyển vị sau"
+  },
+  {
+    "id": 406,
+    "description": "nó lại bởi vì đuổi không kịp ngươi mà trở nên táo bạo"
+  },
+  {
+    "id": 407,
+    "description": "tăng lên trên diện rộng tần suất công kích cùng tổn thương"
+  },
+  {
+    "id": 408,
+    "description": "tiếp tục &700126_cxsj& giây"
+  },
+  {
+    "id": 409,
+    "description": "nhiều lần phát động lúc tiếp tục thời gian nhưng tính gộp lại.( Lựa chọn sau thay thế lớn theo đuôi )"
+  },
+  {
+    "id": 410,
+    "description": "Luyện đan xác suất thành công tăng lên"
+  },
+  {
+    "id": 411,
+    "description": "đồng thời có thể sử dụng Huyễn Linh nồi luyện chế đan dược! Trong chiến đấu tốc độ di chuyển &700130_jdys&%"
+  },
+  {
+    "id": 412,
+    "description": "nhận đến từ mặt sau tổn thương &700130_jssh&%"
+  },
+  {
+    "id": 413,
+    "description": "mỗi &700130_sjjg& Giây có thể hướng trên trận một cái không có nồi phe mình triệu hoán đơn vị phân một cái nồi"
+  },
+  {
+    "id": 414,
+    "description": "bị phân đến nồi triệu hoán vật nhận đến từ mặt sau tổn thương &700130_jssh&%"
+  },
+  {
+    "id": 415,
+    "description": "cũng căn cứ hình thể"
+  },
+  {
+    "id": 416,
+    "description": "thu hoạch được tổn thương tăng lên ( Cỡ nhỏ đơn vị tăng lên &700130_xgsh& %"
+  },
+  {
+    "id": 417,
+    "description": "cỡ trung đơn vị tăng lên &700130_zgsh&%"
+  },
+  {
+    "id": 418,
+    "description": "cỡ lớn đơn vị tăng lên &700130_dgsh&%)"
+  },
+  {
+    "id": 419,
+    "description": "tự thân cũng sẽ ở sau đó &700130_cxsj& Giây bên trong thu hoạch được này tổn thương tăng lên hiệu quả."
+  },
+  {
+    "id": 420,
+    "description": "Trong chiến đấu mỗi &700131_csjg& Giây ở đây thân trên lực tối cao vị trí của địch nhân chỗ xuất hiện một mặt tiếp tục &700131_cxsj& Giây trống trận"
+  },
+  {
+    "id": 421,
+    "description": "trống trận mỗi giây sẽ đối địch nhân ở chung quanh tạo thành 7 Lần tổn thương"
+  },
+  {
+    "id": 422,
+    "description": "mỗi lần tổn thương uy lực vì &700131_shwl&"
+  },
+  {
+    "id": 423,
+    "description": "đồng thời làm phạm vi bên trong địch nhân tạo thành tổn thương &700131_jdsh&%."
+  },
+  {
+    "id": 424,
+    "description": "Mỗi trang bị một cái pháp bảo có thể tăng lên &700132_tssx&% Cơ bản nhất lực"
+  },
+  {
+    "id": 425,
+    "description": "Sử dụng khí linh bản mệnh kỹ năng không cần đạt thành thi triển điều kiện."
+  },
+  {
+    "id": 426,
+    "description": "Luyện khí tư chất tăng lên &700134_lqzz& điểm"
+  },
+  {
+    "id": 427,
+    "description": "niệm lực hạn mức cao nhất tăng lên &700134_tsnl& điểm."
+  },
+  {
+    "id": 428,
+    "description": "Luyện khí tư chất tăng lên &700135_lqzz& điểm"
+  },
+  {
+    "id": 429,
+    "description": "niệm lực hạn mức cao nhất tăng lên &700135_tsnl& điểm."
+  },
+  {
+    "id": 430,
+    "description": "Luyện khí tư chất tăng lên &700136_lqzz& điểm"
+  },
+  {
+    "id": 431,
+    "description": "niệm lực hạn mức cao nhất tăng lên &700136_tsnl& điểm."
+  },
+  {
+    "id": 432,
+    "description": "Sắp gặp tử vong lúc"
+  },
+  {
+    "id": 433,
+    "description": "thu hoạch được vô địch trạng thái tiếp tục &700137_wdsj& Giây"
+  },
+  {
+    "id": 434,
+    "description": "cũng đối toàn trường tất cả địch nhân tạo thành nên địch nhân cơ bản nhất lực &700137_blsh&% Tổn thương. Mỗi cuộc chiến đấu nhiều nhất phát động một lần."
+  },
+  {
+    "id": 435,
+    "description": "Mỗi sử dụng &700138_txcs& Lần thể tu kỹ năng"
+  },
+  {
+    "id": 436,
+    "description": "phát động một đạo thẳng tắp cương kình"
+  },
+  {
+    "id": 437,
+    "description": "đối trúng đích địch nhân tạo thành toàn công pháp tư chất tổng cộng &700138_zzxs&% Trực tiếp tổn thương."
+  },
+  {
+    "id": 438,
+    "description": "Mỗi sử dụng &700139_lxcs& Lần Linh tu kỹ năng"
+  },
+  {
+    "id": 439,
+    "description": "phát động ba đạo truy tung linh khí"
+  },
+  {
+    "id": 440,
+    "description": "đối trúng đích địch nhân tạo thành linh pháp tư chất tổng cộng &700139_zzxs&% Trực tiếp tổn thương."
+  },
+  {
+    "id": 441,
+    "description": "Công kích tạo thành thấp nhất tổn thương thay đổi vì &700140_zdsh&. Này tổn thương theo cảnh giới tăng lên."
+  },
+  {
+    "id": 442,
+    "description": "Mỗi nhận &700141_gjcs& Lần công kích"
+  },
+  {
+    "id": 443,
+    "description": "miễn dịch lần tiếp theo nhận tổn thương"
+  },
+  {
+    "id": 444,
+    "description": "Mỗi nhận &700142_gjcs& Lần công kích"
+  },
+  {
+    "id": 445,
+    "description": "Tốc độ di chuyển đề cao &700143_ysts&%"
+  },
+  {
+    "id": 446,
+    "description": "Tốc độ di chuyển đề cao &700144_ysts&%"
+  },
+  {
+    "id": 447,
+    "description": "lại mỗi &700144_jgsj& Giây miễn dịch một lần tổn thương"
+  },
+  {
+    "id": 448,
+    "description": "Mỗi lần luận bàn thu hoạch được tâm đắc gia tăng &700145_xdzj&%"
+  },
+  {
+    "id": 449,
+    "description": "Tại học tập bí tịch lúc"
+  },
+  {
+    "id": 450,
+    "description": "có &700146_tjjj&% Xác suất làm bí tịch vì người chơi trước mắt cảnh giới"
+  },
+  {
+    "id": 451,
+    "description": "&700146_lqsj& Tháng bên trong nhiều nhất phát động một lần."
+  },
+  {
+    "id": 452,
+    "description": "Làm đào mộ có &700147_cfgl&% Xác suất làm giảm bớt tuổi thọ giảm xuống &700147_jssm&%"
+  },
+  {
+    "id": 453,
+    "description": "Mỗi lần hoàn thành nhiệm vụ thu hoạch được ban thưởng gia tăng &700148_jlzj&%"
+  },
+  {
+    "id": 454,
+    "description": "Mỗi lần hoàn thành nhiệm vụ thu hoạch được ban thưởng gia tăng &700149_jlzj&%"
+  },
+  {
+    "id": 455,
+    "description": "May mắn gia tăng &700150_xyzj&"
+  },
+  {
+    "id": 456,
+    "description": "thu hoạch được mặt trái khí vận tiếp tục thời gian giảm xuống &700150_fmqy&%."
+  },
+  {
+    "id": 457,
+    "description": "May mắn gia tăng &700151_xyzj&"
+  },
+  {
+    "id": 458,
+    "description": "thu hoạch được mặt trái khí vận tiếp tục thời gian giảm xuống &700151_fmqy&%."
+  },
+  {
+    "id": 459,
+    "description": "Mỗi &700152_ydsd& điểm tốc độ di chuyển"
+  },
+  {
+    "id": 460,
+    "description": "đề cao &700152_shts&% Tổn thương. Nhiều nhất gia tăng &700152_shts|x700152_zdcs|f2&%"
+  },
+  {
+    "id": 461,
+    "description": "Mỗi &700153_jgsj& Giây cấp cho tự thân một cái chở vật trạng thái. Này trạng thái dưới bị thương tổn sẽ bị hấp thu.&700153_ddsj& Giây sau trạng thái kết thúc lúc nhận tổn thương sẽ bộc phát cho tự thân phạm vi &700153_shfw& Mã tất cả đơn vị."
+  },
+  {
+    "id": 462,
+    "description": "Thần thông kỹ năng uy lực tăng lên &700154_stsh&%"
+  },
+  {
+    "id": 463,
+    "description": "nhưng thần thông tiêu hao linh lực đồng thời ngoài định mức tiêu hao &700154_xhsm&% Lớn nhất HP."
+  },
+  {
+    "id": 464,
+    "description": "Tuyệt kỹ mỗi lần trúng đích địch nhân lúc"
+  },
+  {
+    "id": 465,
+    "description": "sẽ có &700155_cfgl& % Xác suất kèm theo. Long ngâm"
+  },
+  {
+    "id": 466,
+    "description": "tạo thành tự thân võ pháp tư chất tổng cộng &700155_wfxs&% Tổn thương. Hổ khiếu"
+  },
+  {
+    "id": 467,
+    "description": "tạo thành tự thân toàn linh căn tổng cộng &700155_lgxs&% Tổn thương. Mỗi &700155_lqsj& Giây bên trong nhiều nhất phát động một lần."
+  },
+  {
+    "id": 468,
+    "description": "Nhận đơn lần tổn thương vượt qua lớn nhất HP &700156_sdbl&% Lúc"
+  },
+  {
+    "id": 469,
+    "description": "khóa chặt tổn thương là lớn nhất HP &700156_sdbl&% Cũng đóng băng tất cả địch nhân &700156_bdsj& Giây. Mỗi &700156_lqsj& Giây bên trong nhiều nhất phát động một lần."
+  },
+  {
+    "id": 470,
+    "description": "Mỗi tạo thành &700157_shcs& Lần tổn thương sau"
+  },
+  {
+    "id": 471,
+    "description": "tiếp xuống &700157_bjsj& Giây nhất định bạo kích. Thời gian cooldown &700157_lqsj& Giây."
+  },
+  {
+    "id": 472,
+    "description": "Mỗi tạo thành &700158_shcs& Lần tổn thương sau"
+  },
+  {
+    "id": 473,
+    "description": "tiếp xuống &700158_bjsj& Giây nhất định bạo kích"
+  },
+  {
+    "id": 474,
+    "description": "lại bạo kích bội suất +&700158_bjbl&%"
+  },
+  {
+    "id": 475,
+    "description": "cuối cùng bạo kích bội suất nhỏ nhất vì &700158_zdbl& Lần. Làm lạnh &700158_lqsj& Giây."
+  },
+  {
+    "id": 476,
+    "description": "Võ kỹ / Linh kỹ"
+  },
+  {
+    "id": 477,
+    "description": "tổn thương đề cao &700159_zjsh&%"
+  },
+  {
+    "id": 478,
+    "description": "Mỗi lần sử dụng hoặc kích hoạt thần thông sau thu hoạch được một tầng thiên ngoài có trời hiệu quả"
+  },
+  {
+    "id": 479,
+    "description": "mỗi tầng hiệu quả có thể đề cao tự thân tổn thương &700160_shts&%"
+  },
+  {
+    "id": 480,
+    "description": "đồng thời tự thân nhận tổn thương &700160_jsbl&%"
+  },
+  {
+    "id": 481,
+    "description": "lớn nhất nhưng điệp gia &700160_djcs& Tầng."
+  },
+  {
+    "id": 482,
+    "description": "Mỗi cái phe bạn triệu hoán vật sẽ cung cấp tự thân &700161_shts&% Tổn thương"
+  },
+  {
+    "id": 483,
+    "description": "nhiều nhất tăng lên &700161_shts|x700161_djcs|f2&%. Đương tự thân nhận trí mạng thương hại lúc"
+  },
+  {
+    "id": 484,
+    "description": "sẽ từ một cái triệu hoán vật thay thế tử vong cũng hồi phục tự thân cơ bản nhất lực &700161_tlhf&%"
+  },
+  {
+    "id": 485,
+    "description": "thay thế tử vong hiệu quả mỗi &700161_lqsj& Giây nhiều nhất phát động một lần."
+  },
+  {
+    "id": 486,
+    "description": "Mỗi lần phóng thích thần thông lúc"
+  },
+  {
+    "id": 487,
+    "description": "làm toàn trường địch nhân bị thương tổn đề cao &700162_shts&% Cũng mê muội"
+  },
+  {
+    "id": 488,
+    "description": "tiếp tục &700162_cxsj& Giây. Nên hiệu quả thời gian cooldown &700162_lqsj& Giây."
+  },
+  {
+    "id": 489,
+    "description": "Tính gộp lại nhận lớn nhất HP &700163_ljsh&% Tổn thương sau"
+  },
+  {
+    "id": 490,
+    "description": "sẽ tại tự thân phạm vi &700163_sjwz& Mã ngẫu nhiên vị trí xuất hiện một cái &700163_ghfw& Mã lớn nhỏ khí tường lồng ánh sáng"
+  },
+  {
+    "id": 491,
+    "description": "đang giận trong tường tự thân bị thương tổn giảm bớt &700163_shjm&%"
+  },
+  {
+    "id": 492,
+    "description": "tạo thành tổn thương tăng lên &700163_shts&%"
+  },
+  {
+    "id": 493,
+    "description": "tiếp tục &700163_lqsj& Giây."
+  },
+  {
+    "id": 494,
+    "description": "Tiến vào phó bản &700164_cfyc& Giây sau có xác suất phóng thích. Bão cát tiếp tục &700164_cxsj& Giây"
+  },
+  {
+    "id": 495,
+    "description": "tiếp tục thời gian bên trong toàn trường tất cả địch nhân mỗi giây nhận lớn nhất HP &700164_mmsh&% Tổn thương ( Đối BOSS Cùng tu tiên giả chỉ có &700164_dysh&% Tổn thương )"
+  },
+  {
+    "id": 496,
+    "description": "cũng giảm tốc &700164_jsbl&%( Một trận chiến đấu nhiều nhất chỉ có thể phát động 1 Lần )"
+  },
+  {
+    "id": 497,
+    "description": "Chiến đấu bên trong có bao nhiêu tại 1 Cái tu tiên giả đồng đội thường có xác suất phát động"
+  },
+  {
+    "id": 498,
+    "description": "hi sinh tự thân &700167_xhlt&% Trước mắt HP"
+  },
+  {
+    "id": 499,
+    "description": "đối tất cả phe bạn thực hiện một cái hộ thuẫn"
+  },
+  {
+    "id": 500,
+    "description": "hộ thuẫn giá trị tương đương chỗ hy sinh tính mạng giá trị lượng"
+  },
+  {
+    "id": 501,
+    "description": "hộ thuẫn không bị đánh vỡ trước không bị khống chế kỹ năng ảnh hưởng. Tiếp tục &700167_chsj& Giây"
+  },
+  {
+    "id": 502,
+    "description": "làm lạnh &700167_lqsj& Giây."
+  },
+  {
+    "id": 503,
+    "description": "đương trong đội ngũ có thể lực thấp hơn &700168_tlbl&% Tu tiên giả đồng đội lúc"
+  },
+  {
+    "id": 504,
+    "description": "tiêu hao &700168_xhtl&% Trước mắt HP"
+  },
+  {
+    "id": 505,
+    "description": "làm tất cả địch quân nhân vật tạo thành tổn thương giảm xuống &700168_shjd&%"
+  },
+  {
+    "id": 506,
+    "description": "bị thương tổn đề cao &700168_shzj&%. Tiếp tục &700168_chxj& Giây"
+  },
+  {
+    "id": 507,
+    "description": "thời gian cooldown &700168_lqsj& Giây."
+  },
+  {
+    "id": 508,
+    "description": "giảm xuống &700169_shjd&% Tự thân tạo thành tổn thương"
+  },
+  {
+    "id": 509,
+    "description": "toàn trường tất cả quân đội bạn tạo thành tổn thương đề cao &700169_shzj&%. Tiếp tục &700169_cxsj& Giây"
+  },
+  {
+    "id": 510,
+    "description": "thời gian cooldown &700169_lqsj& Giây."
+  },
+  {
+    "id": 511,
+    "description": "làm tự thân bị thương tổn giảm xuống &700174_shjd&%"
+  },
+  {
+    "id": 512,
+    "description": "lại tất cả phe bạn tu tiên giả bị thương tổn &700174_shfd&% Sẽ từ tự thân thay gánh chịu"
+  },
+  {
+    "id": 513,
+    "description": "tiếp tục &700174_cxsj& Giây. Thời gian cooldown &700174_lqsj& Giây."
+  },
+  {
+    "id": 514,
+    "description": "tiếp tục thời gian bên trong giảm xuống &700175_shjd& % Tự thân tạo thành tổn thương"
+  },
+  {
+    "id": 515,
+    "description": "lại sử dụng hồi phục đan dược lúc toàn trường tất cả phe bạn tu tiên giả đều sẽ đạt được nên hiệu quả của đan dược. Tiếp tục &700175_cxsj& Giây"
+  },
+  {
+    "id": 516,
+    "description": "làm lạnh &700175_lqsj& Giây."
+  },
+  {
+    "id": 517,
+    "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Khởi động sau triệu hoán một cái tiếp tục &700176_zwsj& Giây lợn rừng ổ"
+  },
+  {
+    "id": 518,
+    "description": "lợn rừng ổ tiếp tục triệu hoán tiếp tục &700176_yzsj& Giây lợn rừng gia nhập chiến đấu"
+  },
+  {
+    "id": 519,
+    "description": "cũng có xác suất nhỏ triệu hồi ra một con giống cái đương Khang"
+  },
+  {
+    "id": 520,
+    "description": "kỹ năng thời gian cooldown &700176_jncd& Giây.( Giống cái đương Khang sẽ ôm lấy ngẫu nhiên một tu tiên giả"
+  },
+  {
+    "id": 521,
+    "description": "cũng trở lại lợn rừng ổ"
+  },
+  {
+    "id": 522,
+    "description": "sau đem tu tiên giả ném ra"
+  },
+  {
+    "id": 523,
+    "description": "tạo thành đại lượng tổn thương"
+  },
+  {
+    "id": 524,
+    "description": "này kỹ năng nhưng đánh đoạn thân pháp )"
+  },
+  {
+    "id": 525,
+    "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Khởi động sau triệu hoán một cái tiếp tục &700177_hysj& Giây mị hoặc hồ yêu"
+  },
+  {
+    "id": 526,
+    "description": "hồ yêu sẽ đối với địch nhân phát xạ mị hoặc chi hôn"
+  },
+  {
+    "id": 527,
+    "description": "bị hôn bên trong địch nhân sẽ biến thành ếch xanh nhỏ"
+  },
+  {
+    "id": 528,
+    "description": "tốc độ di chuyển &700177_mhjs&%"
+  },
+  {
+    "id": 529,
+    "description": "hiệu quả tiếp tục &700177_mhsj& Giây. Kỹ năng thời gian cooldown &700177_jncd& Giây"
+  },
+  {
+    "id": 530,
+    "description": "Tiến vào chiến đấu sau có xác suất phóng thích. Tại chỗ bên trên trong địch nhân tồn tại tùy ý một tu tiên giả lúc"
+  },
+  {
+    "id": 531,
+    "description": "mỗi &700178_ppcd& Giây tại ngẫu nhiên vị trí tạo ra &700178_ppsl& Cái bong bóng từ trên trời giáng xuống"
+  },
+  {
+    "id": 532,
+    "description": "đương tu tiên giả đụng phải bong bóng lúc sẽ bị bong bóng bao khỏa &700178_ppsj& Giây. Kỹ năng tiếp tục &700178_pysj& Giây"
+  },
+  {
+    "id": 533,
+    "description": "thời gian cooldown &700178_jncd& Giây."
+  },
+  {
+    "id": 534,
+    "description": "Chiến đấu bên trong có xác suất phát động"
+  },
+  {
+    "id": 535,
+    "description": "khởi động sau &700179_xdsj& Giây bên trong"
+  },
+  {
+    "id": 536,
+    "description": "tự thân mỗi di động &700179_xdjl& Khoảng cách đem kế tiếp nổ trứng"
+  },
+  {
+    "id": 537,
+    "description": "trên trận nhiều nhất đồng thời tồn tại &700179_zdsl& Cái nổ trứng. Nổ trứng sẽ tại địch nhân đụng phải lúc bạo tạc"
+  },
+  {
+    "id": 538,
+    "description": "đối với địch nhân tạo thành uy lực &700179_bzwl& Tổn thương. Kỹ năng thời gian cooldown &700179_jncd& Giây."
+  },
+  {
+    "id": 539,
+    "description": "Đương tiến vào chiến đấu sau có xác suất làm trong tràng hạ xuống tiếp tục &700180_bysj& Giây mưa to. Tại mưa to tiếp tục thời gian bên trong"
+  },
+  {
+    "id": 540,
+    "description": "khiến trên trận tất cả địch nhân tốc độ di chuyển &700180_byjs&%; Mỗi &700180_llcd& Giây sẽ tại trước mắt thể lực nhiều nhất phe bạn đơn vị ( Bao quát người chơi nhân vật ) Vị trí hạ xuống sét"
+  },
+  {
+    "id": 541,
+    "description": "đối nên đơn vị tạo thành uy lực &700180_yswl& Tổn thương"
+  },
+  {
+    "id": 542,
+    "description": "cũng đồng thời đối lấy làm trung tâm bán kính &700180_llfw& Phạm vi bên trong tất cả địch nhân tạo thành uy lực &700180_llwl& Tổn thương; Hiệu quả thời gian cooldown &700180_jncd& Giây."
+  },
+  {
+    "id": 543,
+    "description": "tại chỗ trên có tu tiên giả đồng đội bị đánh bại sau"
+  },
+  {
+    "id": 544,
+    "description": "có xác suất sẽ xuất hiện chữa bệnh đội tới cứu người"
+  },
+  {
+    "id": 545,
+    "description": "được cứu người sẽ tại &700181_fcsj& Giây sau quay về chiến trường"
+  },
+  {
+    "id": 546,
+    "description": "hồi phục &700181_ylhf&% Thể lực."
+  },
+  {
+    "id": 547,
+    "description": "Mỗi một lần sử dụng linh kỹ / Võ kỹ"
+  },
+  {
+    "id": 548,
+    "description": "sẽ thu hoạch được một tầng thiên người ấn"
+  },
+  {
+    "id": 549,
+    "description": "thiên nhân ấn nhiều nhất có thể điệp gia &700182_xgcs& Lần. Lần tiếp theo tuyệt kỹ kỹ năng lúc"
+  },
+  {
+    "id": 550,
+    "description": "tiêu hao tất cả thiên nhân ấn"
+  },
+  {
+    "id": 551,
+    "description": "mỗi tầng tăng lên tuyệt kỹ tổn thương &700182_jjsh&%."
+  },
+  {
+    "id": 552,
+    "description": "Mỗi lần sử dụng thân pháp kỹ năng sau &700183_cxsj& Giây bên trong"
+  },
+  {
+    "id": 553,
+    "description": "đều sẽ làm tự thân nhận tổn thương &700183_shjd&%."
+  },
+  {
+    "id": 554,
+    "description": "Mỗi nhận &700184_cfbl&% Lớn nhất HP tổn thương lúc"
+  },
+  {
+    "id": 555,
+    "description": "hét lớn một tiếng"
+  },
+  {
+    "id": 556,
+    "description": "làm toàn trường đơn vị sinh ra sợ hãi tạo thành tổn thương &700184_shjd& %"
+  },
+  {
+    "id": 557,
+    "description": "nhiều nhất &700184_shjd|x700184_djcs|f2&%"
+  },
+  {
+    "id": 558,
+    "description": "mỗi tầng phân biệt tiếp tục &700184_cxsj& Giây."
+  },
+  {
+    "id": 559,
+    "description": "Mỗi &700185_jgsj& Giây vì tự thân điệp gia một tầng tụ lôi"
+  },
+  {
+    "id": 560,
+    "description": "nhiều nhất nhưng điệp gia &700185_djcs& Tầng"
+  },
+  {
+    "id": 561,
+    "description": "đương tự thân bị thương tổn lúc"
+  },
+  {
+    "id": 562,
+    "description": "sẽ tiêu hao một tầng tụ lôi"
+  },
+  {
+    "id": 563,
+    "description": "cũng hướng &700185_jnfw& Phạm vi bên trong tất cả địch nhân phát ra lôi điện"
+  },
+  {
+    "id": 564,
+    "description": "tạo thành uy lực &700185_jnwl& Tổn thương."
+  },
+  {
+    "id": 565,
+    "description": "Mỗi &700186_lqsj& Giây mở ra một lần kết nối"
+  },
+  {
+    "id": 566,
+    "description": "mở ra lúc kết nối trên trận HP nhiều nhất địch nhân"
+  },
+  {
+    "id": 567,
+    "description": "người chơi nhận tổn thương &700186_ftsh&% Sẽ bị giảm miễn cũng truyền đến mục tiêu trên thân. Tiếp tục &700186_cxsj& Giây."
+  },
+  {
+    "id": 568,
+    "description": "Không cách nào thiên đạo đột phá"
+  },
+  {
+    "id": 569,
+    "description": "nhưng là sau khi đột phá có thể lựa chọn nghịch thiên cải mệnh đều là cao cấp nhất."
+  },
+  {
+    "id": 570,
+    "description": "Này khí vận gia trì hạ"
+  },
+  {
+    "id": 571,
+    "description": "bên người cùng cái rắm rồng nhưng tại Thanh Lân trong ao tiến hành biến hóa."
+  },
+  {
+    "id": 572,
+    "description": "Sử dụng tuyệt kỹ lúc"
+  },
+  {
+    "id": 573,
+    "description": "có thể triệu hoán ra &700191_fjsl& Thanh phi kiếm"
+  },
+  {
+    "id": 574,
+    "description": "cũng hướng địch nhân tiếp tục phát xạ kiếm khí"
+  },
+  {
+    "id": 575,
+    "description": "tạo thành uy lực &700191_fjwl& Tổn thương"
+  },
+  {
+    "id": 576,
+    "description": "chỉ cần lần này sử dụng tuyệt kỹ đang kéo dài tạo thành tổn thương"
+  },
+  {
+    "id": 577,
+    "description": "phi kiếm cũng sẽ không biến mất"
+  },
+  {
+    "id": 578,
+    "description": "phi kiếm ít nhất có thể cầm tục &700191_cxsj& Giây"
+  },
+  {
+    "id": 579,
+    "description": "nhiều nhất có thể cầm tục &700191_cxsj|+700191_zdsj|f0& Giây. Mỗi &700191_fjcd& Giây nhiều nhất phát động một lần."
+  },
+  {
+    "id": 580,
+    "description": "Sử dụng thần thông lúc"
+  },
+  {
+    "id": 581,
+    "description": "như trên trận không có tự thân chỗ triệu hoán châu 蟞 Ngư vương"
+  },
+  {
+    "id": 582,
+    "description": "thì khấu trừ trên trận tất cả tự thân triệu hoán vật &700193_blsh&% Trước mắt thể lực triệu hoán châu 蟞 Ngư vương"
+  },
+  {
+    "id": 583,
+    "description": "cũng căn cứ tất cả khấu trừ triệu hoán vật thể lực tổng cộng &700193_tlbl& Lần tăng lên châu 蟞 Ngư vương cơ bản nhất lực. Châu 蟞 Ngư vương ở đây bên trên lúc"
+  },
+  {
+    "id": 584,
+    "description": "mỗi &700193_xqjg& Giây sẽ hấp thụ trên trận tất cả tự thân triệu hoán vật &700193_xqsh& Một ít thể lực"
+  },
+  {
+    "id": 585,
+    "description": "cũng căn cứ hút lấy lấy thể lực &700193_hfbl&% Hồi phục châu 蟞 Ngư vương thể lực. Trên trận mỗi tồn tại một cái tự thân triệu hoán vật"
+  },
+  {
+    "id": 586,
+    "description": "đều sẽ làm châu 蟞 Ngư vương tổn thương tăng lên &700193_shts&%"
+  },
+  {
+    "id": 587,
+    "description": "cao nhất có thể tăng lên châu 蟞 Ngư vương &700193_shsx|x700193_shts|/100|f0&% Tổn thương."
+  },
+  {
+    "id": 588,
+    "description": "Mỗi lần sử dụng võ kỹ lúc"
+  },
+  {
+    "id": 589,
+    "description": "có &700192_cfgl&% Xác suất hướng phía trước chém ra một đạo phạm vi lớn khí nhận"
+  },
+  {
+    "id": 590,
+    "description": "đối trúng đích địch nhân tạo thành uy lực &700192_zjwl& Tổn thương"
+  },
+  {
+    "id": 591,
+    "description": "làm lạnh &700192_lqsj& giây"
+  },
+  {
+    "id": 592,
+    "description": "Mỗi lần sử dụng thần thông lúc"
+  },
+  {
+    "id": 593,
+    "description": "sẽ từ tự thân dưới chân tạo ra &700194_ddsl& Đạo gió lốc"
+  },
+  {
+    "id": 594,
+    "description": "đối trúng đích địch nhân tạo thành uy lực &700194_xfwl& Tổn thương"
+  },
+  {
+    "id": 595,
+    "description": "gió lốc sẽ tự động truy tung khoảng cách địch nhân gần nhất"
+  },
+  {
+    "id": 596,
+    "description": "tiếp tục &700194_cssj& giây"
+  },
+  {
+    "id": 597,
+    "description": "làm lạnh &700194_lqsj& giây"
+  },
+  {
+    "id": 598,
+    "description": "Tự thân triệu hoán vật bị địch nhân lúc công kích"
+  },
+  {
+    "id": 599,
+    "description": "có &700195_fzgl&% Xác suất đối tổn thương nơi phát ra người tạo thành uy lực &700195_fzwl& Tổn thương"
+  },
+  {
+    "id": 600,
+    "description": "mỗi &700195_fzjg& Giây nhiều nhất phát động một lần"
+  },
+  {
+    "id": 601,
+    "description": "Tính gộp lại sử dụng &700196_jjcs& Lần tuyệt kỹ lúc"
+  },
+  {
+    "id": 602,
+    "description": "sẽ trong phòng rơi xuống đại lượng tảng băng"
+  },
+  {
+    "id": 603,
+    "description": "đối bính đụng vào địch nhân tạo thành uy lực &700196_bswl& Tổn thương cũng thực hiện đông kết hiệu quả"
+  },
+  {
+    "id": 604,
+    "description": "làm lạnh &700196_lqsj& giây"
+  },
+  {
+    "id": 605,
+    "description": "Tự thân triệu hoán vật mỗi lần đối với địch nhân tạo thành tổn thương lúc"
+  },
+  {
+    "id": 606,
+    "description": "sẽ làm địch nhân thu hoạch được độc tố"
+  },
+  {
+    "id": 607,
+    "description": "tiếp tục &700197_cxsj& Giây. Trên người địch nhân độc tố điệp gia đến &700197_djcs& Tầng sau sẽ dẫn bạo mục tiêu"
+  },
+  {
+    "id": 608,
+    "description": "đối mục tiêu tạo thành một lần uy lực &700197_bzwl& Phạm vi tổn thương"
+  },
+  {
+    "id": 609,
+    "description": "cùng làm nhận tổn thương tăng lên &700197_shts&%"
+  },
+  {
+    "id": 610,
+    "description": "tiếp tục &700197_shsj& Giây. Mỗi cái địch nhân &700197_lqsj& Giây bên trong nhiều nhất bị dẫn bạo một lần"
+  },
+  {
+    "id": 611,
+    "description": "Tự thân đang kéo dài trong quá trình thi pháp"
+  },
+  {
+    "id": 612,
+    "description": "sẽ kéo dài hướng phía trước hình quạt phun ra đại lượng hỏa cầu"
+  },
+  {
+    "id": 613,
+    "description": "hỏa cầu trúng đích địch nhân sau sẽ tạo thành uy lực &700199_hqwl& Hỏa thuộc tính phạm vi tổn thương"
+  },
+  {
+    "id": 614,
+    "description": "triệu hoán &700201_llsl& Đạo sấm sét ngẫu nhiên đối phụ cận địch nhân tiến hành đả kích"
+  },
+  {
+    "id": 615,
+    "description": "mỗi đạo kinh lôi sẽ đối với địch nhân tạo thành uy lực &700201_llwl& Tổn thương"
+  },
+  {
+    "id": 616,
+    "description": "làm lạnh &700201_lqsj& giây"
+  },
+  {
+    "id": 617,
+    "description": "Tính gộp lại tạo thành &700211_sxcs& Lần tổn thương sau"
+  },
+  {
+    "id": 618,
+    "description": "lần công kích sau nhưng dẫn bạo mục tiêu cũng tạo thành &700211_bzwl& Uy lực tổn thương"
+  },
+  {
+    "id": 619,
+    "description": "cũng tại mục tiêu chỗ lưu lại một đoàn phạm vi &700211_lyfw& Liệt diễm"
+  },
+  {
+    "id": 620,
+    "description": "làm lạnh &700211_bzcd& giây"
+  },
+  {
+    "id": 621,
+    "description": "Sử dụng lĩnh vực kỹ năng lúc tiêu hao đạo lực &700198_xhjs&%"
+  },
+  {
+    "id": 622,
+    "description": "Có thể sử dụng Huyễn Linh nồi luyện chế đan dược"
+  },
+  {
+    "id": 623,
+    "description": "làm tự thân nhận đến từ mặt sau tổn thương &700203_shjd&%"
+  },
+  {
+    "id": 624,
+    "description": "mang theo tiến vào chiến đấu đan dược số lượng &700203_dysl&.( Lựa chọn sau thay thế Huyễn Linh nồi"
+  },
+  {
+    "id": 625,
+    "description": "có thể thăng cấp vì Thiên cấp Huyễn Linh nồi )"
+  },
+  {
+    "id": 626,
+    "description": "mang theo tiến vào chiến đấu đan dược số lượng &700203_dysl&"
+  },
+  {
+    "id": 627,
+    "description": "đan dược thời gian cooldown &700204_nljs&%.( Lựa chọn sau thay thế Huyễn Linh nồi )"
+  },
+  {
+    "id": 628,
+    "description": "Đan dược hồi phục thể lực cùng linh lực hiệu quả tăng lên &700205_hftl&%."
+  },
+  {
+    "id": 629,
+    "description": "Đan dược cung cấp hiệu quả tiếp tục thời gian tăng lên &700206_zjsj&%."
+  },
+  {
+    "id": 630,
+    "description": "Đan dược đối với địch nhân tạo thành tổn thương tăng lên 30%."
+  },
+  {
+    "id": 631,
+    "description": "Mỗi lần sử dụng tuyệt kỹ lúc"
+  },
+  {
+    "id": 632,
+    "description": "làm tất cả đan dược thời gian cooldown &700208_lqjs& Giây"
+  },
+  {
+    "id": 633,
+    "description": "mỗi &700208_cfjg& Giây nhiều nhất phát động một lần."
+  },
+  {
+    "id": 634,
+    "description": "trong chiến đấu"
+  },
+  {
+    "id": 635,
+    "description": "Luyện Yêu Hồ thời gian cooldown &7002091_lyhlq&%"
+  },
+  {
+    "id": 636,
+    "description": "ấm yêu chưa huyễn hóa chân thân lúc nhưng mỗi &7002092_mmhf& Giây hồi phục cơ bản nhất lực &7002092_hyhx&%."
+  },
+  {
+    "id": 637,
+    "description": "Cước lực của ngươi +500; Nếu ngươi không có tông môn"
+  },
+  {
+    "id": 638,
+    "description": "thì mỗi lần tại linh khí cao hơn 100 Ngăn chứa bên trên lúc tu luyện"
+  },
+  {
+    "id": 639,
+    "description": "có 50% Xác suất thu hoạch được một chút linh quả."
+  }
+]

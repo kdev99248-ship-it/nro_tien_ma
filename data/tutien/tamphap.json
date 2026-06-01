@@ -1,0 +1,2282 @@
+[
+  {
+    "id": 1,
+    "name": "Phàm Kiếm Pháp",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 54,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 2,
+    "name": "Linh Kiếm Thuật",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 54,
+        "value": 25
+      },
+      {
+        "id": 55,
+        "value": 12
+      }
+    ],
+    "effects": [
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tiên Kiếm Đạo",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 54,
+        "value": 60
+      },
+      {
+        "id": 55,
+        "value": 25
+      },
+      {
+        "id": 4,
+        "value": 100
+      }
+    ],
+    "effects": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Thần Kiếm Công",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 54,
+        "value": 150
+      },
+      {
+        "id": 55,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      1,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Thần Thoại Kiếm Đế",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 54,
+        "value": 400
+      },
+      {
+        "id": 55,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      1,
+      5,
+      6,
+      27
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Phàm Đao Thuật",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 46,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 7,
+    "name": "Linh Đao Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 46,
+        "value": 25
+      },
+      {
+        "id": 47,
+        "value": 12
+      }
+    ],
+    "effects": [
+      5
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tiên Đao Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 46,
+        "value": 60
+      },
+      {
+        "id": 47,
+        "value": 25
+      },
+      {
+        "id": 4,
+        "value": 100
+      }
+    ],
+    "effects": [
+      5,
+      21
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Thần Đao Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 46,
+        "value": 150
+      },
+      {
+        "id": 47,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      }
+    ],
+    "effects": [
+      5,
+      21,
+      6
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Thần Thoại Đao Thánh",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 46,
+        "value": 400
+      },
+      {
+        "id": 47,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      5,
+      21,
+      6,
+      27
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Phàm Thương Pháp",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 48,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 12,
+    "name": "Linh Thương Thuật",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 48,
+        "value": 25
+      },
+      {
+        "id": 49,
+        "value": 12
+      }
+    ],
+    "effects": [
+      7
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tiên Thương Công",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 48,
+        "value": 60
+      },
+      {
+        "id": 49,
+        "value": 25
+      },
+      {
+        "id": 4,
+        "value": 100
+      }
+    ],
+    "effects": [
+      7,
+      23
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Thần Thương Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 48,
+        "value": 150
+      },
+      {
+        "id": 49,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 42,
+        "value": 250
+      }
+    ],
+    "effects": [
+      7,
+      23,
+      5
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Thần Thoại Thương Vương",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 48,
+        "value": 400
+      },
+      {
+        "id": 49,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 42,
+        "value": 600
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      7,
+      23,
+      5,
+      27
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Phàm Quyền Đạo",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 19,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 17,
+    "name": "Linh Quyền Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 19,
+        "value": 25
+      },
+      {
+        "id": 27,
+        "value": 40
+      }
+    ],
+    "effects": [
+      5
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tiên Quyền Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 19,
+        "value": 60
+      },
+      {
+        "id": 27,
+        "value": 100
+      },
+      {
+        "id": 4,
+        "value": 100
+      }
+    ],
+    "effects": [
+      5,
+      4
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Thần Quyền Thuật",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 19,
+        "value": 150
+      },
+      {
+        "id": 27,
+        "value": 250
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      }
+    ],
+    "effects": [
+      5,
+      4,
+      21
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Thần Thoại Quyền Thánh",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 19,
+        "value": 400
+      },
+      {
+        "id": 27,
+        "value": 600
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      5,
+      4,
+      21,
+      27
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Phàm Chỉ Pháp",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 17,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 22,
+    "name": "Linh Chỉ Thuật",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 17,
+        "value": 25
+      },
+      {
+        "id": 40,
+        "value": 25
+      }
+    ],
+    "effects": [
+      8
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tiên Chỉ Chưởng",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 17,
+        "value": 60
+      },
+      {
+        "id": 40,
+        "value": 60
+      },
+      {
+        "id": 41,
+        "value": 60
+      }
+    ],
+    "effects": [
+      8,
+      4
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Thần Chỉ Công",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 17,
+        "value": 150
+      },
+      {
+        "id": 40,
+        "value": 150
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 9,
+        "value": 150
+      }
+    ],
+    "effects": [
+      8,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Thần Thoại Chỉ Đế",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 17,
+        "value": 400
+      },
+      {
+        "id": 40,
+        "value": 400
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      8,
+      4,
+      2,
+      27
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Phàm Thân Pháp",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 50,
+        "value": 5
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 27,
+    "name": "Linh Thân Thuật",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 50,
+        "value": 12
+      },
+      {
+        "id": 36,
+        "value": 12
+      }
+    ],
+    "effects": [
+      21
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Tiên Thân Công",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 50,
+        "value": 30
+      },
+      {
+        "id": 36,
+        "value": 30
+      },
+      {
+        "id": 6,
+        "value": 25
+      }
+    ],
+    "effects": [
+      21,
+      1
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Thần Thân Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 36,
+        "value": 80
+      },
+      {
+        "id": 6,
+        "value": 50
+      },
+      {
+        "id": 28,
+        "value": 80
+      }
+    ],
+    "effects": [
+      21,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Thần Thoại Thân Ảnh",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 36,
+        "value": 200
+      },
+      {
+        "id": 6,
+        "value": 100
+      },
+      {
+        "id": 28,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      21,
+      1,
+      4,
+      36
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Phàm Kim Thân",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 25,
+        "value": 100
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 32,
+    "name": "Linh Kim Thân",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 25,
+        "value": 300
+      },
+      {
+        "id": 11,
+        "value": 40
+      }
+    ],
+    "effects": [
+      10
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Tiên Kim Thân",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 25,
+        "value": 800
+      },
+      {
+        "id": 11,
+        "value": 100
+      },
+      {
+        "id": 22,
+        "value": 130
+      }
+    ],
+    "effects": [
+      10,
+      3
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Thần Kim Thân",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 11,
+        "value": 250
+      },
+      {
+        "id": 22,
+        "value": 330
+      },
+      {
+        "id": 51,
+        "value": 1200
+      }
+    ],
+    "effects": [
+      10,
+      3,
+      19
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Thần Thoại Kim Cương Thân",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 11,
+        "value": 600
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 24,
+        "value": 400
+      }
+    ],
+    "effects": [
+      10,
+      3,
+      19,
+      31
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Phàm Linh Khí Công",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 37,
+        "value": 60
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 37,
+    "name": "Linh Khí Thuật",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 37,
+        "value": 180
+      },
+      {
+        "id": 33,
+        "value": 120
+      }
+    ],
+    "effects": [
+      12
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Tiên Linh Khí Đạo",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 37,
+        "value": 480
+      },
+      {
+        "id": 33,
+        "value": 320
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      12,
+      13
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Thần Linh Khí Pháp",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 37,
+        "value": 1200
+      },
+      {
+        "id": 33,
+        "value": 800
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      12,
+      13,
+      9
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Thần Thoại Linh Khí Nguyên",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 37,
+        "value": 3000
+      },
+      {
+        "id": 33,
+        "value": 2000
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 38,
+        "value": 3000
+      }
+    ],
+    "effects": [
+      12,
+      13,
+      9,
+      28
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Phàm Hỏa Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 18,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 42,
+    "name": "Linh Hỏa Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 18,
+        "value": 25
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      37
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Tiên Hỏa Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 18,
+        "value": 60
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 9,
+        "value": 60
+      }
+    ],
+    "effects": [
+      37,
+      4
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Thần Hỏa Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 18,
+        "value": 150
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      37,
+      4,
+      9
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Thần Thoại Hỏa Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 18,
+        "value": 400
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      37,
+      4,
+      9,
+      28
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Phàm Thủy Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 57,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 47,
+    "name": "Linh Thủy Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 57,
+        "value": 25
+      },
+      {
+        "id": 37,
+        "value": 180
+      }
+    ],
+    "effects": [
+      35
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Tiên Thủy Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 57,
+        "value": 60
+      },
+      {
+        "id": 37,
+        "value": 480
+      },
+      {
+        "id": 33,
+        "value": 320
+      }
+    ],
+    "effects": [
+      35,
+      13
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Thần Thủy Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 57,
+        "value": 150
+      },
+      {
+        "id": 37,
+        "value": 1200
+      },
+      {
+        "id": 33,
+        "value": 800
+      },
+      {
+        "id": 22,
+        "value": 330
+      }
+    ],
+    "effects": [
+      35,
+      13,
+      19
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Thần Thoại Thủy Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 57,
+        "value": 400
+      },
+      {
+        "id": 37,
+        "value": 3000
+      },
+      {
+        "id": 33,
+        "value": 2000
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      35,
+      13,
+      19,
+      28
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Phàm Phong Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 58,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 52,
+    "name": "Linh Phong Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 58,
+        "value": 25
+      },
+      {
+        "id": 50,
+        "value": 12
+      }
+    ],
+    "effects": [
+      36
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Tiên Phong Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 58,
+        "value": 60
+      },
+      {
+        "id": 50,
+        "value": 30
+      },
+      {
+        "id": 36,
+        "value": 30
+      }
+    ],
+    "effects": [
+      36,
+      21
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Thần Phong Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 58,
+        "value": 150
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 36,
+        "value": 80
+      },
+      {
+        "id": 2,
+        "value": 120
+      }
+    ],
+    "effects": [
+      36,
+      21,
+      4
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Thần Thoại Phong Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 58,
+        "value": 400
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 36,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      36,
+      21,
+      4,
+      28
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Phàm Lôi Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 31,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 57,
+    "name": "Linh Lôi Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 31,
+        "value": 25
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      33
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Tiên Lôi Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 31,
+        "value": 60
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 50,
+        "value": 30
+      }
+    ],
+    "effects": [
+      33,
+      4
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Thần Lôi Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 31,
+        "value": 150
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 50,
+        "value": 80
+      },
+      {
+        "id": 41,
+        "value": 150
+      }
+    ],
+    "effects": [
+      33,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Thần Thoại Lôi Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 31,
+        "value": 400
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      33,
+      4,
+      5,
+      28
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Phàm Mộc Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 59,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 62,
+    "name": "Linh Mộc Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 59,
+        "value": 25
+      },
+      {
+        "id": 25,
+        "value": 300
+      }
+    ],
+    "effects": [
+      19
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Tiên Mộc Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 59,
+        "value": 60
+      },
+      {
+        "id": 25,
+        "value": 800
+      },
+      {
+        "id": 22,
+        "value": 130
+      }
+    ],
+    "effects": [
+      19,
+      20
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Thần Mộc Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 59,
+        "value": 150
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 22,
+        "value": 330
+      },
+      {
+        "id": 29,
+        "value": 8000
+      }
+    ],
+    "effects": [
+      19,
+      20,
+      39
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Thần Thoại Mộc Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 59,
+        "value": 400
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 22,
+        "value": 800
+      },
+      {
+        "id": 29,
+        "value": 30000
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      19,
+      20,
+      39,
+      28
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Phàm Thổ Linh",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 13,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 67,
+    "name": "Linh Thổ Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 13,
+        "value": 25
+      },
+      {
+        "id": 11,
+        "value": 40
+      }
+    ],
+    "effects": [
+      34
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Tiên Thổ Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 13,
+        "value": 60
+      },
+      {
+        "id": 11,
+        "value": 100
+      },
+      {
+        "id": 25,
+        "value": 800
+      }
+    ],
+    "effects": [
+      34,
+      10
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Thần Thổ Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 13,
+        "value": 150
+      },
+      {
+        "id": 11,
+        "value": 250
+      },
+      {
+        "id": 25,
+        "value": 2000
+      },
+      {
+        "id": 51,
+        "value": 1200
+      }
+    ],
+    "effects": [
+      34,
+      10,
+      20
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Thần Thoại Thổ Hoàng",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 13,
+        "value": 400
+      },
+      {
+        "id": 11,
+        "value": 600
+      },
+      {
+        "id": 25,
+        "value": 5000
+      },
+      {
+        "id": 51,
+        "value": 3000
+      },
+      {
+        "id": 3,
+        "value": 300
+      }
+    ],
+    "effects": [
+      34,
+      10,
+      20,
+      28
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Phàm Hỗn Nguyên",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 3,
+        "value": 8
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 72,
+    "name": "Linh Hỗn Nguyên Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 3,
+        "value": 20
+      },
+      {
+        "id": 9,
+        "value": 25
+      }
+    ],
+    "effects": [
+      24
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Tiên Hỗn Nguyên Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 3,
+        "value": 50
+      },
+      {
+        "id": 9,
+        "value": 60
+      },
+      {
+        "id": 10,
+        "value": 25
+      }
+    ],
+    "effects": [
+      24,
+      28
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Thần Hỗn Nguyên Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 3,
+        "value": 120
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      },
+      {
+        "id": 2,
+        "value": 120
+      }
+    ],
+    "effects": [
+      24,
+      28,
+      29
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Thần Thoại Hỗn Nguyên Nhất Khí",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 3,
+        "value": 300
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 29,
+        "value": 30000
+      }
+    ],
+    "effects": [
+      24,
+      28,
+      29,
+      30
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Phàm Linh Tâm Quyết",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 33,
+        "value": 40
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 77,
+    "name": "Linh Tâm Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 33,
+        "value": 120
+      },
+      {
+        "id": 9,
+        "value": 25
+      }
+    ],
+    "effects": [
+      14
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Tiên Tâm Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 33,
+        "value": 320
+      },
+      {
+        "id": 9,
+        "value": 60
+      },
+      {
+        "id": 41,
+        "value": 60
+      }
+    ],
+    "effects": [
+      14,
+      32
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Thần Tâm Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 33,
+        "value": 800
+      },
+      {
+        "id": 9,
+        "value": 150
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 10,
+        "value": 50
+      }
+    ],
+    "effects": [
+      14,
+      32,
+      11
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Thần Thoại Linh Tâm Nguyên",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 33,
+        "value": 2000
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 32,
+        "value": 400
+      }
+    ],
+    "effects": [
+      14,
+      32,
+      11,
+      30
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Phàm Luyện Hóa Quyết",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 1,
+        "value": 10
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 82,
+    "name": "Linh Luyện Hóa Công",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 1,
+        "value": 25
+      },
+      {
+        "id": 43,
+        "value": 25
+      }
+    ],
+    "effects": [
+      15
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Tiên Luyện Hóa Pháp",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 1,
+        "value": 60
+      },
+      {
+        "id": 43,
+        "value": 60
+      },
+      {
+        "id": 56,
+        "value": 60
+      }
+    ],
+    "effects": [
+      15,
+      16
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Thần Luyện Hóa Đạo",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 1,
+        "value": 150
+      },
+      {
+        "id": 43,
+        "value": 150
+      },
+      {
+        "id": 56,
+        "value": 150
+      },
+      {
+        "id": 9,
+        "value": 150
+      }
+    ],
+    "effects": [
+      15,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Thần Thoại Hóa Công",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 1,
+        "value": 400
+      },
+      {
+        "id": 43,
+        "value": 400
+      },
+      {
+        "id": 56,
+        "value": 400
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 16,
+        "value": 400
+      }
+    ],
+    "effects": [
+      15,
+      16,
+      18,
+      17
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Phàm Chính Đạo Công",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 20,
+        "value": 20
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 87,
+    "name": "Linh Chính Đạo Pháp",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 20,
+        "value": 50
+      },
+      {
+        "id": 32,
+        "value": 25
+      }
+    ],
+    "effects": [
+      26
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Tiên Chính Đạo Thuật",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 20,
+        "value": 130
+      },
+      {
+        "id": 32,
+        "value": 60
+      },
+      {
+        "id": 7,
+        "value": 60
+      }
+    ],
+    "effects": [
+      26,
+      25
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Thần Chính Đạo Kinh",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 20,
+        "value": 330
+      },
+      {
+        "id": 32,
+        "value": 150
+      },
+      {
+        "id": 7,
+        "value": 150
+      },
+      {
+        "id": 44,
+        "value": 150
+      }
+    ],
+    "effects": [
+      26,
+      25,
+      29
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Thần Thoại Chính Đạo Thánh",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 20,
+        "value": 800
+      },
+      {
+        "id": 32,
+        "value": 400
+      },
+      {
+        "id": 7,
+        "value": 400
+      },
+      {
+        "id": 44,
+        "value": 400
+      },
+      {
+        "id": 29,
+        "value": 30000
+      }
+    ],
+    "effects": [
+      26,
+      25,
+      29,
+      40
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Phàm Ma Đạo Công",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 14,
+        "value": 20
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 92,
+    "name": "Linh Ma Đạo Pháp",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 14,
+        "value": 50
+      },
+      {
+        "id": 4,
+        "value": 40
+      }
+    ],
+    "effects": [
+      38
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Tiên Ma Đạo Thuật",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 14,
+        "value": 130
+      },
+      {
+        "id": 4,
+        "value": 100
+      },
+      {
+        "id": 41,
+        "value": 60
+      }
+    ],
+    "effects": [
+      38,
+      8
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Thần Ma Đạo Kinh",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 14,
+        "value": 330
+      },
+      {
+        "id": 4,
+        "value": 250
+      },
+      {
+        "id": 41,
+        "value": 150
+      },
+      {
+        "id": 50,
+        "value": 80
+      }
+    ],
+    "effects": [
+      38,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Thần Thoại Ma Đạo Tôn",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 14,
+        "value": 800
+      },
+      {
+        "id": 4,
+        "value": 600
+      },
+      {
+        "id": 41,
+        "value": 400
+      },
+      {
+        "id": 50,
+        "value": 200
+      },
+      {
+        "id": 2,
+        "value": 300
+      }
+    ],
+    "effects": [
+      38,
+      8,
+      6,
+      30
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Phàm Thần Công",
+    "rarity": 1,
+    "stats": [
+      {
+        "id": 2,
+        "value": 8
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": 97,
+    "name": "Linh Thần Công Pháp",
+    "rarity": 2,
+    "stats": [
+      {
+        "id": 2,
+        "value": 20
+      },
+      {
+        "id": 3,
+        "value": 20
+      }
+    ],
+    "effects": [
+      27
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Tiên Thần Công Đạo",
+    "rarity": 3,
+    "stats": [
+      {
+        "id": 2,
+        "value": 50
+      },
+      {
+        "id": 3,
+        "value": 50
+      },
+      {
+        "id": 10,
+        "value": 25
+      }
+    ],
+    "effects": [
+      27,
+      28
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Thần Công Toàn Năng",
+    "rarity": 4,
+    "stats": [
+      {
+        "id": 2,
+        "value": 120
+      },
+      {
+        "id": 3,
+        "value": 120
+      },
+      {
+        "id": 10,
+        "value": 50
+      },
+      {
+        "id": 9,
+        "value": 150
+      }
+    ],
+    "effects": [
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Thần Thoại Vô Thượng Thần Công",
+    "rarity": 5,
+    "stats": [
+      {
+        "id": 2,
+        "value": 300
+      },
+      {
+        "id": 3,
+        "value": 300
+      },
+      {
+        "id": 10,
+        "value": 100
+      },
+      {
+        "id": 9,
+        "value": 400
+      },
+      {
+        "id": 29,
+        "value": 30000
+      }
+    ],
+    "effects": [
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+]
