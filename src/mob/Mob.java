@@ -135,8 +135,7 @@ public class Mob {
                 }
                 if (!mob76Die && plAtt != null && plAtt.playerSkill != null && plAtt.playerSkill.skillSelect != null) {
                     switch (plAtt.playerSkill.skillSelect.template.id) {
-                        case Skill.LIEN_HOAN, Skill.ANTOMIC, Skill.MASENKO, Skill.KAMEJOKO ->
-                            damage = 1;
+                        case Skill.LIEN_HOAN, Skill.ANTOMIC, Skill.MASENKO, Skill.KAMEJOKO -> damage = 1;
                     }
                 }
             }
@@ -582,7 +581,7 @@ public class Mob {
     /**
      * Lấy danh sách vật phẩm rơi khi quái chết
      * ĐÃ REFACTOR: Sử dụng MobRewardService để load cấu hình từ Database
-     * 
+     *
      * @param player Người chơi giết quái
      * @param x      Tọa độ x rơi item
      * @param yEnd   Tọa độ y rơi item
@@ -620,6 +619,8 @@ public class Mob {
         }
         int mapid = player.zone.map.mapId;
 
+        // drop crash
+        player.getSession().cash += Util.nextInt(5, 30);
         // Map 5, 13 - Bình nước (cần check itemEvent.canDropBinhNuoc)
         if (mapid == 5 || mapid == 13) {
             Player pl = player.isPet ? ((Pet) player).master : player;
@@ -673,8 +674,8 @@ public class Mob {
 
         // Buff Buma - Có chat message
         if (player.nPoint.isBuma) {
-            int[] listitem = { 16, 1150, 1151, 1152, 1153, 1045, 1154, 663, 663, 665, 666, 667, 720 };
-            int[] listitem2 = { 1788, 15, 1430 };
+            int[] listitem = {16, 1150, 1151, 1152, 1153, 1045, 1154, 663, 663, 665, 666, 667, 720};
+            int[] listitem2 = {1788, 15, 1430};
             if (Util.isTrue(1, 800)) {
                 ItemMap it = new ItemMap(zone, listitem[Util.nextInt(0, 11)], 1, x, yEnd, player.id);
                 Service.gI().chat(player, "Em ơi chị lụm được hàng hiếm");

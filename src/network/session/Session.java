@@ -1,14 +1,12 @@
 package network.session;
 
 
-
-
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import network.handler.IKeySessionHandler;
 import network.handler.IMessageHandler;
 import network.handler.IMessageSendCollect;
@@ -19,7 +17,6 @@ import network.server.AntiLoginDDoS;
 import network.server.EMTIServer;
 import network.server.EmtiSessionManager;
 import utils.StringUtil;
-
 
 
 public class Session
@@ -37,6 +34,7 @@ public class Session
 
     /**
      * Gọi mỗi khi nhận được một packet từ client.
+     *
      * @return true nếu hợp lệ, false nếu đang flood → cần kick
      */
     public boolean checkPacketRate() {
@@ -94,8 +92,10 @@ public class Session
 
     // Giữ lại field để tránh NPE nếu code cũ tham chiếu,
     // nhưng chúng không còn được dùng để start thread nữa.
-    @Deprecated private Thread tSender;
-    @Deprecated private Thread tCollector;
+    @Deprecated
+    private Thread tSender;
+    @Deprecated
+    private Thread tCollector;
 
     private IKeySessionHandler keyHandler;
 
@@ -139,7 +139,8 @@ public class Session
             /*  96 */
             this.socket.setReceiveBufferSize(1048576);
             /*  97 */
-        } catch (Exception exception) {   exception.printStackTrace();
+        } catch (Exception exception) {
+            exception.printStackTrace();
         }
 
 
@@ -239,7 +240,8 @@ public class Session
                 }
 
                 this.socket.close();
-            } catch (IOException ex) {ex.printStackTrace();
+            } catch (IOException ex) {
+                ex.printStackTrace();
                 Logger.getLogger(Session.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
