@@ -2551,7 +2551,7 @@ public class BossesData {
                                         BossID.DEATH_BEAM_5 });
 
         public static final BossData DEATH_BEAM = new BossData(
-                        "$", // name
+                        "Death Beam", // name
                         ConstPlayer.XAYDA, // gender
                         new short[] { 609, 610, 611, -1, -1, -1 }, // outfit {head, body, leg, bag, aura, eff}
                         1_000_000_000, // dame

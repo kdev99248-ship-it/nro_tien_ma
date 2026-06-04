@@ -128,7 +128,6 @@ public class BossManager implements Runnable {
 
             Logger.success(
                     "Loaded " + allConfigs.size() + " configs and spawned " + bossCount + " bosses from Database.\n");
-
             // Kết nối các nhóm boss (Group Linking)
             linkGroupBosses();
 

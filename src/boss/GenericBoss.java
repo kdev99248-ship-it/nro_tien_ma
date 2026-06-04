@@ -22,7 +22,7 @@ public class GenericBoss extends Boss {
 
     protected long st;
     protected int timeLeaveMap;
-    
+
     // State cho các logic đặc biệt
     private long lastTimeHapThu;
     private int timeHapThu;
@@ -59,11 +59,11 @@ public class GenericBoss extends Boss {
                 isGroupOrder = true; // Mặc định những con sinh ra theo bầy sẽ đánh lần lượt
             }
         }
-        
+
         if (isGroupOrder) {
             checkGroupOrder();
         }
-        
+
         handleMcCommentary(abilities);
         handlePetrifyPlayers(abilities);
         super.update();
@@ -74,7 +74,7 @@ public class GenericBoss extends Boss {
         if (this.bossAppearTogether == null || this.bossAppearTogether.length <= lvl || this.bossAppearTogether[lvl] == null) {
             return;
         }
-        
+
         Boss activeBoss = null;
         for (Boss b : this.bossAppearTogether[lvl]) {
             if (b != null && !b.isDie()) {
@@ -187,7 +187,7 @@ public class GenericBoss extends Boss {
                 // Siêu Bọ Hung logic: triệu hồi đệ tử khi thấp máu
                 if (abilities.containsKey("summonOnHpThreshold") && !isSummoned) {
                     double threshold = ((Number) abilities.get("summonOnHpThreshold")).doubleValue();
-                    if (this.nPoint.hp <= (long)(this.nPoint.hpMax * threshold)) {
+                    if (this.nPoint.hp <= (long) (this.nPoint.hpMax * threshold)) {
                         handleSieuBoHungSummon(abilities);
                         return 0; // Tránh chết ngay lập tức khi đang triệu hồi
                     }
@@ -202,11 +202,11 @@ public class GenericBoss extends Boss {
                 long max = smTnCfg.containsKey("max") ? ((Number) smTnCfg.get("max")).longValue() : 5000;
                 long cap = smTnCfg.containsKey("cap") ? ((Number) smTnCfg.get("cap")).longValue() : 1000000;
                 long threshold = smTnCfg.containsKey("powerThreshold") ? ((Number) smTnCfg.get("powerThreshold")).longValue() : 120_000_000_000L;
-                
-                long tnSm = damage * Util.nextInt((int)min, (int)max) / 100; // Giả sử tính theo % damage hoặc số nhân
-                if (tnSm > cap) tnSm = cap - Util.nextInt((int)cap/10);
+
+                long tnSm = damage * Util.nextInt((int) min, (int) max) / 100; // Giả sử tính theo % damage hoặc số nhân
+                if (tnSm > cap) tnSm = cap - Util.nextInt((int) cap / 10);
                 if (plAtt.nPoint.power > threshold) tnSm = Util.nextInt(1000);
-                
+
                 services.Service.gI().addSMTN(plAtt, (byte) 2, tnSm, true);
             }
 
@@ -307,9 +307,10 @@ public class GenericBoss extends Boss {
                 if (zoneid < this.zone.map.zones.size()) {
                     this.zone = this.zone.map.zones.get(zoneid);
                 }
-                services.func.ChangeMapService.gI().changeMap(this, this.zone, Util.nextInt(100, 500), 
+                services.func.ChangeMapService.gI().changeMap(this, this.zone, Util.nextInt(100, 500),
                         this.zone.map.yPhysicInTop(this.location.x, this.location.y - 24));
                 this.changeStatus(BossStatus.CHAT_S);
+                this.notifyJoinMap();
             } catch (Exception e) {
                 this.changeStatus(BossStatus.REST);
             }
@@ -449,11 +450,11 @@ public class GenericBoss extends Boss {
         if (!Util.canDoWithTime(this.lastTimeHapThu, this.timeHapThu)) {
             return;
         }
-        
+
         @SuppressWarnings("unchecked")
         Map<String, Object> cfg = (Map<String, Object>) abilities.get("absorbPlayer");
         int chance = cfg.containsKey("chance") ? ((Number) cfg.get("chance")).intValue() : 1;
-        
+
         if (!Util.isTrue(chance, 100)) {
             return;
         }
@@ -462,24 +463,24 @@ public class GenericBoss extends Boss {
         if (pl == null || pl.isDie() || pl.isBoss) {
             return;
         }
-        
+
         services.func.ChangeMapService.gI().changeMapYardrat(this, this.zone, pl.location.x, pl.location.y);
-        
+
         int dameBonus = cfg.containsKey("dameBonusRate") ? ((Number) cfg.get("dameBonusRate")).intValue() : 5;
         int hpBonus = cfg.containsKey("hpBonusRate") ? ((Number) cfg.get("hpBonusRate")).intValue() : 2;
-        
+
         this.nPoint.dameg += (pl.nPoint.dame * dameBonus / 100);
         this.nPoint.hpg += (pl.nPoint.hp * hpBonus / 100);
         this.nPoint.critg++;
         this.nPoint.calPoint();
-        
+
         services.PlayerService.gI().hoiPhuc(this, pl.nPoint.hp, 0);
         pl.injured(null, pl.nPoint.hpMax, true, false);
-        
+
         Service.gI().sendThongBao(pl, "Bạn vừa bị " + this.name + " hấp thu!");
         this.chat(2, "Ui cha cha, kinh dị quá. " + pl.name + " vừa bị tên " + this.name + " nuốt chửng kìa!!!");
         this.chat("Haha, ngọt lắm đấy " + pl.name + "..");
-        
+
         this.lastTimeHapThu = System.currentTimeMillis();
         int minTime = cfg.containsKey("minTime") ? ((Number) cfg.get("minTime")).intValue() : 10000;
         int maxTime = cfg.containsKey("maxTime") ? ((Number) cfg.get("maxTime")).intValue() : 20000;
@@ -496,15 +497,15 @@ public class GenericBoss extends Boss {
                 this.changeStatus(BossStatus.AFK);
                 this.changeToTypeNonPK();
                 services.PlayerService.gI().hoiPhuc(this, this.nPoint.hpMax, 0);
-                
+
                 String msg1 = abilities.containsKey("summonMsg1") ? (String) abilities.get("summonMsg1") : "Hãy đấu với các con của ta!";
                 this.chat(msg1);
                 EMTI.Functions.sleep(2000);
-                
+
                 String msg2 = abilities.containsKey("summonMsg2") ? (String) abilities.get("summonMsg2") : "Cứ chưởng tiếp đi haha";
                 this.chat(msg2);
                 EMTI.Functions.sleep(2000);
-                
+
                 int lvl = Math.max(0, this.currentLevel);
                 if (this.bossAppearTogether != null && this.bossAppearTogether.length > lvl && this.bossAppearTogether[lvl] != null) {
                     for (Boss boss : this.bossAppearTogether[lvl]) {
@@ -526,13 +527,13 @@ public class GenericBoss extends Boss {
         if (abilities == null || !abilities.containsKey("mcCommentary") || this.zone == null) {
             return;
         }
-        
+
         Player mc = this.zone.getNpc();
         if (mc == null) return;
 
         @SuppressWarnings("unchecked")
         Map<String, Object> cfg = (Map<String, Object>) abilities.get("mcCommentary");
-        
+
         // Chat logic
         int chatInterval = cfg.containsKey("chatInterval") ? ((Number) cfg.get("chatInterval")).intValue() : 3000;
         if (Util.canDoWithTime(this.lastTimeMcChat, chatInterval)) {
