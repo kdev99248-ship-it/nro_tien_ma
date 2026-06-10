@@ -19,7 +19,13 @@
       "Bash(rtk ls *)",
       "Bash(unzip -l server.jar)",
       "Bash(chmod +x run.sh)",
-      "Bash(bash -n run.sh)"
+      "Bash(bash -n run.sh)",
+      "Bash(rtk find *)",
+      "Bash(awk -F, '{ id=$1; gsub\\(/[\\(\\)]/,\"\",id\\); last=$NF; status=\\(last ~ /NULL/\\)?\"NULL\":\"SET\"; printf \"%s\\\\t%s\\\\n\", id, status }')",
+      "Bash(git ls-files *)",
+      "Bash(rtk git *)",
+      "Bash(python fill_custom_class.py)",
+      "Bash(python fill_custom_class.py --apply)"
     ]
   },
   "enableAllProjectMcpServers": true,

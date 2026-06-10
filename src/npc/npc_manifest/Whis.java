@@ -45,11 +45,9 @@ public class Whis extends Npc {
                         createOtherMenu(player, ConstNpc.BASE_MENU,
                                 "Thử đánh với ta xem nào.\nNgươi còn 1 lượt nữa cơ mà.",
                                 "Nói chuyện",
-
                                 "Top 100",
                                 "Học\ntuyệt kỹ",
                                 "[LV:" + (player.traning.getTop() + 1) + "]"
-
                         );
                     } else {
                         createOtherMenu(player, ConstNpc.BASE_MENU,

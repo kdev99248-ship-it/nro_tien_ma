@@ -103,17 +103,17 @@ public class BossManager implements Runnable {
                 String rewardCfg = primary.getRewardConfig();
                 BossType bt = primary.parseBossType();
 
-                Logger.log("\u001b[0;36m", String.format(
-                        " Boss[%d] %-25s | skills=%d | reward=%s | type=%s | levels=%d | spawn=%d\n",
-                        bossId,
-                        primary.getName(),
-                        skills != null ? skills.length : 0,
-                        (rewardCfg != null && !rewardCfg.isEmpty() && !rewardCfg.equals("{}")) ? "CÓ"
-                                : "THIẾU",
-                        bt != null ? bt.name() : "DEFAULT",
-                        levels.size(),
-                        spawnCount
-                ));
+//                Logger.log("\u001b[0;36m", String.format(
+//                        " Boss[%d] %-25s | skills=%d | reward=%s | type=%s | levels=%d | spawn=%d\n",
+//                        bossId,
+//                        primary.getName(),
+//                        skills != null ? skills.length : 0,
+//                        (rewardCfg != null && !rewardCfg.isEmpty() && !rewardCfg.equals("{}")) ? "CÓ"
+//                                : "THIẾU",
+//                        bt != null ? bt.name() : "DEFAULT",
+//                        levels.size(),
+//                        spawnCount
+//                ));
                 for (int i = 0; i < spawnCount; i++) {
                     try {
                         Boss boss = createBossFromConfig(primary, dataArray);
@@ -233,8 +233,14 @@ public class BossManager implements Runnable {
                         throw e; // Rethrow if still not found
                     }
                 }
-                return (Boss) clazz.getConstructor(BossConfig.class, BossData[].class)
-                        .newInstance(config, data);
+                if (customClass.contains("The23rdMartialArtCongress") || customClass.contains("DeathOrAliveArena")) {
+                    Logger.log("Boss class : " + clazz.getName());
+                    return (Boss) clazz.getConstructor(BossConfig.class, BossData[].class)
+                            .newInstance(config, data);
+                }
+                Logger.log("Boss class : " + clazz.getName() + "\n");
+                return (Boss) clazz.getConstructor()
+                        .newInstance();
             } else {
                 // Default instantiation - kiểm tra BossType để thêm vào manager chuyên biệt
                 BossType bt = config.parseBossType();
