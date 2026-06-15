@@ -447,6 +447,16 @@ public class NDVSqlFetcher {
                 itemBodySize++;
             }
 
+            // Tu Tien (data_tutien): load TRUOC calPoint de buff Pha Canh ap ngay luc login
+            try {
+                String dataTuTien = rs.getString("data_tutien");
+                if (dataTuTien != null && !dataTuTien.isEmpty()) {
+                    player.tuTien = tutien.TuTienService.gI().fromJson(dataTuTien);
+                }
+            } catch (Exception ex) {
+                player.tuTien = null;
+            }
+
             player.setClothes.setup();
             player.nPoint.calPoint();
             player.partDanhHieu = player.getTitle();

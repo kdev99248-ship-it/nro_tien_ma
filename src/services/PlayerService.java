@@ -150,6 +150,9 @@ public class PlayerService {
             player.location.x = x;
             player.location.y = y;
             player.location.lastTimeplayerMove = System.currentTimeMillis();
+            if (player.isPl() && player.tuTien != null && player.tuTien.meditating) {
+                tutien.TuTienService.gI().cancelMeditate(player, "Đả tọa bị gián đoạn do di chuyển");
+            }
             switch (player.zone.map.mapId) {
                 case 85:
                 case 86:

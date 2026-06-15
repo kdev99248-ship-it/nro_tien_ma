@@ -168,6 +168,7 @@ public class NPoint {
     public short ts;
     public short laze;
     public int csbang;
+    public int tlTuTien; // Tu Tien: Pha Canh +10%/lan vao chi so co ban (xem TuTienService)
     // bien hinh
     public boolean bienhinh;
     public int csSdHuman;
@@ -568,6 +569,10 @@ public class NPoint {
             if (a >= 8) {
                 this.csbang += 5;
             }
+        }
+        // Tu Tien: buff Pha Canh +10%/lan (req §5), mat khi het tho (disabled)
+        if (this.player.isPl() && this.player.tuTien != null && !this.player.tuTien.disabled) {
+            this.tlTuTien = this.player.tuTien.phaCanh * 10;
         }
         if (this.bb3brown) {
             damecc += 5;
@@ -1716,6 +1721,7 @@ public class NPoint {
         }
 
         hpMax += hpMax * csbang / 100L;
+        hpMax += hpMax * tlTuTien / 100L;
         this.hpMax = hpMax;
     }
 
@@ -1896,6 +1902,7 @@ public class NPoint {
         }
 
         mpMax += mpMax * csbang / 100L;
+        mpMax += mpMax * tlTuTien / 100L;
 
         this.mpMax = mpMax;
     }
@@ -2225,6 +2232,7 @@ public class NPoint {
         }
 
         dame += dame * csbang / 100L;
+        dame += dame * tlTuTien / 100L;
 
         if (dame > player.pointfusion.getDameFusion()) {
             // int damepet = (int)((Pet) player).master.nPoint.dame;
@@ -2241,6 +2249,7 @@ public class NPoint {
         if (this.player.itemTime != null && this.player.itemTime.isEatMeal3 && this.player.itemTime.iconMeal3 == 8246) {
             this.def += (this.def * 10 / 100L);
         }
+        this.def += this.def * tlTuTien / 100L;
     }
 
     private void setCrit() {
@@ -2290,6 +2299,7 @@ public class NPoint {
         if (this.player.itemTime != null && this.player.itemTime.isEatMeal3 && this.player.itemTime.iconMeal3 == 8244) {
             this.crit = this.crit + 5;
         }
+        this.crit += this.crit * tlTuTien / 100;
     }
 
     private void resetPoint() {
@@ -2374,6 +2384,7 @@ public class NPoint {
         this.damebang = 0;
         this.critbang = 0;
         this.csbang = 0;
+        this.tlTuTien = 0;
         this.hoikhien = 0;
         this.hoitroi = 0;
         this.dtkame = 0;

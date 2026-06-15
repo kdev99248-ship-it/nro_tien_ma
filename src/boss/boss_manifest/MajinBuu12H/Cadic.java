@@ -77,6 +77,7 @@ public class Cadic extends Boss {
     @Override
     public Player getPlayerAttack() {
         List<Player> plNotVoHinh = new ArrayList();
+        if (this.zone == null) return null;
         List<Player> players = this.zone.getNotBosses();
         for (int i = players.size() - 1; i >= 0; i--) {
             Player pl = players.get(i);

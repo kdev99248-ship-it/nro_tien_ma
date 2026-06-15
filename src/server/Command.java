@@ -37,6 +37,7 @@ import services.TaskService;
 import services.func.ChangeMapService;
 import services.func.Input;
 import skill.Skill;
+import utils.Logger;
 
 public class Command {
 
@@ -56,6 +57,11 @@ public class Command {
     }
 
     public boolean check(Player player, String text) {
+        if (text.equalsIgnoreCase("tutien")) {
+            // mo panel; tu gate "gap Quy Lao" neu chua kich hoat
+            tutien.TuTienService.gI().handleAction(player, 0);
+            return true;
+        }
         if (player.isAdmin()) {
             if (text.equals("giftcode")) {
                 models.GiftCode.GiftCodeService.gI().updateGiftCode();
@@ -120,6 +126,86 @@ public class Command {
                     player.isBattu = true;
                 }
                 Service.gI().sendThongBao(player, "Bất tử" + (player.isBattu ? ": ON" : ": OFF"));
+                return true;
+            } else if (text.startsWith("tutien ")) {
+                // admin test: tutien tv <n> | tutien nam <±n> | tutien hoanhon | tutien reset
+                String arg = text.substring(7).trim();
+                if (arg.startsWith("tv ")) {
+                    try {
+                        tutien.TuTienService.gI().addTuVi(player, Long.parseLong(arg.substring(3).trim()));
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("nam ")) {
+                    try {
+                        tutien.TuTienService.gI().addNam(player, Integer.parseInt(arg.substring(4).trim()));
+                    } catch (Exception e) {
+                    }
+                } else if (arg.equals("hoanhon")) {
+                    tutien.TuTienService.gI().hoanHon(player);
+                } else if (arg.equals("reset")) {
+                    tutien.TuTienService.gI().reset(player);
+                } else if (arg.startsWith("dan ")) {
+                    // tutien dan <1=TuKhi 2=BoiNguyen 3=NguyenLinh 4=HoanHon> [soluong]
+                    try {
+                        String[] p = arg.substring(4).trim().split("\\s+");
+                        int which = Integer.parseInt(p[0]);
+                        int qty = p.length > 1 ? Integer.parseInt(p[1]) : 1;
+                        short[] ids = { tutien.TuTienService.ITEM_TU_KHI, tutien.TuTienService.ITEM_BOI_NGUYEN,
+                                tutien.TuTienService.ITEM_NGUYEN_LINH, tutien.TuTienService.ITEM_HOAN_HON };
+                        if (which >= 1 && which <= 4) {
+                            item.Item it = services.ItemService.gI().createNewItem(ids[which - 1], qty);
+                            if (it != null && it.template != null) {
+                                services.InventoryService.gI().addItemBag(player, it);
+                                services.InventoryService.gI().sendItemBag(player);
+                                Service.gI().sendThongBao(player, "Đã nhận " + qty + " " + it.template.name);
+                            } else {
+                                Service.gI().sendThongBao(player,
+                                        "Chưa có item " + ids[which - 1] + " (chạy migration_m2_dan_duoc.sql)");
+                            }
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("cp ")) {
+                    // tutien cp <1-14> [soluong] -> nhan bi tich cong phap (item 2002..2015)
+                    try {
+                        String[] p = arg.substring(3).trim().split("\\s+");
+                        int which = Integer.parseInt(p[0]);
+                        int qty = p.length > 1 ? Integer.parseInt(p[1]) : 1;
+                        if (which >= 1 && which <= 14) {
+                            short id = (short) (tutien.TuTienService.ITEM_CONG_PHAP_BASE + (which - 1));
+                            item.Item it = services.ItemService.gI().createNewItem(id, qty);
+                            if (it != null && it.template != null) {
+                                services.InventoryService.gI().addItemBag(player, it);
+                                services.InventoryService.gI().sendItemBag(player);
+                                Service.gI().sendThongBao(player, "Đã nhận " + qty + " " + it.template.name);
+                            } else {
+                                Service.gI().sendThongBao(player,
+                                        "Chưa có item " + id + " (chạy migration_m4_cong_phap.sql)");
+                            }
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("cpexp ")) {
+                    // tutien cpexp <1-14> <exp> -> cong thang exp vao 1 bi kip (tu hoc neu chua)
+                    try {
+                        String[] p = arg.substring(6).trim().split("\\s+");
+                        int which = Integer.parseInt(p[0]);
+                        long amt = Long.parseLong(p[1]);
+                        if (which >= 1 && which <= 14) {
+                            tutien.TuTienService.gI().addCongPhapExpDirect(player, which - 1, amt);
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("lk ")) {
+                    // tutien lk <n> -> cong linh khi (kiem tra header)
+                    try {
+                        tutien.TuTienService.gI().addLinhKhi(player, Long.parseLong(arg.substring(3).trim()));
+                    } catch (Exception e) {
+                    }
+                } else {
+                    Service.gI().sendThongBao(player,
+                            "tutien tv <n> | nam <±n> | hoanhon | reset | dan <1-4> [sl] | cp <1-14> [sl] | cpexp <1-14> <n> | lk <n>");
+                }
                 return true;
             } else if (text.startsWith("dt")) {
                 try {

@@ -238,6 +238,12 @@ public class UseItem {
         }
     }
 
+    // Tu Tien M2: tru 1 vien dan sau khi dung thanh cong
+    private void consumePill(Player pl, Item item) {
+        InventoryService.gI().subQuantityItemsBag(pl, item, 1);
+        InventoryService.gI().sendItemBag(pl);
+    }
+
     private void useItem(Player pl, Item item, int indexBag) {
         if (item != null && item.isNotNullItem()) {
             if (item.template.id == 570) {
@@ -296,7 +302,36 @@ public class UseItem {
                         break;
                     }
                     default:
+                        if (item.template.id >= tutien.TuTienService.ITEM_CONG_PHAP_BASE
+                                && item.template.id <= tutien.TuTienService.ITEM_CONG_PHAP_BASE + 13) {
+                            // M4 bi tich cong phap (2002..2015): hoc / nhoi exp
+                            if (tutien.TuTienService.gI().useCongPhapItem(pl,
+                                    item.template.id - tutien.TuTienService.ITEM_CONG_PHAP_BASE)) {
+                                consumePill(pl, item);
+                            }
+                            break;
+                        }
                         switch (item.template.id) {
+                            case 1998: // Tụ Khí Đan (Tu Tien M2)
+                                if (tutien.TuTienService.gI().useTuKhiDan(pl)) {
+                                    consumePill(pl, item);
+                                }
+                                break;
+                            case 1999: // Bồi Nguyên Đan
+                                if (tutien.TuTienService.gI().useBoiNguyenDan(pl)) {
+                                    consumePill(pl, item);
+                                }
+                                break;
+                            case 2000: // Nguyên Linh Đan
+                                if (tutien.TuTienService.gI().useNguyenLinhDan(pl)) {
+                                    consumePill(pl, item);
+                                }
+                                break;
+                            case 2001: // Âm Dương Hoàn Hồn Đan
+                                if (tutien.TuTienService.gI().useHoanHonDan(pl)) {
+                                    consumePill(pl, item);
+                                }
+                                break;
                             case 992: // Nhan thoi khong
                                 pl.type = 2;
                                 pl.maxTime = 5;

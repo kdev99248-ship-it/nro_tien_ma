@@ -71,6 +71,7 @@ public class ServerManager {
 
     public void init() {
         Manager.gI();
+        tutien.TuTienTemplate.initTemplates(); // M3: load Thien Tien Khi Van + cac template tu tien (data/tutien/*.json)
         HistoryTransactionDAO.deleteHistory();
     }
 

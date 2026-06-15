@@ -1130,7 +1130,7 @@ public class PlayerDAO {
                         + "`rank` = ?, data_super_rank = ?, data_achievement = ?, giftcode = ?, firstTimeLogin = ?, dataBadges = ?, dataTaskBadges = ?, dailyGift = ?, "
                         + "event_point = ?, event_point_boss = ?, event_point_nhs = ?, event_point_quai = ?, diem_quy_lao = ?, "
                         + "hp_point_fusion = ?, mp_point_fusion = ?, dame_point_fusion = ?, so_su_menh = ?, pointtet = ?,san_boss_points = ?,received_boss_reward =?,"
-                        + "check_in = ?, hpbang =?, mpbang=?, damebang =?, critbang =?,`option` =?,choice = ?,vip=?, data_mercenary = ?, data_cooking = ?"
+                        + "check_in = ?, hpbang =?, mpbang=?, damebang =?, critbang =?,`option` =?,choice = ?,vip=?, data_mercenary = ?, data_cooking = ?, data_tutien = ?"
                         + " where id = ?";
 
                 DBConnecter.executeUpdate(query,
@@ -1207,6 +1207,7 @@ public class PlayerDAO {
                         player.vip,
                         dataMercenary,
                         player.dataCooking != null ? player.dataCooking : "",
+                        tutien.TuTienService.gI().toJson(player.tuTien), // null = chua kich hoat Tu Tien
 
                         // player.nPoint.power,
                         player.id);

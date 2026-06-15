@@ -22,11 +22,14 @@ public class CanhGioi {
     public static final int THUONG   = 3;  // 上 Late
     public static final int VIEN_MAN = 4;  // 圓滿 Peak / Perfection
 
+    // Luyện Khí: tầng 14/15/16 = Phá Cảnh 1/2/3 (+10% chỉ số cơ bản, +20 năm thọ mỗi lần)
+    public static final int LK_PHA_CANH_START = 14;
+
     // ── Number of sub-stages per realm ───────────────────────────────────────
-    // Luyện Khí has 10 numbered tầng; all others have 4 named stages.
+    // Luyện Khí has 16 numbered tầng (13 thường + 3 Phá Cảnh); others have 4 named stages.
     public static final int[] STAGES = {
         0,   // 0  unused
-        10,  // 1  Luyện Khí  : Tầng 1 – 10
+        16,  // 1  Luyện Khí  : Tầng 1 – 13, Phá Cảnh 14 – 16
         4,   // 2  Trúc Cơ    : Sơ / Trung / Thượng / Viên Mãn
         4,   // 3  Kết Tinh
         4,   // 4  Kim Đan
@@ -59,12 +62,16 @@ public class CanhGioi {
         "", "Sơ", "Trung", "Thượng", "Viên Mãn"
     };
 
+    // Giai đoạn Luyện Khí theo tầng (req docs/req/req.md §4-§5)
+    private static final String[] LK_GIAI_DOAN = { "Sơ Kỳ", "Trung Kỳ", "Hậu Kỳ" };
+
     // ── Max tu vi per sub-stage [realm][0-based stage index] ──────────────────
     // Reaching this value within the current stage allows advancing to the next.
     // Last stage of Đăng Tiên has no cap (Long.MAX_VALUE).
     public static final long[][] MAX_TU_VI_PER_STAGE = {
         {},                                                                          // 0  unused
-        {100,100,100,100,100,100,100,100,100,100},                                   // 1  Luyện Khí  (×10)
+        {1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000,
+         1000, 1000, 1000, 2000, 2500, 3000},                                        // 1  Luyện Khí  (tầng 1-13 = 1000/tầng — tăng độ khó | Phá Cảnh: 2000/2500/3000)
         {2_500L,          2_500L,          2_500L,          2_500L},                 // 2  Trúc Cơ
         {25_000L,         25_000L,         25_000L,         25_000L},                // 3  Kết Tinh
         {250_000L,        250_000L,        250_000L,        250_000L},               // 4  Kim Đan
@@ -79,7 +86,7 @@ public class CanhGioi {
     // Cumulative max tu vi to reach each realm (sum of all stages below).
     public static final long[] MAX_TU_VI = {
         0L,
-        1_000L,               // 1  Luyện Khí       (10 × 100)
+        20_500L,              // 1  Luyện Khí       (Σ tầng 1-13 = 13 000 + Phá Cảnh 7 500)
         10_000L,              // 2  Trúc Cơ         (4 × 2500)
         100_000L,             // 3  Kết Tinh        (4 × 25000)
         1_000_000L,           // 4  Kim Đan         (4 × 250000)
@@ -106,11 +113,24 @@ public class CanhGioi {
 
     public static String stageNameOf(int realm, int stage) {
         if (realm == LUYEN_KHI) {
-            if (stage < 1 || stage > 10) return "";
-            return "Tầng " + stage;
+            if (stage < 1 || stage > 16) return "";
+            return "Tầng " + stage + " - " + giaiDoanOf(realm, stage);
         }
         if (stage < 1 || stage > 4) return "";
         return STAGE_NAMES_OTHER[stage];
+    }
+
+    // "Sơ Kỳ" (1-3), "Trung Kỳ" (4-6), "Hậu Kỳ" (7-9), "Viên Mãn" (10-13), "Phá Cảnh 1-3" (14-16)
+    public static String giaiDoanOf(int realm, int stage) {
+        if (realm != LUYEN_KHI) return stageNameOf(realm, stage);
+        if (stage < 1 || stage > 16) return "";
+        if (stage >= LK_PHA_CANH_START) return "Phá Cảnh " + (stage - LK_PHA_CANH_START + 1);
+        if (stage >= 10) return "Viên Mãn";
+        return LK_GIAI_DOAN[(stage - 1) / 3];
+    }
+
+    public static boolean isPhaCanhStage(int realm, int stage) {
+        return realm == LUYEN_KHI && stage >= LK_PHA_CANH_START;
     }
 
     public static int stageCount(int realm) {

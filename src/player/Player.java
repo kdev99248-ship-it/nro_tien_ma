@@ -87,6 +87,7 @@ public class Player implements Runnable {
     private MySession session;
 
     public SoSuMenhPlayer sosumenhplayer;
+    public tutien.TuTien tuTien; // null = chua hoc Tu Tien (kich hoat qua NPC Quy Lao, xem TuTienService)
     public int partDanhHieu;
     public boolean titleitem;
     public long id;
@@ -379,6 +380,10 @@ public class Player implements Runnable {
                     }
                     if (magicTree != null) {
                         magicTree.update();
+                    }
+                    if (this.isPl()) {
+                        // tick tu tien phai nam o block nay de van chay trong map nha
+                        tutien.TuTienService.gI().tick(this);
                     }
                     if (this.isPl() && this.zone != null && this.zone.map.mapId == this.gender + 21
                             && (TaskService.gI().getIdTask(this) == ConstTask.TASK_0_0
@@ -1419,6 +1424,9 @@ public class Player implements Runnable {
             if (this.isBattu) {
                 return 0;
             }
+            if (this.isPl() && this.tuTien != null && this.tuTien.meditating) {
+                tutien.TuTienService.gI().cancelMeditate(this, "Đả tọa bị gián đoạn do bị tấn công");
+            }
             if (plAtt != null && this.isPet && ((Pet) this).master.id == plAtt.id) {
                 if (this.effectSkill != null && !this.effectSkill.isHalloween) {
                     EffectSkillService.gI().setIsHalloween(this, -1, 1800000);
@@ -1619,6 +1627,9 @@ public class Player implements Runnable {
     protected void setDie(Player plAtt) {
         TaskService.gI().checkDoneTaskKillPlayer(plAtt);
         if (this.isPl()) {
+            if (this.tuTien != null && this.tuTien.meditating) {
+                tutien.TuTienService.gI().cancelMeditate(this, "Đả tọa bị gián đoạn");
+            }
             long vangtru = this.nPoint.power / 1000000;
             if (vangtru > 32000) {
                 vangtru = 32000;

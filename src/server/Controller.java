@@ -175,6 +175,13 @@ public class Controller implements IMessageHandler {
                         }
                     }
                     break;
+                case 124:
+                    if (player != null) {
+                        byte actionTuTien = _msg.reader().readByte();
+                        byte paramTuTien = _msg.reader().readByte(); // M4: index bi kip cho action 4 (0 cho action khac)
+                        tutien.TuTienService.gI().handleAction(player, actionTuTien, paramTuTien);
+                    }
+                    break;
                 case 123:
                     if (player != null) {
                         try {

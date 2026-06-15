@@ -52,6 +52,7 @@ public class QuyLaoKame extends Npc {
             menu.add("Học Skill\nnăng mới");
             menu.add("Quà Mốc Nạp");
             menu.add("Hộp Thư");
+            menu.add("Học\nTu Tiên");
             String[] menus = menu.toArray(String[]::new);
             if (!TaskService.gI().checkDoneTaskTalkNpc(player, this)) {
                 this.createOtherMenu(player, ConstNpc.BASE_MENU, "Con muốn hỏi gì nào?", menus);
@@ -106,6 +107,7 @@ public class QuyLaoKame extends Npc {
                                             + " món)",
                                     "Xóa Hết\nHòm Thư", "Đóng");
                         }
+                        case 4 -> tutien.TuTienService.gI().activate(player); // đã học → chỉ mở bảng
                     }
                 }
                 case ConstNpc.MAIL_BOX -> {

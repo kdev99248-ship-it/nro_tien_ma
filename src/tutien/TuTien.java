@@ -144,6 +144,23 @@ public class TuTien {
     public int cultivationGain;   // Thu hoạch được tu vi    (#10)  (%)
     public int startSpiritStones; // Bắt đầu linh thạch      (#53)
 
+    // ── Trạng thái vòng lặp tu luyện M1 (KHÔNG rename — Gson persist theo tên) ─
+    public volatile boolean disabled;  // hết tuổi thọ → vô hiệu hóa tu tiên (persist)
+    public int  phaCanh;               // số lần Phá Cảnh đã qua 0–3 → NPoint +10%/lần (persist)
+    public int  namTuTien;             // số năm tu tiên đã trôi (persist)
+    public long msAccumYear;           // ms cộng dồn tới năm kế tiếp (persist)
+    public long msAccumTuVi;           // ms hiệu dụng cộng dồn tới điểm tu vi kế tiếp (persist)
+    public long tuKhiBuffMs;           // Tụ Khí Đan: real-ms còn lại x2 tốc độ tu luyện (persist)
+    public int  khiVanId;              // M3 (legacy — chỉ để migrate sang khiVanIds; không dùng cho logic mới) (persist)
+    public int[] khiVanIds;            // M3.5 Thiên Tiên Khí Vận: danh sách trait đang mang (số lượng theo cảnh giới) (persist)
+    public int  khiVanRollCharges;     // M3.5: số lượt roll còn lại — mỗi đột phá cảnh giới nhỏ +1 (persist)
+    public int[] congPhap;             // M4: 14 cấp bí kíp đã học (0 = chưa học; 0-6 linh căn, 7-13 võ học) (persist)
+    public int[] congPhapExp;          // M4: 14 exp trong cấp hiện tại của từng bí kíp (persist)
+    public long linhKhi;               // M4: linh khí tích lũy — tài nguyên header + nuôi exp công pháp (persist)
+    public long msAccumLinhKhi;        // M4: ms hiệu dụng cộng dồn tới điểm linh khí kế tiếp (persist)
+    public transient volatile boolean meditating; // đả tọa — transient, Gson không lưu
+    public transient long lastTickMs;             // mốc tick trước — transient
+
 
     // ── Apply a stat delta by attribute ID ───────────────────────────────────
     public void applyStat(int attrId, int delta) {

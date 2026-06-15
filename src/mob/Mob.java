@@ -620,7 +620,9 @@ public class Mob {
         int mapid = player.zone.map.mapId;
 
         // drop crash
-        player.getSession().cash += Util.nextInt(5, 30);
+        if (player.getSession() != null) {
+            player.getSession().cash += Util.nextInt(5, 30);
+        }
         // Map 5, 13 - Bình nước (cần check itemEvent.canDropBinhNuoc)
         if (mapid == 5 || mapid == 13) {
             Player pl = player.isPet ? ((Pet) player).master : player;
