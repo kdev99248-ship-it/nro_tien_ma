@@ -551,6 +551,7 @@ public class InventoryService {
             for (int i = 0; i < player.inventory.itemsBag.size(); i++) {
                 Item item = player.inventory.itemsBag.get(i);
                 if (!item.isNotNullItem()) {
+                    msg.writer().writeShort(-1);
                     continue;
                 }
                 msg.writer().writeShort(item.template.id);

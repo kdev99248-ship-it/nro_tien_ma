@@ -53,6 +53,9 @@ public class QuyLaoKame extends Npc {
             menu.add("Quà Mốc Nạp");
             menu.add("Hộp Thư");
             menu.add("Học\nTu Tiên");
+            menu.add("Mua\nCông Pháp");
+            menu.add("Học\nLuyện Đan");
+            menu.add("Ghep Qua\nLuyen Dan");
             String[] menus = menu.toArray(String[]::new);
             if (!TaskService.gI().checkDoneTaskTalkNpc(player, this)) {
                 this.createOtherMenu(player, ConstNpc.BASE_MENU, "Con muốn hỏi gì nào?", menus);
@@ -108,6 +111,15 @@ public class QuyLaoKame extends Npc {
                                     "Xóa Hết\nHòm Thư", "Đóng");
                         }
                         case 4 -> tutien.TuTienService.gI().activate(player); // đã học → chỉ mở bảng
+                        case 5 -> ShopService.gI().opendShop(player, "CONGPHAP_QUYLAO", false); // M7: shop công pháp (linh thạch)
+                        case 6 -> tutien.TuTienService.gI().learnDanSu(player);
+                        case 7 -> {
+                            if (player.tuTien == null || player.tuTien.danSuLevel < tutien.TuTienService.DAN_SU_LEVEL_MIN) {
+                                Service.gI().sendThongBao(player, "Con chua hoc Luyen Dan! Hay chon \"Hoc Luyen Dan\" o Quy Lao de hoc truoc.");
+                            } else {
+                                models.Combine.CombineService.gI().openTabCombine(player, models.Combine.CombineService.GHEP_QUA);
+                            }
+                        } // M8: học Luyện Đan
                     }
                 }
                 case ConstNpc.MAIL_BOX -> {
@@ -263,6 +275,13 @@ public class QuyLaoKame extends Npc {
                         }
                     }
                 }
+                case models.Combine.CombineService.MENU_GHEP_QUA_CONFIRM -> {
+                    if (player.combine != null
+                            && player.combine.typeCombine == models.Combine.CombineService.GHEP_QUA
+                            && select == 0) {
+                        models.Combine.CombineService.gI().startCombine(player);
+                    }
+                }
                 case ConstNpc.MENU_OPENED_DBKB -> {
                     switch (select) {
                         case 2 -> {
@@ -331,17 +350,23 @@ public class QuyLaoKame extends Npc {
                         return;
                     }
 
-                    if (player.linhDanhThueList.size() >= 2) {
+                    java.util.List<LinhDanhThue> paid = new java.util.ArrayList<>();
+                    for (LinhDanhThue m : player.linhDanhThueList) {
+                        if (m != null && !m.khiVanMinion) { // bỏ qua minion khí vận (Vong Linh/Lực Sĩ)
+                            paid.add(m);
+                        }
+                    }
+                    if (paid.size() >= 2) {
                         player.iDMark.setMercenaryDuration(select);
 
-                        String[] options = new String[player.linhDanhThueList.size() + 1];
-                        for (int i = 0; i < player.linhDanhThueList.size(); i++) {
-                            LinhDanhThue ldt = player.linhDanhThueList.get(i);
+                        String[] options = new String[paid.size() + 1];
+                        for (int i = 0; i < paid.size(); i++) {
+                            LinhDanhThue ldt = paid.get(i);
                             long secondsLeft = (ldt.getExpireTime() - System.currentTimeMillis()) / 1000;
                             long minutes = secondsLeft / 60;
                             options[i] = ldt.name + "\n(" + minutes + " phút)";
                         }
-                        options[player.linhDanhThueList.size()] = "Đóng";
+                        options[paid.size()] = "Đóng";
 
                         this.createOtherMenu(player, ConstNpc.MENU_MERCENARY_REPLACE,
                                 "Con đã có đủ 2 lính. Con muốn thay thế lính nào?", options);
@@ -351,8 +376,14 @@ public class QuyLaoKame extends Npc {
                     summonMercenary(player, select);
                 }
                 case ConstNpc.MENU_MERCENARY_REPLACE -> {
-                    if (select >= 0 && select < player.linhDanhThueList.size()) {
-                        LinhDanhThue ldt = player.linhDanhThueList.get(select);
+                    java.util.List<LinhDanhThue> paidR = new java.util.ArrayList<>();
+                    for (LinhDanhThue m : player.linhDanhThueList) {
+                        if (m != null && !m.khiVanMinion) {
+                            paidR.add(m);
+                        }
+                    }
+                    if (select >= 0 && select < paidR.size()) {
+                        LinhDanhThue ldt = paidR.get(select);
                         ldt.dispose();
                         if (player.linhDanhThueList.contains(ldt)) {
                             player.linhDanhThueList.remove(ldt);

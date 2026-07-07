@@ -105,6 +105,8 @@ public class CombineService {
     public static final int PHAN_RA_X1 = 530;
     public static final int PHAN_RA_X3 = 531;
     public static final int PHAN_RA_X5 = 532;
+    public static final int GHEP_QUA = 540;
+    public static final int MENU_GHEP_QUA_CONFIRM = 6100;
     private static CombineService instance;
 
     public final Npc baHatMit;
@@ -214,6 +216,8 @@ public class CombineService {
                 TinhThachHoa.showInfoCombine(player);
             case NANG_GIAP_LUYEN_TAP ->
                 NangGiapLuyenTap.showInfoCombine(player);
+            case GHEP_QUA ->
+                models.Combine.manifest.GhepQua.showInfoCombine(player);
 
         }
     }
@@ -301,6 +305,8 @@ public class CombineService {
                 TinhThachHoa.startCombine(player);
             case NANG_GIAP_LUYEN_TAP ->
                 NangGiapLuyenTap.startCombine(player);
+            case GHEP_QUA ->
+                models.Combine.manifest.GhepQua.ghepQua(player);
         }
 
         player.iDMark.setIndexMenu(ConstNpc.IGNORE_MENU);

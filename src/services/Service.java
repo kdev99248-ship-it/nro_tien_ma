@@ -526,6 +526,46 @@ public class Service {
         }
     }
 
+    // Tu Tien M7: flytext hiệu ứng combat (choáng / thiêu đốt / phản / cấm hồi / né / DoT) trên đầu nạn nhân.
+    // Server -> client. Dùng lại id -49 (trước chỉ là lệnh client->server) — receive-dispatch của client chưa từng xử lý -49.
+    // colorId khớp Controller.cs tuTienFxColor: 0 choáng, 1 thiêu đốt, 2 cấm hồi, 3 phản, 4 né, 5 DoT.
+    public void tuTienFlyEffect(Player victim, String text, int colorId) {
+        if (victim == null || text == null) {
+            return;
+        }
+        Message msg;
+        try {
+            msg = new Message(-49);
+            msg.writer().writeByte(0); // type 0 = player
+            msg.writer().writeInt((int) victim.id);
+            msg.writer().writeUTF(text);
+            msg.writer().writeByte(colorId);
+            sendMessAllPlayerInMap(victim, msg);
+            msg.cleanup();
+        } catch (Exception e) {
+            Logger.logException(Service.class, e);
+        }
+    }
+
+    // Tu Tien M7: flytext trên đầu MOB (võ học PvE: Điểm Huyệt / Bạo Kích). type 1 = mob, định danh bằng mob.id (byte).
+    public void tuTienFlyEffectMob(mob.Mob m, String text, int colorId) {
+        if (m == null || m.zone == null || text == null) {
+            return;
+        }
+        Message msg;
+        try {
+            msg = new Message(-49);
+            msg.writer().writeByte(1); // type 1 = mob
+            msg.writer().writeByte(m.id);
+            msg.writer().writeUTF(text);
+            msg.writer().writeByte(colorId);
+            sendMessAllPlayerInMap(m.zone, msg);
+            msg.cleanup();
+        } catch (Exception e) {
+            Logger.logException(Service.class, e);
+        }
+    }
+
     public void chatToAnotherNotMe(Player player, String text) {
         Message msg;
         try {
@@ -1512,7 +1552,7 @@ public class Service {
             msg = new Message(-94);
             for (Skill skill : pl.playerSkill.skills) {
                 msg.writer().writeShort(skill.skillId);
-                int timeLeft = (int) (skill.lastTimeUseThisSkill + skill.coolDown - System.currentTimeMillis());
+                int timeLeft = (int) (skill.lastTimeUseThisSkill + SkillService.gI().effectiveCooldown(pl, skill) - System.currentTimeMillis());
                 if (timeLeft < 0) {
                     timeLeft = 0;
                 }
@@ -1529,7 +1569,7 @@ public class Service {
         try {
             msg = new Message(-94);
             msg.writer().writeShort(skill.skillId);
-            int timeLeft = (int) (skill.lastTimeUseThisSkill + skill.coolDown - System.currentTimeMillis());
+            int timeLeft = (int) (skill.lastTimeUseThisSkill + SkillService.gI().effectiveCooldown(pl, skill) - System.currentTimeMillis());
             if (timeLeft < 0) {
                 timeLeft = 0;
             }

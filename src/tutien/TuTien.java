@@ -102,6 +102,7 @@ public class TuTien {
     public int staminaMax;        // Tinh lực hạn mức cao nhất (#52)
     public int mental;            // Niệm lực                (#33)
     public int mentalMax;         // Niệm lực hạn mức cao nhất (#34)
+    public int mood;              // M6: Tâm tình hiện tại (không có attr id; ảnh hưởng tốc độ tu luyện)
     public int moodMax;           // Tâm tình hạn mức cao nhất (#35)
     public int health;            // Khỏe mạnh               (#22)
     public int healthMax;         // Khỏe mạnh hạn mức cao nhất (#23)
@@ -158,8 +159,13 @@ public class TuTien {
     public int[] congPhapExp;          // M4: 14 exp trong cấp hiện tại của từng bí kíp (persist)
     public long linhKhi;               // M4: linh khí tích lũy — tài nguyên header + nuôi exp công pháp (persist)
     public long msAccumLinhKhi;        // M4: ms hiệu dụng cộng dồn tới điểm linh khí kế tiếp (persist)
+    public boolean moodInit;           // M6: đã khởi tạo tâm tình hiện tại chưa (migrate save cũ: false -> mood=moodMax) (persist)
+    public int activeVoHoc;            // M7: võ học đang dùng (0=không; 1-6=Kiếm/Đao/Thương/Quyền/Chỉ/Chưởng -> congPhap[6+n]) (persist)
+    public int  danSuLevel;            // M8: cấp Luyện Đan Sư (0 = save cũ -> migrate thành 1) (persist)
+    public long danSuExp;              // M8: kinh nghiệm luyện đan trong cấp hiện tại (persist)
     public transient volatile boolean meditating; // đả tọa — transient, Gson không lưu
     public transient long lastTickMs;             // mốc tick trước — transient
+    public transient long msAccumSpirit;          // M5: ms cộng dồn cho nhịp tiêu hao/hồi tinh lực & niệm lực — transient
 
 
     // ── Apply a stat delta by attribute ID ───────────────────────────────────

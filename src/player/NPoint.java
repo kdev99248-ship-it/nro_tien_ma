@@ -36,7 +36,8 @@ public class NPoint {
     public static final byte MAX_LIMIT = 13;
 
     @Setter
-    private Player player;;
+    private Player player;
+    ;
     public boolean diexinbato;
     public boolean diexoihecquen;
     public boolean xoihecquen;
@@ -60,6 +61,7 @@ public class NPoint {
     private Intrinsic intrinsic;
     private int percentDameIntrinsic;
     public long dameAfter;
+    public long dameAfterTuTien; // Tu Tien: Tồn Thương Sau -> đòn đánh kế tiếp +% (1 nhịp, reset sau khi dùng)
     private PowerLimit powerLimit;
     /*-----------------------Chỉ số cơ bản------------------------------------*/
     public byte numAttack;
@@ -169,6 +171,15 @@ public class NPoint {
     public short laze;
     public int csbang;
     public int tlTuTien; // Tu Tien: Pha Canh +10%/lan vao chi so co ban (xem TuTienService)
+
+    // ── Tu Tiên: thuộc tính chiến đấu -> % chỉ số thật (tunable, req combat redesign) ──
+    private static final int TT_ATK_DAME_PCT = 1;           // Công Kích : +1% tlDame / điểm
+    private static final int TT_DEF_PCT = 1;                // Phòng Ngự : +1% tlDef / điểm
+    private static final int TT_REP_PCT = 1;                // Danh Vọng : +1% dame/hp/mp / điểm
+    private static final int TT_CHARM_HP_PCT = 7;           // Mị Lực    : +7% HP / điểm
+    private static final int TT_CHARM_MP_PCT = 7;           // Mị Lực    : +7% MP / điểm
+    private static final int TT_LUCK_CRIT_PCT = 1;          // May Mắn   : +1% tỷ lệ chí mạng / điểm
+    private static final int TT_PERCEPTION_CRITDMG_PCT = 5; // Hiểu Ý    : +5% sát thương chí mạng / điểm
     // bien hinh
     public boolean bienhinh;
     public int csSdHuman;
@@ -298,6 +309,7 @@ public class NPoint {
     public boolean isQuanDiBien;
 
     /*-------------------------------------------------------------------------*/
+
     /**
      * Tính toán mọi chỉ số sau khi có thay đổi
      */
@@ -574,6 +586,8 @@ public class NPoint {
         if (this.player.isPl() && this.player.tuTien != null && !this.player.tuTien.disabled) {
             this.tlTuTien = this.player.tuTien.phaCanh * 10;
         }
+        // Tu Tien: thuộc tính chiến đấu (Công Kích/Phòng Ngự/May Mắn/Hiểu Ý/Mị Lực/Danh Vọng) -> NPoint
+        applyTuTienAttributes();
         if (this.bb3brown) {
             damecc += 5;
         }
@@ -737,7 +751,7 @@ public class NPoint {
         }
         if (this.player.isPet && (((Pet) this.player).typePet == 2)
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             if (player.choice == 1) {
                 this.kamejokoop += player.optde;
             } else if (player.choice == 2) {
@@ -748,7 +762,7 @@ public class NPoint {
         }
         if (this.player.isPet && (((Pet) this.player).typePet == 3)
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             if (player.choice == 1) {
                 this.damgalick += player.optde;
             } else if (player.choice == 2) {
@@ -759,7 +773,7 @@ public class NPoint {
         }
         if (this.player.isPet && (((Pet) this.player).typePet == 4)
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             if (player.choice == 1) {
                 this.lienhoanop += player.optde;
             } else if (player.choice == 2) {
@@ -1062,6 +1076,41 @@ public class NPoint {
     private void setSpeed() {
         if (player.isPl()) {
             speed = (byte) (5 + 3 * (tlSpeed / 100));
+        }
+    }
+
+    /**
+     * Tu Tiên: cộng thuộc tính chiến đấu vào NPoint (chạy trước setBasePoint).
+     * Công Kích->tlDame, Phòng Ngự->tlDef, Mị Lực->tlHp/tlMp, May Mắn->crit (dư>100% xử lý cuối setCrit),
+     * Hiểu Ý->sát thương chí mạng, Danh Vọng->dame+hp+mp. Ngộ Tính & Hộ Tâm & Tồn Thương Sau xử lý nơi khác.
+     */
+    private void applyTuTienAttributes() {
+        if (!this.player.isPl() || this.player.tuTien == null || this.player.tuTien.disabled) {
+            return;
+        }
+        tutien.TuTien t = this.player.tuTien;
+        int rep = Math.max(0, t.reputation);
+        int damePct = Math.max(0, t.atk) * TT_ATK_DAME_PCT + rep * TT_REP_PCT;
+        if (damePct > 0) {
+            this.tlDame.add(damePct);
+        }
+        int defPct = Math.max(0, t.def) * TT_DEF_PCT;
+        if (defPct > 0) {
+            this.tlDef.add(defPct);
+        }
+        int hpPct = Math.max(0, t.charm) * TT_CHARM_HP_PCT + rep * TT_REP_PCT;
+        if (hpPct > 0) {
+            this.tlHp.add(hpPct);
+        }
+        int mpPct = Math.max(0, t.charm) * TT_CHARM_MP_PCT + rep * TT_REP_PCT;
+        if (mpPct > 0) {
+            this.tlMp.add(mpPct);
+        }
+        this.critAdd += Math.max(0, t.luck) * TT_LUCK_CRIT_PCT;
+        int critDmg = Math.max(0, t.perception) * TT_PERCEPTION_CRITDMG_PCT;
+        if (critDmg > 0) {
+            this.tlDameCrit.add(critDmg);
+            this.tlSDCM += critDmg;
         }
     }
 
@@ -1372,8 +1421,8 @@ public class NPoint {
                                 .filter(item -> item.isNotNullItem() && item.template.type == 32
                                         && item.itemOptions != null
                                         && item.itemOptions.stream()
-                                                .filter(io -> io.optionTemplate.id == 9 && io.param > 0).findFirst()
-                                                .orElse(null) != null)
+                                        .filter(io -> io.optionTemplate.id == 9 && io.param > 0).findFirst()
+                                        .orElse(null) != null)
                                 .findFirst().orElse(null);
                         if (gtl == null) {
                             return;
@@ -1567,12 +1616,12 @@ public class NPoint {
         // Xử broly bass
         if (this.player.isPet && ((Pet) this.player).typePet >= 2
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             hpMax += (hpMax * 20 / 100L);
         }
         if (this.player.isPet && ((Pet) this.player).typePet == 1
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             hpMax += (hpMax * 10 / 100L);
         }
         // }
@@ -1722,6 +1771,7 @@ public class NPoint {
 
         hpMax += hpMax * csbang / 100L;
         hpMax += hpMax * tlTuTien / 100L;
+        hpMax += hpMax * tutien.CongPhapCombat.thoHpBonusPct(this.player) / 100L; // Tu Tien M7: Thổ Pháp +HP%
         this.hpMax = hpMax;
     }
 
@@ -1782,12 +1832,12 @@ public class NPoint {
         // Xử lý broly base
         if (this.player.isPet && ((Pet) this.player).typePet == 1
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             mpMax += (this.mpMax * 10 / 100L);
         }
         if (this.player.isPet && ((Pet) this.player).typePet >= 2
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             mpMax += (this.mpMax * 20 / 100L);
         }
 
@@ -2022,14 +2072,14 @@ public class NPoint {
         // Xử lý pet mabư
         if (this.player.isPet && ((Pet) this.player).typePet == 1
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             dame += (dame * 10 / 100L);
         }
 
         // Xử lý pet br
         if (this.player.isPet && ((Pet) this.player).typePet >= 2
                 && (((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA
-                        || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
+                || ((Pet) this.player).master.fusion.typeFusion == ConstPlayer.HOP_THE_PORATA2)) {
             dame += (dame * 20 / 100L);
         }
 
@@ -2076,7 +2126,7 @@ public class NPoint {
         if ((!this.player.isPet && this.player.itemTime != null && this.player.itemTime.isEatMeal
                 && this.player.itemTime.iconMeal != 14839
                 || this.player.isPet && this.player.itemTime != null && ((Pet) this.player).master.itemTime.isEatMeal
-                        && ((Pet) this.player).master.itemTime.iconMeal != 14839)) {
+                && ((Pet) this.player).master.itemTime.iconMeal != 14839)) {
             dame += dame * 10 / 100L;
         }
 
@@ -2244,6 +2294,9 @@ public class NPoint {
 
     private void setDef() {
         this.def = this.defg * 4;
+        for (Integer i : this.tlDef) {
+            this.def += (this.def * i / 100);
+        }
         this.def += this.defAdd;
         // Xử lý thức ăn 3
         if (this.player.itemTime != null && this.player.itemTime.isEatMeal3 && this.player.itemTime.iconMeal3 == 8246) {
@@ -2300,6 +2353,13 @@ public class NPoint {
             this.crit = this.crit + 5;
         }
         this.crit += this.crit * tlTuTien / 100;
+        // May Mắn (req §3): TỔNG tỷ lệ chí mạng > 100% -> phần dư đổ sang SÁT THƯƠNG chí mạng (chỉ player tu tiên)
+        if (this.player.isPl() && this.player.tuTien != null && !this.player.tuTien.disabled && this.crit > 100) {
+            int overflow = this.crit - 100;
+            this.crit = 100;
+            this.tlSDCM += overflow;
+            this.tlDameCrit.add(overflow);
+        }
     }
 
     private void resetPoint() {
@@ -2412,6 +2472,10 @@ public class NPoint {
 
     public void addHp(long hp) {
         if (hp > 0) {
+            hp = tutien.CongPhapCombat.modifyHeal(this.player, hp); // Tu Tien M7: Phong Mạch chặn / Mộc khuếch đại hồi máu
+            if (hp <= 0) {
+                return;
+            }
             long potentialHp = this.hp + hp;
             if (potentialHp > this.hpMax) {
                 this.hp = this.hpMax;
@@ -2828,6 +2892,7 @@ public class NPoint {
 
         dameAttack += (dameAttack * percentDameIntrinsic / 100);
         dameAttack += (dameAttack * dameAfter / 100);
+        dameAttack += (dameAttack * dameAfterTuTien / 100); // Tu Tien: Tồn Thương Sau (đòn kế)
         if (this.player.effectSkill != null && this.player.effectSkill.isDameBuff && tlSexyDame == 0) {
             int tiLeDame = this.player.effectSkill.tileDameBuff;
             dameAttack += (dameAttack * tiLeDame / 100L);
@@ -2842,11 +2907,19 @@ public class NPoint {
         }
 
         dameAfter = 0;
+        dameAfterTuTien = 0; // Tu Tien: Tồn Thương Sau tiêu thụ 1 nhịp
 
         if (isCrit) {
             dameAttack *= 2;
             dameAttack += (dameAttack * tlSDCM / 100);
         }
+
+        // Tu Tien M7: hiệu ứng tấn công công pháp (Lôi/Phong proc + Thổ Lv3 DamageAdd) — sau crit để ăn crit
+        dameAttack = tutien.CongPhapCombat.attackerDamage(this.player, dameAttack, isCrit, isAttackMob);
+        // Tu Tien M7: hiệu ứng tấn công võ học đang dùng (Kiếm liên kích / Đao bạo kích / Quyền battle stack)
+        dameAttack = tutien.VoHocCombat.attackerDamage(this.player, dameAttack, isCrit, isAttackMob);
+        // Tu Tien M3.5: khí vận proc tấn công (bắn nguyên tố Hỏa/Thủy/Lôi/Phong Tứ Xạ)
+        dameAttack = tutien.KhiVanCombat.attackerDamage(this.player, dameAttack);
 
         dameAttack += ((long) dameAttack * percentXDame / 100);
 
@@ -2858,8 +2931,8 @@ public class NPoint {
 
         if (player.effectSkin != null && player.effectSkin.isXChuong
                 && (player.playerSkill.skillSelect.template.id == Skill.KAMEJOKO
-                        || player.playerSkill.skillSelect.template.id == Skill.ANTOMIC
-                        || player.playerSkill.skillSelect.template.id == Skill.MASENKO)) {
+                || player.playerSkill.skillSelect.template.id == Skill.ANTOMIC
+                || player.playerSkill.skillSelect.template.id == Skill.MASENKO)) {
             dameAttack *= xChuong;
             player.effectSkin.isXDame = true;
             player.effectSkin.isXChuong = false;

@@ -25,6 +25,7 @@ import utils.Util;
 
 public class LinhDanhThue extends Player {
     public Player master;
+    public boolean khiVanMinion = false; // M3.5 Phase 3: minion khí vận (Vong Linh/Lực Sĩ) — KHÔNG tính là lính thuê trả phí
     private long lastSpawnTime = 0;
     private long lastTimeDie = 0;
     private int timeSurvive = 0; // milliseconds

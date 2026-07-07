@@ -1,0 +1,36 @@
+{
+  "_comment": "M3.5 Khi Van proc params — server tu dinh nghia (data goc khong co). Sua so roi restart de reload.",
+
+  "700016_fsgl": 8,  "700016_dmg": 60,
+  "700017_fsgl": 8,  "700017_dmg": 55,
+  "700119_lqgl": 10, "700119_dmg": 70,
+  "700121_cfgl": 10, "700121_dmg": 50,
+
+  "700050_sfgl": 12, "700060_sfgl": 8, "700061_sfgl": 5,
+
+  "700107_dlgl": 15, "700107_lk": 60,  "700108_dlgl": 15, "700108_lk": 120,
+  "700109_dlgl": 15, "700109_tv": 15,  "700110_dlgl": 15, "700110_tv": 30,
+
+  "_comment2": "Phase 2 — xxbl=hut mau %, ljsh=nguong %maxHP/tang, tssh=+dmg %/tang, bxgl=bien hinh %, cxsj=choang (ms)",
+  "700028_xxbl": 8,
+  "700033_ljsh": 10, "700033_tssh": 1,
+  "700001_bxgl": 8,  "700001_cxsj": 2000,
+  "700002_bxgl": 10, "700002_cxsj": 2500,
+  "700003_bxgl": 12, "700003_cxsj": 3000,
+
+  "_comment3": "Phase 2 chinh/ta: ta_div=ma dao/div=>+dmg%, chinh_div=chinh dao/div=>+heal%, cap=tran %",
+  "path_ta_div": 20, "path_ta_cap": 30,
+  "path_chinh_div": 40, "path_chinh_cap": 15,
+
+  "_comment4": "Phase 3 trieu hoi: zhgl=proc %, zhsx=max minion song; quy_tu_sec/700025_sec=thoi luong (giay); 700025_cd=cooldown (giay); summon_*_pct=minion = % chi so master",
+  "700022_zhgl": 12, "700022_zhsx": 1,
+  "700023_zhgl": 12, "700023_zhsx": 2,
+  "700024_zhgl": 15, "700024_zhsx": 3,
+  "quy_tu_sec": 60,
+  "700025_sec": 120, "700025_cd": 60,
+  "summon_dmg_pct": 35, "summon_hp_pct": 40,
+
+  "_comment5": "Khi Van B hook: craft_cultgain_div=(alchemyApt+refiningApt+fengShui)/div => +cultivationGain (tu luyen nhanh hon); mobility_haste_div=(moveSpeed+kickPower+bodyMasterySpd)/div => giam hoi chieu Dam/Chuong",
+  "craft_cultgain_div": 3,
+  "mobility_haste_div": 8
+}

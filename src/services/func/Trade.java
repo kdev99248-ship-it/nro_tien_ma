@@ -205,6 +205,7 @@ public class Trade {
         switch (item.template.id) {
             case 454:
             case 921:
+            case tutien.TuTienService.ITEM_TIEN_DUYEN: // M9: Tien Duyen khong giao dich duoc (bind tai khoan)
                 return true;
         }
         switch (item.template.type) {

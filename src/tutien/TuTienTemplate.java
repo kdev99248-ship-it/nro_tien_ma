@@ -31,6 +31,7 @@ public class TuTienTemplate {
         ATTRIBUTES.load();
         ThienTienTemplate.load();
         ThienTienTemplate.EFFECTS.load();
+        ThienTienParams.load(); // M3.5 Khí Vận: bảng % proc
         HauThienTemplate.load();
         HauThienTemplate.EFFECTS.load();
         TamPhapTemplate.load();
@@ -38,6 +39,7 @@ public class TuTienTemplate {
         ThanThongTemplate.load();
         ThanThongTemplate.EFFECTS.load();
         ThanThongTemplate.ELEMENTS.load();
+        DanPhuongTemplate.load(); // M8 Luyen Dan: dan phuong tu DB (tutien_dan_phuong*)
     }
 
     public List<StatEntry> getStats()   { return stats   != null ? stats   : Collections.emptyList(); }

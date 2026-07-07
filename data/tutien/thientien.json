@@ -3798,11 +3798,11 @@
     {
       "id": 1002,
       "name": "Thiên Sinh Linh Thể",
-      "description": "Linh lực +100",
+      "description": "Thiên sinh linh thể: HP & Linh lực +14% (Mị lực +2)",
       "stats": [
         {
-          "id": 37,
-          "value": 100.0
+          "id": 7,
+          "value": 2.0
         }
       ],
       "effects": [],

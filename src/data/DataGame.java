@@ -5,6 +5,7 @@ package data;
  *
  * @author EMTI
  */
+import consts.cn;
 import encrypt.IconEncrypt;
 import encrypt.ImageUtil;
 import static encrypt.ImageUtil.encryptImage;
@@ -126,7 +127,7 @@ public class DataGame {
             for (MobTemplate temp : Manager.MOB_TEMPLATES) {
                 msg.writer().writeByte(temp.type);
                 msg.writer().writeUTF(temp.name);
-                msg.writer().writeInt(temp.hp);
+                msg.writeLongByEmti(temp.hp, cn.readInt);
                 msg.writer().writeByte(temp.rangeMove);
                 msg.writer().writeByte(temp.speed);
                 msg.writer().writeByte(temp.dartType);

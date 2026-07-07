@@ -408,6 +408,9 @@ public class Player implements Runnable {
                     if (effectSkill != null) {
                         effectSkill.update();
                     }
+                    if (this.isPl()) {
+                        this.tickTuTienBurn(); // Tu Tien M7: nhịp thiêu đốt Hỏa Pháp
+                    }
                     if (mobMe != null) {
                         mobMe.update();
                     }
@@ -1415,6 +1418,28 @@ public class Player implements Runnable {
         }
     }
 
+    // ── Tu Tien M7: trạng thái Hỏa Pháp thiêu đốt (DoT) + Phong Mạch (chặn hồi máu) — transient ─────
+    public transient int tuTienBurnStacks;
+    public transient long tuTienBurnPerStack;   // sát thương / stack / nhịp (snapshot lúc trúng)
+    public transient long tuTienBurnExpire;      // mốc hết hiệu lực thiêu đốt
+    public transient long tuTienBurnNextTick;    // mốc nhịp đốt kế tiếp
+    public transient Player tuTienBurnSource;    // kẻ gây thiêu đốt (để tính công khi chết do burn)
+    public transient long tuTienPhongMachExpire; // Phong Mạch: chặn hồi máu tới mốc này
+
+    // ── Tu Tien M7: trạng thái Võ Học (transient) ─────────────────────────────────────────────────
+    public transient boolean voHocLastCrit;  // Đao: đòn trước có chí mạng không
+    public transient int voHocBattleStack;    // Quyền: số tầng battle hiện tại
+    public transient long voHocLastAttackMs;  // Quyền: mốc đòn đánh gần nhất (reset tầng khi rời giao tranh)
+    public transient boolean inVoHocSplash;   // Chưởng/Thương: chống đệ quy khi sát thương lan
+    public transient boolean voHocBaoKichFx;  // Đao: cờ relay flytext "Bạo Kích!" (set ở attackerDamage, consume ở injured)
+    public transient String khiVanFxText;     // M3.5 Khí Vận: relay flytext proc (set ở KhiVanCombat, consume ở injured/Mob)
+    public transient int khiVanFxColor;       // màu flytext khí vận (palette lệnh -49)
+    public transient int khiVanRampStacks;    // M3.5 700033 Tiên Thụ Hậu Công: số tầng tăng dmg (reset khi rời giao tranh)
+    public transient long khiVanRampAccum;    // dmg đã tích, đủ ngưỡng -> +1 tầng
+    public transient long khiVanRampLastHit;  // mốc lần ăn dmg gần nhất (timeout 30s -> reset tầng)
+    public transient long khiVanHoangCanLast;  // M3.5 700025 Hoàng Cân: mốc lần triệu hồi gần nhất (cooldown)
+    public transient long khiVanBienHinhImmune; // M3.5 700001-3 biến hình: mốc hết miễn nhiễm choáng (chống chain-stun)
+
     // --------------------------------------------------------------------------
     public synchronized long injured(Player plAtt, long damage, boolean piercing, boolean isMobAttack) {
         if (!this.isDie()) {
@@ -1482,6 +1507,26 @@ public class Player implements Runnable {
                 }
             }
 
+            // Tu Tien M7: Phong Pháp né tránh (Lv3) — né hoàn toàn đòn đánh (PvP + PvE)
+            int neRate = tutien.CongPhapCombat.neRatePct(this);
+            if (neRate > 0 && Util.isTrue(neRate, 100)) {
+                services.Service.gI().tuTienFlyEffect(this, "Né", 4);
+                return 0;
+            }
+
+            // Tu Tien: Hộ Tâm (heartShield) giảm % sát thương từ đòn CHÍ MẠNG nhận vào (0.06%/điểm, trần 90%)
+            if (plAtt != null && plAtt.nPoint != null && plAtt.nPoint.isCrit
+                    && this.isPl() && this.tuTien != null && !this.tuTien.disabled && this.tuTien.heartShield > 0) {
+                int reducePct = Math.min(9000, this.tuTien.heartShield * 6); // 6/10000 = 0.06%/điểm
+                damage -= damage * reducePct / 10000;
+                if (damage < 0) {
+                    damage = 0;
+                }
+            }
+
+            // Tu Tien M7: Thủy Pháp giảm sát thương nhận vào (lv×3%)
+            damage = tutien.CongPhapCombat.thuyReduce(this, damage);
+
             int tlGiap = this.nPoint.tlGiap;
             int tlNeDon = this.nPoint.tlNeDon;
 
@@ -1510,6 +1555,16 @@ public class Player implements Runnable {
                             tlGiap = 0;
                         }
                     }
+                }
+            }
+
+            // Tu Tien M7: Thương Pháp bỏ giáp (wp/2%, xác suất xuyên toàn bộ)
+            int thuongIgnore = tutien.VoHocCombat.thuongArmorIgnorePct(plAtt);
+            if (thuongIgnore > 0) {
+                if (tutien.VoHocCombat.thuongFullPierceProc(plAtt)) {
+                    tlGiap = 0;
+                } else {
+                    tlGiap -= tlGiap * thuongIgnore / 100;
                 }
             }
 
@@ -1584,7 +1639,18 @@ public class Player implements Runnable {
             if (this.zone.map.mapId == 51) {
                 this.totalDamageTaken += damage;
             }
+            // Tu Tien M7: Mộc Pháp (Lv3) sát thương chuẩn cộng thêm (xuyên giáp) — cộng sau mọi giảm trừ
+            damage += tutien.CongPhapCombat.mocTrueDamage(plAtt, this);
+            // Tu Tien M7: Chỉ Pháp điểm huyệt — +0.5% HP tối đa mục tiêu (trần 300% công kích), trừ Boss lớn
+            long chiHuyet = tutien.VoHocCombat.chiHuyetBonus(plAtt, this.nPoint.hpMax, this.isBoss);
+            damage += chiHuyet;
+            if (chiHuyet > 0) {
+                services.Service.gI().tuTienFlyEffect(this, "Điểm Huyệt", 7);
+            }
+
             this.nPoint.subHP(Util.maxIntValue(damage));
+            // Tu Tien M3.5 Phase 2: 700033 Tiên Thụ Hậu Công — tích dmg đã nhận -> lên tầng tăng dmg (passive)
+            tutien.KhiVanCombat.onDamageTaken(this, damage);
             if ((plAtt != null || isMobAttack) && isDie() && !isBoss && !isNewPet && !isNewPet1) {
                 if (Util.isTrue(this.nPoint.tlBom, 100)) {
                     setBom(plAtt);
@@ -1593,9 +1659,174 @@ public class Player implements Runnable {
                 }
             }
 
+            // Tu Tien M7: hiệu ứng on-hit (Hỏa thiêu đốt / Phong Mạch / Lôi Lv3 choáng / Mộc Lv3 hồi) + Thủy phản đòn
+            tuTienOnHit(plAtt, isMobAttack);
+            tuTienCounter(plAtt, damage, isMobAttack);
+            // Tu Tien M7: Đao bạo kích ×10 -> flytext trên nạn nhân (consume cờ trước splash để chỉ hiện ở mục tiêu chính)
+            if (plAtt != null && plAtt.voHocBaoKichFx) {
+                plAtt.voHocBaoKichFx = false;
+                services.Service.gI().tuTienFlyEffect(this, "Bạo Kích!", 6);
+            }
+            // Tu Tien M3.5: khí vận proc (bắn nguyên tố) -> flytext trên nạn nhân
+            if (plAtt != null && plAtt.khiVanFxText != null) {
+                services.Service.gI().tuTienFlyEffect(this, plAtt.khiVanFxText, plAtt.khiVanFxColor);
+                plAtt.khiVanFxText = null;
+            }
+            // Tu Tien M3.5 Phase 2: khí vận on-hit lên nạn nhân NGƯỜI CHƠI (hút máu+chính-đạo cho atk; biến hình choáng)
+            if (plAtt != null && !isMobAttack && this.isPl() && !this.isDie()) {
+                long khHeal = tutien.KhiVanCombat.healOnHit(plAtt, damage); // hút máu Huyết Ma + chính-đạo (silent)
+                if (khHeal > 0 && plAtt.nPoint != null) {
+                    plAtt.nPoint.setHp(Math.min(plAtt.nPoint.hpMax, plAtt.nPoint.hp + khHeal));
+                }
+                int bienHinhMs = tutien.KhiVanCombat.bienHinhStunMs(plAtt, this); // biến "gà con" (tu tiên giả miễn nhiễm)
+                long nowMs = System.currentTimeMillis();
+                if (bienHinhMs > 0 && nowMs >= this.khiVanBienHinhImmune) { // chống chain-stun
+                    EffectSkillService.gI().startStun(this, nowMs, bienHinhMs);
+                    this.khiVanBienHinhImmune = nowMs + bienHinhMs + 6000L; // miễn nhiễm 6s sau khi tỉnh
+                    services.Service.gI().tuTienFlyEffect(this,
+                            "Biến Gà " + tutien.CongPhapCombat.secLabel(bienHinhMs) + "s", 6);
+                }
+            }
+            // Tu Tien M7: Chưởng / Thương Lv3 sát thương lan (AOE) sang người chơi lân cận (chống đệ quy qua inVoHocSplash)
+            if (plAtt != null && !plAtt.inVoHocSplash && !isMobAttack && this.zone != null) {
+                int splashPct = tutien.VoHocCombat.aoeSplashPct(plAtt);
+                if (splashPct > 0) {
+                    long splashDmg = damage * splashPct / 100;
+                    if (splashDmg > 0) {
+                        int range = tutien.VoHocCombat.aoeSplashRange(plAtt);
+                        plAtt.inVoHocSplash = true;
+                        try {
+                            for (Player pl : this.zone.getHumanoids()) {
+                                if (pl != this && pl != plAtt && !pl.isDie() && Util.getDistance(this, pl) <= range) {
+                                    pl.injured(plAtt, splashDmg, false, false);
+                                }
+                            }
+                        } finally {
+                            plAtt.inVoHocSplash = false;
+                        }
+                    }
+                }
+            }
+
             return damage;
         } else {
             return 0;
+        }
+    }
+
+    // ── Tu Tien M7: hiệu ứng on-hit của kẻ tấn công lên nạn nhân (this = nạn nhân) ──────────────
+    private void tuTienOnHit(Player plAtt, boolean isMobAttack) {
+        if (plAtt == null || isMobAttack || this.isDie() || !this.isPl()
+                || !tutien.CongPhapCombat.active(plAtt)) {
+            return;
+        }
+        long now = System.currentTimeMillis();
+        // Hỏa: cộng 1 stack thiêu đốt (DoT)
+        long perStack = tutien.CongPhapCombat.hoaBurnPerStack(plAtt);
+        if (perStack > 0) {
+            boolean burnFresh = now >= this.tuTienBurnExpire; // chưa cháy / đã hết hạn -> coi là mới
+            int maxS = tutien.CongPhapCombat.hoaBurnMaxStacks(plAtt);
+            if (now >= this.tuTienBurnExpire) {
+                this.tuTienBurnStacks = 0; // hết hạn -> reset trước khi cộng stack mới
+            }
+            this.tuTienBurnStacks = Math.min(maxS, this.tuTienBurnStacks + 1);
+            this.tuTienBurnPerStack = perStack;
+            this.tuTienBurnExpire = now + tutien.CongPhapCombat.BURN_DURATION_MS;
+            if (this.tuTienBurnNextTick <= now) {
+                this.tuTienBurnNextTick = now + tutien.CongPhapCombat.BURN_TICK_MS;
+            }
+            this.tuTienBurnSource = plAtt;
+            if (burnFresh) {
+                services.Service.gI().tuTienFlyEffect(this,
+                        "Thiêu Đốt " + tutien.CongPhapCombat.secLabel(tutien.CongPhapCombat.BURN_DURATION_MS) + "s", 1);
+            }
+        }
+        // Phong Mạch: chặn hồi máu (Mộc miễn nhiễm — xử lý ở modifyHeal)
+        if (tutien.CongPhapCombat.hasPhong(plAtt)) {
+            boolean pmFresh = this.tuTienPhongMachExpire <= now; // chưa bị cấm hồi -> hiện flytext 1 lần
+            this.tuTienPhongMachExpire = now + tutien.CongPhapCombat.phongMachMs();
+            if (pmFresh) {
+                services.Service.gI().tuTienFlyEffect(this,
+                        "Cấm Hồi " + tutien.CongPhapCombat.secLabel(tutien.CongPhapCombat.phongMachMs()) + "s", 2);
+            }
+        }
+        // Tu Tien M7: Chỉ Pháp Lv3 — điểm Phong Mạch 5s (chặn hồi HP/Linh Khí)
+        if (tutien.VoHocCombat.chiLv3PhongMach(plAtt)) {
+            // fresh + KHÔNG có Phong công pháp (tránh double "Cấm Hồi" khi cả 2 cùng áp)
+            boolean chiFresh = !tutien.CongPhapCombat.hasPhong(plAtt) && this.tuTienPhongMachExpire <= now;
+            this.tuTienPhongMachExpire = Math.max(this.tuTienPhongMachExpire, now + tutien.VoHocCombat.chiPhongMachMs());
+            if (chiFresh) {
+                services.Service.gI().tuTienFlyEffect(this,
+                        "Cấm Hồi " + tutien.CongPhapCombat.secLabel(tutien.VoHocCombat.chiPhongMachMs()) + "s", 2);
+            }
+        }
+        // Lôi Lv3: choáng
+        int stunRate = tutien.CongPhapCombat.loiStunRatePct(plAtt);
+        if (stunRate > 0 && Util.isTrue(stunRate, 100)) {
+            EffectSkillService.gI().startStun(this, now, tutien.CongPhapCombat.loiStunMs());
+            services.Service.gI().tuTienFlyEffect(this,
+                    "Choáng " + tutien.CongPhapCombat.secLabel(tutien.CongPhapCombat.loiStunMs()) + "s", 0);
+        }
+        // Mộc Lv3: kẻ tấn công hồi 1% maxHP / đòn
+        long heal = tutien.CongPhapCombat.mocHealOnHit(plAtt);
+        if (heal > 0 && plAtt.nPoint != null) {
+            NPoint ap = plAtt.nPoint;
+            ap.setHp(Math.min(ap.hpMax, ap.hp + heal));
+        }
+    }
+
+    // Thủy phản đòn: nạn nhân sống sót phản % sát thương đã nhận về kẻ tấn công
+    private void tuTienCounter(Player plAtt, long damageTaken, boolean isMobAttack) {
+        if (plAtt == null || isMobAttack || this.isDie() || !tutien.CongPhapCombat.active(this)) {
+            return;
+        }
+        long reflect = tutien.CongPhapCombat.thuyReflect(this, damageTaken);
+        if (reflect > 0) {
+            plAtt.takeTuTienTrue(this, reflect);
+            services.Service.gI().tuTienFlyEffect(plAtt, "Phản -" + tutien.CongPhapCombat.numShort(reflect), 3);
+        }
+    }
+
+    // Sát thương CHUẨN tu tiên (thiêu đốt / phản đòn) — xuyên giáp, KHÔNG tái kích hoạt on-hit (chống lặp)
+    public void takeTuTienTrue(Player source, long dmg) {
+        if (dmg <= 0 || this.isDie() || this.isBattu) {
+            return;
+        }
+        this.nPoint.subHP(Util.maxIntValue(dmg));
+        if (isDie() && !isBoss && !isNewPet && !isNewPet1) {
+            setDie(source);
+        }
+    }
+
+    // Nhịp thiêu đốt Hỏa Pháp — gọi từ update()
+    public void tickTuTienBurn() {
+        if (this.tuTienBurnStacks <= 0) {
+            return;
+        }
+        long now = System.currentTimeMillis();
+        if (now >= this.tuTienBurnExpire || this.isDie()) {
+            this.tuTienBurnStacks = 0;
+            this.tuTienBurnSource = null;
+            return;
+        }
+        if (now < this.tuTienBurnNextTick) {
+            return;
+        }
+        this.tuTienBurnNextTick = now + tutien.CongPhapCombat.BURN_TICK_MS;
+        long dmg = this.tuTienBurnPerStack * this.tuTienBurnStacks;
+        long cap = tutien.CongPhapCombat.burnTickCap(this);
+        if (cap > 0 && dmg > cap) {
+            dmg = cap;
+        }
+        if (dmg <= 0) {
+            return;
+        }
+        Player src = (this.tuTienBurnSource != null && !this.tuTienBurnSource.beforeDispose)
+                ? this.tuTienBurnSource : null; // nguồn đã thoát -> chết do burn không tính công
+        takeTuTienTrue(src, dmg);
+        services.Service.gI().tuTienFlyEffect(this, "-" + tutien.CongPhapCombat.numShort(dmg), 5);
+        if (this.isPl()) {
+            services.PlayerService.gI().sendInfoHpMp(this);
         }
     }
 

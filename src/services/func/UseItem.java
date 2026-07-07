@@ -332,6 +332,15 @@ public class UseItem {
                                     consumePill(pl, item);
                                 }
                                 break;
+                            case 2016: // Linh Thạch (Tu Tien): +linh khí + 1 chút tu vi
+                                if (tutien.TuTienService.gI().useLinhThachItem(pl)) {
+                                    consumePill(pl, item);
+                                }
+                                break;
+                            case 2039: // Tien Duyen (Tu Tien M9): tien te mo khoa, KHONG tieu khi dung
+                                Service.gI().sendThongBao(pl,
+                                        "Tien Duyen dung de hoc Tu Tien (150) & Luyen Dan (100) o Quy Lao - Dao Kame");
+                                break;
                             case 992: // Nhan thoi khong
                                 pl.type = 2;
                                 pl.maxTime = 5;

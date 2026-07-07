@@ -1,4 +1,5 @@
 package map;
+
 import boss.BossID;
 
 
@@ -463,7 +464,7 @@ public class Zone {
             }
             if (Util.canDoWithTime(lastTimeDropBall, ConstTranhNgocNamek.LAST_TIME_DROP_BALL)) {
                 int id = Util.nextInt(ConstItem.NGOC_RONG_NAMEK_1_SAO, ConstItem.NGOC_RONG_NAMEK_7_SAO);// ngoc rong
-                                                                                                        // namek day
+                // namek day
                 ItemMap it = this.getItemMapByTempId(id);
                 if (it == null && !findPlayerHaveBallTranhDoat(id)) {
                     lastTimeDropBall = System.currentTimeMillis();
@@ -527,18 +528,15 @@ public class Zone {
                                 msg.writer()
                                         .writeUTF(item.quantity > Short.MAX_VALUE
                                                 ? "Bạn vừa nhận được " + Util.chiaNho(item.quantity) + " "
-                                                        + item.template.name
+                                                + item.template.name
                                                 : "");
                                 PlayerService.gI().sendInfoHpMpMoney(player);
                             }
                             default -> {
                                 switch (item.template.id) {
-                                    case 73 ->
-                                        msg.writer().writeUTF("");
-                                    case 74 ->
-                                        msg.writer().writeUTF("Bạn mới vừa ăn " + item.template.name);
-                                    case 78 ->
-                                        msg.writer().writeUTF("Wow, một cậu bé dễ thương!");
+                                    case 73 -> msg.writer().writeUTF("");
+                                    case 74 -> msg.writer().writeUTF("Bạn mới vừa ăn " + item.template.name);
+                                    case 78 -> msg.writer().writeUTF("Wow, một cậu bé dễ thương!");
                                     default -> {
                                         // if (item.template.type >= 0 && item.template.type < 5) {
                                         // msg.writer().writeUTF(item.template.name + " ngon...");
@@ -562,7 +560,7 @@ public class Zone {
                         if (!(this.map.mapId >= 21 && this.map.mapId <= 23
                                 && itemMap.itemTemplate != null && itemMap.itemTemplate.id == 74
                                 || this.map.mapId >= 42 && this.map.mapId <= 44
-                                        && itemMap.itemTemplate != null && itemMap.itemTemplate.id == 78)) {
+                                && itemMap.itemTemplate != null && itemMap.itemTemplate.id == 78)) {
                             removeItemMap(itemMap);
                         }
                     } catch (Exception e) {
@@ -634,7 +632,7 @@ public class Zone {
                             Player pl = players.get(i);
                             if (!player.equals(pl) && (player instanceof NonInteractiveNPC
                                     || player.playerAtt != null
-                                            && player.playerAtt.equals(pl))) {
+                                    && player.playerAtt.equals(pl))) {
                                 infoPlayer(pl, player);
                             }
                         }
@@ -753,6 +751,7 @@ public class Zone {
             msg.writer().writeShort(plInfo.getAura()); // idauraeff
             msg.writer().writeByte(plInfo.getEffFront()); // seteff
             msg.writer().writeShort(plInfo.getHat()); // id hat
+            msg.writer().writeByte((plInfo.isPl() && plInfo.getSession().isAdmin) ? 1 : 0); // isTichXanh
             plReceive.sendMessage(msg);
             msg.cleanup();
         } catch (Exception e) {
@@ -846,7 +845,7 @@ public class Zone {
                             .writeBoolean(mob.tempId == ConstMob.GAU_TUONG_CUOP || mob.tempId == ConstMob.KONG
                                     || mob.tempId == ConstMob.GOZILLA
                                     || mob.tempId >= ConstMob.VOI_CHIN_NGA && mob.tempId <= ConstMob.PIANO); // is
-                                                                                                             // bigboss
+                    // bigboss
                 }
             } catch (Exception e) {
                 msg.writer().writeByte(0);

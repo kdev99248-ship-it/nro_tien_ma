@@ -178,8 +178,13 @@ public class Controller implements IMessageHandler {
                 case 124:
                     if (player != null) {
                         byte actionTuTien = _msg.reader().readByte();
-                        byte paramTuTien = _msg.reader().readByte(); // M4: index bi kip cho action 4 (0 cho action khac)
-                        tutien.TuTienService.gI().handleAction(player, actionTuTien, paramTuTien);
+                        if (actionTuTien == 7) { // M8 luyen dan: craft -> doc danPhuongId (int)
+                            int danPhuongId = _msg.reader().readInt();
+                            tutien.TuTienService.gI().craftDan(player, danPhuongId);
+                        } else {
+                            byte paramTuTien = _msg.reader().readByte(); // M4: index bi kip cho action 4 (0 cho action khac)
+                            tutien.TuTienService.gI().handleAction(player, actionTuTien, paramTuTien);
+                        }
                     }
                     break;
                 case 123:
@@ -1320,7 +1325,7 @@ public class Controller implements IMessageHandler {
         try {
 
             Player player = session.player;
-            // clearVTSK(player);
+//             clearVTSK(player);
             // -82 set tile map
             DataGame.sendTileSetInfo(session);
 

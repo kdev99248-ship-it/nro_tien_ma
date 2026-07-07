@@ -144,6 +144,8 @@ public class Command {
                     tutien.TuTienService.gI().hoanHon(player);
                 } else if (arg.equals("reset")) {
                     tutien.TuTienService.gI().reset(player);
+                } else if (arg.equals("reroll")) {
+                    tutien.TuTienService.gI().resetReroll(player);
                 } else if (arg.startsWith("dan ")) {
                     // tutien dan <1=TuKhi 2=BoiNguyen 3=NguyenLinh 4=HoanHon> [soluong]
                     try {
@@ -202,9 +204,71 @@ public class Command {
                         tutien.TuTienService.gI().addLinhKhi(player, Long.parseLong(arg.substring(3).trim()));
                     } catch (Exception e) {
                     }
+                } else if (arg.startsWith("dansu")) {
+                    // tutien dansu <level> -> set cap Luyen Dan Su (test ty le/mo khoa)
+                    try {
+                        int lv = Integer.parseInt(arg.substring(5).trim());
+                        if (player.tuTien != null) {
+                            player.tuTien.danSuLevel = Math.max(1, Math.min(99, lv));
+                            player.tuTien.danSuExp = 0;
+                            tutien.TuTienService.gI().sendAlchemyData(player);
+                            Service.gI().sendThongBao(player, "Luyện Đan Sư: cấp " + player.tuTien.danSuLevel);
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.equals("danphuong")) {
+                    // tutien danphuong -> nap lai dan phuong tu DB (sau khi sua SQL)
+                    tutien.DanPhuongTemplate.load();
+                    tutien.TuTienService.gI().sendAlchemyData(player);
+                    Service.gI().sendThongBao(player, "Đã nạp lại " + tutien.DanPhuongTemplate.size() + " đan phương");
+                } else if (arg.startsWith("td")) {
+                    // tutien td [qty] -> nhan Tien Duyen (item 2039); mac dinh 150 (du hoc tu tien)
+                    try {
+                        String s = arg.substring(2).trim();
+                        int qty = s.isEmpty() ? tutien.TuTienService.TIEN_DUYEN_HOC_TU_TIEN : Integer.parseInt(s);
+                        item.Item it = services.ItemService.gI().createNewItem(tutien.TuTienService.ITEM_TIEN_DUYEN, qty);
+                        if (it != null && it.template != null) {
+                            services.InventoryService.gI().addItemBag(player, it);
+                            services.InventoryService.gI().sendItemBag(player);
+                            Service.gI().sendThongBao(player, "Da nhan " + qty + " " + it.template.name);
+                        } else {
+                            Service.gI().sendThongBao(player, "Chua co item 2039 (chay migration_m9_tien_duyen.sql)");
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("lt")) {
+                    // tutien lt [qty] -> nhan Linh Thach (item 2016); mac dinh 50
+                    try {
+                        String s = arg.substring(2).trim();
+                        int qty = s.isEmpty() ? 50 : Integer.parseInt(s);
+                        item.Item it = services.ItemService.gI().createNewItem(tutien.TuTienService.ITEM_LINH_THACH, qty);
+                        if (it != null && it.template != null) {
+                            services.InventoryService.gI().addItemBag(player, it);
+                            services.InventoryService.gI().sendItemBag(player);
+                            Service.gI().sendThongBao(player, "Da nhan " + qty + " " + it.template.name);
+                        } else {
+                            Service.gI().sendThongBao(player, "Chua co item 2016 (chay migration_m7_linh_thach.sql)");
+                        }
+                    } catch (Exception e) {
+                    }
+                } else if (arg.startsWith("nl")) {
+                    // tutien nl [qty] -> nhan tat ca nguyen lieu luyen dan 2017..2038
+                    try {
+                        String s = arg.substring(2).trim();
+                        int qty = s.isEmpty() ? 20 : Integer.parseInt(s);
+                        for (short id = 2017; id <= 2038; id++) {
+                            item.Item it = services.ItemService.gI().createNewItem(id, qty);
+                            if (it != null && it.template != null) {
+                                services.InventoryService.gI().addItemBag(player, it);
+                            }
+                        }
+                        services.InventoryService.gI().sendItemBag(player);
+                        Service.gI().sendThongBao(player, "Đã nhận nguyên liệu luyện đan x" + qty);
+                    } catch (Exception e) {
+                    }
                 } else {
                     Service.gI().sendThongBao(player,
-                            "tutien tv <n> | nam <±n> | hoanhon | reset | dan <1-4> [sl] | cp <1-14> [sl] | cpexp <1-14> <n> | lk <n>");
+                            "tutien tv <n> | nam <±n> | hoanhon | reset | reroll | dan <1-4> [sl] | cp <1-14> [sl] | cpexp <1-14> <n> | lk <n> | dansu <lv> | danphuong | nl [sl] | td [sl] | lt [sl]");
                 }
                 return true;
             } else if (text.startsWith("dt")) {

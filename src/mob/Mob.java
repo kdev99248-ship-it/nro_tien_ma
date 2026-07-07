@@ -153,7 +153,51 @@ public class Mob {
             // if (damage > 2_000_000_000) {
             // damage = 2_000_000_000;
             // }
+            // Tu Tien M7: Chỉ Pháp điểm huyệt — +0.5% HP tối đa quái (trần 300% công kích), trừ Boss lớn
+            long chiHuyet = tutien.VoHocCombat.chiHuyetBonus(plAtt, this.point.maxHp, isBigBoss());
+            damage += chiHuyet;
+            if (chiHuyet > 0) {
+                services.Service.gI().tuTienFlyEffectMob(this, "Điểm Huyệt", 7);
+            }
             this.point.sethp(this.point.hp - damage);
+            // Tu Tien M3.5 Phase 2: khí vận hồi máu khi đánh quái (hút máu Huyết Ma + chính-đạo, silent)
+            if (plAtt != null) {
+                long khHeal = tutien.KhiVanCombat.healOnHit(plAtt, damage);
+                if (khHeal > 0 && plAtt.nPoint != null) {
+                    plAtt.nPoint.setHp(Math.min(plAtt.nPoint.hpMax, plAtt.nPoint.hp + khHeal));
+                }
+            }
+            // Tu Tien M7: Đao bạo kích ×10 -> flytext trên quái (consume cờ trước splash để chỉ hiện ở mục tiêu chính)
+            if (plAtt != null && plAtt.voHocBaoKichFx) {
+                plAtt.voHocBaoKichFx = false;
+                services.Service.gI().tuTienFlyEffectMob(this, "Bạo Kích!", 6);
+            }
+            // Tu Tien M3.5: khí vận proc (bắn nguyên tố) -> flytext trên quái
+            if (plAtt != null && plAtt.khiVanFxText != null) {
+                services.Service.gI().tuTienFlyEffectMob(this, plAtt.khiVanFxText, plAtt.khiVanFxColor);
+                plAtt.khiVanFxText = null;
+            }
+            // Tu Tien M7: Chưởng / Thương Lv3 sát thương lan (AOE) sang quái lân cận (chống đệ quy qua inVoHocSplash)
+            if (plAtt != null && !plAtt.inVoHocSplash && this.zone != null) {
+                int splashPct = tutien.VoHocCombat.aoeSplashPct(plAtt);
+                if (splashPct > 0) {
+                    long splashDmg = damage * splashPct / 100;
+                    if (splashDmg > 0) {
+                        int range = tutien.VoHocCombat.aoeSplashRange(plAtt);
+                        plAtt.inVoHocSplash = true;
+                        try {
+                            for (Mob mb : this.zone.mobs) {
+                                if (mb != this && !mb.isDie() && Util.getDistance(this.location.x, this.location.y,
+                                        mb.location.x, mb.location.y) <= range) {
+                                    mb.injured(plAtt, splashDmg, false);
+                                }
+                            }
+                        } finally {
+                            plAtt.inVoHocSplash = false;
+                        }
+                    }
+                }
+            }
             addTemporaryEnemies(plAtt);
             if (this.isDie()) {
                 this.status = 0;
@@ -174,6 +218,9 @@ public class Mob {
                         TaskService.gI().checkDoneSideTaskKillMob(plCheck, this);
                         TaskService.gI().checkDoneClanTaskKillMob(plCheck, this);
                         AchievementService.gI().checkDoneTaskKillMob(plCheck, this);
+                        tutien.TuTienService.gI().rollDropTienDuyen(this.zone, this.location.x, this.location.y,
+                                plCheck.id, tutien.TuTienService.TIEN_DUYEN_MOB_DROP_1_IN); // M9: Tien Duyen roi tu quai 1/1000
+                        tutien.TuTienService.gI().khiVanOnKillMob(plCheck); // M3.5 Khí Vận: rơi phách khi giết quái
                     }
                 }
                 if (this.id == 13) {
@@ -939,7 +986,7 @@ public class Mob {
     public void sendMobMaxHp(long maxHp) {
         Message msg;
         try {
-            msg = new Message(87);
+            msg = new Message(-84);
             msg.writer().writeByte(this.id);
             msg.writeLongByEmti(Util.maxIntValue(maxHp), cn.readInt);
             Service.gI().sendMessAllPlayerInMap(this.zone, msg);

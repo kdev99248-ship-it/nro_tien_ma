@@ -86,7 +86,7 @@ public class ServerNotify extends Thread {
         Message msg;
         try {
             msg = new Message(50);
-            msg.writer().writeByte(10);
+            msg.writer().writeByte(Manager.NOTIFY.size());
             for (int i = 0; i < Manager.NOTIFY.size(); i++) {
                 String[] arr = Manager.NOTIFY.get(i).split("<>");
                 msg.writer().writeShort(i);

@@ -85,6 +85,11 @@ public class ServerManager {
 
     public static void main(String[] args) {
         timeStart = TimeUtil.getTimeNow("dd/MM/yyyy HH:mm:ss");
+        System.out.println("=====================================================");
+        System.out.println("[STAT MODE] consts.cn.readInt = " + consts.cn.readInt
+                + "  => writing " + (consts.cn.readInt ? "INT (4 bytes)" : "LONG (8 bytes)"));
+        System.out.println("[STAT MODE] Client ModFunc.isReadInt PHAI KHOP voi cai tren!");
+        System.out.println("=====================================================");
          ServerManager.gI().run();
 //        new server.ui.ServerManagerUI().setVisible(true);
     }

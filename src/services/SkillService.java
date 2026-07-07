@@ -1357,8 +1357,30 @@ public class SkillService {
     }
 
     public boolean canUseSkillWithCooldown(Player player) {
-        return Util.canDoWithTime(player.playerSkill.skillSelect.lastTimeUseThisSkill,
-                player.playerSkill.skillSelect.coolDown - 50);
+        Skill s = player.playerSkill.skillSelect;
+        return Util.canDoWithTime(s.lastTimeUseThisSkill, effectiveCooldown(player, s) - 50);
+    }
+
+    /** Tu Tien: Tốc Độ giảm hồi chiêu Đấm/Chưởng theo haste CD*100/(100+TốcĐộ) (100 điểm = ½ CD, không bao giờ về 0). */
+    public int effectiveCooldown(Player player, Skill skill) {
+        int cd = skill.coolDown;
+        if (player != null && player.isPl() && player.tuTien != null && !player.tuTien.disabled
+                && skill.template != null && isDamChuongSkill(skill.template.id)) {
+            if (player.tuTien.speed > 0) { // Tốc Độ (thuộc tính tu tiên) giảm hồi chiêu Đấm/Chưởng
+                cd = (int) ((long) cd * 100 / (100 + player.tuTien.speed));
+            }
+            int mobDiv = Math.max(1, (int) tutien.ThienTienParams.get("mobility_haste_div", 8));
+            int mobHaste = (Math.max(0, player.tuTien.moveSpeed) + Math.max(0, player.tuTien.kickPower)
+                    + Math.max(0, player.tuTien.bodyMasterySpd)) / mobDiv; // Khí Vận B 1004: thân pháp -> giảm hồi chiêu Đấm/Chưởng
+            if (mobHaste > 0) {
+                cd = (int) ((long) cd * 100 / (100 + mobHaste));
+            }
+            int quyenHaste = tutien.VoHocCombat.quyenHastePct(player); // M7: Quyền Pháp Lv3 +0.5% tốc đánh/tầng
+            if (quyenHaste > 0) {
+                cd = (int) ((long) cd * 100 / (100 + quyenHaste));
+            }
+        }
+        return cd;
     }
 
     public void affterUseSkill(Player player, int skillId) {
@@ -1385,8 +1407,30 @@ public class SkillService {
                 }
             }
         }
+        // Tu Tien: Tồn Thương Sau -> đòn đánh kế tiếp +1%/điểm (chỉ skill Đấm/Chưởng, 1 nhịp, không cộng dồn)
+        if (player.isPl() && player.tuTien != null && !player.tuTien.disabled && isDamChuongSkill(skillId)) {
+            player.nPoint.dameAfterTuTien = Math.max(0, player.tuTien.backDamageTaken) * TT_BACKDMG_PCT;
+        }
         setMpAffterUseSkill(player);
         setLastTimeUseSkill(player, skillId);
+    }
+
+    private static final int TT_BACKDMG_PCT = 1; // Tồn Thương Sau: +1% sát thương đòn kế / điểm
+
+    // Tu Tien: skill Đấm (cận chiến, range 100) + Chưởng (chùm, range 300) — Tồn Thương Sau & giảm hồi chiêu Tốc Độ
+    private static boolean isDamChuongSkill(int skillId) {
+        switch (skillId) {
+            case Skill.DRAGON:
+            case Skill.DEMON:
+            case Skill.GALICK:
+            case Skill.LIEN_HOAN:
+            case Skill.KAMEJOKO:
+            case Skill.MASENKO:
+            case Skill.ANTOMIC:
+                return true;
+            default:
+                return false;
+        }
     }
 
     private void setMpAffterUseSkill(Player player) {

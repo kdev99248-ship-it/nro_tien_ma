@@ -698,8 +698,23 @@ public class Boss extends Player implements IBoss, IBossOutfit {
         this.changeStatus(BossStatus.DIE);
     }
 
+    // Tu Tien: tỷ lệ MỌI boss rơi Linh Thạch (item 2016) — tiền tệ mua công pháp ở Quy Lão (tunable)
+    private static final int LINH_THACH_DROP_CHANCE = 20;
+
     @Override
     public void reward(Player plKill) {
+        // Tu Tien: MỌI boss có tỷ lệ rơi Linh Thạch (item 2016), bất kể cấu hình reward riêng
+        if (plKill != null && utils.Util.isTrue(LINH_THACH_DROP_CHANCE, 100)) {
+            map.ItemMap lt = new map.ItemMap(this.zone, tutien.TuTienService.ITEM_LINH_THACH, 1,
+                    this.location.x + utils.Util.nextInt(-20, 20),
+                    this.zone.map.yPhysicInTop(this.location.x, this.location.y - 24), plKill.id);
+            services.Service.gI().dropItemMap(this.zone, lt);
+        }
+        // M9 Tu Tien: MOI boss co ty le roi Tien Duyen (item 2039, 1/20), moi proc 1-3 vien
+        if (plKill != null) {
+            tutien.TuTienService.gI().rollDropTienDuyen(this.zone, this.location.x, this.location.y,
+                    plKill.id, tutien.TuTienService.TIEN_DUYEN_BOSS_DROP_1_IN);
+        }
         if (config == null) {
             defaultReward(plKill);
             return;
